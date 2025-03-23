@@ -264,6 +264,11 @@ DMA:
       "CH?_AL3_WRITE_ADDR,CH??_AL3_WRITE_ADDR": {}
       "CH?_AL3_TRANS_COUNT,CH??_AL3_TRANS_COUNT": {}
       "CH?_AL3_READ_ADDR_TRIG,CH??_AL3_READ_ADDR_TRIG": {}
+    "SECCFG%s":
+      "SECCFG_CH?,SECCFG_CH??": {}
+    "MPU_REG%s":
+      "MPU_LAR?": {}
+      "MPU_BAR?": {}
 
 PIO0:
   _array:
