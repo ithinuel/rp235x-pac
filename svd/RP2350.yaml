@@ -1,5 +1,14 @@
 _svd: "./RP2350.svd"
 
+_modify:
+  # svdtools uses the access set at the device level rather than infering it from the fields.
+  # Ideally we’d use the _delete key but svdtools only supports deleting peripherals from the top level.
+  access: ""
+  USB:
+    name: "USBCTRL_REGS"
+  USB_DPRAM:
+    name: "USBCTRL_DPRAM"
+
 DMA:
   CH0_CTRL_TRIG:
     _modify:
@@ -366,7 +375,7 @@ PADS_BANK0:
   _array:
     "GPIO*": {}
 
-USB:
+USBCTRL_REGS:
   SIE_STATUS:
     LINE_STATE:
       SE0: [0, "SE0"]
@@ -401,7 +410,7 @@ TICKS:
       "*_COUNT":
         name: "COUNT"
 
-USB_DPRAM:
+USBCTRL_DPRAM:
   _modify:
     "EP1_IN_CONTROL":
       description: "-"

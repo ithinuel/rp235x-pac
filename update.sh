@@ -18,34 +18,48 @@ else
 fi
 
 $SVDTOOLS patch svd/RP2350.yaml
+perl -0777 -pi -e 's{(<description>.*?</description>)}{
+    my $x = $1;
+    $x =~ s/\n\n/\\n\\n\n/g; # merge dual newlines in their escaped version
+    $x =~ s/([^\\][^n])\n/\1\\n\n/g; # escape newlines that are not already escaped
+    $x =~ s/\\n\n\\n\n/\\n\\n\n/g;   # merge escaped newline sequences
+    $x;
+}ges' svd/RP2350.svd.patched
 
 if [ "$SVDTOOLS" != "svdtools" ]; then
     deactivate
 fi
 
+generate() {
+    local svd=$1
+    local target=$2
+    svd2rust -i $svd -c ${SCRIPT_DIR}/svd2rust.toml --target $target
+    form -i mod.rs -o src
+}
 
 # Most of the code is from Cortex-M mode
 tmp_dir=$(mktemp -d -t svd2rust-XXXX)
 pushd ${tmp_dir}
-svd2rust -i ${SCRIPT_DIR}/svd/RP2350.svd.patched -c ${SCRIPT_DIR}/svd2rust.toml --target cortex-m
-form -i mod.rs -o inner
-rustfmt inner/lib.rs
-mv inner/lib.rs inner/mod_cortex_m.rs
-rm -rf ${SCRIPT_DIR}/src/inner
-mv inner ${SCRIPT_DIR}/src
-mv device.x ${SCRIPT_DIR}
+generate ${SCRIPT_DIR}/svd/RP2350.svd.patched cortex-m
+mv src/lib.rs src/mod_cortex_m.rs
+
+# Back up the original lib.rs, then move generated code back to the crate.
+mv ${SCRIPT_DIR}/src/lib.rs src/
+rm -rf ${SCRIPT_DIR}/src
+mv {src,device.x} ${SCRIPT_DIR}
+
 popd
 rm -rf ${tmp_dir}
 
 # But RISC-V mode needs a custom mod.rs
 tmp_dir=$(mktemp -d -t svd2rust-XXXX)
 pushd ${tmp_dir}
-svd2rust -i ${SCRIPT_DIR}/svd/RP2350.svd.patched -c ${SCRIPT_DIR}/svd2rust.toml --target riscv
-form -i mod.rs -o inner
-rustfmt inner/lib.rs
-mv inner/lib.rs ${SCRIPT_DIR}/src/inner/mod_risc_v.rs
+generate ${SCRIPT_DIR}/svd/RP2350.svd.patched riscv
+
+mv src/lib.rs ${SCRIPT_DIR}/src/mod_risc_v.rs
 # This module isn't in the Cortex-M version - everything else is
-mv inner/interrupt* ${SCRIPT_DIR}/src/inner
+mv src/interrupt* ${SCRIPT_DIR}/src/
+
 popd
 rm -rf ${tmp_dir}
 
@@ -62,5 +76,5 @@ else
 fi
 
 # Sort specified fields alphanumerically for easier consumption in docs.rs
-./sortFieldsAlphaNum.sh src/inner/mod_cortex_m.rs
-./sortFieldsAlphaNum.sh src/inner/mod_risc_v.rs
+./sortFieldsAlphaNum.sh src/mod_cortex_m.rs
+./sortFieldsAlphaNum.sh src/mod_risc_v.rs

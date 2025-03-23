@@ -18,7 +18,7 @@ targets = ["thumbv8m.main-none-eabihf", "riscv32imac-unknown-none-elf"]
 vcell = "0.1.3"
 
 # Optional dependencies. Keep these sorted by name.
-critical-section = {optional = true, version = "1.0.0"}
+critical-section = { optional = true, version = "1.0.0" }
 
 # These dependencies only apply in Arm mode.
 [target.'thumbv8m.main-none-eabihf'.dependencies]
@@ -26,7 +26,7 @@ critical-section = {optional = true, version = "1.0.0"}
 cortex-m = "0.7.3"
 
 # Optional dependencies. Keep these sorted by name.
-cortex-m-rt = {version = ">=0.6.15,<0.8", optional = true}
+cortex-m-rt = { version = ">=0.6.15,<0.8", optional = true }
 
 [features]
 rt = ["cortex-m-rt", "cortex-m-rt/device"]
