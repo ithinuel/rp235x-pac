@@ -3,13 +3,11 @@
 //! This top-level `lib.rs` is just a compile-time switch between two blocks of
 //! auto-generated code - one for RISC-V and one for Cortex-M
 
-#![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
 #![allow(clippy::upper_case_acronyms)]
-#![allow(clippy::empty_docs)]
 #![allow(clippy::should_implement_trait)]
 #![allow(clippy::wrong_self_convention)]
-#![no_std]
+#![allow(clippy::needless_lifetimes)]
 
 // Use the Cortex-M version by default
 

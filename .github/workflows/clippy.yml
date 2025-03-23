@@ -2,9 +2,9 @@ on: [push, pull_request]
 name: Clippy check
 jobs:
   clippy-check-arm:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.11
     env:
-      RUSTFLAGS: "-D warnings -Aclippy::needless_lifetimes"
+      RUSTFLAGS: "-D warnings -A clippy::empty_docs -A non_camel_case_types"
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
