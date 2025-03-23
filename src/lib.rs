@@ -15,14 +15,14 @@
 
 #[cfg(target_arch = "arm")]
 #[doc(hidden)]
-#[path = "inner/mod_cortex_m.rs"]
+#[path = "mod_cortex_m.rs"]
 mod inner;
 
 // On riscv32*-*-* use the RISC-V version
 
 #[cfg(not(target_arch = "arm"))]
 #[doc(hidden)]
-#[path = "inner/mod_risc_v.rs"]
+#[path = "mod_risc_v.rs"]
 mod inner;
 
 pub(crate) use inner::generic::*;

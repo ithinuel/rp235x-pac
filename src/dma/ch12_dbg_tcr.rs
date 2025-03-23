@@ -1,0 +1,24 @@
+#[doc = "Register `CH12_DBG_TCR` reader"]
+pub type R = crate::R<CH12_DBG_TCR_SPEC>;
+#[doc = "Field `CH12_DBG_TCR` reader - "]
+pub type CH12_DBG_TCR_R = crate::FieldReader<u32>;
+impl R {
+    #[doc = "Bits 0:31"]
+    #[inline(always)]
+    pub fn ch12_dbg_tcr(&self) -> CH12_DBG_TCR_R {
+        CH12_DBG_TCR_R::new(self.bits)
+    }
+}
+#[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer  
+
+You can [`read`](crate::Reg::read) this register and get [`ch12_dbg_tcr::R`](R). See [API](https://docs.rs/svd2rust/#read--modify--write-api)."]
+pub struct CH12_DBG_TCR_SPEC;
+impl crate::RegisterSpec for CH12_DBG_TCR_SPEC {
+    type Ux = u32;
+}
+#[doc = "`read()` method returns [`ch12_dbg_tcr::R`](R) reader structure"]
+impl crate::Readable for CH12_DBG_TCR_SPEC {}
+#[doc = "`reset()` method sets CH12_DBG_TCR to value 0"]
+impl crate::Resettable for CH12_DBG_TCR_SPEC {
+    const RESET_VALUE: u32 = 0;
+}
