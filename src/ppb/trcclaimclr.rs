@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0 - When a write to one of these bits occurs, with the value:"]
     #[inline(always)]
-    #[must_use]
     pub fn clr0(&mut self) -> CLR0_W<TRCCLAIMCLR_SPEC> {
         CLR0_W::new(self, 0)
     }
     #[doc = "Bit 1 - When a write to one of these bits occurs, with the value:"]
     #[inline(always)]
-    #[must_use]
     pub fn clr1(&mut self) -> CLR1_W<TRCCLAIMCLR_SPEC> {
         CLR1_W::new(self, 1)
     }
     #[doc = "Bit 2 - When a write to one of these bits occurs, with the value:"]
     #[inline(always)]
-    #[must_use]
     pub fn clr2(&mut self) -> CLR2_W<TRCCLAIMCLR_SPEC> {
         CLR2_W::new(self, 2)
     }
     #[doc = "Bit 3 - When a write to one of these bits occurs, with the value:"]
     #[inline(always)]
-    #[must_use]
     pub fn clr3(&mut self) -> CLR3_W<TRCCLAIMCLR_SPEC> {
         CLR3_W::new(self, 3)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for TRCCLAIMCLR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcclaimclr::W`](W) writer structure"]
 impl crate::Writable for TRCCLAIMCLR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCCLAIMCLR to value 0"]
-impl crate::Resettable for TRCCLAIMCLR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCCLAIMCLR_SPEC {}

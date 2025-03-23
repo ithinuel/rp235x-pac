@@ -21,6 +21,4 @@ impl crate::RegisterSpec for OTPBOOT_LEN_SPEC {
 #[doc = "`read()` method returns [`otpboot_len::R`](R) reader structure"]
 impl crate::Readable for OTPBOOT_LEN_SPEC {}
 #[doc = "`reset()` method sets OTPBOOT_LEN to value 0"]
-impl crate::Resettable for OTPBOOT_LEN_SPEC {
-    const RESET_VALUE: u16 = 0;
-}
+impl crate::Resettable for OTPBOOT_LEN_SPEC {}

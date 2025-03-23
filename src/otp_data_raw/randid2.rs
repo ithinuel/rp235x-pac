@@ -19,6 +19,4 @@ impl crate::RegisterSpec for RANDID2_SPEC {
 #[doc = "`read()` method returns [`randid2::R`](R) reader structure"]
 impl crate::Readable for RANDID2_SPEC {}
 #[doc = "`reset()` method sets RANDID2 to value 0"]
-impl crate::Resettable for RANDID2_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for RANDID2_SPEC {}

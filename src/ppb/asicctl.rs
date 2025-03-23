@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn asicctl(&mut self) -> ASICCTL_W<ASICCTL_SPEC> {
         ASICCTL_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for ASICCTL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`asicctl::W`](W) writer structure"]
 impl crate::Writable for ASICCTL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ASICCTL to value 0"]
-impl crate::Resettable for ASICCTL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ASICCTL_SPEC {}

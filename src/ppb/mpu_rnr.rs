@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:2 - Indicates the memory region accessed by MPU_RBAR and MPU_RLAR"]
     #[inline(always)]
-    #[must_use]
     pub fn region(&mut self) -> REGION_W<MPU_RNR_SPEC> {
         REGION_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for MPU_RNR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`mpu_rnr::W`](W) writer structure"]
 impl crate::Writable for MPU_RNR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets MPU_RNR to value 0"]
-impl crate::Resettable for MPU_RNR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for MPU_RNR_SPEC {}

@@ -913,8 +913,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`chipid0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chipid0`]
-module"]
+For information about available fields see [`mod@chipid0`] module"]
 pub type CHIPID0 = crate::Reg<chipid0::CHIPID0_SPEC>;
 #[doc = "Bits 15:0 of public device ID. (ECC)  
 
@@ -926,8 +925,7 @@ pub mod chipid0;
 
 You can [`read`](crate::Reg::read) this register and get [`chipid1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chipid1`]
-module"]
+For information about available fields see [`mod@chipid1`] module"]
 pub type CHIPID1 = crate::Reg<chipid1::CHIPID1_SPEC>;
 #[doc = "Bits 31:16 of public device ID (ECC)"]
 pub mod chipid1;
@@ -935,8 +933,7 @@ pub mod chipid1;
 
 You can [`read`](crate::Reg::read) this register and get [`chipid2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chipid2`]
-module"]
+For information about available fields see [`mod@chipid2`] module"]
 pub type CHIPID2 = crate::Reg<chipid2::CHIPID2_SPEC>;
 #[doc = "Bits 47:32 of public device ID (ECC)"]
 pub mod chipid2;
@@ -944,8 +941,7 @@ pub mod chipid2;
 
 You can [`read`](crate::Reg::read) this register and get [`chipid3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chipid3`]
-module"]
+For information about available fields see [`mod@chipid3`] module"]
 pub type CHIPID3 = crate::Reg<chipid3::CHIPID3_SPEC>;
 #[doc = "Bits 63:48 of public device ID (ECC)"]
 pub mod chipid3;
@@ -957,8 +953,7 @@ pub mod chipid3;
 
 You can [`read`](crate::Reg::read) this register and get [`randid0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid0`]
-module"]
+For information about available fields see [`mod@randid0`] module"]
 pub type RANDID0 = crate::Reg<randid0::RANDID0_SPEC>;
 #[doc = "Bits 15:0 of private per-device random number (ECC)  
 
@@ -970,8 +965,7 @@ pub mod randid0;
 
 You can [`read`](crate::Reg::read) this register and get [`randid1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid1`]
-module"]
+For information about available fields see [`mod@randid1`] module"]
 pub type RANDID1 = crate::Reg<randid1::RANDID1_SPEC>;
 #[doc = "Bits 31:16 of private per-device random number (ECC)"]
 pub mod randid1;
@@ -979,8 +973,7 @@ pub mod randid1;
 
 You can [`read`](crate::Reg::read) this register and get [`randid2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid2`]
-module"]
+For information about available fields see [`mod@randid2`] module"]
 pub type RANDID2 = crate::Reg<randid2::RANDID2_SPEC>;
 #[doc = "Bits 47:32 of private per-device random number (ECC)"]
 pub mod randid2;
@@ -988,8 +981,7 @@ pub mod randid2;
 
 You can [`read`](crate::Reg::read) this register and get [`randid3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid3`]
-module"]
+For information about available fields see [`mod@randid3`] module"]
 pub type RANDID3 = crate::Reg<randid3::RANDID3_SPEC>;
 #[doc = "Bits 63:48 of private per-device random number (ECC)"]
 pub mod randid3;
@@ -997,8 +989,7 @@ pub mod randid3;
 
 You can [`read`](crate::Reg::read) this register and get [`randid4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid4`]
-module"]
+For information about available fields see [`mod@randid4`] module"]
 pub type RANDID4 = crate::Reg<randid4::RANDID4_SPEC>;
 #[doc = "Bits 79:64 of private per-device random number (ECC)"]
 pub mod randid4;
@@ -1006,8 +997,7 @@ pub mod randid4;
 
 You can [`read`](crate::Reg::read) this register and get [`randid5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid5`]
-module"]
+For information about available fields see [`mod@randid5`] module"]
 pub type RANDID5 = crate::Reg<randid5::RANDID5_SPEC>;
 #[doc = "Bits 95:80 of private per-device random number (ECC)"]
 pub mod randid5;
@@ -1015,8 +1005,7 @@ pub mod randid5;
 
 You can [`read`](crate::Reg::read) this register and get [`randid6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid6`]
-module"]
+For information about available fields see [`mod@randid6`] module"]
 pub type RANDID6 = crate::Reg<randid6::RANDID6_SPEC>;
 #[doc = "Bits 111:96 of private per-device random number (ECC)"]
 pub mod randid6;
@@ -1024,8 +1013,7 @@ pub mod randid6;
 
 You can [`read`](crate::Reg::read) this register and get [`randid7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid7`]
-module"]
+For information about available fields see [`mod@randid7`] module"]
 pub type RANDID7 = crate::Reg<randid7::RANDID7_SPEC>;
 #[doc = "Bits 127:112 of private per-device random number (ECC)"]
 pub mod randid7;
@@ -1035,8 +1023,7 @@ pub mod randid7;
 
 You can [`read`](crate::Reg::read) this register and get [`rosc_calib::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rosc_calib`]
-module"]
+For information about available fields see [`mod@rosc_calib`] module"]
 pub type ROSC_CALIB = crate::Reg<rosc_calib::ROSC_CALIB_SPEC>;
 #[doc = "Ring oscillator frequency in kHz, measured during manufacturing (ECC)  
 
@@ -1048,8 +1035,7 @@ pub mod rosc_calib;
 
 You can [`read`](crate::Reg::read) this register and get [`lposc_calib::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@lposc_calib`]
-module"]
+For information about available fields see [`mod@lposc_calib`] module"]
 pub type LPOSC_CALIB = crate::Reg<lposc_calib::LPOSC_CALIB_SPEC>;
 #[doc = "Low-power oscillator frequency in Hz, measured during manufacturing (ECC)  
 
@@ -1059,8 +1045,7 @@ pub mod lposc_calib;
 
 You can [`read`](crate::Reg::read) this register and get [`num_gpios::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@num_gpios`]
-module"]
+For information about available fields see [`mod@num_gpios`] module"]
 pub type NUM_GPIOS = crate::Reg<num_gpios::NUM_GPIOS_SPEC>;
 #[doc = "The number of main user GPIOs (bank 0). Should read 48 in the QFN80 package, and 30 in the QFN60 package. (ECC)"]
 pub mod num_gpios;
@@ -1068,8 +1053,7 @@ pub mod num_gpios;
 
 You can [`read`](crate::Reg::read) this register and get [`info_crc0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@info_crc0`]
-module"]
+For information about available fields see [`mod@info_crc0`] module"]
 pub type INFO_CRC0 = crate::Reg<info_crc0::INFO_CRC0_SPEC>;
 #[doc = "Lower 16 bits of CRC32 of OTP addresses 0x00 through 0x6b (polynomial 0x4c11db7, input reflected, output reflected, seed all-ones, final XOR all-ones) (ECC)"]
 pub mod info_crc0;
@@ -1077,8 +1061,7 @@ pub mod info_crc0;
 
 You can [`read`](crate::Reg::read) this register and get [`info_crc1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@info_crc1`]
-module"]
+For information about available fields see [`mod@info_crc1`] module"]
 pub type INFO_CRC1 = crate::Reg<info_crc1::INFO_CRC1_SPEC>;
 #[doc = "Upper 16 bits of CRC32 of OTP addresses 0x00 through 0x6b (ECC)"]
 pub mod info_crc1;
@@ -1088,8 +1071,7 @@ pub mod info_crc1;
 
 You can [`read`](crate::Reg::read) this register and get [`flash_devinfo::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@flash_devinfo`]
-module"]
+For information about available fields see [`mod@flash_devinfo`] module"]
 pub type FLASH_DEVINFO = crate::Reg<flash_devinfo::FLASH_DEVINFO_SPEC>;
 #[doc = "Stores information about external flash device(s). (ECC)  
 
@@ -1099,8 +1081,7 @@ pub mod flash_devinfo;
 
 You can [`read`](crate::Reg::read) this register and get [`flash_partition_slot_size::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@flash_partition_slot_size`]
-module"]
+For information about available fields see [`mod@flash_partition_slot_size`] module"]
 pub type FLASH_PARTITION_SLOT_SIZE =
     crate::Reg<flash_partition_slot_size::FLASH_PARTITION_SLOT_SIZE_SPEC>;
 #[doc = "Gap between partition table slot 0 and slot 1 at the start of flash (the default size is 4096 bytes) (ECC) Enabled by the OVERRIDE_FLASH_PARTITION_SLOT_SIZE bit in BOOT_FLAGS, the size is 4096 * (value + 1)"]
@@ -1110,8 +1091,7 @@ pub mod flash_partition_slot_size;
 
 You can [`read`](crate::Reg::read) this register and get [`bootsel_led_cfg::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootsel_led_cfg`]
-module"]
+For information about available fields see [`mod@bootsel_led_cfg`] module"]
 pub type BOOTSEL_LED_CFG = crate::Reg<bootsel_led_cfg::BOOTSEL_LED_CFG_SPEC>;
 #[doc = "Pin configuration for LED status, used by USB bootloader. (ECC)   
  Must be valid if BOOT_FLAGS0_ENABLE_BOOTSEL_LED is set."]
@@ -1136,8 +1116,7 @@ pub mod bootsel_led_cfg;
 
 You can [`read`](crate::Reg::read) this register and get [`bootsel_pll_cfg::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootsel_pll_cfg`]
-module"]
+For information about available fields see [`mod@bootsel_pll_cfg`] module"]
 pub type BOOTSEL_PLL_CFG = crate::Reg<bootsel_pll_cfg::BOOTSEL_PLL_CFG_SPEC>;
 #[doc = "Optional PLL configuration for BOOTSEL mode. (ECC)  
 
@@ -1165,8 +1144,7 @@ pub mod bootsel_pll_cfg;
 
 You can [`read`](crate::Reg::read) this register and get [`bootsel_xosc_cfg::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootsel_xosc_cfg`]
-module"]
+For information about available fields see [`mod@bootsel_xosc_cfg`] module"]
 pub type BOOTSEL_XOSC_CFG = crate::Reg<bootsel_xosc_cfg::BOOTSEL_XOSC_CFG_SPEC>;
 #[doc = "Non-default crystal oscillator configuration for the USB bootloader. (ECC)  
 
@@ -1192,8 +1170,7 @@ pub mod bootsel_xosc_cfg;
 
 You can [`read`](crate::Reg::read) this register and get [`usb_white_label_addr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@usb_white_label_addr`]
-module"]
+For information about available fields see [`mod@usb_white_label_addr`] module"]
 pub type USB_WHITE_LABEL_ADDR = crate::Reg<usb_white_label_addr::USB_WHITE_LABEL_ADDR_SPEC>;
 #[doc = "Row index of the USB_WHITE_LABEL structure within OTP (ECC)  
 
@@ -1219,8 +1196,7 @@ pub mod usb_white_label_addr;
 
 You can [`read`](crate::Reg::read) this register and get [`otpboot_src::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@otpboot_src`]
-module"]
+For information about available fields see [`mod@otpboot_src`] module"]
 pub type OTPBOOT_SRC = crate::Reg<otpboot_src::OTPBOOT_SRC_SPEC>;
 #[doc = "OTP start row for the OTP boot image. (ECC)  
 
@@ -1234,8 +1210,7 @@ pub mod otpboot_src;
 
 You can [`read`](crate::Reg::read) this register and get [`otpboot_len::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@otpboot_len`]
-module"]
+For information about available fields see [`mod@otpboot_len`] module"]
 pub type OTPBOOT_LEN = crate::Reg<otpboot_len::OTPBOOT_LEN_SPEC>;
 #[doc = "Length in rows of the OTP boot image. (ECC)  
 
@@ -1247,8 +1222,7 @@ pub mod otpboot_len;
 
 You can [`read`](crate::Reg::read) this register and get [`otpboot_dst0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@otpboot_dst0`]
-module"]
+For information about available fields see [`mod@otpboot_dst0`] module"]
 pub type OTPBOOT_DST0 = crate::Reg<otpboot_dst0::OTPBOOT_DST0_SPEC>;
 #[doc = "Bits 15:0 of the OTP boot image load destination (and entry point). (ECC)  
 
@@ -1260,8 +1234,7 @@ pub mod otpboot_dst0;
 
 You can [`read`](crate::Reg::read) this register and get [`otpboot_dst1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@otpboot_dst1`]
-module"]
+For information about available fields see [`mod@otpboot_dst1`] module"]
 pub type OTPBOOT_DST1 = crate::Reg<otpboot_dst1::OTPBOOT_DST1_SPEC>;
 #[doc = "Bits 31:16 of the OTP boot image load destination (and entry point). (ECC)  
 
@@ -1271,8 +1244,7 @@ pub mod otpboot_dst1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_0`]
-module"]
+For information about available fields see [`mod@bootkey0_0`] module"]
 pub type BOOTKEY0_0 = crate::Reg<bootkey0_0::BOOTKEY0_0_SPEC>;
 #[doc = "Bits 15:0 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_0;
@@ -1280,8 +1252,7 @@ pub mod bootkey0_0;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_1`]
-module"]
+For information about available fields see [`mod@bootkey0_1`] module"]
 pub type BOOTKEY0_1 = crate::Reg<bootkey0_1::BOOTKEY0_1_SPEC>;
 #[doc = "Bits 31:16 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_1;
@@ -1289,8 +1260,7 @@ pub mod bootkey0_1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_2`]
-module"]
+For information about available fields see [`mod@bootkey0_2`] module"]
 pub type BOOTKEY0_2 = crate::Reg<bootkey0_2::BOOTKEY0_2_SPEC>;
 #[doc = "Bits 47:32 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_2;
@@ -1298,8 +1268,7 @@ pub mod bootkey0_2;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_3`]
-module"]
+For information about available fields see [`mod@bootkey0_3`] module"]
 pub type BOOTKEY0_3 = crate::Reg<bootkey0_3::BOOTKEY0_3_SPEC>;
 #[doc = "Bits 63:48 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_3;
@@ -1307,8 +1276,7 @@ pub mod bootkey0_3;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_4`]
-module"]
+For information about available fields see [`mod@bootkey0_4`] module"]
 pub type BOOTKEY0_4 = crate::Reg<bootkey0_4::BOOTKEY0_4_SPEC>;
 #[doc = "Bits 79:64 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_4;
@@ -1316,8 +1284,7 @@ pub mod bootkey0_4;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_5`]
-module"]
+For information about available fields see [`mod@bootkey0_5`] module"]
 pub type BOOTKEY0_5 = crate::Reg<bootkey0_5::BOOTKEY0_5_SPEC>;
 #[doc = "Bits 95:80 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_5;
@@ -1325,8 +1292,7 @@ pub mod bootkey0_5;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_6`]
-module"]
+For information about available fields see [`mod@bootkey0_6`] module"]
 pub type BOOTKEY0_6 = crate::Reg<bootkey0_6::BOOTKEY0_6_SPEC>;
 #[doc = "Bits 111:96 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_6;
@@ -1334,8 +1300,7 @@ pub mod bootkey0_6;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_7`]
-module"]
+For information about available fields see [`mod@bootkey0_7`] module"]
 pub type BOOTKEY0_7 = crate::Reg<bootkey0_7::BOOTKEY0_7_SPEC>;
 #[doc = "Bits 127:112 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_7;
@@ -1343,8 +1308,7 @@ pub mod bootkey0_7;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_8::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_8`]
-module"]
+For information about available fields see [`mod@bootkey0_8`] module"]
 pub type BOOTKEY0_8 = crate::Reg<bootkey0_8::BOOTKEY0_8_SPEC>;
 #[doc = "Bits 143:128 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_8;
@@ -1352,8 +1316,7 @@ pub mod bootkey0_8;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_9::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_9`]
-module"]
+For information about available fields see [`mod@bootkey0_9`] module"]
 pub type BOOTKEY0_9 = crate::Reg<bootkey0_9::BOOTKEY0_9_SPEC>;
 #[doc = "Bits 159:144 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_9;
@@ -1361,8 +1324,7 @@ pub mod bootkey0_9;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_10::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_10`]
-module"]
+For information about available fields see [`mod@bootkey0_10`] module"]
 pub type BOOTKEY0_10 = crate::Reg<bootkey0_10::BOOTKEY0_10_SPEC>;
 #[doc = "Bits 175:160 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_10;
@@ -1370,8 +1332,7 @@ pub mod bootkey0_10;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_11::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_11`]
-module"]
+For information about available fields see [`mod@bootkey0_11`] module"]
 pub type BOOTKEY0_11 = crate::Reg<bootkey0_11::BOOTKEY0_11_SPEC>;
 #[doc = "Bits 191:176 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_11;
@@ -1379,8 +1340,7 @@ pub mod bootkey0_11;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_12::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_12`]
-module"]
+For information about available fields see [`mod@bootkey0_12`] module"]
 pub type BOOTKEY0_12 = crate::Reg<bootkey0_12::BOOTKEY0_12_SPEC>;
 #[doc = "Bits 207:192 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_12;
@@ -1388,8 +1348,7 @@ pub mod bootkey0_12;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_13::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_13`]
-module"]
+For information about available fields see [`mod@bootkey0_13`] module"]
 pub type BOOTKEY0_13 = crate::Reg<bootkey0_13::BOOTKEY0_13_SPEC>;
 #[doc = "Bits 223:208 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_13;
@@ -1397,8 +1356,7 @@ pub mod bootkey0_13;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_14::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_14`]
-module"]
+For information about available fields see [`mod@bootkey0_14`] module"]
 pub type BOOTKEY0_14 = crate::Reg<bootkey0_14::BOOTKEY0_14_SPEC>;
 #[doc = "Bits 239:224 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_14;
@@ -1406,8 +1364,7 @@ pub mod bootkey0_14;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_15::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_15`]
-module"]
+For information about available fields see [`mod@bootkey0_15`] module"]
 pub type BOOTKEY0_15 = crate::Reg<bootkey0_15::BOOTKEY0_15_SPEC>;
 #[doc = "Bits 255:240 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_15;
@@ -1415,8 +1372,7 @@ pub mod bootkey0_15;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_0`]
-module"]
+For information about available fields see [`mod@bootkey1_0`] module"]
 pub type BOOTKEY1_0 = crate::Reg<bootkey1_0::BOOTKEY1_0_SPEC>;
 #[doc = "Bits 15:0 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_0;
@@ -1424,8 +1380,7 @@ pub mod bootkey1_0;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_1`]
-module"]
+For information about available fields see [`mod@bootkey1_1`] module"]
 pub type BOOTKEY1_1 = crate::Reg<bootkey1_1::BOOTKEY1_1_SPEC>;
 #[doc = "Bits 31:16 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_1;
@@ -1433,8 +1388,7 @@ pub mod bootkey1_1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_2`]
-module"]
+For information about available fields see [`mod@bootkey1_2`] module"]
 pub type BOOTKEY1_2 = crate::Reg<bootkey1_2::BOOTKEY1_2_SPEC>;
 #[doc = "Bits 47:32 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_2;
@@ -1442,8 +1396,7 @@ pub mod bootkey1_2;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_3`]
-module"]
+For information about available fields see [`mod@bootkey1_3`] module"]
 pub type BOOTKEY1_3 = crate::Reg<bootkey1_3::BOOTKEY1_3_SPEC>;
 #[doc = "Bits 63:48 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_3;
@@ -1451,8 +1404,7 @@ pub mod bootkey1_3;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_4`]
-module"]
+For information about available fields see [`mod@bootkey1_4`] module"]
 pub type BOOTKEY1_4 = crate::Reg<bootkey1_4::BOOTKEY1_4_SPEC>;
 #[doc = "Bits 79:64 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_4;
@@ -1460,8 +1412,7 @@ pub mod bootkey1_4;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_5`]
-module"]
+For information about available fields see [`mod@bootkey1_5`] module"]
 pub type BOOTKEY1_5 = crate::Reg<bootkey1_5::BOOTKEY1_5_SPEC>;
 #[doc = "Bits 95:80 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_5;
@@ -1469,8 +1420,7 @@ pub mod bootkey1_5;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_6`]
-module"]
+For information about available fields see [`mod@bootkey1_6`] module"]
 pub type BOOTKEY1_6 = crate::Reg<bootkey1_6::BOOTKEY1_6_SPEC>;
 #[doc = "Bits 111:96 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_6;
@@ -1478,8 +1428,7 @@ pub mod bootkey1_6;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_7`]
-module"]
+For information about available fields see [`mod@bootkey1_7`] module"]
 pub type BOOTKEY1_7 = crate::Reg<bootkey1_7::BOOTKEY1_7_SPEC>;
 #[doc = "Bits 127:112 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_7;
@@ -1487,8 +1436,7 @@ pub mod bootkey1_7;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_8::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_8`]
-module"]
+For information about available fields see [`mod@bootkey1_8`] module"]
 pub type BOOTKEY1_8 = crate::Reg<bootkey1_8::BOOTKEY1_8_SPEC>;
 #[doc = "Bits 143:128 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_8;
@@ -1496,8 +1444,7 @@ pub mod bootkey1_8;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_9::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_9`]
-module"]
+For information about available fields see [`mod@bootkey1_9`] module"]
 pub type BOOTKEY1_9 = crate::Reg<bootkey1_9::BOOTKEY1_9_SPEC>;
 #[doc = "Bits 159:144 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_9;
@@ -1505,8 +1452,7 @@ pub mod bootkey1_9;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_10::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_10`]
-module"]
+For information about available fields see [`mod@bootkey1_10`] module"]
 pub type BOOTKEY1_10 = crate::Reg<bootkey1_10::BOOTKEY1_10_SPEC>;
 #[doc = "Bits 175:160 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_10;
@@ -1514,8 +1460,7 @@ pub mod bootkey1_10;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_11::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_11`]
-module"]
+For information about available fields see [`mod@bootkey1_11`] module"]
 pub type BOOTKEY1_11 = crate::Reg<bootkey1_11::BOOTKEY1_11_SPEC>;
 #[doc = "Bits 191:176 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_11;
@@ -1523,8 +1468,7 @@ pub mod bootkey1_11;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_12::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_12`]
-module"]
+For information about available fields see [`mod@bootkey1_12`] module"]
 pub type BOOTKEY1_12 = crate::Reg<bootkey1_12::BOOTKEY1_12_SPEC>;
 #[doc = "Bits 207:192 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_12;
@@ -1532,8 +1476,7 @@ pub mod bootkey1_12;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_13::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_13`]
-module"]
+For information about available fields see [`mod@bootkey1_13`] module"]
 pub type BOOTKEY1_13 = crate::Reg<bootkey1_13::BOOTKEY1_13_SPEC>;
 #[doc = "Bits 223:208 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_13;
@@ -1541,8 +1484,7 @@ pub mod bootkey1_13;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_14::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_14`]
-module"]
+For information about available fields see [`mod@bootkey1_14`] module"]
 pub type BOOTKEY1_14 = crate::Reg<bootkey1_14::BOOTKEY1_14_SPEC>;
 #[doc = "Bits 239:224 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_14;
@@ -1550,8 +1492,7 @@ pub mod bootkey1_14;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_15::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_15`]
-module"]
+For information about available fields see [`mod@bootkey1_15`] module"]
 pub type BOOTKEY1_15 = crate::Reg<bootkey1_15::BOOTKEY1_15_SPEC>;
 #[doc = "Bits 255:240 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_15;
@@ -1559,8 +1500,7 @@ pub mod bootkey1_15;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_0`]
-module"]
+For information about available fields see [`mod@bootkey2_0`] module"]
 pub type BOOTKEY2_0 = crate::Reg<bootkey2_0::BOOTKEY2_0_SPEC>;
 #[doc = "Bits 15:0 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_0;
@@ -1568,8 +1508,7 @@ pub mod bootkey2_0;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_1`]
-module"]
+For information about available fields see [`mod@bootkey2_1`] module"]
 pub type BOOTKEY2_1 = crate::Reg<bootkey2_1::BOOTKEY2_1_SPEC>;
 #[doc = "Bits 31:16 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_1;
@@ -1577,8 +1516,7 @@ pub mod bootkey2_1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_2`]
-module"]
+For information about available fields see [`mod@bootkey2_2`] module"]
 pub type BOOTKEY2_2 = crate::Reg<bootkey2_2::BOOTKEY2_2_SPEC>;
 #[doc = "Bits 47:32 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_2;
@@ -1586,8 +1524,7 @@ pub mod bootkey2_2;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_3`]
-module"]
+For information about available fields see [`mod@bootkey2_3`] module"]
 pub type BOOTKEY2_3 = crate::Reg<bootkey2_3::BOOTKEY2_3_SPEC>;
 #[doc = "Bits 63:48 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_3;
@@ -1595,8 +1532,7 @@ pub mod bootkey2_3;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_4`]
-module"]
+For information about available fields see [`mod@bootkey2_4`] module"]
 pub type BOOTKEY2_4 = crate::Reg<bootkey2_4::BOOTKEY2_4_SPEC>;
 #[doc = "Bits 79:64 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_4;
@@ -1604,8 +1540,7 @@ pub mod bootkey2_4;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_5`]
-module"]
+For information about available fields see [`mod@bootkey2_5`] module"]
 pub type BOOTKEY2_5 = crate::Reg<bootkey2_5::BOOTKEY2_5_SPEC>;
 #[doc = "Bits 95:80 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_5;
@@ -1613,8 +1548,7 @@ pub mod bootkey2_5;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_6`]
-module"]
+For information about available fields see [`mod@bootkey2_6`] module"]
 pub type BOOTKEY2_6 = crate::Reg<bootkey2_6::BOOTKEY2_6_SPEC>;
 #[doc = "Bits 111:96 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_6;
@@ -1622,8 +1556,7 @@ pub mod bootkey2_6;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_7`]
-module"]
+For information about available fields see [`mod@bootkey2_7`] module"]
 pub type BOOTKEY2_7 = crate::Reg<bootkey2_7::BOOTKEY2_7_SPEC>;
 #[doc = "Bits 127:112 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_7;
@@ -1631,8 +1564,7 @@ pub mod bootkey2_7;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_8::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_8`]
-module"]
+For information about available fields see [`mod@bootkey2_8`] module"]
 pub type BOOTKEY2_8 = crate::Reg<bootkey2_8::BOOTKEY2_8_SPEC>;
 #[doc = "Bits 143:128 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_8;
@@ -1640,8 +1572,7 @@ pub mod bootkey2_8;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_9::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_9`]
-module"]
+For information about available fields see [`mod@bootkey2_9`] module"]
 pub type BOOTKEY2_9 = crate::Reg<bootkey2_9::BOOTKEY2_9_SPEC>;
 #[doc = "Bits 159:144 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_9;
@@ -1649,8 +1580,7 @@ pub mod bootkey2_9;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_10::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_10`]
-module"]
+For information about available fields see [`mod@bootkey2_10`] module"]
 pub type BOOTKEY2_10 = crate::Reg<bootkey2_10::BOOTKEY2_10_SPEC>;
 #[doc = "Bits 175:160 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_10;
@@ -1658,8 +1588,7 @@ pub mod bootkey2_10;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_11::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_11`]
-module"]
+For information about available fields see [`mod@bootkey2_11`] module"]
 pub type BOOTKEY2_11 = crate::Reg<bootkey2_11::BOOTKEY2_11_SPEC>;
 #[doc = "Bits 191:176 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_11;
@@ -1667,8 +1596,7 @@ pub mod bootkey2_11;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_12::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_12`]
-module"]
+For information about available fields see [`mod@bootkey2_12`] module"]
 pub type BOOTKEY2_12 = crate::Reg<bootkey2_12::BOOTKEY2_12_SPEC>;
 #[doc = "Bits 207:192 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_12;
@@ -1676,8 +1604,7 @@ pub mod bootkey2_12;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_13::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_13`]
-module"]
+For information about available fields see [`mod@bootkey2_13`] module"]
 pub type BOOTKEY2_13 = crate::Reg<bootkey2_13::BOOTKEY2_13_SPEC>;
 #[doc = "Bits 223:208 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_13;
@@ -1685,8 +1612,7 @@ pub mod bootkey2_13;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_14::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_14`]
-module"]
+For information about available fields see [`mod@bootkey2_14`] module"]
 pub type BOOTKEY2_14 = crate::Reg<bootkey2_14::BOOTKEY2_14_SPEC>;
 #[doc = "Bits 239:224 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_14;
@@ -1694,8 +1620,7 @@ pub mod bootkey2_14;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_15::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_15`]
-module"]
+For information about available fields see [`mod@bootkey2_15`] module"]
 pub type BOOTKEY2_15 = crate::Reg<bootkey2_15::BOOTKEY2_15_SPEC>;
 #[doc = "Bits 255:240 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_15;
@@ -1703,8 +1628,7 @@ pub mod bootkey2_15;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_0`]
-module"]
+For information about available fields see [`mod@bootkey3_0`] module"]
 pub type BOOTKEY3_0 = crate::Reg<bootkey3_0::BOOTKEY3_0_SPEC>;
 #[doc = "Bits 15:0 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_0;
@@ -1712,8 +1636,7 @@ pub mod bootkey3_0;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_1`]
-module"]
+For information about available fields see [`mod@bootkey3_1`] module"]
 pub type BOOTKEY3_1 = crate::Reg<bootkey3_1::BOOTKEY3_1_SPEC>;
 #[doc = "Bits 31:16 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_1;
@@ -1721,8 +1644,7 @@ pub mod bootkey3_1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_2`]
-module"]
+For information about available fields see [`mod@bootkey3_2`] module"]
 pub type BOOTKEY3_2 = crate::Reg<bootkey3_2::BOOTKEY3_2_SPEC>;
 #[doc = "Bits 47:32 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_2;
@@ -1730,8 +1652,7 @@ pub mod bootkey3_2;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_3`]
-module"]
+For information about available fields see [`mod@bootkey3_3`] module"]
 pub type BOOTKEY3_3 = crate::Reg<bootkey3_3::BOOTKEY3_3_SPEC>;
 #[doc = "Bits 63:48 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_3;
@@ -1739,8 +1660,7 @@ pub mod bootkey3_3;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_4`]
-module"]
+For information about available fields see [`mod@bootkey3_4`] module"]
 pub type BOOTKEY3_4 = crate::Reg<bootkey3_4::BOOTKEY3_4_SPEC>;
 #[doc = "Bits 79:64 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_4;
@@ -1748,8 +1668,7 @@ pub mod bootkey3_4;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_5`]
-module"]
+For information about available fields see [`mod@bootkey3_5`] module"]
 pub type BOOTKEY3_5 = crate::Reg<bootkey3_5::BOOTKEY3_5_SPEC>;
 #[doc = "Bits 95:80 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_5;
@@ -1757,8 +1676,7 @@ pub mod bootkey3_5;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_6`]
-module"]
+For information about available fields see [`mod@bootkey3_6`] module"]
 pub type BOOTKEY3_6 = crate::Reg<bootkey3_6::BOOTKEY3_6_SPEC>;
 #[doc = "Bits 111:96 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_6;
@@ -1766,8 +1684,7 @@ pub mod bootkey3_6;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_7`]
-module"]
+For information about available fields see [`mod@bootkey3_7`] module"]
 pub type BOOTKEY3_7 = crate::Reg<bootkey3_7::BOOTKEY3_7_SPEC>;
 #[doc = "Bits 127:112 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_7;
@@ -1775,8 +1692,7 @@ pub mod bootkey3_7;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_8::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_8`]
-module"]
+For information about available fields see [`mod@bootkey3_8`] module"]
 pub type BOOTKEY3_8 = crate::Reg<bootkey3_8::BOOTKEY3_8_SPEC>;
 #[doc = "Bits 143:128 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_8;
@@ -1784,8 +1700,7 @@ pub mod bootkey3_8;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_9::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_9`]
-module"]
+For information about available fields see [`mod@bootkey3_9`] module"]
 pub type BOOTKEY3_9 = crate::Reg<bootkey3_9::BOOTKEY3_9_SPEC>;
 #[doc = "Bits 159:144 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_9;
@@ -1793,8 +1708,7 @@ pub mod bootkey3_9;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_10::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_10`]
-module"]
+For information about available fields see [`mod@bootkey3_10`] module"]
 pub type BOOTKEY3_10 = crate::Reg<bootkey3_10::BOOTKEY3_10_SPEC>;
 #[doc = "Bits 175:160 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_10;
@@ -1802,8 +1716,7 @@ pub mod bootkey3_10;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_11::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_11`]
-module"]
+For information about available fields see [`mod@bootkey3_11`] module"]
 pub type BOOTKEY3_11 = crate::Reg<bootkey3_11::BOOTKEY3_11_SPEC>;
 #[doc = "Bits 191:176 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_11;
@@ -1811,8 +1724,7 @@ pub mod bootkey3_11;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_12::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_12`]
-module"]
+For information about available fields see [`mod@bootkey3_12`] module"]
 pub type BOOTKEY3_12 = crate::Reg<bootkey3_12::BOOTKEY3_12_SPEC>;
 #[doc = "Bits 207:192 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_12;
@@ -1820,8 +1732,7 @@ pub mod bootkey3_12;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_13::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_13`]
-module"]
+For information about available fields see [`mod@bootkey3_13`] module"]
 pub type BOOTKEY3_13 = crate::Reg<bootkey3_13::BOOTKEY3_13_SPEC>;
 #[doc = "Bits 223:208 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_13;
@@ -1829,8 +1740,7 @@ pub mod bootkey3_13;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_14::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_14`]
-module"]
+For information about available fields see [`mod@bootkey3_14`] module"]
 pub type BOOTKEY3_14 = crate::Reg<bootkey3_14::BOOTKEY3_14_SPEC>;
 #[doc = "Bits 239:224 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_14;
@@ -1838,8 +1748,7 @@ pub mod bootkey3_14;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_15::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_15`]
-module"]
+For information about available fields see [`mod@bootkey3_15`] module"]
 pub type BOOTKEY3_15 = crate::Reg<bootkey3_15::BOOTKEY3_15_SPEC>;
 #[doc = "Bits 255:240 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_15;
@@ -1847,8 +1756,7 @@ pub mod bootkey3_15;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_0`]
-module"]
+For information about available fields see [`mod@key1_0`] module"]
 pub type KEY1_0 = crate::Reg<key1_0::KEY1_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 1 (ECC)"]
 pub mod key1_0;
@@ -1856,8 +1764,7 @@ pub mod key1_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_1`]
-module"]
+For information about available fields see [`mod@key1_1`] module"]
 pub type KEY1_1 = crate::Reg<key1_1::KEY1_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 1 (ECC)"]
 pub mod key1_1;
@@ -1865,8 +1772,7 @@ pub mod key1_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_2`]
-module"]
+For information about available fields see [`mod@key1_2`] module"]
 pub type KEY1_2 = crate::Reg<key1_2::KEY1_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 1 (ECC)"]
 pub mod key1_2;
@@ -1874,8 +1780,7 @@ pub mod key1_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_3`]
-module"]
+For information about available fields see [`mod@key1_3`] module"]
 pub type KEY1_3 = crate::Reg<key1_3::KEY1_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 1 (ECC)"]
 pub mod key1_3;
@@ -1883,8 +1788,7 @@ pub mod key1_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_4`]
-module"]
+For information about available fields see [`mod@key1_4`] module"]
 pub type KEY1_4 = crate::Reg<key1_4::KEY1_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 1 (ECC)"]
 pub mod key1_4;
@@ -1892,8 +1796,7 @@ pub mod key1_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_5`]
-module"]
+For information about available fields see [`mod@key1_5`] module"]
 pub type KEY1_5 = crate::Reg<key1_5::KEY1_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 1 (ECC)"]
 pub mod key1_5;
@@ -1901,8 +1804,7 @@ pub mod key1_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_6`]
-module"]
+For information about available fields see [`mod@key1_6`] module"]
 pub type KEY1_6 = crate::Reg<key1_6::KEY1_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 1 (ECC)"]
 pub mod key1_6;
@@ -1910,8 +1812,7 @@ pub mod key1_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_7`]
-module"]
+For information about available fields see [`mod@key1_7`] module"]
 pub type KEY1_7 = crate::Reg<key1_7::KEY1_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 1 (ECC)"]
 pub mod key1_7;
@@ -1919,8 +1820,7 @@ pub mod key1_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_0`]
-module"]
+For information about available fields see [`mod@key2_0`] module"]
 pub type KEY2_0 = crate::Reg<key2_0::KEY2_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 2 (ECC)"]
 pub mod key2_0;
@@ -1928,8 +1828,7 @@ pub mod key2_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_1`]
-module"]
+For information about available fields see [`mod@key2_1`] module"]
 pub type KEY2_1 = crate::Reg<key2_1::KEY2_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 2 (ECC)"]
 pub mod key2_1;
@@ -1937,8 +1836,7 @@ pub mod key2_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_2`]
-module"]
+For information about available fields see [`mod@key2_2`] module"]
 pub type KEY2_2 = crate::Reg<key2_2::KEY2_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 2 (ECC)"]
 pub mod key2_2;
@@ -1946,8 +1844,7 @@ pub mod key2_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_3`]
-module"]
+For information about available fields see [`mod@key2_3`] module"]
 pub type KEY2_3 = crate::Reg<key2_3::KEY2_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 2 (ECC)"]
 pub mod key2_3;
@@ -1955,8 +1852,7 @@ pub mod key2_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_4`]
-module"]
+For information about available fields see [`mod@key2_4`] module"]
 pub type KEY2_4 = crate::Reg<key2_4::KEY2_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 2 (ECC)"]
 pub mod key2_4;
@@ -1964,8 +1860,7 @@ pub mod key2_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_5`]
-module"]
+For information about available fields see [`mod@key2_5`] module"]
 pub type KEY2_5 = crate::Reg<key2_5::KEY2_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 2 (ECC)"]
 pub mod key2_5;
@@ -1973,8 +1868,7 @@ pub mod key2_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_6`]
-module"]
+For information about available fields see [`mod@key2_6`] module"]
 pub type KEY2_6 = crate::Reg<key2_6::KEY2_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 2 (ECC)"]
 pub mod key2_6;
@@ -1982,8 +1876,7 @@ pub mod key2_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_7`]
-module"]
+For information about available fields see [`mod@key2_7`] module"]
 pub type KEY2_7 = crate::Reg<key2_7::KEY2_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 2 (ECC)"]
 pub mod key2_7;
@@ -1991,8 +1884,7 @@ pub mod key2_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_0`]
-module"]
+For information about available fields see [`mod@key3_0`] module"]
 pub type KEY3_0 = crate::Reg<key3_0::KEY3_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 3 (ECC)"]
 pub mod key3_0;
@@ -2000,8 +1892,7 @@ pub mod key3_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_1`]
-module"]
+For information about available fields see [`mod@key3_1`] module"]
 pub type KEY3_1 = crate::Reg<key3_1::KEY3_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 3 (ECC)"]
 pub mod key3_1;
@@ -2009,8 +1900,7 @@ pub mod key3_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_2`]
-module"]
+For information about available fields see [`mod@key3_2`] module"]
 pub type KEY3_2 = crate::Reg<key3_2::KEY3_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 3 (ECC)"]
 pub mod key3_2;
@@ -2018,8 +1908,7 @@ pub mod key3_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_3`]
-module"]
+For information about available fields see [`mod@key3_3`] module"]
 pub type KEY3_3 = crate::Reg<key3_3::KEY3_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 3 (ECC)"]
 pub mod key3_3;
@@ -2027,8 +1916,7 @@ pub mod key3_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_4`]
-module"]
+For information about available fields see [`mod@key3_4`] module"]
 pub type KEY3_4 = crate::Reg<key3_4::KEY3_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 3 (ECC)"]
 pub mod key3_4;
@@ -2036,8 +1924,7 @@ pub mod key3_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_5`]
-module"]
+For information about available fields see [`mod@key3_5`] module"]
 pub type KEY3_5 = crate::Reg<key3_5::KEY3_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 3 (ECC)"]
 pub mod key3_5;
@@ -2045,8 +1932,7 @@ pub mod key3_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_6`]
-module"]
+For information about available fields see [`mod@key3_6`] module"]
 pub type KEY3_6 = crate::Reg<key3_6::KEY3_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 3 (ECC)"]
 pub mod key3_6;
@@ -2054,8 +1940,7 @@ pub mod key3_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_7`]
-module"]
+For information about available fields see [`mod@key3_7`] module"]
 pub type KEY3_7 = crate::Reg<key3_7::KEY3_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 3 (ECC)"]
 pub mod key3_7;
@@ -2063,8 +1948,7 @@ pub mod key3_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_0`]
-module"]
+For information about available fields see [`mod@key4_0`] module"]
 pub type KEY4_0 = crate::Reg<key4_0::KEY4_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 4 (ECC)"]
 pub mod key4_0;
@@ -2072,8 +1956,7 @@ pub mod key4_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_1`]
-module"]
+For information about available fields see [`mod@key4_1`] module"]
 pub type KEY4_1 = crate::Reg<key4_1::KEY4_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 4 (ECC)"]
 pub mod key4_1;
@@ -2081,8 +1964,7 @@ pub mod key4_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_2`]
-module"]
+For information about available fields see [`mod@key4_2`] module"]
 pub type KEY4_2 = crate::Reg<key4_2::KEY4_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 4 (ECC)"]
 pub mod key4_2;
@@ -2090,8 +1972,7 @@ pub mod key4_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_3`]
-module"]
+For information about available fields see [`mod@key4_3`] module"]
 pub type KEY4_3 = crate::Reg<key4_3::KEY4_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 4 (ECC)"]
 pub mod key4_3;
@@ -2099,8 +1980,7 @@ pub mod key4_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_4`]
-module"]
+For information about available fields see [`mod@key4_4`] module"]
 pub type KEY4_4 = crate::Reg<key4_4::KEY4_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 4 (ECC)"]
 pub mod key4_4;
@@ -2108,8 +1988,7 @@ pub mod key4_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_5`]
-module"]
+For information about available fields see [`mod@key4_5`] module"]
 pub type KEY4_5 = crate::Reg<key4_5::KEY4_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 4 (ECC)"]
 pub mod key4_5;
@@ -2117,8 +1996,7 @@ pub mod key4_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_6`]
-module"]
+For information about available fields see [`mod@key4_6`] module"]
 pub type KEY4_6 = crate::Reg<key4_6::KEY4_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 4 (ECC)"]
 pub mod key4_6;
@@ -2126,8 +2004,7 @@ pub mod key4_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_7`]
-module"]
+For information about available fields see [`mod@key4_7`] module"]
 pub type KEY4_7 = crate::Reg<key4_7::KEY4_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 4 (ECC)"]
 pub mod key4_7;
@@ -2135,8 +2012,7 @@ pub mod key4_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_0`]
-module"]
+For information about available fields see [`mod@key5_0`] module"]
 pub type KEY5_0 = crate::Reg<key5_0::KEY5_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 5 (ECC)"]
 pub mod key5_0;
@@ -2144,8 +2020,7 @@ pub mod key5_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_1`]
-module"]
+For information about available fields see [`mod@key5_1`] module"]
 pub type KEY5_1 = crate::Reg<key5_1::KEY5_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 5 (ECC)"]
 pub mod key5_1;
@@ -2153,8 +2028,7 @@ pub mod key5_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_2`]
-module"]
+For information about available fields see [`mod@key5_2`] module"]
 pub type KEY5_2 = crate::Reg<key5_2::KEY5_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 5 (ECC)"]
 pub mod key5_2;
@@ -2162,8 +2036,7 @@ pub mod key5_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_3`]
-module"]
+For information about available fields see [`mod@key5_3`] module"]
 pub type KEY5_3 = crate::Reg<key5_3::KEY5_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 5 (ECC)"]
 pub mod key5_3;
@@ -2171,8 +2044,7 @@ pub mod key5_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_4`]
-module"]
+For information about available fields see [`mod@key5_4`] module"]
 pub type KEY5_4 = crate::Reg<key5_4::KEY5_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 5 (ECC)"]
 pub mod key5_4;
@@ -2180,8 +2052,7 @@ pub mod key5_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_5`]
-module"]
+For information about available fields see [`mod@key5_5`] module"]
 pub type KEY5_5 = crate::Reg<key5_5::KEY5_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 5 (ECC)"]
 pub mod key5_5;
@@ -2189,8 +2060,7 @@ pub mod key5_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_6`]
-module"]
+For information about available fields see [`mod@key5_6`] module"]
 pub type KEY5_6 = crate::Reg<key5_6::KEY5_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 5 (ECC)"]
 pub mod key5_6;
@@ -2198,8 +2068,7 @@ pub mod key5_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_7`]
-module"]
+For information about available fields see [`mod@key5_7`] module"]
 pub type KEY5_7 = crate::Reg<key5_7::KEY5_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 5 (ECC)"]
 pub mod key5_7;
@@ -2207,8 +2076,7 @@ pub mod key5_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_0`]
-module"]
+For information about available fields see [`mod@key6_0`] module"]
 pub type KEY6_0 = crate::Reg<key6_0::KEY6_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 6 (ECC)"]
 pub mod key6_0;
@@ -2216,8 +2084,7 @@ pub mod key6_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_1`]
-module"]
+For information about available fields see [`mod@key6_1`] module"]
 pub type KEY6_1 = crate::Reg<key6_1::KEY6_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 6 (ECC)"]
 pub mod key6_1;
@@ -2225,8 +2092,7 @@ pub mod key6_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_2`]
-module"]
+For information about available fields see [`mod@key6_2`] module"]
 pub type KEY6_2 = crate::Reg<key6_2::KEY6_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 6 (ECC)"]
 pub mod key6_2;
@@ -2234,8 +2100,7 @@ pub mod key6_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_3`]
-module"]
+For information about available fields see [`mod@key6_3`] module"]
 pub type KEY6_3 = crate::Reg<key6_3::KEY6_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 6 (ECC)"]
 pub mod key6_3;
@@ -2243,8 +2108,7 @@ pub mod key6_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_4`]
-module"]
+For information about available fields see [`mod@key6_4`] module"]
 pub type KEY6_4 = crate::Reg<key6_4::KEY6_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 6 (ECC)"]
 pub mod key6_4;
@@ -2252,8 +2116,7 @@ pub mod key6_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_5`]
-module"]
+For information about available fields see [`mod@key6_5`] module"]
 pub type KEY6_5 = crate::Reg<key6_5::KEY6_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 6 (ECC)"]
 pub mod key6_5;
@@ -2261,8 +2124,7 @@ pub mod key6_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_6`]
-module"]
+For information about available fields see [`mod@key6_6`] module"]
 pub type KEY6_6 = crate::Reg<key6_6::KEY6_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 6 (ECC)"]
 pub mod key6_6;
@@ -2270,8 +2132,7 @@ pub mod key6_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_7`]
-module"]
+For information about available fields see [`mod@key6_7`] module"]
 pub type KEY6_7 = crate::Reg<key6_7::KEY6_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 6 (ECC)"]
 pub mod key6_7;

@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31 - Sets the number of rng_clk cycles between two consecutive ring oscillator samples. Note! If the Von-Neuman is bypassed, the minimum value for sample counter must not be less then decimal seventeen"]
     #[inline(always)]
-    #[must_use]
     pub fn sample_cntr1(&mut self) -> SAMPLE_CNTR1_W<SAMPLE_CNT1_SPEC> {
         SAMPLE_CNTR1_W::new(self, 0)
     }
@@ -33,8 +32,6 @@ impl crate::Readable for SAMPLE_CNT1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sample_cnt1::W`](W) writer structure"]
 impl crate::Writable for SAMPLE_CNT1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SAMPLE_CNT1 to value 0xffff"]
 impl crate::Resettable for SAMPLE_CNT1_SPEC {

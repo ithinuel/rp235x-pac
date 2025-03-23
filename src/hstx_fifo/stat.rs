@@ -37,7 +37,6 @@ impl R {
 impl W {
     #[doc = "Bit 10 - FIFO was written when full. Write 1 to clear."]
     #[inline(always)]
-    #[must_use]
     pub fn wof(&mut self) -> WOF_W<STAT_SPEC> {
         WOF_W::new(self, 10)
     }
@@ -54,10 +53,7 @@ impl crate::Readable for STAT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`stat::W`](W) writer structure"]
 impl crate::Writable for STAT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x0400;
 }
 #[doc = "`reset()` method sets STAT to value 0"]
-impl crate::Resettable for STAT_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for STAT_SPEC {}

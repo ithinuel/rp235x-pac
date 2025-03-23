@@ -19,6 +19,4 @@ impl crate::RegisterSpec for TRCIDR9_SPEC {
 #[doc = "`read()` method returns [`trcidr9::R`](R) reader structure"]
 impl crate::Readable for TRCIDR9_SPEC {}
 #[doc = "`reset()` method sets TRCIDR9 to value 0"]
-impl crate::Resettable for TRCIDR9_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCIDR9_SPEC {}

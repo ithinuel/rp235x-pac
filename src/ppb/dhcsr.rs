@@ -108,31 +108,26 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Enable Halting debug"]
     #[inline(always)]
-    #[must_use]
     pub fn c_debugen(&mut self) -> C_DEBUGEN_W<DHCSR_SPEC> {
         C_DEBUGEN_W::new(self, 0)
     }
     #[doc = "Bit 1 - PE enter Debug state halt request"]
     #[inline(always)]
-    #[must_use]
     pub fn c_halt(&mut self) -> C_HALT_W<DHCSR_SPEC> {
         C_HALT_W::new(self, 1)
     }
     #[doc = "Bit 2 - Enable single instruction step"]
     #[inline(always)]
-    #[must_use]
     pub fn c_step(&mut self) -> C_STEP_W<DHCSR_SPEC> {
         C_STEP_W::new(self, 2)
     }
     #[doc = "Bit 3 - When debug is enabled, the debugger can write to this bit to mask PendSV, SysTick and external configurable interrupts"]
     #[inline(always)]
-    #[must_use]
     pub fn c_maskints(&mut self) -> C_MASKINTS_W<DHCSR_SPEC> {
         C_MASKINTS_W::new(self, 3)
     }
     #[doc = "Bit 5 - Allow imprecise entry to Debug state"]
     #[inline(always)]
-    #[must_use]
     pub fn c_snapstall(&mut self) -> C_SNAPSTALL_W<DHCSR_SPEC> {
         C_SNAPSTALL_W::new(self, 5)
     }
@@ -149,10 +144,6 @@ impl crate::Readable for DHCSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dhcsr::W`](W) writer structure"]
 impl crate::Writable for DHCSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DHCSR to value 0"]
-impl crate::Resettable for DHCSR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DHCSR_SPEC {}

@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn rxf2_putget0(&mut self) -> RXF2_PUTGET0_W<RXF2_PUTGET_SPEC> {
         RXF2_PUTGET0_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for RXF2_PUTGET_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`rxf2_putget::W`](W) writer structure"]
 impl crate::Writable for RXF2_PUTGET_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets RXF2_PUTGET%s to value 0"]
-impl crate::Resettable for RXF2_PUTGET_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for RXF2_PUTGET_SPEC {}

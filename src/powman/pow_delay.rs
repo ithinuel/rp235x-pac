@@ -44,21 +44,18 @@ impl W {
     #[doc = "Bits 0:3 - timing between the swcore power state machine steps   
  measured in units of the lposc period, 0 gives a delay of 1 unit"]
     #[inline(always)]
-    #[must_use]
     pub fn swcore_step(&mut self) -> SWCORE_STEP_W<POW_DELAY_SPEC> {
         SWCORE_STEP_W::new(self, 0)
     }
     #[doc = "Bits 4:7 - timing between the xip power state machine steps   
  measured in units of the lposc period, 0 gives a delay of 1 unit"]
     #[inline(always)]
-    #[must_use]
     pub fn xip_step(&mut self) -> XIP_STEP_W<POW_DELAY_SPEC> {
         XIP_STEP_W::new(self, 4)
     }
     #[doc = "Bits 8:15 - timing between the sram0 and sram1 power state machine steps   
  measured in units of the powman tick period (>=1us), 0 gives a delay of 1 unit"]
     #[inline(always)]
-    #[must_use]
     pub fn sram_step(&mut self) -> SRAM_STEP_W<POW_DELAY_SPEC> {
         SRAM_STEP_W::new(self, 8)
     }
@@ -75,8 +72,6 @@ impl crate::Readable for POW_DELAY_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`pow_delay::W`](W) writer structure"]
 impl crate::Writable for POW_DELAY_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets POW_DELAY to value 0x2011"]
 impl crate::Resettable for POW_DELAY_SPEC {

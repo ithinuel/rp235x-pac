@@ -84,7 +84,6 @@ impl W {
 
  This register is Secure read/write only."]
     #[inline(always)]
-    #[must_use]
     pub fn disarm(&mut self) -> DISARM_W<DISARM_SPEC> {
         DISARM_W::new(self, 0)
     }
@@ -101,10 +100,6 @@ impl crate::Readable for DISARM_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`disarm::W`](W) writer structure"]
 impl crate::Writable for DISARM_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DISARM to value 0"]
-impl crate::Resettable for DISARM_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DISARM_SPEC {}

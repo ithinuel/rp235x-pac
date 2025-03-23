@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bits 5:7 - Priority of system handler 4, SecureFault"]
     #[inline(always)]
-    #[must_use]
     pub fn pri_4_3(&mut self) -> PRI_4_3_W<SHPR1_SPEC> {
         PRI_4_3_W::new(self, 5)
     }
     #[doc = "Bits 13:15 - Priority of system handler 5, SecureFault"]
     #[inline(always)]
-    #[must_use]
     pub fn pri_5_3(&mut self) -> PRI_5_3_W<SHPR1_SPEC> {
         PRI_5_3_W::new(self, 13)
     }
     #[doc = "Bits 21:23 - Priority of system handler 6, SecureFault"]
     #[inline(always)]
-    #[must_use]
     pub fn pri_6_3(&mut self) -> PRI_6_3_W<SHPR1_SPEC> {
         PRI_6_3_W::new(self, 21)
     }
     #[doc = "Bits 29:31 - Priority of system handler 7, SecureFault"]
     #[inline(always)]
-    #[must_use]
     pub fn pri_7_3(&mut self) -> PRI_7_3_W<SHPR1_SPEC> {
         PRI_7_3_W::new(self, 29)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for SHPR1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`shpr1::W`](W) writer structure"]
 impl crate::Writable for SHPR1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SHPR1 to value 0"]
-impl crate::Resettable for SHPR1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SHPR1_SPEC {}

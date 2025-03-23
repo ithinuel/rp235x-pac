@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn boot0(&mut self) -> BOOT0_W<BOOT0_SPEC> {
         BOOT0_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for BOOT0_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`boot0::W`](W) writer structure"]
 impl crate::Writable for BOOT0_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets BOOT0 to value 0"]
-impl crate::Resettable for BOOT0_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for BOOT0_SPEC {}

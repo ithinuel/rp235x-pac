@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:6 - Trace ID"]
     #[inline(always)]
-    #[must_use]
     pub fn id(&mut self) -> ID_W<TRCITATBIDR_SPEC> {
         ID_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for TRCITATBIDR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcitatbidr::W`](W) writer structure"]
 impl crate::Writable for TRCITATBIDR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCITATBIDR to value 0"]
-impl crate::Resettable for TRCITATBIDR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCITATBIDR_SPEC {}

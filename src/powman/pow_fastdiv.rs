@@ -24,7 +24,6 @@ impl W {
  when clk_pow is running from the slow clock it is not divided   
  when clk_pow is running from the fast clock it is divided by tick_div"]
     #[inline(always)]
-    #[must_use]
     pub fn pow_fastdiv(&mut self) -> POW_FASTDIV_W<POW_FASTDIV_SPEC> {
         POW_FASTDIV_W::new(self, 0)
     }
@@ -41,8 +40,6 @@ impl crate::Readable for POW_FASTDIV_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`pow_fastdiv::W`](W) writer structure"]
 impl crate::Writable for POW_FASTDIV_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets POW_FASTDIV to value 0x40"]
 impl crate::Resettable for POW_FASTDIV_SPEC {

@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Selects between flashpatch and breakpoint functionality"]
     #[inline(always)]
-    #[must_use]
     pub fn be(&mut self) -> BE_W<FP_COMP7_SPEC> {
         BE_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for FP_COMP7_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`fp_comp7::W`](W) writer structure"]
 impl crate::Writable for FP_COMP7_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets FP_COMP7 to value 0"]
-impl crate::Resettable for FP_COMP7_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for FP_COMP7_SPEC {}

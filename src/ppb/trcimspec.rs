@@ -19,6 +19,4 @@ impl crate::RegisterSpec for TRCIMSPEC_SPEC {
 #[doc = "`read()` method returns [`trcimspec::R`](R) reader structure"]
 impl crate::Readable for TRCIMSPEC_SPEC {}
 #[doc = "`reset()` method sets TRCIMSPEC to value 0"]
-impl crate::Resettable for TRCIMSPEC_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCIMSPEC_SPEC {}

@@ -53,7 +53,7 @@ impl RegisterBlock {
     pub const fn intf(&self) -> &INTF {
         &self.intf
     }
-    #[doc = "0x1c - Interrupt status after masking &amp; forcing"]
+    #[doc = "0x1c - Interrupt status after masking & forcing"]
     #[inline(always)]
     pub const fn ints(&self) -> &INTS {
         &self.ints
@@ -67,8 +67,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`cs::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`cs::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cs`]
-module"]
+For information about available fields see [`mod@cs`] module"]
 pub type CS = crate::Reg<cs::CS_SPEC>;
 #[doc = "Control and Status   
  GENERAL CONSTRAINTS:   
@@ -80,8 +79,7 @@ pub mod cs;
 
 You can [`read`](crate::Reg::read) this register and get [`pwr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pwr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pwr`]
-module"]
+For information about available fields see [`mod@pwr`] module"]
 pub type PWR = crate::Reg<pwr::PWR_SPEC>;
 #[doc = "Controls the PLL power modes."]
 pub mod pwr;
@@ -90,8 +88,7 @@ pub mod pwr;
 
 You can [`read`](crate::Reg::read) this register and get [`fbdiv_int::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fbdiv_int::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fbdiv_int`]
-module"]
+For information about available fields see [`mod@fbdiv_int`] module"]
 pub type FBDIV_INT = crate::Reg<fbdiv_int::FBDIV_INT_SPEC>;
 #[doc = "Feedback divisor   
  (note: this PLL does not support fractional division)"]
@@ -102,8 +99,7 @@ pub mod fbdiv_int;
 
 You can [`read`](crate::Reg::read) this register and get [`prim::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`prim::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@prim`]
-module"]
+For information about available fields see [`mod@prim`] module"]
 pub type PRIM = crate::Reg<prim::PRIM_SPEC>;
 #[doc = "Controls the PLL post dividers for the primary output   
  (note: this PLL does not have a secondary output)   
@@ -113,8 +109,7 @@ pub mod prim;
 
 You can [`read`](crate::Reg::read) this register and get [`intr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intr`]
-module"]
+For information about available fields see [`mod@intr`] module"]
 pub type INTR = crate::Reg<intr::INTR_SPEC>;
 #[doc = "Raw Interrupts"]
 pub mod intr;
@@ -122,8 +117,7 @@ pub mod intr;
 
 You can [`read`](crate::Reg::read) this register and get [`inte::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`inte::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@inte`]
-module"]
+For information about available fields see [`mod@inte`] module"]
 pub type INTE = crate::Reg<inte::INTE_SPEC>;
 #[doc = "Interrupt Enable"]
 pub mod inte;
@@ -131,17 +125,15 @@ pub mod inte;
 
 You can [`read`](crate::Reg::read) this register and get [`intf::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intf::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intf`]
-module"]
+For information about available fields see [`mod@intf`] module"]
 pub type INTF = crate::Reg<intf::INTF_SPEC>;
 #[doc = "Interrupt Force"]
 pub mod intf;
-#[doc = "INTS (r) register accessor: Interrupt status after masking &amp; forcing  
+#[doc = "INTS (r) register accessor: Interrupt status after masking & forcing  
 
 You can [`read`](crate::Reg::read) this register and get [`ints::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ints`]
-module"]
+For information about available fields see [`mod@ints`] module"]
 pub type INTS = crate::Reg<ints::INTS_SPEC>;
-#[doc = "Interrupt status after masking &amp; forcing"]
+#[doc = "Interrupt status after masking & forcing"]
 pub mod ints;

@@ -52,31 +52,26 @@ impl R {
 impl W {
     #[doc = "Bit 3 - Branch broadcast mode"]
     #[inline(always)]
-    #[must_use]
     pub fn bb(&mut self) -> BB_W<TRCCONFIGR_SPEC> {
         BB_W::new(self, 3)
     }
     #[doc = "Bit 4 - Cycle counting in instruction trace"]
     #[inline(always)]
-    #[must_use]
     pub fn cci(&mut self) -> CCI_W<TRCCONFIGR_SPEC> {
         CCI_W::new(self, 4)
     }
     #[doc = "Bits 5:10 - Conditional instruction tracing"]
     #[inline(always)]
-    #[must_use]
     pub fn cond(&mut self) -> COND_W<TRCCONFIGR_SPEC> {
         COND_W::new(self, 5)
     }
     #[doc = "Bit 11 - Global timestamp tracing"]
     #[inline(always)]
-    #[must_use]
     pub fn ts(&mut self) -> TS_W<TRCCONFIGR_SPEC> {
         TS_W::new(self, 11)
     }
     #[doc = "Bit 12 - Return stack enable"]
     #[inline(always)]
-    #[must_use]
     pub fn rs(&mut self) -> RS_W<TRCCONFIGR_SPEC> {
         RS_W::new(self, 12)
     }
@@ -93,10 +88,6 @@ impl crate::Readable for TRCCONFIGR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcconfigr::W`](W) writer structure"]
 impl crate::Writable for TRCCONFIGR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCCONFIGR to value 0"]
-impl crate::Resettable for TRCCONFIGR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCCONFIGR_SPEC {}

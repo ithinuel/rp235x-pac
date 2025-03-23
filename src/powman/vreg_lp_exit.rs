@@ -149,7 +149,6 @@ impl W {
     #[doc = "Bit 1 - high impedance mode select   
  0=not in high impedance mode, 1=in high impedance mode"]
     #[inline(always)]
-    #[must_use]
     pub fn hiz(&mut self) -> HIZ_W<VREG_LP_EXIT_SPEC> {
         HIZ_W::new(self, 1)
     }
@@ -158,7 +157,6 @@ impl W {
  0 = normal mode (switching)   
  1 = low power mode (linear)"]
     #[inline(always)]
-    #[must_use]
     pub fn mode(&mut self) -> MODE_W<VREG_LP_EXIT_SPEC> {
         MODE_W::new(self, 2)
     }
@@ -198,7 +196,6 @@ impl W {
  11110 - 3.15V   
  11111 - 3.30V"]
     #[inline(always)]
-    #[must_use]
     pub fn vsel(&mut self) -> VSEL_W<VREG_LP_EXIT_SPEC> {
         VSEL_W::new(self, 4)
     }
@@ -215,8 +212,6 @@ impl crate::Readable for VREG_LP_EXIT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`vreg_lp_exit::W`](W) writer structure"]
 impl crate::Writable for VREG_LP_EXIT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets VREG_LP_EXIT to value 0xb0"]
 impl crate::Resettable for VREG_LP_EXIT_SPEC {

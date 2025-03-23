@@ -19,6 +19,4 @@ impl crate::RegisterSpec for NUM_GPIOS_SPEC {
 #[doc = "`read()` method returns [`num_gpios::R`](R) reader structure"]
 impl crate::Readable for NUM_GPIOS_SPEC {}
 #[doc = "`reset()` method sets NUM_GPIOS to value 0"]
-impl crate::Resettable for NUM_GPIOS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for NUM_GPIOS_SPEC {}

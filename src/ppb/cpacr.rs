@@ -97,61 +97,51 @@ impl R {
 impl W {
     #[doc = "Bits 0:1 - Controls access privileges for coprocessor 0"]
     #[inline(always)]
-    #[must_use]
     pub fn cp0(&mut self) -> CP0_W<CPACR_SPEC> {
         CP0_W::new(self, 0)
     }
     #[doc = "Bits 2:3 - Controls access privileges for coprocessor 1"]
     #[inline(always)]
-    #[must_use]
     pub fn cp1(&mut self) -> CP1_W<CPACR_SPEC> {
         CP1_W::new(self, 2)
     }
     #[doc = "Bits 4:5 - Controls access privileges for coprocessor 2"]
     #[inline(always)]
-    #[must_use]
     pub fn cp2(&mut self) -> CP2_W<CPACR_SPEC> {
         CP2_W::new(self, 4)
     }
     #[doc = "Bits 6:7 - Controls access privileges for coprocessor 3"]
     #[inline(always)]
-    #[must_use]
     pub fn cp3(&mut self) -> CP3_W<CPACR_SPEC> {
         CP3_W::new(self, 6)
     }
     #[doc = "Bits 8:9 - Controls access privileges for coprocessor 4"]
     #[inline(always)]
-    #[must_use]
     pub fn cp4(&mut self) -> CP4_W<CPACR_SPEC> {
         CP4_W::new(self, 8)
     }
     #[doc = "Bits 10:11 - Controls access privileges for coprocessor 5"]
     #[inline(always)]
-    #[must_use]
     pub fn cp5(&mut self) -> CP5_W<CPACR_SPEC> {
         CP5_W::new(self, 10)
     }
     #[doc = "Bits 12:13 - Controls access privileges for coprocessor 6"]
     #[inline(always)]
-    #[must_use]
     pub fn cp6(&mut self) -> CP6_W<CPACR_SPEC> {
         CP6_W::new(self, 12)
     }
     #[doc = "Bits 14:15 - Controls access privileges for coprocessor 7"]
     #[inline(always)]
-    #[must_use]
     pub fn cp7(&mut self) -> CP7_W<CPACR_SPEC> {
         CP7_W::new(self, 14)
     }
     #[doc = "Bits 20:21 - Defines the access rights for the floating-point functionality"]
     #[inline(always)]
-    #[must_use]
     pub fn cp10(&mut self) -> CP10_W<CPACR_SPEC> {
         CP10_W::new(self, 20)
     }
     #[doc = "Bits 22:23 - The value in this field is ignored. If the implementation does not include the FP Extension, this field is RAZ/WI. If the value of this bit is not programmed to the same value as the CP10 field, then the value is UNKNOWN"]
     #[inline(always)]
-    #[must_use]
     pub fn cp11(&mut self) -> CP11_W<CPACR_SPEC> {
         CP11_W::new(self, 22)
     }
@@ -168,10 +158,6 @@ impl crate::Readable for CPACR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`cpacr::W`](W) writer structure"]
 impl crate::Writable for CPACR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CPACR to value 0"]
-impl crate::Resettable for CPACR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CPACR_SPEC {}

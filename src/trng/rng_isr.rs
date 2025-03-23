@@ -40,6 +40,4 @@ impl crate::RegisterSpec for RNG_ISR_SPEC {
 #[doc = "`read()` method returns [`rng_isr::R`](R) reader structure"]
 impl crate::Readable for RNG_ISR_SPEC {}
 #[doc = "`reset()` method sets RNG_ISR to value 0"]
-impl crate::Resettable for RNG_ISR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for RNG_ISR_SPEC {}

@@ -263,97 +263,81 @@ impl R {
 impl W {
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn usbphy_dp_edge_low(&mut self) -> USBPHY_DP_EDGE_LOW_W<INTR_SPEC> {
         USBPHY_DP_EDGE_LOW_W::new(self, 2)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn usbphy_dp_edge_high(&mut self) -> USBPHY_DP_EDGE_HIGH_W<INTR_SPEC> {
         USBPHY_DP_EDGE_HIGH_W::new(self, 3)
     }
     #[doc = "Bit 6"]
     #[inline(always)]
-    #[must_use]
     pub fn usbphy_dm_edge_low(&mut self) -> USBPHY_DM_EDGE_LOW_W<INTR_SPEC> {
         USBPHY_DM_EDGE_LOW_W::new(self, 6)
     }
     #[doc = "Bit 7"]
     #[inline(always)]
-    #[must_use]
     pub fn usbphy_dm_edge_high(&mut self) -> USBPHY_DM_EDGE_HIGH_W<INTR_SPEC> {
         USBPHY_DM_EDGE_HIGH_W::new(self, 7)
     }
     #[doc = "Bit 10"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sclk_edge_low(&mut self) -> GPIO_QSPI_SCLK_EDGE_LOW_W<INTR_SPEC> {
         GPIO_QSPI_SCLK_EDGE_LOW_W::new(self, 10)
     }
     #[doc = "Bit 11"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sclk_edge_high(&mut self) -> GPIO_QSPI_SCLK_EDGE_HIGH_W<INTR_SPEC> {
         GPIO_QSPI_SCLK_EDGE_HIGH_W::new(self, 11)
     }
     #[doc = "Bit 14"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_ss_edge_low(&mut self) -> GPIO_QSPI_SS_EDGE_LOW_W<INTR_SPEC> {
         GPIO_QSPI_SS_EDGE_LOW_W::new(self, 14)
     }
     #[doc = "Bit 15"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_ss_edge_high(&mut self) -> GPIO_QSPI_SS_EDGE_HIGH_W<INTR_SPEC> {
         GPIO_QSPI_SS_EDGE_HIGH_W::new(self, 15)
     }
     #[doc = "Bit 18"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sd0_edge_low(&mut self) -> GPIO_QSPI_SD0_EDGE_LOW_W<INTR_SPEC> {
         GPIO_QSPI_SD0_EDGE_LOW_W::new(self, 18)
     }
     #[doc = "Bit 19"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sd0_edge_high(&mut self) -> GPIO_QSPI_SD0_EDGE_HIGH_W<INTR_SPEC> {
         GPIO_QSPI_SD0_EDGE_HIGH_W::new(self, 19)
     }
     #[doc = "Bit 22"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sd1_edge_low(&mut self) -> GPIO_QSPI_SD1_EDGE_LOW_W<INTR_SPEC> {
         GPIO_QSPI_SD1_EDGE_LOW_W::new(self, 22)
     }
     #[doc = "Bit 23"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sd1_edge_high(&mut self) -> GPIO_QSPI_SD1_EDGE_HIGH_W<INTR_SPEC> {
         GPIO_QSPI_SD1_EDGE_HIGH_W::new(self, 23)
     }
     #[doc = "Bit 26"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sd2_edge_low(&mut self) -> GPIO_QSPI_SD2_EDGE_LOW_W<INTR_SPEC> {
         GPIO_QSPI_SD2_EDGE_LOW_W::new(self, 26)
     }
     #[doc = "Bit 27"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sd2_edge_high(&mut self) -> GPIO_QSPI_SD2_EDGE_HIGH_W<INTR_SPEC> {
         GPIO_QSPI_SD2_EDGE_HIGH_W::new(self, 27)
     }
     #[doc = "Bit 30"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sd3_edge_low(&mut self) -> GPIO_QSPI_SD3_EDGE_LOW_W<INTR_SPEC> {
         GPIO_QSPI_SD3_EDGE_LOW_W::new(self, 30)
     }
     #[doc = "Bit 31"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_qspi_sd3_edge_high(&mut self) -> GPIO_QSPI_SD3_EDGE_HIGH_W<INTR_SPEC> {
         GPIO_QSPI_SD3_EDGE_HIGH_W::new(self, 31)
     }
@@ -370,10 +354,7 @@ impl crate::Readable for INTR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`intr::W`](W) writer structure"]
 impl crate::Writable for INTR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0xcccc_cccc;
 }
 #[doc = "`reset()` method sets INTR to value 0"]
-impl crate::Resettable for INTR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for INTR_SPEC {}

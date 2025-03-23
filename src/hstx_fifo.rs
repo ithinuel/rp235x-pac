@@ -20,8 +20,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`stat::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`stat::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@stat`]
-module"]
+For information about available fields see [`mod@stat`] module"]
 pub type STAT = crate::Reg<stat::STAT_SPEC>;
 #[doc = "FIFO status"]
 pub mod stat;
@@ -29,8 +28,7 @@ pub mod stat;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fifo::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fifo`]
-module"]
+For information about available fields see [`mod@fifo`] module"]
 pub type FIFO = crate::Reg<fifo::FIFO_SPEC>;
 #[doc = "Write access to FIFO"]
 pub mod fifo;

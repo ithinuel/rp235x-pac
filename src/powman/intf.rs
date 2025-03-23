@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn vreg_output_low(&mut self) -> VREG_OUTPUT_LOW_W<INTF_SPEC> {
         VREG_OUTPUT_LOW_W::new(self, 0)
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn timer(&mut self) -> TIMER_W<INTF_SPEC> {
         TIMER_W::new(self, 1)
     }
     #[doc = "Bit 2 - Source is state.req_ignored"]
     #[inline(always)]
-    #[must_use]
     pub fn state_req_ignored(&mut self) -> STATE_REQ_IGNORED_W<INTF_SPEC> {
         STATE_REQ_IGNORED_W::new(self, 2)
     }
     #[doc = "Bit 3 - Source is state.pwrup_while_waiting"]
     #[inline(always)]
-    #[must_use]
     pub fn pwrup_while_waiting(&mut self) -> PWRUP_WHILE_WAITING_W<INTF_SPEC> {
         PWRUP_WHILE_WAITING_W::new(self, 3)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for INTF_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`intf::W`](W) writer structure"]
 impl crate::Writable for INTF_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets INTF to value 0"]
-impl crate::Resettable for INTF_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for INTF_SPEC {}

@@ -109,7 +109,6 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Control whether Non-secure software can write to the timer registers. All other registers are hardwired to be inaccessible to Non-secure."]
     #[inline(always)]
-    #[must_use]
     pub fn nonsec_write(&mut self) -> NONSEC_WRITE_W<TIMER_SPEC> {
         NONSEC_WRITE_W::new(self, 0)
     }
@@ -119,55 +118,46 @@ impl W {
 
  Once configured, start the timer by setting POWMAN_TIMER_RUN=1. This will start the timer running from the LPOSC. When the XOSC is available switch the reference clock to XOSC then select it as the timer clock by setting POWMAN_TIMER_USE_XOSC=1"]
     #[inline(always)]
-    #[must_use]
     pub fn run(&mut self) -> RUN_W<TIMER_SPEC> {
         RUN_W::new(self, 1)
     }
     #[doc = "Bit 2 - Clears the timer, does not disable the timer and does not affect the alarm. This control can be written at any time."]
     #[inline(always)]
-    #[must_use]
     pub fn clear(&mut self) -> CLEAR_W<TIMER_SPEC> {
         CLEAR_W::new(self, 2)
     }
     #[doc = "Bit 4 - Enables the alarm. The alarm must be disabled while writing the alarm time."]
     #[inline(always)]
-    #[must_use]
     pub fn alarm_enab(&mut self) -> ALARM_ENAB_W<TIMER_SPEC> {
         ALARM_ENAB_W::new(self, 4)
     }
     #[doc = "Bit 5 - Alarm wakes the chip from low power mode"]
     #[inline(always)]
-    #[must_use]
     pub fn pwrup_on_alarm(&mut self) -> PWRUP_ON_ALARM_W<TIMER_SPEC> {
         PWRUP_ON_ALARM_W::new(self, 5)
     }
     #[doc = "Bit 6 - Alarm has fired. Write to 1 to clear the alarm."]
     #[inline(always)]
-    #[must_use]
     pub fn alarm(&mut self) -> ALARM_W<TIMER_SPEC> {
         ALARM_W::new(self, 6)
     }
     #[doc = "Bit 8 - Switch to lposc as the source of the 1kHz timer tick"]
     #[inline(always)]
-    #[must_use]
     pub fn use_lposc(&mut self) -> USE_LPOSC_W<TIMER_SPEC> {
         USE_LPOSC_W::new(self, 8)
     }
     #[doc = "Bit 9 - switch to xosc as the source of the 1kHz timer tick"]
     #[inline(always)]
-    #[must_use]
     pub fn use_xosc(&mut self) -> USE_XOSC_W<TIMER_SPEC> {
         USE_XOSC_W::new(self, 9)
     }
     #[doc = "Bit 10 - switch to gpio as the source of the 1kHz timer tick"]
     #[inline(always)]
-    #[must_use]
     pub fn use_gpio_1khz(&mut self) -> USE_GPIO_1KHZ_W<TIMER_SPEC> {
         USE_GPIO_1KHZ_W::new(self, 10)
     }
     #[doc = "Bit 13 - Selects the gpio source as the reference for the sec counter. The msec counter will continue to use the lposc or xosc reference."]
     #[inline(always)]
-    #[must_use]
     pub fn use_gpio_1hz(&mut self) -> USE_GPIO_1HZ_W<TIMER_SPEC> {
         USE_GPIO_1HZ_W::new(self, 13)
     }
@@ -184,10 +174,7 @@ impl crate::Readable for TIMER_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`timer::W`](W) writer structure"]
 impl crate::Writable for TIMER_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x40;
 }
 #[doc = "`reset()` method sets TIMER to value 0"]
-impl crate::Resettable for TIMER_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TIMER_SPEC {}

@@ -716,19 +716,16 @@ impl R {
 impl W {
     #[doc = "Bits 0:1 - The transfer width used for the command prefix, if any"]
     #[inline(always)]
-    #[must_use]
     pub fn prefix_width(&mut self) -> PREFIX_WIDTH_W<M0_WFMT_SPEC> {
         PREFIX_WIDTH_W::new(self, 0)
     }
     #[doc = "Bits 2:3 - The transfer width used for the address. The address phase always transfers 24 bits in total."]
     #[inline(always)]
-    #[must_use]
     pub fn addr_width(&mut self) -> ADDR_WIDTH_W<M0_WFMT_SPEC> {
         ADDR_WIDTH_W::new(self, 2)
     }
     #[doc = "Bits 4:5 - The width used for the post-address command suffix, if any"]
     #[inline(always)]
-    #[must_use]
     pub fn suffix_width(&mut self) -> SUFFIX_WIDTH_W<M0_WFMT_SPEC> {
         SUFFIX_WIDTH_W::new(self, 4)
     }
@@ -736,19 +733,16 @@ impl W {
 
  If width is single, SD0/MOSI is held asserted low during the dummy phase, and SD1...SD3 are tristated. If width is dual/quad, all IOs are tristated during the dummy phase."]
     #[inline(always)]
-    #[must_use]
     pub fn dummy_width(&mut self) -> DUMMY_WIDTH_W<M0_WFMT_SPEC> {
         DUMMY_WIDTH_W::new(self, 6)
     }
     #[doc = "Bits 8:9 - The width used for the data transfer"]
     #[inline(always)]
-    #[must_use]
     pub fn data_width(&mut self) -> DATA_WIDTH_W<M0_WFMT_SPEC> {
         DATA_WIDTH_W::new(self, 8)
     }
     #[doc = "Bit 12 - Length of command prefix, in units of 8 bits. (i.e. 2 cycles for quad width, 4 for dual, 8 for single)"]
     #[inline(always)]
-    #[must_use]
     pub fn prefix_len(&mut self) -> PREFIX_LEN_W<M0_WFMT_SPEC> {
         PREFIX_LEN_W::new(self, 12)
     }
@@ -756,13 +750,11 @@ impl W {
 
  Only values of 0 and 8 bits are supported."]
     #[inline(always)]
-    #[must_use]
     pub fn suffix_len(&mut self) -> SUFFIX_LEN_W<M0_WFMT_SPEC> {
         SUFFIX_LEN_W::new(self, 14)
     }
     #[doc = "Bits 16:18 - Length of dummy phase between command suffix and data phase, in units of 4 bits. (i.e. 1 cycle for quad width, 2 for dual, 4 for single)"]
     #[inline(always)]
-    #[must_use]
     pub fn dummy_len(&mut self) -> DUMMY_LEN_W<M0_WFMT_SPEC> {
         DUMMY_LEN_W::new(self, 16)
     }
@@ -772,7 +764,6 @@ impl W {
 
  If the suffix is quad-width, it must be 0 or 8 bits in length, to ensure an even number of SCK edges."]
     #[inline(always)]
-    #[must_use]
     pub fn dtr(&mut self) -> DTR_W<M0_WFMT_SPEC> {
         DTR_W::new(self, 28)
     }
@@ -793,8 +784,6 @@ impl crate::Readable for M0_WFMT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`m0_wfmt::W`](W) writer structure"]
 impl crate::Writable for M0_WFMT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets M0_WFMT to value 0x1000"]
 impl crate::Resettable for M0_WFMT_SPEC {

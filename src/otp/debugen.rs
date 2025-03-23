@@ -98,7 +98,6 @@ impl W {
 
  Note also that core Mem-APs are unconditionally disabled when a core is switched to RISC-V mode (by setting the ARCHSEL bit and performing a warm reset of the core)."]
     #[inline(always)]
-    #[must_use]
     pub fn proc0(&mut self) -> PROC0_W<DEBUGEN_SPEC> {
         PROC0_W::new(self, 0)
     }
@@ -108,7 +107,6 @@ impl W {
 
  Note also that core Mem-APs are unconditionally disabled when a core is switched to RISC-V mode (by setting the ARCHSEL bit and performing a warm reset of the core)."]
     #[inline(always)]
-    #[must_use]
     pub fn proc0_secure(&mut self) -> PROC0_SECURE_W<DEBUGEN_SPEC> {
         PROC0_SECURE_W::new(self, 1)
     }
@@ -116,7 +114,6 @@ impl W {
 
  The Mem-AP is disabled by default if either of the debug disable critical flags is set, or if at least one debug key has been enrolled and the least secure of these enrolled key values has not been provided over SWD."]
     #[inline(always)]
-    #[must_use]
     pub fn proc1(&mut self) -> PROC1_W<DEBUGEN_SPEC> {
         PROC1_W::new(self, 2)
     }
@@ -124,7 +121,6 @@ impl W {
 
  Secure debug of core 1 is disabled by default if the secure debug disable critical flag is set, or if at least one debug key has been enrolled and the most secure of these enrolled key values not yet provided over SWD."]
     #[inline(always)]
-    #[must_use]
     pub fn proc1_secure(&mut self) -> PROC1_SECURE_W<DEBUGEN_SPEC> {
         PROC1_SECURE_W::new(self, 3)
     }
@@ -132,7 +128,6 @@ impl W {
 
  These components are disabled by default if either of the debug disable critical flags is set, or if at least one debug key has been enrolled and the least secure of these enrolled key values has not been provided over SWD."]
     #[inline(always)]
-    #[must_use]
     pub fn misc(&mut self) -> MISC_W<DEBUGEN_SPEC> {
         MISC_W::new(self, 8)
     }
@@ -161,10 +156,6 @@ impl crate::Readable for DEBUGEN_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`debugen::W`](W) writer structure"]
 impl crate::Writable for DEBUGEN_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DEBUGEN to value 0"]
-impl crate::Resettable for DEBUGEN_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DEBUGEN_SPEC {}

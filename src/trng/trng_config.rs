@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:1 - Selects the number of inverters (out of four possible selections) in the ring oscillator (the entropy source)."]
     #[inline(always)]
-    #[must_use]
     pub fn rnd_src_sel(&mut self) -> RND_SRC_SEL_W<TRNG_CONFIG_SPEC> {
         RND_SRC_SEL_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for TRNG_CONFIG_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trng_config::W`](W) writer structure"]
 impl crate::Writable for TRNG_CONFIG_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRNG_CONFIG to value 0"]
-impl crate::Resettable for TRNG_CONFIG_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRNG_CONFIG_SPEC {}

@@ -167,13 +167,11 @@ impl R {
 impl W {
     #[doc = "Bits 0:1 - Secure lock status. Writes are OR'd with the current value. This field is read-only to Non-secure code."]
     #[inline(always)]
-    #[must_use]
     pub fn sec(&mut self) -> SEC_W<SW_LOCK9_SPEC> {
         SEC_W::new(self, 0)
     }
     #[doc = "Bits 2:3 - Non-secure lock status. Writes are OR'd with the current value."]
     #[inline(always)]
-    #[must_use]
     pub fn nsec(&mut self) -> NSEC_W<SW_LOCK9_SPEC> {
         NSEC_W::new(self, 2)
     }
@@ -192,10 +190,6 @@ impl crate::Readable for SW_LOCK9_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sw_lock9::W`](W) writer structure"]
 impl crate::Writable for SW_LOCK9_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SW_LOCK9 to value 0"]
-impl crate::Resettable for SW_LOCK9_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SW_LOCK9_SPEC {}

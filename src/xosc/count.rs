@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:15"]
     #[inline(always)]
-    #[must_use]
     pub fn count(&mut self) -> COUNT_W<COUNT_SPEC> {
         COUNT_W::new(self, 0)
     }
@@ -24,7 +23,7 @@ impl W {
 #[doc = "A down counter running at the xosc frequency which counts to zero and stops.   
  Can be used for short software pauses when setting up time sensitive hardware.   
  To start the counter, write a non-zero value. Reads will return 1 while the count is running and 0 when it has finished.   
- Minimum count value is 4. Count values &lt;4 will be treated as count value =4.   
+ Minimum count value is 4. Count values <4 will be treated as count value =4.   
  Note that synchronisation to the register clock domain costs 2 register clock cycles and the counter cannot compensate for that.  
 
 You can [`read`](crate::Reg::read) this register and get [`count::R`](R). You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`count::W`](W). You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api)."]
@@ -37,10 +36,6 @@ impl crate::Readable for COUNT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`count::W`](W) writer structure"]
 impl crate::Writable for COUNT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets COUNT to value 0"]
-impl crate::Resettable for COUNT_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for COUNT_SPEC {}

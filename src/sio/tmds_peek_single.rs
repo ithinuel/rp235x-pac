@@ -23,6 +23,4 @@ impl crate::RegisterSpec for TMDS_PEEK_SINGLE_SPEC {
 #[doc = "`read()` method returns [`tmds_peek_single::R`](R) reader structure"]
 impl crate::Readable for TMDS_PEEK_SINGLE_SPEC {}
 #[doc = "`reset()` method sets TMDS_PEEK_SINGLE to value 0"]
-impl crate::Resettable for TMDS_PEEK_SINGLE_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TMDS_PEEK_SINGLE_SPEC {}

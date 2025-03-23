@@ -115,73 +115,61 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn ch0(&mut self) -> CH0_W<IRQ1_INTF_SPEC> {
         CH0_W::new(self, 0)
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn ch1(&mut self) -> CH1_W<IRQ1_INTF_SPEC> {
         CH1_W::new(self, 1)
     }
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn ch2(&mut self) -> CH2_W<IRQ1_INTF_SPEC> {
         CH2_W::new(self, 2)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn ch3(&mut self) -> CH3_W<IRQ1_INTF_SPEC> {
         CH3_W::new(self, 3)
     }
     #[doc = "Bit 4"]
     #[inline(always)]
-    #[must_use]
     pub fn ch4(&mut self) -> CH4_W<IRQ1_INTF_SPEC> {
         CH4_W::new(self, 4)
     }
     #[doc = "Bit 5"]
     #[inline(always)]
-    #[must_use]
     pub fn ch5(&mut self) -> CH5_W<IRQ1_INTF_SPEC> {
         CH5_W::new(self, 5)
     }
     #[doc = "Bit 6"]
     #[inline(always)]
-    #[must_use]
     pub fn ch6(&mut self) -> CH6_W<IRQ1_INTF_SPEC> {
         CH6_W::new(self, 6)
     }
     #[doc = "Bit 7"]
     #[inline(always)]
-    #[must_use]
     pub fn ch7(&mut self) -> CH7_W<IRQ1_INTF_SPEC> {
         CH7_W::new(self, 7)
     }
     #[doc = "Bit 8"]
     #[inline(always)]
-    #[must_use]
     pub fn ch8(&mut self) -> CH8_W<IRQ1_INTF_SPEC> {
         CH8_W::new(self, 8)
     }
     #[doc = "Bit 9"]
     #[inline(always)]
-    #[must_use]
     pub fn ch9(&mut self) -> CH9_W<IRQ1_INTF_SPEC> {
         CH9_W::new(self, 9)
     }
     #[doc = "Bit 10"]
     #[inline(always)]
-    #[must_use]
     pub fn ch10(&mut self) -> CH10_W<IRQ1_INTF_SPEC> {
         CH10_W::new(self, 10)
     }
     #[doc = "Bit 11"]
     #[inline(always)]
-    #[must_use]
     pub fn ch11(&mut self) -> CH11_W<IRQ1_INTF_SPEC> {
         CH11_W::new(self, 11)
     }
@@ -198,10 +186,6 @@ impl crate::Readable for IRQ1_INTF_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`irq1_intf::W`](W) writer structure"]
 impl crate::Writable for IRQ1_INTF_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets IRQ1_INTF to value 0"]
-impl crate::Resettable for IRQ1_INTF_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for IRQ1_INTF_SPEC {}

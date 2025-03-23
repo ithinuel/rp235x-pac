@@ -34,19 +34,16 @@ impl R {
 impl W {
     #[doc = "Bit 1 - Determine whether an address not covered by an active MPU region is Privileged (1) or Unprivileged (0)"]
     #[inline(always)]
-    #[must_use]
     pub fn p(&mut self) -> P_W<MPU_CTRL_SPEC> {
         P_W::new(self, 1)
     }
     #[doc = "Bit 2 - Determine whether an address not covered by an active MPU region is Secure (1) or Non-secure (0)"]
     #[inline(always)]
-    #[must_use]
     pub fn s(&mut self) -> S_W<MPU_CTRL_SPEC> {
         S_W::new(self, 2)
     }
     #[doc = "Bit 3 - By default, when a region's S bit is clear, Non-secure-Privileged reads can see the region's base address and limit address. Set this bit to make the addresses appear as 0 to Non-secure reads, even when the region is Non-secure, to avoid leaking information about the processor SAU map."]
     #[inline(always)]
-    #[must_use]
     pub fn ns_hide_addr(&mut self) -> NS_HIDE_ADDR_W<MPU_CTRL_SPEC> {
         NS_HIDE_ADDR_W::new(self, 3)
     }
@@ -63,10 +60,6 @@ impl crate::Readable for MPU_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`mpu_ctrl::W`](W) writer structure"]
 impl crate::Writable for MPU_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets MPU_CTRL to value 0"]
-impl crate::Resettable for MPU_CTRL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for MPU_CTRL_SPEC {}

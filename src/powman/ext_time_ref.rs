@@ -37,13 +37,11 @@ impl W {
  2 -> gpio14   
  3 -> gpio22"]
     #[inline(always)]
-    #[must_use]
     pub fn source_sel(&mut self) -> SOURCE_SEL_W<EXT_TIME_REF_SPEC> {
         SOURCE_SEL_W::new(self, 0)
     }
     #[doc = "Bit 4 - Use the selected GPIO to drive the 32kHz low power clock, in place of LPOSC. This field must only be written when POWMAN_TIMER_RUN=0"]
     #[inline(always)]
-    #[must_use]
     pub fn drive_lpck(&mut self) -> DRIVE_LPCK_W<EXT_TIME_REF_SPEC> {
         DRIVE_LPCK_W::new(self, 4)
     }
@@ -60,10 +58,6 @@ impl crate::Readable for EXT_TIME_REF_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ext_time_ref::W`](W) writer structure"]
 impl crate::Writable for EXT_TIME_REF_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets EXT_TIME_REF to value 0"]
-impl crate::Resettable for EXT_TIME_REF_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for EXT_TIME_REF_SPEC {}

@@ -142,91 +142,76 @@ impl R {
 impl W {
     #[doc = "Bits 0:7 - Provides information on MemManage exceptions"]
     #[inline(always)]
-    #[must_use]
     pub fn mmfsr(&mut self) -> MMFSR_W<CFSR_SPEC> {
         MMFSR_W::new(self, 0)
     }
     #[doc = "Bit 8 - Records whether a BusFault on an instruction prefetch has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn bfsr_ibuserr(&mut self) -> BFSR_IBUSERR_W<CFSR_SPEC> {
         BFSR_IBUSERR_W::new(self, 8)
     }
     #[doc = "Bit 9 - Records whether a precise data access error has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn bfsr_preciserr(&mut self) -> BFSR_PRECISERR_W<CFSR_SPEC> {
         BFSR_PRECISERR_W::new(self, 9)
     }
     #[doc = "Bit 10 - Records whether an imprecise data access error has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn bfsr_impreciserr(&mut self) -> BFSR_IMPRECISERR_W<CFSR_SPEC> {
         BFSR_IMPRECISERR_W::new(self, 10)
     }
     #[doc = "Bit 11 - Records whether a derived BusFault occurred during exception return unstacking"]
     #[inline(always)]
-    #[must_use]
     pub fn bfsr_unstkerr(&mut self) -> BFSR_UNSTKERR_W<CFSR_SPEC> {
         BFSR_UNSTKERR_W::new(self, 11)
     }
     #[doc = "Bit 12 - Records whether a derived BusFault occurred during exception entry stacking"]
     #[inline(always)]
-    #[must_use]
     pub fn bfsr_stkerr(&mut self) -> BFSR_STKERR_W<CFSR_SPEC> {
         BFSR_STKERR_W::new(self, 12)
     }
     #[doc = "Bit 13 - Records whether a BusFault occurred during FP lazy state preservation"]
     #[inline(always)]
-    #[must_use]
     pub fn bfsr_lsperr(&mut self) -> BFSR_LSPERR_W<CFSR_SPEC> {
         BFSR_LSPERR_W::new(self, 13)
     }
     #[doc = "Bit 15 - Indicates validity of the contents of the BFAR register"]
     #[inline(always)]
-    #[must_use]
     pub fn bfsr_bfarvalid(&mut self) -> BFSR_BFARVALID_W<CFSR_SPEC> {
         BFSR_BFARVALID_W::new(self, 15)
     }
     #[doc = "Bit 16 - Sticky flag indicating whether an undefined instruction error has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn ufsr_undefinstr(&mut self) -> UFSR_UNDEFINSTR_W<CFSR_SPEC> {
         UFSR_UNDEFINSTR_W::new(self, 16)
     }
     #[doc = "Bit 17 - Sticky flag indicating whether an EPSR.T or EPSR.IT validity error has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn ufsr_invstate(&mut self) -> UFSR_INVSTATE_W<CFSR_SPEC> {
         UFSR_INVSTATE_W::new(self, 17)
     }
     #[doc = "Bit 18 - Sticky flag indicating whether an integrity check error has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn ufsr_invpc(&mut self) -> UFSR_INVPC_W<CFSR_SPEC> {
         UFSR_INVPC_W::new(self, 18)
     }
     #[doc = "Bit 19 - Sticky flag indicating whether a coprocessor disabled or not present error has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn ufsr_nocp(&mut self) -> UFSR_NOCP_W<CFSR_SPEC> {
         UFSR_NOCP_W::new(self, 19)
     }
     #[doc = "Bit 20 - Sticky flag indicating whether a stack overflow error has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn ufsr_stkof(&mut self) -> UFSR_STKOF_W<CFSR_SPEC> {
         UFSR_STKOF_W::new(self, 20)
     }
     #[doc = "Bit 24 - Sticky flag indicating whether an unaligned access error has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn ufsr_unaligned(&mut self) -> UFSR_UNALIGNED_W<CFSR_SPEC> {
         UFSR_UNALIGNED_W::new(self, 24)
     }
     #[doc = "Bit 25 - Sticky flag indicating whether an integer division by zero error has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn ufsr_divbyzero(&mut self) -> UFSR_DIVBYZERO_W<CFSR_SPEC> {
         UFSR_DIVBYZERO_W::new(self, 25)
     }
@@ -249,10 +234,6 @@ impl crate::Readable for CFSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`cfsr::W`](W) writer structure"]
 impl crate::Writable for CFSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CFSR to value 0"]
-impl crate::Resettable for CFSR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CFSR_SPEC {}

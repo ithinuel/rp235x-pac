@@ -24,7 +24,6 @@ impl W {
 
  Note this bit has no effect if the channel security/privilege level, defined by SECCFG_CHx, is greater than the IRQ security/privilege defined by SECCFG_IRQ1."]
     #[inline(always)]
-    #[must_use]
     pub fn inte1(&mut self) -> INTE1_W<INTE1_SPEC> {
         INTE1_W::new(self, 0)
     }
@@ -41,10 +40,6 @@ impl crate::Readable for INTE1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`inte1::W`](W) writer structure"]
 impl crate::Writable for INTE1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets INTE1 to value 0"]
-impl crate::Resettable for INTE1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for INTE1_SPEC {}

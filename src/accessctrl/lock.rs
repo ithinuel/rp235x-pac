@@ -41,19 +41,16 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn core0(&mut self) -> CORE0_W<LOCK_SPEC> {
         CORE0_W::new(self, 0)
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn core1(&mut self) -> CORE1_W<LOCK_SPEC> {
         CORE1_W::new(self, 1)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn debug(&mut self) -> DEBUG_W<LOCK_SPEC> {
         DEBUG_W::new(self, 3)
     }
@@ -74,8 +71,6 @@ impl crate::Readable for LOCK_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`lock::W`](W) writer structure"]
 impl crate::Writable for LOCK_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets LOCK to value 0x04"]
 impl crate::Resettable for LOCK_SPEC {

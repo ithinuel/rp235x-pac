@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Write 1 to atomically set the core 0 software interrupt flag. Read to get the status of this flag."]
     #[inline(always)]
-    #[must_use]
     pub fn core0_set(&mut self) -> CORE0_SET_W<RISCV_SOFTIRQ_SPEC> {
         CORE0_SET_W::new(self, 0)
     }
     #[doc = "Bit 1 - Write 1 to atomically set the core 1 software interrupt flag. Read to get the status of this flag."]
     #[inline(always)]
-    #[must_use]
     pub fn core1_set(&mut self) -> CORE1_SET_W<RISCV_SOFTIRQ_SPEC> {
         CORE1_SET_W::new(self, 1)
     }
     #[doc = "Bit 8 - Write 1 to atomically clear the core 0 software interrupt flag. Read to get the status of this flag."]
     #[inline(always)]
-    #[must_use]
     pub fn core0_clr(&mut self) -> CORE0_CLR_W<RISCV_SOFTIRQ_SPEC> {
         CORE0_CLR_W::new(self, 8)
     }
     #[doc = "Bit 9 - Write 1 to atomically clear the core 1 software interrupt flag. Read to get the status of this flag."]
     #[inline(always)]
-    #[must_use]
     pub fn core1_clr(&mut self) -> CORE1_CLR_W<RISCV_SOFTIRQ_SPEC> {
         CORE1_CLR_W::new(self, 9)
     }
@@ -82,10 +78,6 @@ impl crate::Readable for RISCV_SOFTIRQ_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`riscv_softirq::W`](W) writer structure"]
 impl crate::Writable for RISCV_SOFTIRQ_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets RISCV_SOFTIRQ to value 0"]
-impl crate::Resettable for RISCV_SOFTIRQ_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for RISCV_SOFTIRQ_SPEC {}

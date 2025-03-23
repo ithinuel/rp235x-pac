@@ -19,6 +19,4 @@ impl crate::RegisterSpec for FLASH_PARTITION_SLOT_SIZE_SPEC {
 #[doc = "`read()` method returns [`flash_partition_slot_size::R`](R) reader structure"]
 impl crate::Readable for FLASH_PARTITION_SLOT_SIZE_SPEC {}
 #[doc = "`reset()` method sets FLASH_PARTITION_SLOT_SIZE to value 0"]
-impl crate::Resettable for FLASH_PARTITION_SLOT_SIZE_SPEC {
-    const RESET_VALUE: u16 = 0;
-}
+impl crate::Resettable for FLASH_PARTITION_SLOT_SIZE_SPEC {}

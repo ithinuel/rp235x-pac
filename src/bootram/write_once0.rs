@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn write_once0(&mut self) -> WRITE_ONCE0_W<WRITE_ONCE0_SPEC> {
         WRITE_ONCE0_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for WRITE_ONCE0_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`write_once0::W`](W) writer structure"]
 impl crate::Writable for WRITE_ONCE0_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets WRITE_ONCE0 to value 0"]
-impl crate::Resettable for WRITE_ONCE0_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for WRITE_ONCE0_SPEC {}

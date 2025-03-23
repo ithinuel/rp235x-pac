@@ -111,7 +111,6 @@ impl W {
 
  If 0, the sniffer can be accessed from either a Privileged or Unprivileged context (with sufficient security level) but can not see transfers from Privileged channels."]
     #[inline(always)]
-    #[must_use]
     pub fn sniff_p(&mut self) -> SNIFF_P_W<SECCFG_MISC_SPEC> {
         SNIFF_P_W::new(self, 0)
     }
@@ -119,55 +118,46 @@ impl W {
 
  If 0, the sniffer can be accessed from either a Secure or Non-secure context, but can not see data transfers of Secure channels."]
     #[inline(always)]
-    #[must_use]
     pub fn sniff_s(&mut self) -> SNIFF_S_W<SECCFG_MISC_SPEC> {
         SNIFF_S_W::new(self, 1)
     }
     #[doc = "Bit 2 - If 1, the TIMER0 register is only accessible from a Privileged (or more Secure) context, and timer DREQ 0 is only visible to Privileged (or more Secure) channels."]
     #[inline(always)]
-    #[must_use]
     pub fn timer0_p(&mut self) -> TIMER0_P_W<SECCFG_MISC_SPEC> {
         TIMER0_P_W::new(self, 2)
     }
     #[doc = "Bit 3 - If 1, the TIMER0 register is only accessible from a Secure context, and timer DREQ 0 is only visible to Secure channels."]
     #[inline(always)]
-    #[must_use]
     pub fn timer0_s(&mut self) -> TIMER0_S_W<SECCFG_MISC_SPEC> {
         TIMER0_S_W::new(self, 3)
     }
     #[doc = "Bit 4 - If 1, the TIMER1 register is only accessible from a Privileged (or more Secure) context, and timer DREQ 1 is only visible to Privileged (or more Secure) channels."]
     #[inline(always)]
-    #[must_use]
     pub fn timer1_p(&mut self) -> TIMER1_P_W<SECCFG_MISC_SPEC> {
         TIMER1_P_W::new(self, 4)
     }
     #[doc = "Bit 5 - If 1, the TIMER1 register is only accessible from a Secure context, and timer DREQ 1 is only visible to Secure channels."]
     #[inline(always)]
-    #[must_use]
     pub fn timer1_s(&mut self) -> TIMER1_S_W<SECCFG_MISC_SPEC> {
         TIMER1_S_W::new(self, 5)
     }
     #[doc = "Bit 6 - If 1, the TIMER2 register is only accessible from a Privileged (or more Secure) context, and timer DREQ 2 is only visible to Privileged (or more Secure) channels."]
     #[inline(always)]
-    #[must_use]
     pub fn timer2_p(&mut self) -> TIMER2_P_W<SECCFG_MISC_SPEC> {
         TIMER2_P_W::new(self, 6)
     }
     #[doc = "Bit 7 - If 1, the TIMER2 register is only accessible from a Secure context, and timer DREQ 2 is only visible to Secure channels."]
     #[inline(always)]
-    #[must_use]
     pub fn timer2_s(&mut self) -> TIMER2_S_W<SECCFG_MISC_SPEC> {
         TIMER2_S_W::new(self, 7)
     }
     #[doc = "Bit 8 - If 1, the TIMER3 register is only accessible from a Privileged (or more Secure) context, and timer DREQ 3 is only visible to Privileged (or more Secure) channels."]
     #[inline(always)]
-    #[must_use]
     pub fn timer3_p(&mut self) -> TIMER3_P_W<SECCFG_MISC_SPEC> {
         TIMER3_P_W::new(self, 8)
     }
     #[doc = "Bit 9 - If 1, the TIMER3 register is only accessible from a Secure context, and timer DREQ 3 is only visible to Secure channels."]
     #[inline(always)]
-    #[must_use]
     pub fn timer3_s(&mut self) -> TIMER3_S_W<SECCFG_MISC_SPEC> {
         TIMER3_S_W::new(self, 9)
     }
@@ -184,8 +174,6 @@ impl crate::Readable for SECCFG_MISC_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`seccfg_misc::W`](W) writer structure"]
 impl crate::Writable for SECCFG_MISC_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SECCFG_MISC to value 0x03ff"]
 impl crate::Resettable for SECCFG_MISC_SPEC {

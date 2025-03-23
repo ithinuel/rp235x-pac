@@ -17,7 +17,6 @@ impl W {
 
  This register supports word, halfword and byte writes, so that DMA from non-word-aligned buffers can be supported. The total amount of data per block remains the same (16 words, 32 halfwords or 64 bytes) and byte/halfword transfers must not be mixed within a block."]
     #[inline(always)]
-    #[must_use]
     pub fn wdata(&mut self) -> WDATA_W<WDATA_SPEC> {
         WDATA_W::new(self, 0)
     }
@@ -32,10 +31,6 @@ impl crate::RegisterSpec for WDATA_SPEC {
 #[doc = "`write(|w| ..)` method takes [`wdata::W`](W) writer structure"]
 impl crate::Writable for WDATA_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets WDATA to value 0"]
-impl crate::Resettable for WDATA_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for WDATA_SPEC {}

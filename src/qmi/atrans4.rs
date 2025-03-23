@@ -39,7 +39,6 @@ impl W {
 
  Taking a 24-bit virtual address, firstly bits 23:22 (the two MSBs) are masked to zero, and then BASE is added to bits 23:12 (the upper 12 bits) to form the physical address. Translation wraps on a 16 MiB boundary."]
     #[inline(always)]
-    #[must_use]
     pub fn base(&mut self) -> BASE_W<ATRANS4_SPEC> {
         BASE_W::new(self, 0)
     }
@@ -47,7 +46,6 @@ impl W {
 
  Bits 21:12 of the virtual address are compared to SIZE. Offsets greater than SIZE return a bus error, and do not cause a QSPI access."]
     #[inline(always)]
-    #[must_use]
     pub fn size(&mut self) -> SIZE_W<ATRANS4_SPEC> {
         SIZE_W::new(self, 16)
     }
@@ -70,8 +68,6 @@ impl crate::Readable for ATRANS4_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`atrans4::W`](W) writer structure"]
 impl crate::Writable for ATRANS4_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ATRANS4 to value 0x0400_0000"]
 impl crate::Resettable for ATRANS4_SPEC {

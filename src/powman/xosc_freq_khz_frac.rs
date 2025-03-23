@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:15 - Fractional component of the XOSC frequency in kHz. This field must only be written when POWMAN_TIMER_RUN=0 or POWMAN_TIMER_USING_XOSC=0"]
     #[inline(always)]
-    #[must_use]
     pub fn xosc_freq_khz_frac(&mut self) -> XOSC_FREQ_KHZ_FRAC_W<XOSC_FREQ_KHZ_FRAC_SPEC> {
         XOSC_FREQ_KHZ_FRAC_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for XOSC_FREQ_KHZ_FRAC_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`xosc_freq_khz_frac::W`](W) writer structure"]
 impl crate::Writable for XOSC_FREQ_KHZ_FRAC_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets XOSC_FREQ_KHZ_FRAC to value 0"]
-impl crate::Resettable for XOSC_FREQ_KHZ_FRAC_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for XOSC_FREQ_KHZ_FRAC_SPEC {}

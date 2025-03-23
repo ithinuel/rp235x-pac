@@ -119,56 +119,49 @@ impl R {
 impl W {
     #[doc = "Bits 0:2 - Stage 0 drive strength"]
     #[inline(always)]
-    #[must_use]
     pub fn ds0(&mut self) -> DS0_W<FREQA_SPEC> {
         DS0_W::new(self, 0)
     }
     #[doc = "Bit 3 - Randomises the stage 0 drive strength"]
     #[inline(always)]
-    #[must_use]
     pub fn ds0_random(&mut self) -> DS0_RANDOM_W<FREQA_SPEC> {
         DS0_RANDOM_W::new(self, 3)
     }
     #[doc = "Bits 4:6 - Stage 1 drive strength"]
     #[inline(always)]
-    #[must_use]
     pub fn ds1(&mut self) -> DS1_W<FREQA_SPEC> {
         DS1_W::new(self, 4)
     }
     #[doc = "Bit 7 - Randomises the stage 1 drive strength"]
     #[inline(always)]
-    #[must_use]
     pub fn ds1_random(&mut self) -> DS1_RANDOM_W<FREQA_SPEC> {
         DS1_RANDOM_W::new(self, 7)
     }
     #[doc = "Bits 8:10 - Stage 2 drive strength"]
     #[inline(always)]
-    #[must_use]
     pub fn ds2(&mut self) -> DS2_W<FREQA_SPEC> {
         DS2_W::new(self, 8)
     }
     #[doc = "Bits 12:14 - Stage 3 drive strength"]
     #[inline(always)]
-    #[must_use]
     pub fn ds3(&mut self) -> DS3_W<FREQA_SPEC> {
         DS3_W::new(self, 12)
     }
     #[doc = "Bits 16:31 - Set to 0x9696 to apply the settings   
  Any other value in this field will set all drive strengths to 0"]
     #[inline(always)]
-    #[must_use]
     pub fn passwd(&mut self) -> PASSWD_W<FREQA_SPEC> {
         PASSWD_W::new(self, 16)
     }
 }
-#[doc = "The FREQA &amp; FREQB registers control the frequency by controlling the drive strength of each stage   
+#[doc = "The FREQA & FREQB registers control the frequency by controlling the drive strength of each stage   
  The drive strength has 4 levels determined by the number of bits set   
  Increasing the number of bits set increases the drive strength and increases the oscillation frequency   
  0 bits set is the default drive strength   
  1 bit set doubles the drive strength   
  2 bits set triples drive strength   
  3 bits set quadruples drive strength   
- For frequency randomisation set both DS0_RANDOM=1 &amp; DS1_RANDOM=1  
+ For frequency randomisation set both DS0_RANDOM=1 & DS1_RANDOM=1  
 
 You can [`read`](crate::Reg::read) this register and get [`freqa::R`](R). You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`freqa::W`](W). You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api)."]
 pub struct FREQA_SPEC;
@@ -180,10 +173,6 @@ impl crate::Readable for FREQA_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`freqa::W`](W) writer structure"]
 impl crate::Writable for FREQA_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets FREQA to value 0"]
-impl crate::Resettable for FREQA_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for FREQA_SPEC {}

@@ -124,79 +124,66 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn sram0(&mut self) -> SRAM0_W<MEMPOWERDOWN_SPEC> {
         SRAM0_W::new(self, 0)
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn sram1(&mut self) -> SRAM1_W<MEMPOWERDOWN_SPEC> {
         SRAM1_W::new(self, 1)
     }
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn sram2(&mut self) -> SRAM2_W<MEMPOWERDOWN_SPEC> {
         SRAM2_W::new(self, 2)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn sram3(&mut self) -> SRAM3_W<MEMPOWERDOWN_SPEC> {
         SRAM3_W::new(self, 3)
     }
     #[doc = "Bit 4"]
     #[inline(always)]
-    #[must_use]
     pub fn sram4(&mut self) -> SRAM4_W<MEMPOWERDOWN_SPEC> {
         SRAM4_W::new(self, 4)
     }
     #[doc = "Bit 5"]
     #[inline(always)]
-    #[must_use]
     pub fn sram5(&mut self) -> SRAM5_W<MEMPOWERDOWN_SPEC> {
         SRAM5_W::new(self, 5)
     }
     #[doc = "Bit 6"]
     #[inline(always)]
-    #[must_use]
     pub fn sram6(&mut self) -> SRAM6_W<MEMPOWERDOWN_SPEC> {
         SRAM6_W::new(self, 6)
     }
     #[doc = "Bit 7"]
     #[inline(always)]
-    #[must_use]
     pub fn sram7(&mut self) -> SRAM7_W<MEMPOWERDOWN_SPEC> {
         SRAM7_W::new(self, 7)
     }
     #[doc = "Bit 8"]
     #[inline(always)]
-    #[must_use]
     pub fn sram8(&mut self) -> SRAM8_W<MEMPOWERDOWN_SPEC> {
         SRAM8_W::new(self, 8)
     }
     #[doc = "Bit 9"]
     #[inline(always)]
-    #[must_use]
     pub fn sram9(&mut self) -> SRAM9_W<MEMPOWERDOWN_SPEC> {
         SRAM9_W::new(self, 9)
     }
     #[doc = "Bit 10"]
     #[inline(always)]
-    #[must_use]
     pub fn usb(&mut self) -> USB_W<MEMPOWERDOWN_SPEC> {
         USB_W::new(self, 10)
     }
     #[doc = "Bit 11"]
     #[inline(always)]
-    #[must_use]
     pub fn rom(&mut self) -> ROM_W<MEMPOWERDOWN_SPEC> {
         ROM_W::new(self, 11)
     }
     #[doc = "Bit 12"]
     #[inline(always)]
-    #[must_use]
     pub fn bootram(&mut self) -> BOOTRAM_W<MEMPOWERDOWN_SPEC> {
         BOOTRAM_W::new(self, 12)
     }
@@ -215,10 +202,6 @@ impl crate::Readable for MEMPOWERDOWN_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`mempowerdown::W`](W) writer structure"]
 impl crate::Writable for MEMPOWERDOWN_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets MEMPOWERDOWN to value 0"]
-impl crate::Resettable for MEMPOWERDOWN_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for MEMPOWERDOWN_SPEC {}

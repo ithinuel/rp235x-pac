@@ -32,13 +32,11 @@ impl R {
 impl W {
     #[doc = "Bits 2:3 - Threshold at which stalling becomes active. This provides four levels. This level can be varied to optimize the level of invasion caused by stalling, balanced against the risk of a FIFO overflow"]
     #[inline(always)]
-    #[must_use]
     pub fn level(&mut self) -> LEVEL_W<TRCSTALLCTLR_SPEC> {
         LEVEL_W::new(self, 2)
     }
     #[doc = "Bit 8 - Stall processor based on instruction trace buffer space"]
     #[inline(always)]
-    #[must_use]
     pub fn istall(&mut self) -> ISTALL_W<TRCSTALLCTLR_SPEC> {
         ISTALL_W::new(self, 8)
     }
@@ -55,10 +53,6 @@ impl crate::Readable for TRCSTALLCTLR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcstallctlr::W`](W) writer structure"]
 impl crate::Writable for TRCSTALLCTLR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCSTALLCTLR to value 0"]
-impl crate::Resettable for TRCSTALLCTLR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCSTALLCTLR_SPEC {}

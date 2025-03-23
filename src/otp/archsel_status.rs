@@ -98,6 +98,4 @@ impl crate::RegisterSpec for ARCHSEL_STATUS_SPEC {
 #[doc = "`read()` method returns [`archsel_status::R`](R) reader structure"]
 impl crate::Readable for ARCHSEL_STATUS_SPEC {}
 #[doc = "`reset()` method sets ARCHSEL_STATUS to value 0"]
-impl crate::Resettable for ARCHSEL_STATUS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ARCHSEL_STATUS_SPEC {}

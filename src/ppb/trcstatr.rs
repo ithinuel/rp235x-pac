@@ -26,6 +26,4 @@ impl crate::RegisterSpec for TRCSTATR_SPEC {
 #[doc = "`read()` method returns [`trcstatr::R`](R) reader structure"]
 impl crate::Readable for TRCSTATR_SPEC {}
 #[doc = "`reset()` method sets TRCSTATR to value 0"]
-impl crate::Resettable for TRCSTATR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCSTATR_SPEC {}

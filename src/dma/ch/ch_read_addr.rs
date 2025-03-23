@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31 - This register updates automatically each time a read completes. The current value is the next address to be read by this channel."]
     #[inline(always)]
-    #[must_use]
     pub fn ch0_read_addr(&mut self) -> CH0_READ_ADDR_W<CH_READ_ADDR_SPEC> {
         CH0_READ_ADDR_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for CH_READ_ADDR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ch_read_addr::W`](W) writer structure"]
 impl crate::Writable for CH_READ_ADDR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CH_READ_ADDR to value 0"]
-impl crate::Resettable for CH_READ_ADDR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CH_READ_ADDR_SPEC {}

@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn dpidr7(&mut self) -> DPIDR7_W<DPIDR7_SPEC> {
         DPIDR7_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for DPIDR7_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dpidr7::W`](W) writer structure"]
 impl crate::Writable for DPIDR7_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DPIDR7 to value 0"]
-impl crate::Resettable for DPIDR7_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DPIDR7_SPEC {}

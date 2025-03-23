@@ -19,6 +19,4 @@ impl crate::RegisterSpec for USB_BOOT_FLAGS_R2_SPEC {
 #[doc = "`read()` method returns [`usb_boot_flags_r2::R`](R) reader structure"]
 impl crate::Readable for USB_BOOT_FLAGS_R2_SPEC {}
 #[doc = "`reset()` method sets USB_BOOT_FLAGS_R2 to value 0"]
-impl crate::Resettable for USB_BOOT_FLAGS_R2_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for USB_BOOT_FLAGS_R2_SPEC {}

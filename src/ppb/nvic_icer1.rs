@@ -2,25 +2,20 @@
 pub type R = crate::R<NVIC_ICER1_SPEC>;
 #[doc = "Register `NVIC_ICER1` writer"]
 pub type W = crate::W<NVIC_ICER1_SPEC>;
-#[doc = "Field `CLRENA` reader - For CLRENA\\[m\\]
-in NVIC_ICER*n, indicates whether interrupt 32*n + m is enabled"]
+#[doc = "Field `CLRENA` reader - For CLRENA\\[m\\] in NVIC_ICER*n, indicates whether interrupt 32*n + m is enabled"]
 pub type CLRENA_R = crate::FieldReader<u32>;
-#[doc = "Field `CLRENA` writer - For CLRENA\\[m\\]
-in NVIC_ICER*n, indicates whether interrupt 32*n + m is enabled"]
+#[doc = "Field `CLRENA` writer - For CLRENA\\[m\\] in NVIC_ICER*n, indicates whether interrupt 32*n + m is enabled"]
 pub type CLRENA_W<'a, REG> = crate::FieldWriter<'a, REG, 32, u32>;
 impl R {
-    #[doc = "Bits 0:31 - For CLRENA\\[m\\]
-in NVIC_ICER*n, indicates whether interrupt 32*n + m is enabled"]
+    #[doc = "Bits 0:31 - For CLRENA\\[m\\] in NVIC_ICER*n, indicates whether interrupt 32*n + m is enabled"]
     #[inline(always)]
     pub fn clrena(&self) -> CLRENA_R {
         CLRENA_R::new(self.bits)
     }
 }
 impl W {
-    #[doc = "Bits 0:31 - For CLRENA\\[m\\]
-in NVIC_ICER*n, indicates whether interrupt 32*n + m is enabled"]
+    #[doc = "Bits 0:31 - For CLRENA\\[m\\] in NVIC_ICER*n, indicates whether interrupt 32*n + m is enabled"]
     #[inline(always)]
-    #[must_use]
     pub fn clrena(&mut self) -> CLRENA_W<NVIC_ICER1_SPEC> {
         CLRENA_W::new(self, 0)
     }
@@ -37,10 +32,6 @@ impl crate::Readable for NVIC_ICER1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`nvic_icer1::W`](W) writer structure"]
 impl crate::Writable for NVIC_ICER1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets NVIC_ICER1 to value 0"]
-impl crate::Resettable for NVIC_ICER1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for NVIC_ICER1_SPEC {}

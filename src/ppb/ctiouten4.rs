@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:3 - Enables a cross trigger event to ctitrigout when the corresponding channel is activated. There is one bit of the field for each of the four channels."]
     #[inline(always)]
-    #[must_use]
     pub fn trigouten(&mut self) -> TRIGOUTEN_W<CTIOUTEN4_SPEC> {
         TRIGOUTEN_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for CTIOUTEN4_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ctiouten4::W`](W) writer structure"]
 impl crate::Writable for CTIOUTEN4_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CTIOUTEN4 to value 0"]
-impl crate::Resettable for CTIOUTEN4_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CTIOUTEN4_SPEC {}

@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Write 1'b1 - clear corresponding bit in RNG_ISR."]
     #[inline(always)]
-    #[must_use]
     pub fn ehr_valid(&mut self) -> EHR_VALID_W<RNG_ICR_SPEC> {
         EHR_VALID_W::new(self, 0)
     }
     #[doc = "Bit 1 - Cannot be cleared by SW! Only RNG reset clears this bit."]
     #[inline(always)]
-    #[must_use]
     pub fn autocorr_err(&mut self) -> AUTOCORR_ERR_W<RNG_ICR_SPEC> {
         AUTOCORR_ERR_W::new(self, 1)
     }
     #[doc = "Bit 2 - Write 1'b1 - clear corresponding bit in RNG_ISR."]
     #[inline(always)]
-    #[must_use]
     pub fn crngt_err(&mut self) -> CRNGT_ERR_W<RNG_ICR_SPEC> {
         CRNGT_ERR_W::new(self, 2)
     }
     #[doc = "Bit 3 - Write 1'b1 - clear corresponding bit in RNG_ISR."]
     #[inline(always)]
-    #[must_use]
     pub fn vn_err(&mut self) -> VN_ERR_W<RNG_ICR_SPEC> {
         VN_ERR_W::new(self, 3)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for RNG_ICR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`rng_icr::W`](W) writer structure"]
 impl crate::Writable for RNG_ICR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets RNG_ICR to value 0"]
-impl crate::Resettable for RNG_ICR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for RNG_ICR_SPEC {}

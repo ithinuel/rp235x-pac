@@ -61,37 +61,31 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Disable dual-issue."]
     #[inline(always)]
-    #[must_use]
     pub fn dismcycint(&mut self) -> DISMCYCINT_W<ACTLR_SPEC> {
         DISMCYCINT_W::new(self, 0)
     }
     #[doc = "Bit 2 - Disable dual-issue."]
     #[inline(always)]
-    #[must_use]
     pub fn disfold(&mut self) -> DISFOLD_W<ACTLR_SPEC> {
         DISFOLD_W::new(self, 2)
     }
     #[doc = "Bit 9 - Disable out-of-order FP instruction completion"]
     #[inline(always)]
-    #[must_use]
     pub fn disoofp(&mut self) -> DISOOFP_W<ACTLR_SPEC> {
         DISOOFP_W::new(self, 9)
     }
     #[doc = "Bit 10 - Disable FPU exception outputs"]
     #[inline(always)]
-    #[must_use]
     pub fn fpexcodis(&mut self) -> FPEXCODIS_W<ACTLR_SPEC> {
         FPEXCODIS_W::new(self, 10)
     }
     #[doc = "Bit 12 - Disable ATB Flush"]
     #[inline(always)]
-    #[must_use]
     pub fn disitmatbflush(&mut self) -> DISITMATBFLUSH_W<ACTLR_SPEC> {
         DISITMATBFLUSH_W::new(self, 12)
     }
     #[doc = "Bit 29 - External Exclusives Allowed with no MPU"]
     #[inline(always)]
-    #[must_use]
     pub fn extexclall(&mut self) -> EXTEXCLALL_W<ACTLR_SPEC> {
         EXTEXCLALL_W::new(self, 29)
     }
@@ -108,10 +102,6 @@ impl crate::Readable for ACTLR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`actlr::W`](W) writer structure"]
 impl crate::Writable for ACTLR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ACTLR to value 0"]
-impl crate::Resettable for ACTLR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ACTLR_SPEC {}

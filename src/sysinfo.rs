@@ -33,8 +33,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`chip_id::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chip_id`]
-module"]
+For information about available fields see [`mod@chip_id`] module"]
 pub type CHIP_ID = crate::Reg<chip_id::CHIP_ID_SPEC>;
 #[doc = "JEDEC JEP-106 compliant chip identifier."]
 pub mod chip_id;
@@ -42,8 +41,7 @@ pub mod chip_id;
 
 You can [`read`](crate::Reg::read) this register and get [`package_sel::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@package_sel`]
-module"]
+For information about available fields see [`mod@package_sel`] module"]
 pub type PACKAGE_SEL = crate::Reg<package_sel::PACKAGE_SEL_SPEC>;
 #[doc = ""]
 pub mod package_sel;
@@ -51,8 +49,7 @@ pub mod package_sel;
 
 You can [`read`](crate::Reg::read) this register and get [`platform::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@platform`]
-module"]
+For information about available fields see [`mod@platform`] module"]
 pub type PLATFORM = crate::Reg<platform::PLATFORM_SPEC>;
 #[doc = "Platform register. Allows software to know what environment it is running in during pre-production development. Post-production, the PLATFORM is always ASIC, non-SIM."]
 pub mod platform;
@@ -60,8 +57,7 @@ pub mod platform;
 
 You can [`read`](crate::Reg::read) this register and get [`gitref_rp2350::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gitref_rp2350`]
-module"]
+For information about available fields see [`mod@gitref_rp2350`] module"]
 pub type GITREF_RP2350 = crate::Reg<gitref_rp2350::GITREF_RP2350_SPEC>;
 #[doc = "Git hash of the chip source. Used to identify chip version."]
 pub mod gitref_rp2350;

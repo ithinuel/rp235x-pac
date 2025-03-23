@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Controls whether the SBRSEL field or the current Security state of the processor selects which version of the memory-mapped Banked registers are accessed to the debugger"]
     #[inline(always)]
-    #[must_use]
     pub fn sbrselen(&mut self) -> SBRSELEN_W<DSCSR_SPEC> {
         SBRSELEN_W::new(self, 0)
     }
     #[doc = "Bit 1 - If SBRSELEN is 1 this bit selects whether the Non-secure or the Secure version of the memory-mapped Banked registers are accessible to the debugger"]
     #[inline(always)]
-    #[must_use]
     pub fn sbrsel(&mut self) -> SBRSEL_W<DSCSR_SPEC> {
         SBRSEL_W::new(self, 1)
     }
     #[doc = "Bit 16 - This field indicates the current Security state of the processor"]
     #[inline(always)]
-    #[must_use]
     pub fn cds(&mut self) -> CDS_W<DSCSR_SPEC> {
         CDS_W::new(self, 16)
     }
     #[doc = "Bit 17 - Writes to the CDS bit are ignored unless CDSKEY is concurrently written to zero"]
     #[inline(always)]
-    #[must_use]
     pub fn cdskey(&mut self) -> CDSKEY_W<DSCSR_SPEC> {
         CDSKEY_W::new(self, 17)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for DSCSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dscsr::W`](W) writer structure"]
 impl crate::Writable for DSCSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DSCSR to value 0"]
-impl crate::Resettable for DSCSR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DSCSR_SPEC {}

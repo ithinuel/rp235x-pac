@@ -95,55 +95,46 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Enables the ITM"]
     #[inline(always)]
-    #[must_use]
     pub fn itmena(&mut self) -> ITMENA_W<ITM_TCR_SPEC> {
         ITMENA_W::new(self, 0)
     }
     #[doc = "Bit 1 - Enables Local timestamp generation"]
     #[inline(always)]
-    #[must_use]
     pub fn tsena(&mut self) -> TSENA_W<ITM_TCR_SPEC> {
         TSENA_W::new(self, 1)
     }
     #[doc = "Bit 2 - Enables Synchronization packet transmission for a synchronous TPIU"]
     #[inline(always)]
-    #[must_use]
     pub fn syncena(&mut self) -> SYNCENA_W<ITM_TCR_SPEC> {
         SYNCENA_W::new(self, 2)
     }
     #[doc = "Bit 3 - Enables forwarding of hardware event packet from the DWT unit to the ITM for output to the TPIU"]
     #[inline(always)]
-    #[must_use]
     pub fn txena(&mut self) -> TXENA_W<ITM_TCR_SPEC> {
         TXENA_W::new(self, 3)
     }
     #[doc = "Bit 4 - Enables asynchronous clocking of the timestamp counter"]
     #[inline(always)]
-    #[must_use]
     pub fn swoena(&mut self) -> SWOENA_W<ITM_TCR_SPEC> {
         SWOENA_W::new(self, 4)
     }
     #[doc = "Bit 5 - Stall the PE to guarantee delivery of Data Trace packets."]
     #[inline(always)]
-    #[must_use]
     pub fn stallena(&mut self) -> STALLENA_W<ITM_TCR_SPEC> {
         STALLENA_W::new(self, 5)
     }
     #[doc = "Bits 8:9 - Local timestamp prescaler, used with the trace packet reference clock"]
     #[inline(always)]
-    #[must_use]
     pub fn tsprescale(&mut self) -> TSPRESCALE_W<ITM_TCR_SPEC> {
         TSPRESCALE_W::new(self, 8)
     }
     #[doc = "Bits 10:11 - Defines how often the ITM generates a global timestamp, based on the global timestamp clock frequency, or disables generation of global timestamps"]
     #[inline(always)]
-    #[must_use]
     pub fn gtsfreq(&mut self) -> GTSFREQ_W<ITM_TCR_SPEC> {
         GTSFREQ_W::new(self, 10)
     }
     #[doc = "Bits 16:22 - Identifier for multi-source trace stream formatting. If multi-source trace is in use, the debugger must write a unique non-zero trace ID value to this field"]
     #[inline(always)]
-    #[must_use]
     pub fn tracebusid(&mut self) -> TRACEBUSID_W<ITM_TCR_SPEC> {
         TRACEBUSID_W::new(self, 16)
     }
@@ -160,10 +151,6 @@ impl crate::Readable for ITM_TCR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`itm_tcr::W`](W) writer structure"]
 impl crate::Writable for ITM_TCR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ITM_TCR to value 0"]
-impl crate::Resettable for ITM_TCR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ITM_TCR_SPEC {}

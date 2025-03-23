@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn seed(&mut self) -> SEED_W<RANDOM_SPEC> {
         SEED_W::new(self, 0)
     }
@@ -33,8 +32,6 @@ impl crate::Readable for RANDOM_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`random::W`](W) writer structure"]
 impl crate::Writable for RANDOM_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets RANDOM to value 0x3f04_b16d"]
 impl crate::Resettable for RANDOM_SPEC {

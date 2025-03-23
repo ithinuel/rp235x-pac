@@ -24,7 +24,6 @@ impl W {
  0 - not isolated (default)   
  1 - isolated"]
     #[inline(always)]
-    #[must_use]
     pub fn isolate(&mut self) -> ISOLATE_W<BOD_CTRL_SPEC> {
         ISOLATE_W::new(self, 12)
     }
@@ -41,10 +40,6 @@ impl crate::Readable for BOD_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`bod_ctrl::W`](W) writer structure"]
 impl crate::Writable for BOD_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets BOD_CTRL to value 0"]
-impl crate::Resettable for BOD_CTRL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for BOD_CTRL_SPEC {}

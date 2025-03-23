@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 16:17 - Integer part of clock divisor, 0 -> max+1, can be changed on-the-fly"]
     #[inline(always)]
-    #[must_use]
     pub fn int(&mut self) -> INT_W<CLK_PERI_DIV_SPEC> {
         INT_W::new(self, 16)
     }
@@ -33,8 +32,6 @@ impl crate::Readable for CLK_PERI_DIV_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`clk_peri_div::W`](W) writer structure"]
 impl crate::Writable for CLK_PERI_DIV_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CLK_PERI_DIV to value 0x0001_0000"]
 impl crate::Resettable for CLK_PERI_DIV_SPEC {

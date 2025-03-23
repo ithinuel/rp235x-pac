@@ -41,19 +41,16 @@ impl R {
 impl W {
     #[doc = "Bit 1 - Directly drive SWDIO input, if ATTACH is set"]
     #[inline(always)]
-    #[must_use]
     pub fn swdi(&mut self) -> SWDI_W<DBGFORCE_SPEC> {
         SWDI_W::new(self, 1)
     }
     #[doc = "Bit 2 - Directly drive SWCLK, if ATTACH is set"]
     #[inline(always)]
-    #[must_use]
     pub fn swclk(&mut self) -> SWCLK_W<DBGFORCE_SPEC> {
         SWCLK_W::new(self, 2)
     }
     #[doc = "Bit 3 - Attach chip debug port to syscfg controls, and disconnect it from external SWD pads."]
     #[inline(always)]
-    #[must_use]
     pub fn attach(&mut self) -> ATTACH_W<DBGFORCE_SPEC> {
         ATTACH_W::new(self, 3)
     }
@@ -70,8 +67,6 @@ impl crate::Readable for DBGFORCE_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dbgforce::W`](W) writer structure"]
 impl crate::Writable for DBGFORCE_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DBGFORCE to value 0x06"]
 impl crate::Resettable for DBGFORCE_SPEC {

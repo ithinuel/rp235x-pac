@@ -163,13 +163,11 @@ impl W {
 
  START must be written before initiating a DMA transfer to the SHA-256 core, because the core will always request 16 transfers at a time (1 512-bit block). Additionally, the DMA channel should be configured for a multiple of 16 32-bit transfers."]
     #[inline(always)]
-    #[must_use]
     pub fn start(&mut self) -> START_W<CSR_SPEC> {
         START_W::new(self, 0)
     }
     #[doc = "Bit 4 - Set when a write occurs whilst the SHA-256 core is not ready for data (WDATA_RDY is low). Write one to clear."]
     #[inline(always)]
-    #[must_use]
     pub fn err_wdata_not_rdy(&mut self) -> ERR_WDATA_NOT_RDY_W<CSR_SPEC> {
         ERR_WDATA_NOT_RDY_W::new(self, 4)
     }
@@ -177,7 +175,6 @@ impl W {
 
  The SHA-256 core's DREQ logic requests one entire block of data at once, since there is no FIFO, and data goes straight into the core's message schedule and digest hardware. Therefore, when transferring data with DMA, CSR_DMA_SIZE must be configured in advance so that the correct number of transfers can be requested per block."]
     #[inline(always)]
-    #[must_use]
     pub fn dma_size(&mut self) -> DMA_SIZE_W<CSR_SPEC> {
         DMA_SIZE_W::new(self, 8)
     }
@@ -189,7 +186,6 @@ impl W {
 
  This feature is enabled by default because using the SHA core to checksum byte buffers is expected to be more common than having preformatted SHA message words lying around."]
     #[inline(always)]
-    #[must_use]
     pub fn bswap(&mut self) -> BSWAP_W<CSR_SPEC> {
         BSWAP_W::new(self, 12)
     }
@@ -206,7 +202,6 @@ impl crate::Readable for CSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`csr::W`](W) writer structure"]
 impl crate::Writable for CSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x10;
 }
 #[doc = "`reset()` method sets CSR to value 0x1206"]

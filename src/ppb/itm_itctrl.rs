@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Integration mode enable bit - The possible values are: 0 - The trace unit is not in integration mode. 1 - The trace unit is in integration mode. This mode enables: A debug agent to perform topology detection. SoC test software to perform integration testing."]
     #[inline(always)]
-    #[must_use]
     pub fn ime(&mut self) -> IME_W<ITM_ITCTRL_SPEC> {
         IME_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for ITM_ITCTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`itm_itctrl::W`](W) writer structure"]
 impl crate::Writable for ITM_ITCTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ITM_ITCTRL to value 0"]
-impl crate::Resettable for ITM_ITCTRL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ITM_ITCTRL_SPEC {}

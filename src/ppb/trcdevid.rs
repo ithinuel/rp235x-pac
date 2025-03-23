@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn trcdevid(&mut self) -> TRCDEVID_W<TRCDEVID_SPEC> {
         TRCDEVID_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for TRCDEVID_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcdevid::W`](W) writer structure"]
 impl crate::Writable for TRCDEVID_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCDEVID to value 0"]
-impl crate::Resettable for TRCDEVID_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCDEVID_SPEC {}

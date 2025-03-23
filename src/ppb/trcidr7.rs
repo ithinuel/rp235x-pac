@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn trcidr7(&mut self) -> TRCIDR7_W<TRCIDR7_SPEC> {
         TRCIDR7_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for TRCIDR7_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcidr7::W`](W) writer structure"]
 impl crate::Writable for TRCIDR7_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCIDR7 to value 0"]
-impl crate::Resettable for TRCIDR7_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCIDR7_SPEC {}

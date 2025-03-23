@@ -54,8 +54,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`proc_config::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@proc_config`]
-module"]
+For information about available fields see [`mod@proc_config`] module"]
 pub type PROC_CONFIG = crate::Reg<proc_config::PROC_CONFIG_SPEC>;
 #[doc = "Configuration for processors"]
 pub mod proc_config;
@@ -67,8 +66,7 @@ pub mod proc_config;
 
 You can [`read`](crate::Reg::read) this register and get [`proc_in_sync_bypass::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`proc_in_sync_bypass::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@proc_in_sync_bypass`]
-module"]
+For information about available fields see [`mod@proc_in_sync_bypass`] module"]
 pub type PROC_IN_SYNC_BYPASS = crate::Reg<proc_in_sync_bypass::PROC_IN_SYNC_BYPASS_SPEC>;
 #[doc = "For each bit, if 1, bypass the input synchronizer between that GPIO   
  and the GPIO input register in the SIO. The input synchronizers should   
@@ -84,8 +82,7 @@ pub mod proc_in_sync_bypass;
 
 You can [`read`](crate::Reg::read) this register and get [`proc_in_sync_bypass_hi::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`proc_in_sync_bypass_hi::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@proc_in_sync_bypass_hi`]
-module"]
+For information about available fields see [`mod@proc_in_sync_bypass_hi`] module"]
 pub type PROC_IN_SYNC_BYPASS_HI = crate::Reg<proc_in_sync_bypass_hi::PROC_IN_SYNC_BYPASS_HI_SPEC>;
 #[doc = "For each bit, if 1, bypass the input synchronizer between that GPIO   
  and the GPIO input register in the SIO. The input synchronizers should   
@@ -97,8 +94,7 @@ pub mod proc_in_sync_bypass_hi;
 
 You can [`read`](crate::Reg::read) this register and get [`dbgforce::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dbgforce::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dbgforce`]
-module"]
+For information about available fields see [`mod@dbgforce`] module"]
 pub type DBGFORCE = crate::Reg<dbgforce::DBGFORCE_SPEC>;
 #[doc = "Directly control the chip SWD debug port"]
 pub mod dbgforce;
@@ -108,8 +104,7 @@ pub mod dbgforce;
 
 You can [`read`](crate::Reg::read) this register and get [`mempowerdown::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mempowerdown::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mempowerdown`]
-module"]
+For information about available fields see [`mod@mempowerdown`] module"]
 pub type MEMPOWERDOWN = crate::Reg<mempowerdown::MEMPOWERDOWN_SPEC>;
 #[doc = "Control PD pins to memories.   
  Set high to put memories to a low power state. In this state the memories will retain contents but not be accessible   
@@ -119,8 +114,7 @@ pub mod mempowerdown;
 
 You can [`read`](crate::Reg::read) this register and get [`auxctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`auxctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@auxctrl`]
-module"]
+For information about available fields see [`mod@auxctrl`] module"]
 pub type AUXCTRL = crate::Reg<auxctrl::AUXCTRL_SPEC>;
 #[doc = "Auxiliary system control register"]
 pub mod auxctrl;

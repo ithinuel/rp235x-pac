@@ -456,8 +456,7 @@ pub mod ch;
 
 You can [`read`](crate::Reg::read) this register and get [`intr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intr`]
-module"]
+For information about available fields see [`mod@intr`] module"]
 pub type INTR = crate::Reg<intr::INTR_SPEC>;
 #[doc = "Interrupt Status (raw)"]
 pub mod intr;
@@ -465,8 +464,7 @@ pub mod intr;
 
 You can [`read`](crate::Reg::read) this register and get [`inte0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`inte0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@inte0`]
-module"]
+For information about available fields see [`mod@inte0`] module"]
 pub type INTE0 = crate::Reg<inte0::INTE0_SPEC>;
 #[doc = "Interrupt Enables for IRQ 0"]
 pub mod inte0;
@@ -474,8 +472,7 @@ pub mod inte0;
 
 You can [`read`](crate::Reg::read) this register and get [`intf0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intf0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intf0`]
-module"]
+For information about available fields see [`mod@intf0`] module"]
 pub type INTF0 = crate::Reg<intf0::INTF0_SPEC>;
 #[doc = "Force Interrupts"]
 pub mod intf0;
@@ -483,8 +480,7 @@ pub mod intf0;
 
 You can [`read`](crate::Reg::read) this register and get [`ints0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ints0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ints0`]
-module"]
+For information about available fields see [`mod@ints0`] module"]
 pub type INTS0 = crate::Reg<ints0::INTS0_SPEC>;
 #[doc = "Interrupt Status for IRQ 0"]
 pub mod ints0;
@@ -492,8 +488,7 @@ pub mod ints0;
 
 You can [`read`](crate::Reg::read) this register and get [`intr1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intr1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intr1`]
-module"]
+For information about available fields see [`mod@intr1`] module"]
 pub type INTR1 = crate::Reg<intr1::INTR1_SPEC>;
 #[doc = "Interrupt Status (raw)"]
 pub mod intr1;
@@ -501,8 +496,7 @@ pub mod intr1;
 
 You can [`read`](crate::Reg::read) this register and get [`inte1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`inte1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@inte1`]
-module"]
+For information about available fields see [`mod@inte1`] module"]
 pub type INTE1 = crate::Reg<inte1::INTE1_SPEC>;
 #[doc = "Interrupt Enables for IRQ 1"]
 pub mod inte1;
@@ -510,8 +504,7 @@ pub mod inte1;
 
 You can [`read`](crate::Reg::read) this register and get [`intf1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intf1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intf1`]
-module"]
+For information about available fields see [`mod@intf1`] module"]
 pub type INTF1 = crate::Reg<intf1::INTF1_SPEC>;
 #[doc = "Force Interrupts"]
 pub mod intf1;
@@ -519,8 +512,7 @@ pub mod intf1;
 
 You can [`read`](crate::Reg::read) this register and get [`ints1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ints1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ints1`]
-module"]
+For information about available fields see [`mod@ints1`] module"]
 pub type INTS1 = crate::Reg<ints1::INTS1_SPEC>;
 #[doc = "Interrupt Status for IRQ 1"]
 pub mod ints1;
@@ -528,8 +520,7 @@ pub mod ints1;
 
 You can [`read`](crate::Reg::read) this register and get [`intr2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intr2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intr2`]
-module"]
+For information about available fields see [`mod@intr2`] module"]
 pub type INTR2 = crate::Reg<intr2::INTR2_SPEC>;
 #[doc = "Interrupt Status (raw)"]
 pub mod intr2;
@@ -537,8 +528,7 @@ pub mod intr2;
 
 You can [`read`](crate::Reg::read) this register and get [`inte2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`inte2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@inte2`]
-module"]
+For information about available fields see [`mod@inte2`] module"]
 pub type INTE2 = crate::Reg<inte2::INTE2_SPEC>;
 #[doc = "Interrupt Enables for IRQ 2"]
 pub mod inte2;
@@ -546,8 +536,7 @@ pub mod inte2;
 
 You can [`read`](crate::Reg::read) this register and get [`intf2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intf2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intf2`]
-module"]
+For information about available fields see [`mod@intf2`] module"]
 pub type INTF2 = crate::Reg<intf2::INTF2_SPEC>;
 #[doc = "Force Interrupts"]
 pub mod intf2;
@@ -555,8 +544,7 @@ pub mod intf2;
 
 You can [`read`](crate::Reg::read) this register and get [`ints2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ints2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ints2`]
-module"]
+For information about available fields see [`mod@ints2`] module"]
 pub type INTS2 = crate::Reg<ints2::INTS2_SPEC>;
 #[doc = "Interrupt Status for IRQ 2"]
 pub mod ints2;
@@ -564,8 +552,7 @@ pub mod ints2;
 
 You can [`read`](crate::Reg::read) this register and get [`intr3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intr3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intr3`]
-module"]
+For information about available fields see [`mod@intr3`] module"]
 pub type INTR3 = crate::Reg<intr3::INTR3_SPEC>;
 #[doc = "Interrupt Status (raw)"]
 pub mod intr3;
@@ -573,8 +560,7 @@ pub mod intr3;
 
 You can [`read`](crate::Reg::read) this register and get [`inte3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`inte3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@inte3`]
-module"]
+For information about available fields see [`mod@inte3`] module"]
 pub type INTE3 = crate::Reg<inte3::INTE3_SPEC>;
 #[doc = "Interrupt Enables for IRQ 3"]
 pub mod inte3;
@@ -582,8 +568,7 @@ pub mod inte3;
 
 You can [`read`](crate::Reg::read) this register and get [`intf3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intf3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intf3`]
-module"]
+For information about available fields see [`mod@intf3`] module"]
 pub type INTF3 = crate::Reg<intf3::INTF3_SPEC>;
 #[doc = "Force Interrupts"]
 pub mod intf3;
@@ -591,8 +576,7 @@ pub mod intf3;
 
 You can [`read`](crate::Reg::read) this register and get [`ints3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ints3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ints3`]
-module"]
+For information about available fields see [`mod@ints3`] module"]
 pub type INTS3 = crate::Reg<ints3::INTS3_SPEC>;
 #[doc = "Interrupt Status for IRQ 3"]
 pub mod ints3;
@@ -601,8 +585,7 @@ pub mod ints3;
 
 You can [`read`](crate::Reg::read) this register and get [`timer0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`timer0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@timer0`]
-module"]
+For information about available fields see [`mod@timer0`] module"]
 pub type TIMER0 = crate::Reg<timer0::TIMER0_SPEC>;
 #[doc = "Pacing (X/Y) fractional timer   
  The pacing timer produces TREQ assertions at a rate set by ((X/Y) * sys_clk). This equation is evaluated every sys_clk cycles and therefore can only generate TREQs at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."]
@@ -612,8 +595,7 @@ pub mod timer0;
 
 You can [`read`](crate::Reg::read) this register and get [`timer1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`timer1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@timer1`]
-module"]
+For information about available fields see [`mod@timer1`] module"]
 pub type TIMER1 = crate::Reg<timer1::TIMER1_SPEC>;
 #[doc = "Pacing (X/Y) fractional timer   
  The pacing timer produces TREQ assertions at a rate set by ((X/Y) * sys_clk). This equation is evaluated every sys_clk cycles and therefore can only generate TREQs at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."]
@@ -623,8 +605,7 @@ pub mod timer1;
 
 You can [`read`](crate::Reg::read) this register and get [`timer2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`timer2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@timer2`]
-module"]
+For information about available fields see [`mod@timer2`] module"]
 pub type TIMER2 = crate::Reg<timer2::TIMER2_SPEC>;
 #[doc = "Pacing (X/Y) fractional timer   
  The pacing timer produces TREQ assertions at a rate set by ((X/Y) * sys_clk). This equation is evaluated every sys_clk cycles and therefore can only generate TREQs at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."]
@@ -634,8 +615,7 @@ pub mod timer2;
 
 You can [`read`](crate::Reg::read) this register and get [`timer3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`timer3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@timer3`]
-module"]
+For information about available fields see [`mod@timer3`] module"]
 pub type TIMER3 = crate::Reg<timer3::TIMER3_SPEC>;
 #[doc = "Pacing (X/Y) fractional timer   
  The pacing timer produces TREQ assertions at a rate set by ((X/Y) * sys_clk). This equation is evaluated every sys_clk cycles and therefore can only generate TREQs at a rate of 1 per sys_clk (i.e. permanent TREQ) or less."]
@@ -644,8 +624,7 @@ pub mod timer3;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`multi_chan_trigger::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@multi_chan_trigger`]
-module"]
+For information about available fields see [`mod@multi_chan_trigger`] module"]
 pub type MULTI_CHAN_TRIGGER = crate::Reg<multi_chan_trigger::MULTI_CHAN_TRIGGER_SPEC>;
 #[doc = "Trigger one or more channels simultaneously"]
 pub mod multi_chan_trigger;
@@ -653,8 +632,7 @@ pub mod multi_chan_trigger;
 
 You can [`read`](crate::Reg::read) this register and get [`sniff_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sniff_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sniff_ctrl`]
-module"]
+For information about available fields see [`mod@sniff_ctrl`] module"]
 pub type SNIFF_CTRL = crate::Reg<sniff_ctrl::SNIFF_CTRL_SPEC>;
 #[doc = "Sniffer Control"]
 pub mod sniff_ctrl;
@@ -662,8 +640,7 @@ pub mod sniff_ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`sniff_data::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sniff_data::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sniff_data`]
-module"]
+For information about available fields see [`mod@sniff_data`] module"]
 pub type SNIFF_DATA = crate::Reg<sniff_data::SNIFF_DATA_SPEC>;
 #[doc = "Data accumulator for sniff hardware"]
 pub mod sniff_data;
@@ -671,8 +648,7 @@ pub mod sniff_data;
 
 You can [`read`](crate::Reg::read) this register and get [`fifo_levels::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fifo_levels`]
-module"]
+For information about available fields see [`mod@fifo_levels`] module"]
 pub type FIFO_LEVELS = crate::Reg<fifo_levels::FIFO_LEVELS_SPEC>;
 #[doc = "Debug RAF, WAF, TDF levels"]
 pub mod fifo_levels;
@@ -680,8 +656,7 @@ pub mod fifo_levels;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`chan_abort::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chan_abort`]
-module"]
+For information about available fields see [`mod@chan_abort`] module"]
 pub type CHAN_ABORT = crate::Reg<chan_abort::CHAN_ABORT_SPEC>;
 #[doc = "Abort an in-progress transfer sequence on one or more channels"]
 pub mod chan_abort;
@@ -689,8 +664,7 @@ pub mod chan_abort;
 
 You can [`read`](crate::Reg::read) this register and get [`n_channels::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@n_channels`]
-module"]
+For information about available fields see [`mod@n_channels`] module"]
 pub type N_CHANNELS = crate::Reg<n_channels::N_CHANNELS_SPEC>;
 #[doc = "The number of channels this DMA instance is equipped with. This DMA supports up to 16 hardware channels, but can be configured with as few as one, to minimise silicon area."]
 pub mod n_channels;
@@ -703,8 +677,7 @@ pub mod seccfg;
 
 You can [`read`](crate::Reg::read) this register and get [`seccfg_irq0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`seccfg_irq0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@seccfg_irq0`]
-module"]
+For information about available fields see [`mod@seccfg_irq0`] module"]
 pub type SECCFG_IRQ0 = crate::Reg<seccfg_irq0::SECCFG_IRQ0_SPEC>;
 #[doc = "Security configuration for IRQ 0. Control whether the IRQ permits configuration by Non-secure/Unprivileged contexts, and whether it can observe Secure/Privileged channel interrupt flags."]
 pub mod seccfg_irq0;
@@ -712,8 +685,7 @@ pub mod seccfg_irq0;
 
 You can [`read`](crate::Reg::read) this register and get [`seccfg_irq1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`seccfg_irq1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@seccfg_irq1`]
-module"]
+For information about available fields see [`mod@seccfg_irq1`] module"]
 pub type SECCFG_IRQ1 = crate::Reg<seccfg_irq1::SECCFG_IRQ1_SPEC>;
 #[doc = "Security configuration for IRQ 1. Control whether the IRQ permits configuration by Non-secure/Unprivileged contexts, and whether it can observe Secure/Privileged channel interrupt flags."]
 pub mod seccfg_irq1;
@@ -721,8 +693,7 @@ pub mod seccfg_irq1;
 
 You can [`read`](crate::Reg::read) this register and get [`seccfg_irq2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`seccfg_irq2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@seccfg_irq2`]
-module"]
+For information about available fields see [`mod@seccfg_irq2`] module"]
 pub type SECCFG_IRQ2 = crate::Reg<seccfg_irq2::SECCFG_IRQ2_SPEC>;
 #[doc = "Security configuration for IRQ 2. Control whether the IRQ permits configuration by Non-secure/Unprivileged contexts, and whether it can observe Secure/Privileged channel interrupt flags."]
 pub mod seccfg_irq2;
@@ -730,8 +701,7 @@ pub mod seccfg_irq2;
 
 You can [`read`](crate::Reg::read) this register and get [`seccfg_irq3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`seccfg_irq3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@seccfg_irq3`]
-module"]
+For information about available fields see [`mod@seccfg_irq3`] module"]
 pub type SECCFG_IRQ3 = crate::Reg<seccfg_irq3::SECCFG_IRQ3_SPEC>;
 #[doc = "Security configuration for IRQ 3. Control whether the IRQ permits configuration by Non-secure/Unprivileged contexts, and whether it can observe Secure/Privileged channel interrupt flags."]
 pub mod seccfg_irq3;
@@ -739,8 +709,7 @@ pub mod seccfg_irq3;
 
 You can [`read`](crate::Reg::read) this register and get [`seccfg_misc::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`seccfg_misc::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@seccfg_misc`]
-module"]
+For information about available fields see [`mod@seccfg_misc`] module"]
 pub type SECCFG_MISC = crate::Reg<seccfg_misc::SECCFG_MISC_SPEC>;
 #[doc = "Miscellaneous security configuration"]
 pub mod seccfg_misc;
@@ -748,8 +717,7 @@ pub mod seccfg_misc;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_ctrl`]
-module"]
+For information about available fields see [`mod@mpu_ctrl`] module"]
 pub type MPU_CTRL = crate::Reg<mpu_ctrl::MPU_CTRL_SPEC>;
 #[doc = "Control register for DMA MPU. Accessible only from a Privileged context."]
 pub mod mpu_ctrl;
@@ -762,8 +730,7 @@ pub mod mpu_reg;
 
 You can [`read`](crate::Reg::read) this register and get [`ch0_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch0_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch0_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch0_dbg_ctdreq`] module"]
 pub type CH0_DBG_CTDREQ = crate::Reg<ch0_dbg_ctdreq::CH0_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch0_dbg_ctdreq;
@@ -771,8 +738,7 @@ pub mod ch0_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch0_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch0_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch0_dbg_tcr`] module"]
 pub type CH0_DBG_TCR = crate::Reg<ch0_dbg_tcr::CH0_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch0_dbg_tcr;
@@ -780,8 +746,7 @@ pub mod ch0_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch1_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch1_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch1_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch1_dbg_ctdreq`] module"]
 pub type CH1_DBG_CTDREQ = crate::Reg<ch1_dbg_ctdreq::CH1_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch1_dbg_ctdreq;
@@ -789,8 +754,7 @@ pub mod ch1_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch1_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch1_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch1_dbg_tcr`] module"]
 pub type CH1_DBG_TCR = crate::Reg<ch1_dbg_tcr::CH1_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch1_dbg_tcr;
@@ -798,8 +762,7 @@ pub mod ch1_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch2_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch2_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch2_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch2_dbg_ctdreq`] module"]
 pub type CH2_DBG_CTDREQ = crate::Reg<ch2_dbg_ctdreq::CH2_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch2_dbg_ctdreq;
@@ -807,8 +770,7 @@ pub mod ch2_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch2_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch2_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch2_dbg_tcr`] module"]
 pub type CH2_DBG_TCR = crate::Reg<ch2_dbg_tcr::CH2_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch2_dbg_tcr;
@@ -816,8 +778,7 @@ pub mod ch2_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch3_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch3_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch3_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch3_dbg_ctdreq`] module"]
 pub type CH3_DBG_CTDREQ = crate::Reg<ch3_dbg_ctdreq::CH3_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch3_dbg_ctdreq;
@@ -825,8 +786,7 @@ pub mod ch3_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch3_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch3_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch3_dbg_tcr`] module"]
 pub type CH3_DBG_TCR = crate::Reg<ch3_dbg_tcr::CH3_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch3_dbg_tcr;
@@ -834,8 +794,7 @@ pub mod ch3_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch4_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch4_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch4_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch4_dbg_ctdreq`] module"]
 pub type CH4_DBG_CTDREQ = crate::Reg<ch4_dbg_ctdreq::CH4_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch4_dbg_ctdreq;
@@ -843,8 +802,7 @@ pub mod ch4_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch4_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch4_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch4_dbg_tcr`] module"]
 pub type CH4_DBG_TCR = crate::Reg<ch4_dbg_tcr::CH4_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch4_dbg_tcr;
@@ -852,8 +810,7 @@ pub mod ch4_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch5_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch5_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch5_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch5_dbg_ctdreq`] module"]
 pub type CH5_DBG_CTDREQ = crate::Reg<ch5_dbg_ctdreq::CH5_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch5_dbg_ctdreq;
@@ -861,8 +818,7 @@ pub mod ch5_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch5_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch5_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch5_dbg_tcr`] module"]
 pub type CH5_DBG_TCR = crate::Reg<ch5_dbg_tcr::CH5_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch5_dbg_tcr;
@@ -870,8 +826,7 @@ pub mod ch5_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch6_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch6_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch6_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch6_dbg_ctdreq`] module"]
 pub type CH6_DBG_CTDREQ = crate::Reg<ch6_dbg_ctdreq::CH6_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch6_dbg_ctdreq;
@@ -879,8 +834,7 @@ pub mod ch6_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch6_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch6_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch6_dbg_tcr`] module"]
 pub type CH6_DBG_TCR = crate::Reg<ch6_dbg_tcr::CH6_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch6_dbg_tcr;
@@ -888,8 +842,7 @@ pub mod ch6_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch7_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch7_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch7_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch7_dbg_ctdreq`] module"]
 pub type CH7_DBG_CTDREQ = crate::Reg<ch7_dbg_ctdreq::CH7_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch7_dbg_ctdreq;
@@ -897,8 +850,7 @@ pub mod ch7_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch7_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch7_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch7_dbg_tcr`] module"]
 pub type CH7_DBG_TCR = crate::Reg<ch7_dbg_tcr::CH7_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch7_dbg_tcr;
@@ -906,8 +858,7 @@ pub mod ch7_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch8_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch8_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch8_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch8_dbg_ctdreq`] module"]
 pub type CH8_DBG_CTDREQ = crate::Reg<ch8_dbg_ctdreq::CH8_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch8_dbg_ctdreq;
@@ -915,8 +866,7 @@ pub mod ch8_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch8_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch8_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch8_dbg_tcr`] module"]
 pub type CH8_DBG_TCR = crate::Reg<ch8_dbg_tcr::CH8_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch8_dbg_tcr;
@@ -924,8 +874,7 @@ pub mod ch8_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch9_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch9_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch9_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch9_dbg_ctdreq`] module"]
 pub type CH9_DBG_CTDREQ = crate::Reg<ch9_dbg_ctdreq::CH9_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch9_dbg_ctdreq;
@@ -933,8 +882,7 @@ pub mod ch9_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch9_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch9_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch9_dbg_tcr`] module"]
 pub type CH9_DBG_TCR = crate::Reg<ch9_dbg_tcr::CH9_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch9_dbg_tcr;
@@ -942,8 +890,7 @@ pub mod ch9_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch10_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch10_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch10_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch10_dbg_ctdreq`] module"]
 pub type CH10_DBG_CTDREQ = crate::Reg<ch10_dbg_ctdreq::CH10_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch10_dbg_ctdreq;
@@ -951,8 +898,7 @@ pub mod ch10_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch10_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch10_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch10_dbg_tcr`] module"]
 pub type CH10_DBG_TCR = crate::Reg<ch10_dbg_tcr::CH10_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch10_dbg_tcr;
@@ -960,8 +906,7 @@ pub mod ch10_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch11_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch11_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch11_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch11_dbg_ctdreq`] module"]
 pub type CH11_DBG_CTDREQ = crate::Reg<ch11_dbg_ctdreq::CH11_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch11_dbg_ctdreq;
@@ -969,8 +914,7 @@ pub mod ch11_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch11_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch11_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch11_dbg_tcr`] module"]
 pub type CH11_DBG_TCR = crate::Reg<ch11_dbg_tcr::CH11_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch11_dbg_tcr;
@@ -978,8 +922,7 @@ pub mod ch11_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch12_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch12_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch12_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch12_dbg_ctdreq`] module"]
 pub type CH12_DBG_CTDREQ = crate::Reg<ch12_dbg_ctdreq::CH12_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch12_dbg_ctdreq;
@@ -987,8 +930,7 @@ pub mod ch12_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch12_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch12_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch12_dbg_tcr`] module"]
 pub type CH12_DBG_TCR = crate::Reg<ch12_dbg_tcr::CH12_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch12_dbg_tcr;
@@ -996,8 +938,7 @@ pub mod ch12_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch13_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch13_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch13_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch13_dbg_ctdreq`] module"]
 pub type CH13_DBG_CTDREQ = crate::Reg<ch13_dbg_ctdreq::CH13_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch13_dbg_ctdreq;
@@ -1005,8 +946,7 @@ pub mod ch13_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch13_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch13_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch13_dbg_tcr`] module"]
 pub type CH13_DBG_TCR = crate::Reg<ch13_dbg_tcr::CH13_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch13_dbg_tcr;
@@ -1014,8 +954,7 @@ pub mod ch13_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch14_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch14_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch14_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch14_dbg_ctdreq`] module"]
 pub type CH14_DBG_CTDREQ = crate::Reg<ch14_dbg_ctdreq::CH14_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch14_dbg_ctdreq;
@@ -1023,8 +962,7 @@ pub mod ch14_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch14_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch14_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch14_dbg_tcr`] module"]
 pub type CH14_DBG_TCR = crate::Reg<ch14_dbg_tcr::CH14_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch14_dbg_tcr;
@@ -1032,8 +970,7 @@ pub mod ch14_dbg_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`ch15_dbg_ctdreq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ch15_dbg_ctdreq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch15_dbg_ctdreq`]
-module"]
+For information about available fields see [`mod@ch15_dbg_ctdreq`] module"]
 pub type CH15_DBG_CTDREQ = crate::Reg<ch15_dbg_ctdreq::CH15_DBG_CTDREQ_SPEC>;
 #[doc = "Read: get channel DREQ counter (i.e. how many accesses the DMA expects it can perform on the peripheral without overflow/underflow. Write any value: clears the counter, and cause channel to re-initiate DREQ handshake."]
 pub mod ch15_dbg_ctdreq;
@@ -1041,8 +978,7 @@ pub mod ch15_dbg_ctdreq;
 
 You can [`read`](crate::Reg::read) this register and get [`ch15_dbg_tcr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ch15_dbg_tcr`]
-module"]
+For information about available fields see [`mod@ch15_dbg_tcr`] module"]
 pub type CH15_DBG_TCR = crate::Reg<ch15_dbg_tcr::CH15_DBG_TCR_SPEC>;
 #[doc = "Read to get channel TRANS_COUNT reload value, i.e. the length of the next transfer"]
 pub mod ch15_dbg_tcr;

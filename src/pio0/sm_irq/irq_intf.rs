@@ -151,97 +151,81 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn sm0_rxnempty(&mut self) -> SM0_RXNEMPTY_W<IRQ_INTF_SPEC> {
         SM0_RXNEMPTY_W::new(self, 0)
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn sm1_rxnempty(&mut self) -> SM1_RXNEMPTY_W<IRQ_INTF_SPEC> {
         SM1_RXNEMPTY_W::new(self, 1)
     }
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn sm2_rxnempty(&mut self) -> SM2_RXNEMPTY_W<IRQ_INTF_SPEC> {
         SM2_RXNEMPTY_W::new(self, 2)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn sm3_rxnempty(&mut self) -> SM3_RXNEMPTY_W<IRQ_INTF_SPEC> {
         SM3_RXNEMPTY_W::new(self, 3)
     }
     #[doc = "Bit 4"]
     #[inline(always)]
-    #[must_use]
     pub fn sm0_txnfull(&mut self) -> SM0_TXNFULL_W<IRQ_INTF_SPEC> {
         SM0_TXNFULL_W::new(self, 4)
     }
     #[doc = "Bit 5"]
     #[inline(always)]
-    #[must_use]
     pub fn sm1_txnfull(&mut self) -> SM1_TXNFULL_W<IRQ_INTF_SPEC> {
         SM1_TXNFULL_W::new(self, 5)
     }
     #[doc = "Bit 6"]
     #[inline(always)]
-    #[must_use]
     pub fn sm2_txnfull(&mut self) -> SM2_TXNFULL_W<IRQ_INTF_SPEC> {
         SM2_TXNFULL_W::new(self, 6)
     }
     #[doc = "Bit 7"]
     #[inline(always)]
-    #[must_use]
     pub fn sm3_txnfull(&mut self) -> SM3_TXNFULL_W<IRQ_INTF_SPEC> {
         SM3_TXNFULL_W::new(self, 7)
     }
     #[doc = "Bit 8"]
     #[inline(always)]
-    #[must_use]
     pub fn sm0(&mut self) -> SM0_W<IRQ_INTF_SPEC> {
         SM0_W::new(self, 8)
     }
     #[doc = "Bit 9"]
     #[inline(always)]
-    #[must_use]
     pub fn sm1(&mut self) -> SM1_W<IRQ_INTF_SPEC> {
         SM1_W::new(self, 9)
     }
     #[doc = "Bit 10"]
     #[inline(always)]
-    #[must_use]
     pub fn sm2(&mut self) -> SM2_W<IRQ_INTF_SPEC> {
         SM2_W::new(self, 10)
     }
     #[doc = "Bit 11"]
     #[inline(always)]
-    #[must_use]
     pub fn sm3(&mut self) -> SM3_W<IRQ_INTF_SPEC> {
         SM3_W::new(self, 11)
     }
     #[doc = "Bit 12"]
     #[inline(always)]
-    #[must_use]
     pub fn sm4(&mut self) -> SM4_W<IRQ_INTF_SPEC> {
         SM4_W::new(self, 12)
     }
     #[doc = "Bit 13"]
     #[inline(always)]
-    #[must_use]
     pub fn sm5(&mut self) -> SM5_W<IRQ_INTF_SPEC> {
         SM5_W::new(self, 13)
     }
     #[doc = "Bit 14"]
     #[inline(always)]
-    #[must_use]
     pub fn sm6(&mut self) -> SM6_W<IRQ_INTF_SPEC> {
         SM6_W::new(self, 14)
     }
     #[doc = "Bit 15"]
     #[inline(always)]
-    #[must_use]
     pub fn sm7(&mut self) -> SM7_W<IRQ_INTF_SPEC> {
         SM7_W::new(self, 15)
     }
@@ -258,10 +242,6 @@ impl crate::Readable for IRQ_INTF_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`irq_intf::W`](W) writer structure"]
 impl crate::Writable for IRQ_INTF_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets IRQ_INTF to value 0"]
-impl crate::Resettable for IRQ_INTF_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for IRQ_INTF_SPEC {}

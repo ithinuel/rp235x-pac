@@ -25,13 +25,11 @@ impl R {
 impl W {
     #[doc = "Bits 0:1 - This feature has been removed"]
     #[inline(always)]
-    #[must_use]
     pub fn mode(&mut self) -> MODE_W<LPOSC_SPEC> {
         MODE_W::new(self, 0)
     }
     #[doc = "Bits 4:9 - Frequency trim - the trim step is typically 1% of the reset frequency, but can be up to 3%"]
     #[inline(always)]
-    #[must_use]
     pub fn trim(&mut self) -> TRIM_W<LPOSC_SPEC> {
         TRIM_W::new(self, 4)
     }
@@ -48,8 +46,6 @@ impl crate::Readable for LPOSC_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`lposc::W`](W) writer structure"]
 impl crate::Writable for LPOSC_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets LPOSC to value 0x0203"]
 impl crate::Resettable for LPOSC_SPEC {

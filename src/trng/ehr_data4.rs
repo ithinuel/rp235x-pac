@@ -1,11 +1,9 @@
 #[doc = "Register `EHR_DATA4` reader"]
 pub type R = crate::R<EHR_DATA4_SPEC>;
-#[doc = "Field `EHR_DATA4` reader - Bits \\[159:128\\]
-of Entropy Holding Register (EHR) - RNG output register"]
+#[doc = "Field `EHR_DATA4` reader - Bits \\[159:128\\] of Entropy Holding Register (EHR) - RNG output register"]
 pub type EHR_DATA4_R = crate::FieldReader<u32>;
 impl R {
-    #[doc = "Bits 0:31 - Bits \\[159:128\\]
-of Entropy Holding Register (EHR) - RNG output register"]
+    #[doc = "Bits 0:31 - Bits \\[159:128\\] of Entropy Holding Register (EHR) - RNG output register"]
     #[inline(always)]
     pub fn ehr_data4(&self) -> EHR_DATA4_R {
         EHR_DATA4_R::new(self.bits)
@@ -21,6 +19,4 @@ impl crate::RegisterSpec for EHR_DATA4_SPEC {
 #[doc = "`read()` method returns [`ehr_data4::R`](R) reader structure"]
 impl crate::Readable for EHR_DATA4_SPEC {}
 #[doc = "`reset()` method sets EHR_DATA4 to value 0"]
-impl crate::Resettable for EHR_DATA4_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for EHR_DATA4_SPEC {}

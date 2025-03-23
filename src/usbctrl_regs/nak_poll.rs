@@ -57,25 +57,21 @@ impl R {
 impl W {
     #[doc = "Bits 0:9 - NAK polling interval for a low speed device"]
     #[inline(always)]
-    #[must_use]
     pub fn delay_ls(&mut self) -> DELAY_LS_W<NAK_POLL_SPEC> {
         DELAY_LS_W::new(self, 0)
     }
     #[doc = "Bits 16:25 - NAK polling interval for a full speed device"]
     #[inline(always)]
-    #[must_use]
     pub fn delay_fs(&mut self) -> DELAY_FS_W<NAK_POLL_SPEC> {
         DELAY_FS_W::new(self, 16)
     }
     #[doc = "Bit 26 - Stop polling epx when a nak is received"]
     #[inline(always)]
-    #[must_use]
     pub fn stop_epx_on_nak(&mut self) -> STOP_EPX_ON_NAK_W<NAK_POLL_SPEC> {
         STOP_EPX_ON_NAK_W::new(self, 26)
     }
     #[doc = "Bit 27 - EPX polling has stopped because a nak was received"]
     #[inline(always)]
-    #[must_use]
     pub fn epx_stopped_on_nak(&mut self) -> EPX_STOPPED_ON_NAK_W<NAK_POLL_SPEC> {
         EPX_STOPPED_ON_NAK_W::new(self, 27)
     }
@@ -92,7 +88,6 @@ impl crate::Readable for NAK_POLL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`nak_poll::W`](W) writer structure"]
 impl crate::Writable for NAK_POLL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x0800_0000;
 }
 #[doc = "`reset()` method sets NAK_POLL to value 0x0010_0010"]

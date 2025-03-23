@@ -19,6 +19,4 @@ impl crate::RegisterSpec for KEY2_6_SPEC {
 #[doc = "`read()` method returns [`key2_6::R`](R) reader structure"]
 impl crate::Readable for KEY2_6_SPEC {}
 #[doc = "`reset()` method sets KEY2_6 to value 0"]
-impl crate::Resettable for KEY2_6_SPEC {
-    const RESET_VALUE: u16 = 0;
-}
+impl crate::Resettable for KEY2_6_SPEC {}

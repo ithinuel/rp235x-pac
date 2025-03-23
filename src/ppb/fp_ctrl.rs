@@ -53,13 +53,11 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Enables the FPB"]
     #[inline(always)]
-    #[must_use]
     pub fn enable(&mut self) -> ENABLE_W<FP_CTRL_SPEC> {
         ENABLE_W::new(self, 0)
     }
     #[doc = "Bit 1 - Writes to the FP_CTRL are ignored unless KEY is concurrently written to one"]
     #[inline(always)]
-    #[must_use]
     pub fn key(&mut self) -> KEY_W<FP_CTRL_SPEC> {
         KEY_W::new(self, 1)
     }
@@ -76,8 +74,6 @@ impl crate::Readable for FP_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`fp_ctrl::W`](W) writer structure"]
 impl crate::Writable for FP_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets FP_CTRL to value 0x6000_5580"]
 impl crate::Resettable for FP_CTRL_SPEC {

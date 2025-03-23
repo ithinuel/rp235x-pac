@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:11 - Instruction trace cycle count threshold"]
     #[inline(always)]
-    #[must_use]
     pub fn threshold(&mut self) -> THRESHOLD_W<TRCCCCTLR_SPEC> {
         THRESHOLD_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for TRCCCCTLR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcccctlr::W`](W) writer structure"]
 impl crate::Writable for TRCCCCTLR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCCCCTLR to value 0"]
-impl crate::Resettable for TRCCCCTLR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCCCCTLR_SPEC {}

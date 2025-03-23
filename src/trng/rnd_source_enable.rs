@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bit 0 - * 1'b1 - entropy source is enabled. *1'b0 - entropy source is disabled"]
     #[inline(always)]
-    #[must_use]
     pub fn rnd_src_en(&mut self) -> RND_SRC_EN_W<RND_SOURCE_ENABLE_SPEC> {
         RND_SRC_EN_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for RND_SOURCE_ENABLE_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`rnd_source_enable::W`](W) writer structure"]
 impl crate::Writable for RND_SOURCE_ENABLE_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets RND_SOURCE_ENABLE to value 0"]
-impl crate::Resettable for RND_SOURCE_ENABLE_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for RND_SOURCE_ENABLE_SPEC {}

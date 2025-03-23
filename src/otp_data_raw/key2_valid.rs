@@ -33,6 +33,4 @@ impl crate::RegisterSpec for KEY2_VALID_SPEC {
 #[doc = "`read()` method returns [`key2_valid::R`](R) reader structure"]
 impl crate::Readable for KEY2_VALID_SPEC {}
 #[doc = "`reset()` method sets KEY2_VALID to value 0"]
-impl crate::Resettable for KEY2_VALID_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for KEY2_VALID_SPEC {}

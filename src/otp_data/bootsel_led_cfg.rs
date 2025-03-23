@@ -27,6 +27,4 @@ impl crate::RegisterSpec for BOOTSEL_LED_CFG_SPEC {
 #[doc = "`read()` method returns [`bootsel_led_cfg::R`](R) reader structure"]
 impl crate::Readable for BOOTSEL_LED_CFG_SPEC {}
 #[doc = "`reset()` method sets BOOTSEL_LED_CFG to value 0"]
-impl crate::Resettable for BOOTSEL_LED_CFG_SPEC {
-    const RESET_VALUE: u16 = 0;
-}
+impl crate::Resettable for BOOTSEL_LED_CFG_SPEC {}

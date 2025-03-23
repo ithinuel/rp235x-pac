@@ -2,19 +2,16 @@
 pub type R = crate::R<MPU_BAR_SPEC>;
 #[doc = "Register `MPU_BAR` writer"]
 pub type W = crate::W<MPU_BAR_SPEC>;
-#[doc = "Field `ADDR` reader - This MPU region matches addresses where addr\\[31:5\\]
-(the 27 most significant bits) are greater than or equal to BAR_ADDR, and less than or equal to LAR_ADDR.  
+#[doc = "Field `ADDR` reader - This MPU region matches addresses where addr\\[31:5\\] (the 27 most significant bits) are greater than or equal to BAR_ADDR, and less than or equal to LAR_ADDR.  
 
  Readable from any Privileged context, if and only if this region's S bit is clear, and MPU_CTRL_NS_HIDE_ADDR is clear. Otherwise readable only from a Secure, Privileged context."]
 pub type ADDR_R = crate::FieldReader<u32>;
-#[doc = "Field `ADDR` writer - This MPU region matches addresses where addr\\[31:5\\]
-(the 27 most significant bits) are greater than or equal to BAR_ADDR, and less than or equal to LAR_ADDR.  
+#[doc = "Field `ADDR` writer - This MPU region matches addresses where addr\\[31:5\\] (the 27 most significant bits) are greater than or equal to BAR_ADDR, and less than or equal to LAR_ADDR.  
 
  Readable from any Privileged context, if and only if this region's S bit is clear, and MPU_CTRL_NS_HIDE_ADDR is clear. Otherwise readable only from a Secure, Privileged context."]
 pub type ADDR_W<'a, REG> = crate::FieldWriter<'a, REG, 27, u32>;
 impl R {
-    #[doc = "Bits 5:31 - This MPU region matches addresses where addr\\[31:5\\]
-(the 27 most significant bits) are greater than or equal to BAR_ADDR, and less than or equal to LAR_ADDR.  
+    #[doc = "Bits 5:31 - This MPU region matches addresses where addr\\[31:5\\] (the 27 most significant bits) are greater than or equal to BAR_ADDR, and less than or equal to LAR_ADDR.  
 
  Readable from any Privileged context, if and only if this region's S bit is clear, and MPU_CTRL_NS_HIDE_ADDR is clear. Otherwise readable only from a Secure, Privileged context."]
     #[inline(always)]
@@ -23,12 +20,10 @@ impl R {
     }
 }
 impl W {
-    #[doc = "Bits 5:31 - This MPU region matches addresses where addr\\[31:5\\]
-(the 27 most significant bits) are greater than or equal to BAR_ADDR, and less than or equal to LAR_ADDR.  
+    #[doc = "Bits 5:31 - This MPU region matches addresses where addr\\[31:5\\] (the 27 most significant bits) are greater than or equal to BAR_ADDR, and less than or equal to LAR_ADDR.  
 
  Readable from any Privileged context, if and only if this region's S bit is clear, and MPU_CTRL_NS_HIDE_ADDR is clear. Otherwise readable only from a Secure, Privileged context."]
     #[inline(always)]
-    #[must_use]
     pub fn addr(&mut self) -> ADDR_W<MPU_BAR_SPEC> {
         ADDR_W::new(self, 5)
     }
@@ -45,10 +40,6 @@ impl crate::Readable for MPU_BAR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`mpu_bar::W`](W) writer structure"]
 impl crate::Writable for MPU_BAR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets MPU_BAR to value 0"]
-impl crate::Resettable for MPU_BAR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for MPU_BAR_SPEC {}

@@ -123,7 +123,7 @@ pub type INCR_WRITE_REV_R = crate::BitReader;
 
  If 1, and INCR_WRITE is 0, this otherwise-unused combination causes the write address to be incremented by twice the transfer size, i.e. skipping over alternate addresses."]
 pub type INCR_WRITE_REV_W<'a, REG> = crate::BitWriter<'a, REG>;
-#[doc = "Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 &lt;&lt; n) byte boundary, facilitating access to naturally-aligned ring buffers.  
+#[doc = "Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 << n) byte boundary, facilitating access to naturally-aligned ring buffers.  
 
  Ring sizes between 2 and 32768 bytes are possible. This can apply to either read or write addresses, based on value of RING_SEL.  
 
@@ -144,7 +144,7 @@ impl crate::FieldSpec for RING_SIZE_A {
     type Ux = u8;
 }
 impl crate::IsEnum for RING_SIZE_A {}
-#[doc = "Field `RING_SIZE` reader - Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 &lt;&lt; n) byte boundary, facilitating access to naturally-aligned ring buffers.  
+#[doc = "Field `RING_SIZE` reader - Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 << n) byte boundary, facilitating access to naturally-aligned ring buffers.  
 
  Ring sizes between 2 and 32768 bytes are possible. This can apply to either read or write addresses, based on value of RING_SEL."]
 pub type RING_SIZE_R = crate::FieldReader<RING_SIZE_A>;
@@ -163,7 +163,7 @@ impl RING_SIZE_R {
         *self == RING_SIZE_A::RING_NONE
     }
 }
-#[doc = "Field `RING_SIZE` writer - Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 &lt;&lt; n) byte boundary, facilitating access to naturally-aligned ring buffers.  
+#[doc = "Field `RING_SIZE` writer - Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 << n) byte boundary, facilitating access to naturally-aligned ring buffers.  
 
  Ring sizes between 2 and 32768 bytes are possible. This can apply to either read or write addresses, based on value of RING_SEL."]
 pub type RING_SIZE_W<'a, REG> = crate::FieldWriter<'a, REG, 4, RING_SIZE_A>;
@@ -179,10 +179,10 @@ where
     }
 }
 #[doc = "Field `RING_SEL` reader - Select whether RING_SIZE applies to read or write addresses.   
- If 0, read addresses are wrapped on a (1 &lt;&lt; RING_SIZE) boundary. If 1, write addresses are wrapped."]
+ If 0, read addresses are wrapped on a (1 << RING_SIZE) boundary. If 1, write addresses are wrapped."]
 pub type RING_SEL_R = crate::BitReader;
 #[doc = "Field `RING_SEL` writer - Select whether RING_SIZE applies to read or write addresses.   
- If 0, read addresses are wrapped on a (1 &lt;&lt; RING_SIZE) boundary. If 1, write addresses are wrapped."]
+ If 0, read addresses are wrapped on a (1 << RING_SIZE) boundary. If 1, write addresses are wrapped."]
 pub type RING_SEL_W<'a, REG> = crate::BitWriter<'a, REG>;
 #[doc = "Field `CHAIN_TO` reader - When this channel completes, it will trigger the channel indicated by CHAIN_TO. Disable by setting CHAIN_TO = _(this channel)_.   
  Reset value is 0, which means for channels 1 and above the default will be to chain to channel 0 - set this field to avoid this behaviour."]
@@ -1099,7 +1099,7 @@ impl R {
     pub fn incr_write_rev(&self) -> INCR_WRITE_REV_R {
         INCR_WRITE_REV_R::new(((self.bits >> 7) & 1) != 0)
     }
-    #[doc = "Bits 8:11 - Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 &lt;&lt; n) byte boundary, facilitating access to naturally-aligned ring buffers.  
+    #[doc = "Bits 8:11 - Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 << n) byte boundary, facilitating access to naturally-aligned ring buffers.  
 
  Ring sizes between 2 and 32768 bytes are possible. This can apply to either read or write addresses, based on value of RING_SEL."]
     #[inline(always)]
@@ -1107,7 +1107,7 @@ impl R {
         RING_SIZE_R::new(((self.bits >> 8) & 0x0f) as u8)
     }
     #[doc = "Bit 12 - Select whether RING_SIZE applies to read or write addresses.   
- If 0, read addresses are wrapped on a (1 &lt;&lt; RING_SIZE) boundary. If 1, write addresses are wrapped."]
+ If 0, read addresses are wrapped on a (1 << RING_SIZE) boundary. If 1, write addresses are wrapped."]
     #[inline(always)]
     pub fn ring_sel(&self) -> RING_SEL_R {
         RING_SEL_R::new(((self.bits >> 12) & 1) != 0)
@@ -1174,7 +1174,6 @@ impl W {
     #[doc = "Bit 0 - DMA Channel Enable.   
  When 1, the channel will respond to triggering events, which will cause it to become BUSY and start transferring data. When 0, the channel will ignore triggers, stop issuing transfers, and pause the current transfer sequence (i.e. BUSY will remain high if already high)"]
     #[inline(always)]
-    #[must_use]
     pub fn en(&mut self) -> EN_W<CH_AL1_CTRL_SPEC> {
         EN_W::new(self, 0)
     }
@@ -1182,13 +1181,11 @@ impl W {
 
  This only affects the order in which the DMA schedules channels. The DMA's bus priority is not changed. If the DMA is not saturated then a low priority channel will see no loss of throughput."]
     #[inline(always)]
-    #[must_use]
     pub fn high_priority(&mut self) -> HIGH_PRIORITY_W<CH_AL1_CTRL_SPEC> {
         HIGH_PRIORITY_W::new(self, 1)
     }
     #[doc = "Bits 2:3 - Set the size of each bus transfer (byte/halfword/word). READ_ADDR and WRITE_ADDR advance by this amount (1/2/4 bytes) with each transfer."]
     #[inline(always)]
-    #[must_use]
     pub fn data_size(&mut self) -> DATA_SIZE_W<CH_AL1_CTRL_SPEC> {
         DATA_SIZE_W::new(self, 2)
     }
@@ -1196,7 +1193,6 @@ impl W {
 
  Generally this should be disabled for peripheral-to-memory transfers."]
     #[inline(always)]
-    #[must_use]
     pub fn incr_read(&mut self) -> INCR_READ_W<CH_AL1_CTRL_SPEC> {
         INCR_READ_W::new(self, 4)
     }
@@ -1204,7 +1200,6 @@ impl W {
 
  If 1, and INCR_READ is 0, this otherwise-unused combination causes the read address to be incremented by twice the transfer size, i.e. skipping over alternate addresses."]
     #[inline(always)]
-    #[must_use]
     pub fn incr_read_rev(&mut self) -> INCR_READ_REV_W<CH_AL1_CTRL_SPEC> {
         INCR_READ_REV_W::new(self, 5)
     }
@@ -1212,7 +1207,6 @@ impl W {
 
  Generally this should be disabled for memory-to-peripheral transfers."]
     #[inline(always)]
-    #[must_use]
     pub fn incr_write(&mut self) -> INCR_WRITE_W<CH_AL1_CTRL_SPEC> {
         INCR_WRITE_W::new(self, 6)
     }
@@ -1220,29 +1214,25 @@ impl W {
 
  If 1, and INCR_WRITE is 0, this otherwise-unused combination causes the write address to be incremented by twice the transfer size, i.e. skipping over alternate addresses."]
     #[inline(always)]
-    #[must_use]
     pub fn incr_write_rev(&mut self) -> INCR_WRITE_REV_W<CH_AL1_CTRL_SPEC> {
         INCR_WRITE_REV_W::new(self, 7)
     }
-    #[doc = "Bits 8:11 - Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 &lt;&lt; n) byte boundary, facilitating access to naturally-aligned ring buffers.  
+    #[doc = "Bits 8:11 - Size of address wrap region. If 0, don't wrap. For values n > 0, only the lower n bits of the address will change. This wraps the address on a (1 << n) byte boundary, facilitating access to naturally-aligned ring buffers.  
 
  Ring sizes between 2 and 32768 bytes are possible. This can apply to either read or write addresses, based on value of RING_SEL."]
     #[inline(always)]
-    #[must_use]
     pub fn ring_size(&mut self) -> RING_SIZE_W<CH_AL1_CTRL_SPEC> {
         RING_SIZE_W::new(self, 8)
     }
     #[doc = "Bit 12 - Select whether RING_SIZE applies to read or write addresses.   
- If 0, read addresses are wrapped on a (1 &lt;&lt; RING_SIZE) boundary. If 1, write addresses are wrapped."]
+ If 0, read addresses are wrapped on a (1 << RING_SIZE) boundary. If 1, write addresses are wrapped."]
     #[inline(always)]
-    #[must_use]
     pub fn ring_sel(&mut self) -> RING_SEL_W<CH_AL1_CTRL_SPEC> {
         RING_SEL_W::new(self, 12)
     }
     #[doc = "Bits 13:16 - When this channel completes, it will trigger the channel indicated by CHAIN_TO. Disable by setting CHAIN_TO = _(this channel)_.   
  Reset value is 0, which means for channels 1 and above the default will be to chain to channel 0 - set this field to avoid this behaviour."]
     #[inline(always)]
-    #[must_use]
     pub fn chain_to(&mut self) -> CHAIN_TO_W<CH_AL1_CTRL_SPEC> {
         CHAIN_TO_W::new(self, 13)
     }
@@ -1250,7 +1240,6 @@ impl W {
  The channel uses the transfer request signal to pace its data transfer rate. Sources for TREQ signals are internal (TIMERS) or external (DREQ, a Data Request from the system).   
  0x0 to 0x3a -> select DREQ n as TREQ"]
     #[inline(always)]
-    #[must_use]
     pub fn treq_sel(&mut self) -> TREQ_SEL_W<CH_AL1_CTRL_SPEC> {
         TREQ_SEL_W::new(self, 17)
     }
@@ -1258,14 +1247,12 @@ impl W {
 
  This reduces the number of interrupts to be serviced by the CPU when transferring a DMA chain of many small control blocks."]
     #[inline(always)]
-    #[must_use]
     pub fn irq_quiet(&mut self) -> IRQ_QUIET_W<CH_AL1_CTRL_SPEC> {
         IRQ_QUIET_W::new(self, 23)
     }
     #[doc = "Bit 24 - Apply byte-swap transformation to DMA data.   
  For byte data, this has no effect. For halfword data, the two bytes of each halfword are swapped. For word data, the four bytes of each word are swapped to reverse order."]
     #[inline(always)]
-    #[must_use]
     pub fn bswap(&mut self) -> BSWAP_W<CH_AL1_CTRL_SPEC> {
         BSWAP_W::new(self, 24)
     }
@@ -1273,21 +1260,18 @@ impl W {
 
  This allows checksum to be enabled or disabled on a per-control- block basis."]
     #[inline(always)]
-    #[must_use]
     pub fn sniff_en(&mut self) -> SNIFF_EN_W<CH_AL1_CTRL_SPEC> {
         SNIFF_EN_W::new(self, 25)
     }
     #[doc = "Bit 29 - If 1, the channel received a write bus error. Write one to clear.   
  WRITE_ADDR shows the approximate address where the bus error was encountered (will not be earlier, or more than 5 transfers later)"]
     #[inline(always)]
-    #[must_use]
     pub fn write_error(&mut self) -> WRITE_ERROR_W<CH_AL1_CTRL_SPEC> {
         WRITE_ERROR_W::new(self, 29)
     }
     #[doc = "Bit 30 - If 1, the channel received a read bus error. Write one to clear.   
  READ_ADDR shows the approximate address where the bus error was encountered (will not be earlier, or more than 3 transfers later)"]
     #[inline(always)]
-    #[must_use]
     pub fn read_error(&mut self) -> READ_ERROR_W<CH_AL1_CTRL_SPEC> {
         READ_ERROR_W::new(self, 30)
     }
@@ -1304,10 +1288,7 @@ impl crate::Readable for CH_AL1_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ch_al1_ctrl::W`](W) writer structure"]
 impl crate::Writable for CH_AL1_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x6000_0000;
 }
 #[doc = "`reset()` method sets CH_AL1_CTRL to value 0"]
-impl crate::Resettable for CH_AL1_CTRL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CH_AL1_CTRL_SPEC {}

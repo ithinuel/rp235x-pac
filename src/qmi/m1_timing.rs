@@ -261,7 +261,6 @@ impl W {
 
  If software is increasing CLKDIV in anticipation of an increase in the system clock frequency, a dummy access to either memory window (and appropriate processor barriers/fences) must be inserted after the Mx_TIMING write to ensure the SCK divisor change is in effect _before_ the system clock is changed."]
     #[inline(always)]
-    #[must_use]
     pub fn clkdiv(&mut self) -> CLKDIV_W<M1_TIMING_SPEC> {
         CLKDIV_W::new(self, 0)
     }
@@ -269,7 +268,6 @@ impl W {
 
  At higher SCK frequencies, RXDELAY may need to be increased to account for the round trip delay of the pads, and the clock-to-Q delay of the QSPI memory device."]
     #[inline(always)]
-    #[must_use]
     pub fn rxdelay(&mut self) -> RXDELAY_W<M1_TIMING_SPEC> {
         RXDELAY_W::new(self, 8)
     }
@@ -277,7 +275,6 @@ impl W {
 
  Nonzero values may be required for PSRAM devices which enforce a longer minimum CS deselect time, so that they can perform internal DRAM refresh cycles whilst deselected."]
     #[inline(always)]
-    #[must_use]
     pub fn min_deselect(&mut self) -> MIN_DESELECT_W<M1_TIMING_SPEC> {
         MIN_DESELECT_W::new(self, 12)
     }
@@ -287,7 +284,6 @@ impl W {
 
  If a memory access is in progress at the time MAX_SELECT is reached, the QMI will wait for the access to complete before deasserting the chip select. This additional time must be accounted for to calculate a safe MAX_SELECT value. In the worst case, this may be a fully-formed serial transfer, including command prefix and address, with a data payload as large as one cache line."]
     #[inline(always)]
-    #[must_use]
     pub fn max_select(&mut self) -> MAX_SELECT_W<M1_TIMING_SPEC> {
         MAX_SELECT_W::new(self, 17)
     }
@@ -299,7 +295,6 @@ impl W {
 
  Note also that, in case the final SCK pulse is masked to save energy (true for non-DTR reads when COOLDOWN is disabled or PAGE_BREAK is reached), all of QMI's timing logic behaves as though the clock pulse were still present. The SELECT_HOLD time is applied from the point where the last SCK falling edge would be if the clock pulse were not masked."]
     #[inline(always)]
-    #[must_use]
     pub fn select_hold(&mut self) -> SELECT_HOLD_W<M1_TIMING_SPEC> {
         SELECT_HOLD_W::new(self, 23)
     }
@@ -307,7 +302,6 @@ impl W {
 
  The default setup time is one half SCK period, which is usually sufficient except for very high SCK frequencies with some flash devices."]
     #[inline(always)]
-    #[must_use]
     pub fn select_setup(&mut self) -> SELECT_SETUP_W<M1_TIMING_SPEC> {
         SELECT_SETUP_W::new(self, 25)
     }
@@ -317,7 +311,6 @@ impl W {
 
  This field has no effect when COOLDOWN is disabled."]
     #[inline(always)]
-    #[must_use]
     pub fn pagebreak(&mut self) -> PAGEBREAK_W<M1_TIMING_SPEC> {
         PAGEBREAK_W::new(self, 28)
     }
@@ -329,7 +322,6 @@ impl W {
 
  If COOLDOWN is 0, the address alignment configured by PAGEBREAK has been reached, or the total chip select assertion limit MAX_SELECT has been reached, the cooldown period is skipped, and the chip select will always be deasserted one half SCK period after the transfer finishes."]
     #[inline(always)]
-    #[must_use]
     pub fn cooldown(&mut self) -> COOLDOWN_W<M1_TIMING_SPEC> {
         COOLDOWN_W::new(self, 30)
     }
@@ -346,8 +338,6 @@ impl crate::Readable for M1_TIMING_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`m1_timing::W`](W) writer structure"]
 impl crate::Writable for M1_TIMING_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets M1_TIMING to value 0x4000_0004"]
 impl crate::Resettable for M1_TIMING_SPEC {

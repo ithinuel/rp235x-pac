@@ -26,6 +26,4 @@ impl crate::RegisterSpec for DWT_DEVTYPE_SPEC {
 #[doc = "`read()` method returns [`dwt_devtype::R`](R) reader structure"]
 impl crate::Readable for DWT_DEVTYPE_SPEC {}
 #[doc = "`reset()` method sets DWT_DEVTYPE to value 0"]
-impl crate::Resettable for DWT_DEVTYPE_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DWT_DEVTYPE_SPEC {}

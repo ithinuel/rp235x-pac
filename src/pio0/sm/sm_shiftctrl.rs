@@ -164,7 +164,6 @@ impl W {
 
  Note this masking is applied in addition to the masking usually performed by the IN instruction. This is mainly useful for the MOV x, PINS instruction, which otherwise has no way of masking pins."]
     #[inline(always)]
-    #[must_use]
     pub fn in_count(&mut self) -> IN_COUNT_W<SM_SHIFTCTRL_SPEC> {
         IN_COUNT_W::new(self, 0)
     }
@@ -174,7 +173,6 @@ impl W {
 
  Setting this bit will clear the FJOIN_TX and FJOIN_RX bits."]
     #[inline(always)]
-    #[must_use]
     pub fn fjoin_rx_get(&mut self) -> FJOIN_RX_GET_W<SM_SHIFTCTRL_SPEC> {
         FJOIN_RX_GET_W::new(self, 14)
     }
@@ -184,45 +182,38 @@ impl W {
 
  Setting this bit will clear the FJOIN_TX and FJOIN_RX bits."]
     #[inline(always)]
-    #[must_use]
     pub fn fjoin_rx_put(&mut self) -> FJOIN_RX_PUT_W<SM_SHIFTCTRL_SPEC> {
         FJOIN_RX_PUT_W::new(self, 15)
     }
     #[doc = "Bit 16 - Push automatically when the input shift register is filled, i.e. on an IN instruction which causes the input shift counter to reach or exceed PUSH_THRESH."]
     #[inline(always)]
-    #[must_use]
     pub fn autopush(&mut self) -> AUTOPUSH_W<SM_SHIFTCTRL_SPEC> {
         AUTOPUSH_W::new(self, 16)
     }
     #[doc = "Bit 17 - Pull automatically when the output shift register is emptied, i.e. on or following an OUT instruction which causes the output shift counter to reach or exceed PULL_THRESH."]
     #[inline(always)]
-    #[must_use]
     pub fn autopull(&mut self) -> AUTOPULL_W<SM_SHIFTCTRL_SPEC> {
         AUTOPULL_W::new(self, 17)
     }
     #[doc = "Bit 18 - 1 = shift input shift register to right (data enters from left). 0 = to left."]
     #[inline(always)]
-    #[must_use]
     pub fn in_shiftdir(&mut self) -> IN_SHIFTDIR_W<SM_SHIFTCTRL_SPEC> {
         IN_SHIFTDIR_W::new(self, 18)
     }
     #[doc = "Bit 19 - 1 = shift out of output shift register to right. 0 = to left."]
     #[inline(always)]
-    #[must_use]
     pub fn out_shiftdir(&mut self) -> OUT_SHIFTDIR_W<SM_SHIFTCTRL_SPEC> {
         OUT_SHIFTDIR_W::new(self, 19)
     }
     #[doc = "Bits 20:24 - Number of bits shifted into ISR before autopush, or conditional push (PUSH IFFULL), will take place.   
  Write 0 for value of 32."]
     #[inline(always)]
-    #[must_use]
     pub fn push_thresh(&mut self) -> PUSH_THRESH_W<SM_SHIFTCTRL_SPEC> {
         PUSH_THRESH_W::new(self, 20)
     }
     #[doc = "Bits 25:29 - Number of bits shifted out of OSR before autopull, or conditional pull (PULL IFEMPTY), will take place.   
  Write 0 for value of 32."]
     #[inline(always)]
-    #[must_use]
     pub fn pull_thresh(&mut self) -> PULL_THRESH_W<SM_SHIFTCTRL_SPEC> {
         PULL_THRESH_W::new(self, 25)
     }
@@ -230,7 +221,6 @@ impl W {
  RX FIFO is disabled as a result (always reads as both full and empty).   
  FIFOs are flushed when this bit is changed."]
     #[inline(always)]
-    #[must_use]
     pub fn fjoin_tx(&mut self) -> FJOIN_TX_W<SM_SHIFTCTRL_SPEC> {
         FJOIN_TX_W::new(self, 30)
     }
@@ -238,7 +228,6 @@ impl W {
  TX FIFO is disabled as a result (always reads as both full and empty).   
  FIFOs are flushed when this bit is changed."]
     #[inline(always)]
-    #[must_use]
     pub fn fjoin_rx(&mut self) -> FJOIN_RX_W<SM_SHIFTCTRL_SPEC> {
         FJOIN_RX_W::new(self, 31)
     }
@@ -255,8 +244,6 @@ impl crate::Readable for SM_SHIFTCTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sm_shiftctrl::W`](W) writer structure"]
 impl crate::Writable for SM_SHIFTCTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SM_SHIFTCTRL to value 0x000c_0000"]
 impl crate::Resettable for SM_SHIFTCTRL_SPEC {

@@ -60,6 +60,4 @@ impl crate::RegisterSpec for BOOTSEL_PLL_CFG_SPEC {
 #[doc = "`read()` method returns [`bootsel_pll_cfg::R`](R) reader structure"]
 impl crate::Readable for BOOTSEL_PLL_CFG_SPEC {}
 #[doc = "`reset()` method sets BOOTSEL_PLL_CFG to value 0"]
-impl crate::Resettable for BOOTSEL_PLL_CFG_SPEC {
-    const RESET_VALUE: u16 = 0;
-}
+impl crate::Resettable for BOOTSEL_PLL_CFG_SPEC {}

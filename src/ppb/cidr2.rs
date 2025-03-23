@@ -1,11 +1,9 @@
 #[doc = "Register `CIDR2` reader"]
 pub type R = crate::R<CIDR2_SPEC>;
-#[doc = "Field `PRMBL_2` reader - Preamble\\[2\\]. Contains bits\\[23:16\\]
-of the component identification code."]
+#[doc = "Field `PRMBL_2` reader - Preamble\\[2\\]. Contains bits\\[23:16\\] of the component identification code."]
 pub type PRMBL_2_R = crate::FieldReader;
 impl R {
-    #[doc = "Bits 0:7 - Preamble\\[2\\]. Contains bits\\[23:16\\]
-of the component identification code."]
+    #[doc = "Bits 0:7 - Preamble\\[2\\]. Contains bits\\[23:16\\] of the component identification code."]
     #[inline(always)]
     pub fn prmbl_2(&self) -> PRMBL_2_R {
         PRMBL_2_R::new((self.bits & 0xff) as u8)

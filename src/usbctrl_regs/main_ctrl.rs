@@ -49,13 +49,11 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Enable controller"]
     #[inline(always)]
-    #[must_use]
     pub fn controller_en(&mut self) -> CONTROLLER_EN_W<MAIN_CTRL_SPEC> {
         CONTROLLER_EN_W::new(self, 0)
     }
     #[doc = "Bit 1 - Device mode = 0, Host mode = 1"]
     #[inline(always)]
-    #[must_use]
     pub fn host_ndevice(&mut self) -> HOST_NDEVICE_W<MAIN_CTRL_SPEC> {
         HOST_NDEVICE_W::new(self, 1)
     }
@@ -63,13 +61,11 @@ impl W {
  Remove isolation once software has configured the controller   
  Not isolated = 0, Isolated = 1"]
     #[inline(always)]
-    #[must_use]
     pub fn phy_iso(&mut self) -> PHY_ISO_W<MAIN_CTRL_SPEC> {
         PHY_ISO_W::new(self, 2)
     }
     #[doc = "Bit 31 - Reduced timings for simulation"]
     #[inline(always)]
-    #[must_use]
     pub fn sim_timing(&mut self) -> SIM_TIMING_W<MAIN_CTRL_SPEC> {
         SIM_TIMING_W::new(self, 31)
     }
@@ -86,8 +82,6 @@ impl crate::Readable for MAIN_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`main_ctrl::W`](W) writer structure"]
 impl crate::Writable for MAIN_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets MAIN_CTRL to value 0x04"]
 impl crate::Resettable for MAIN_CTRL_SPEC {

@@ -5,7 +5,6 @@ pub type CRT_KEY_W1_W<'a, REG> = crate::FieldWriter<'a, REG, 32, u32>;
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn crt_key_w1(&mut self) -> CRT_KEY_W1_W<CRT_KEY_W1_SPEC> {
         CRT_KEY_W1_W::new(self, 0)
     }
@@ -20,10 +19,6 @@ impl crate::RegisterSpec for CRT_KEY_W1_SPEC {
 #[doc = "`write(|w| ..)` method takes [`crt_key_w1::W`](W) writer structure"]
 impl crate::Writable for CRT_KEY_W1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CRT_KEY_W1 to value 0"]
-impl crate::Resettable for CRT_KEY_W1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CRT_KEY_W1_SPEC {}

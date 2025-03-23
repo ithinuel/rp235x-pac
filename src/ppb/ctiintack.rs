@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:7 - Acknowledges the corresponding ctitrigout output. There is one bit of the register for each ctitrigout output. When a 1 is written to a bit in this register, the corresponding ctitrigout is acknowledged, causing it to be cleared."]
     #[inline(always)]
-    #[must_use]
     pub fn intack(&mut self) -> INTACK_W<CTIINTACK_SPEC> {
         INTACK_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for CTIINTACK_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ctiintack::W`](W) writer structure"]
 impl crate::Writable for CTIINTACK_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CTIINTACK to value 0"]
-impl crate::Resettable for CTIINTACK_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CTIINTACK_SPEC {}

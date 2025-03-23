@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn itm_pidr7(&mut self) -> ITM_PIDR7_W<ITM_PIDR7_SPEC> {
         ITM_PIDR7_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for ITM_PIDR7_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`itm_pidr7::W`](W) writer structure"]
 impl crate::Writable for ITM_PIDR7_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ITM_PIDR7 to value 0"]
-impl crate::Resettable for ITM_PIDR7_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ITM_PIDR7_SPEC {}

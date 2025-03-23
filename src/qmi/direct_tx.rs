@@ -65,19 +65,16 @@ impl W {
 
  For 16-bit data, the least-significant byte is transmitted first."]
     #[inline(always)]
-    #[must_use]
     pub fn data(&mut self) -> DATA_W<DIRECT_TX_SPEC> {
         DATA_W::new(self, 0)
     }
     #[doc = "Bits 16:17 - Configure whether this FIFO record is transferred with single/dual/quad interface width (0/1/2). Different widths can be mixed freely."]
     #[inline(always)]
-    #[must_use]
     pub fn iwidth(&mut self) -> IWIDTH_W<DIRECT_TX_SPEC> {
         IWIDTH_W::new(self, 16)
     }
     #[doc = "Bit 18 - Data width. If 0, hardware will transmit the 8 LSBs of the DIRECT_TX DATA field, and return an 8-bit value in the 8 LSBs of DIRECT_RX. If 1, the full 16-bit width is used. 8-bit and 16-bit transfers can be mixed freely."]
     #[inline(always)]
-    #[must_use]
     pub fn dwidth(&mut self) -> DWIDTH_W<DIRECT_TX_SPEC> {
         DWIDTH_W::new(self, 18)
     }
@@ -85,7 +82,6 @@ impl W {
 
  For dual and quad width (DSPI/QSPI), this sets whether the relevant SDx pads are set to output whilst transferring this FIFO record. In this case the command/address should have OE set, and the data transfer should have OE set or clear depending on the direction of the transfer."]
     #[inline(always)]
-    #[must_use]
     pub fn oe(&mut self) -> OE_W<DIRECT_TX_SPEC> {
         OE_W::new(self, 19)
     }
@@ -93,7 +89,6 @@ impl W {
 
  Useful to avoid garbage appearing in the RX FIFO when pushing the command at the beginning of a SPI transfer."]
     #[inline(always)]
-    #[must_use]
     pub fn nopush(&mut self) -> NOPUSH_W<DIRECT_TX_SPEC> {
         NOPUSH_W::new(self, 20)
     }
@@ -108,10 +103,6 @@ impl crate::RegisterSpec for DIRECT_TX_SPEC {
 #[doc = "`write(|w| ..)` method takes [`direct_tx::W`](W) writer structure"]
 impl crate::Writable for DIRECT_TX_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DIRECT_TX to value 0"]
-impl crate::Resettable for DIRECT_TX_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DIRECT_TX_SPEC {}

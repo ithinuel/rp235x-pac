@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0 - One bit per event, to enable generation of an event element in the instruction trace stream when the selected event occurs"]
     #[inline(always)]
-    #[must_use]
     pub fn insten0(&mut self) -> INSTEN0_W<TRCEVENTCTL1R_SPEC> {
         INSTEN0_W::new(self, 0)
     }
     #[doc = "Bit 1 - One bit per event, to enable generation of an event element in the instruction trace stream when the selected event occurs"]
     #[inline(always)]
-    #[must_use]
     pub fn insten1(&mut self) -> INSTEN1_W<TRCEVENTCTL1R_SPEC> {
         INSTEN1_W::new(self, 1)
     }
     #[doc = "Bit 11 - ATB enabled"]
     #[inline(always)]
-    #[must_use]
     pub fn atb(&mut self) -> ATB_W<TRCEVENTCTL1R_SPEC> {
         ATB_W::new(self, 11)
     }
     #[doc = "Bit 12 - Low power state behavior override"]
     #[inline(always)]
-    #[must_use]
     pub fn lpoverride(&mut self) -> LPOVERRIDE_W<TRCEVENTCTL1R_SPEC> {
         LPOVERRIDE_W::new(self, 12)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for TRCEVENTCTL1R_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trceventctl1r::W`](W) writer structure"]
 impl crate::Writable for TRCEVENTCTL1R_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCEVENTCTL1R to value 0"]
-impl crate::Resettable for TRCEVENTCTL1R_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCEVENTCTL1R_SPEC {}

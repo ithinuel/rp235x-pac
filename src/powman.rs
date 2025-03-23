@@ -138,7 +138,7 @@ impl RegisterBlock {
     #[doc = "0x38 - This register controls the power state of the 4 power domains.   
  The current power state is indicated in POWMAN_STATE_CURRENT which is read-only.   
  To change the state, write to POWMAN_STATE_REQ.   
- The coding of POWMAN_STATE_CURRENT &amp; POWMAN_STATE_REQ corresponds to the power states   
+ The coding of POWMAN_STATE_CURRENT & POWMAN_STATE_REQ corresponds to the power states   
  defined in the datasheet:   
  bit 3 = SWCORE   
  bit 2 = XIP cache   
@@ -448,7 +448,7 @@ impl RegisterBlock {
     pub const fn intf(&self) -> &INTF {
         &self.intf
     }
-    #[doc = "0xec - Interrupt status after masking &amp; forcing"]
+    #[doc = "0xec - Interrupt status after masking & forcing"]
     #[inline(always)]
     pub const fn ints(&self) -> &INTS {
         &self.ints
@@ -458,8 +458,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`badpasswd::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`badpasswd::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@badpasswd`]
-module"]
+For information about available fields see [`mod@badpasswd`] module"]
 pub type BADPASSWD = crate::Reg<badpasswd::BADPASSWD_SPEC>;
 #[doc = "Indicates a bad password has been used"]
 pub mod badpasswd;
@@ -467,8 +466,7 @@ pub mod badpasswd;
 
 You can [`read`](crate::Reg::read) this register and get [`vreg_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`vreg_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@vreg_ctrl`]
-module"]
+For information about available fields see [`mod@vreg_ctrl`] module"]
 pub type VREG_CTRL = crate::Reg<vreg_ctrl::VREG_CTRL_SPEC>;
 #[doc = "Voltage Regulator Control"]
 pub mod vreg_ctrl;
@@ -476,8 +474,7 @@ pub mod vreg_ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`vreg_sts::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@vreg_sts`]
-module"]
+For information about available fields see [`mod@vreg_sts`] module"]
 pub type VREG_STS = crate::Reg<vreg_sts::VREG_STS_SPEC>;
 #[doc = "Voltage Regulator Status"]
 pub mod vreg_sts;
@@ -485,8 +482,7 @@ pub mod vreg_sts;
 
 You can [`read`](crate::Reg::read) this register and get [`vreg::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`vreg::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@vreg`]
-module"]
+For information about available fields see [`mod@vreg`] module"]
 pub type VREG = crate::Reg<vreg::VREG_SPEC>;
 #[doc = "Voltage Regulator Settings"]
 pub mod vreg;
@@ -494,8 +490,7 @@ pub mod vreg;
 
 You can [`read`](crate::Reg::read) this register and get [`vreg_lp_entry::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`vreg_lp_entry::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@vreg_lp_entry`]
-module"]
+For information about available fields see [`mod@vreg_lp_entry`] module"]
 pub type VREG_LP_ENTRY = crate::Reg<vreg_lp_entry::VREG_LP_ENTRY_SPEC>;
 #[doc = "Voltage Regulator Low Power Entry Settings"]
 pub mod vreg_lp_entry;
@@ -503,8 +498,7 @@ pub mod vreg_lp_entry;
 
 You can [`read`](crate::Reg::read) this register and get [`vreg_lp_exit::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`vreg_lp_exit::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@vreg_lp_exit`]
-module"]
+For information about available fields see [`mod@vreg_lp_exit`] module"]
 pub type VREG_LP_EXIT = crate::Reg<vreg_lp_exit::VREG_LP_EXIT_SPEC>;
 #[doc = "Voltage Regulator Low Power Exit Settings"]
 pub mod vreg_lp_exit;
@@ -512,8 +506,7 @@ pub mod vreg_lp_exit;
 
 You can [`read`](crate::Reg::read) this register and get [`bod_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bod_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bod_ctrl`]
-module"]
+For information about available fields see [`mod@bod_ctrl`] module"]
 pub type BOD_CTRL = crate::Reg<bod_ctrl::BOD_CTRL_SPEC>;
 #[doc = "Brown-out Detection Control"]
 pub mod bod_ctrl;
@@ -521,8 +514,7 @@ pub mod bod_ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`bod::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bod::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bod`]
-module"]
+For information about available fields see [`mod@bod`] module"]
 pub type BOD = crate::Reg<bod::BOD_SPEC>;
 #[doc = "Brown-out Detection Settings"]
 pub mod bod;
@@ -530,8 +522,7 @@ pub mod bod;
 
 You can [`read`](crate::Reg::read) this register and get [`bod_lp_entry::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bod_lp_entry::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bod_lp_entry`]
-module"]
+For information about available fields see [`mod@bod_lp_entry`] module"]
 pub type BOD_LP_ENTRY = crate::Reg<bod_lp_entry::BOD_LP_ENTRY_SPEC>;
 #[doc = "Brown-out Detection Low Power Entry Settings"]
 pub mod bod_lp_entry;
@@ -539,8 +530,7 @@ pub mod bod_lp_entry;
 
 You can [`read`](crate::Reg::read) this register and get [`bod_lp_exit::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bod_lp_exit::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bod_lp_exit`]
-module"]
+For information about available fields see [`mod@bod_lp_exit`] module"]
 pub type BOD_LP_EXIT = crate::Reg<bod_lp_exit::BOD_LP_EXIT_SPEC>;
 #[doc = "Brown-out Detection Low Power Exit Settings"]
 pub mod bod_lp_exit;
@@ -548,8 +538,7 @@ pub mod bod_lp_exit;
 
 You can [`read`](crate::Reg::read) this register and get [`lposc::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`lposc::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@lposc`]
-module"]
+For information about available fields see [`mod@lposc`] module"]
 pub type LPOSC = crate::Reg<lposc::LPOSC_SPEC>;
 #[doc = "Low power oscillator control register."]
 pub mod lposc;
@@ -557,8 +546,7 @@ pub mod lposc;
 
 You can [`read`](crate::Reg::read) this register and get [`chip_reset::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`chip_reset::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chip_reset`]
-module"]
+For information about available fields see [`mod@chip_reset`] module"]
 pub type CHIP_RESET = crate::Reg<chip_reset::CHIP_RESET_SPEC>;
 #[doc = "Chip reset control and status"]
 pub mod chip_reset;
@@ -567,8 +555,7 @@ pub mod chip_reset;
 
 You can [`read`](crate::Reg::read) this register and get [`wdsel::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`wdsel::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@wdsel`]
-module"]
+For information about available fields see [`mod@wdsel`] module"]
 pub type WDSEL = crate::Reg<wdsel::WDSEL_SPEC>;
 #[doc = "Allows a watchdog reset to reset the internal state of powman in addition to the power-on state machine (PSM).   
  Note that powman ignores watchdog resets that do not select at least the CLOCKS stage or earlier stages in the PSM. If using these bits, it's recommended to set PSM_WDSEL to all-ones in addition to the desired bits in this register. Failing to select CLOCKS or earlier will result in the POWMAN_WDSEL register having no effect."]
@@ -578,8 +565,7 @@ pub mod wdsel;
 
 You can [`read`](crate::Reg::read) this register and get [`seq_cfg::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`seq_cfg::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@seq_cfg`]
-module"]
+For information about available fields see [`mod@seq_cfg`] module"]
 pub type SEQ_CFG = crate::Reg<seq_cfg::SEQ_CFG_SPEC>;
 #[doc = "For configuration of the power sequencer   
  Writes are ignored while POWMAN_STATE_CHANGING=1"]
@@ -587,7 +573,7 @@ pub mod seq_cfg;
 #[doc = "STATE (rw) register accessor: This register controls the power state of the 4 power domains.   
  The current power state is indicated in POWMAN_STATE_CURRENT which is read-only.   
  To change the state, write to POWMAN_STATE_REQ.   
- The coding of POWMAN_STATE_CURRENT &amp; POWMAN_STATE_REQ corresponds to the power states   
+ The coding of POWMAN_STATE_CURRENT & POWMAN_STATE_REQ corresponds to the power states   
  defined in the datasheet:   
  bit 3 = SWCORE   
  bit 2 = XIP cache   
@@ -599,13 +585,12 @@ pub mod seq_cfg;
 
 You can [`read`](crate::Reg::read) this register and get [`state::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`state::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@state`]
-module"]
+For information about available fields see [`mod@state`] module"]
 pub type STATE = crate::Reg<state::STATE_SPEC>;
 #[doc = "This register controls the power state of the 4 power domains.   
  The current power state is indicated in POWMAN_STATE_CURRENT which is read-only.   
  To change the state, write to POWMAN_STATE_REQ.   
- The coding of POWMAN_STATE_CURRENT &amp; POWMAN_STATE_REQ corresponds to the power states   
+ The coding of POWMAN_STATE_CURRENT & POWMAN_STATE_REQ corresponds to the power states   
  defined in the datasheet:   
  bit 3 = SWCORE   
  bit 2 = XIP cache   
@@ -619,8 +604,7 @@ pub mod state;
 
 You can [`read`](crate::Reg::read) this register and get [`pow_fastdiv::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pow_fastdiv::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pow_fastdiv`]
-module"]
+For information about available fields see [`mod@pow_fastdiv`] module"]
 pub type POW_FASTDIV = crate::Reg<pow_fastdiv::POW_FASTDIV_SPEC>;
 #[doc = ""]
 pub mod pow_fastdiv;
@@ -628,8 +612,7 @@ pub mod pow_fastdiv;
 
 You can [`read`](crate::Reg::read) this register and get [`pow_delay::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pow_delay::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pow_delay`]
-module"]
+For information about available fields see [`mod@pow_delay`] module"]
 pub type POW_DELAY = crate::Reg<pow_delay::POW_DELAY_SPEC>;
 #[doc = "power state machine delays"]
 pub mod pow_delay;
@@ -637,8 +620,7 @@ pub mod pow_delay;
 
 You can [`read`](crate::Reg::read) this register and get [`ext_ctrl0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ext_ctrl0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ext_ctrl0`]
-module"]
+For information about available fields see [`mod@ext_ctrl0`] module"]
 pub type EXT_CTRL0 = crate::Reg<ext_ctrl0::EXT_CTRL0_SPEC>;
 #[doc = "Configures a gpio as a power mode aware control output"]
 pub mod ext_ctrl0;
@@ -646,8 +628,7 @@ pub mod ext_ctrl0;
 
 You can [`read`](crate::Reg::read) this register and get [`ext_ctrl1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ext_ctrl1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ext_ctrl1`]
-module"]
+For information about available fields see [`mod@ext_ctrl1`] module"]
 pub type EXT_CTRL1 = crate::Reg<ext_ctrl1::EXT_CTRL1_SPEC>;
 #[doc = "Configures a gpio as a power mode aware control output"]
 pub mod ext_ctrl1;
@@ -655,8 +636,7 @@ pub mod ext_ctrl1;
 
 You can [`read`](crate::Reg::read) this register and get [`ext_time_ref::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ext_time_ref::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ext_time_ref`]
-module"]
+For information about available fields see [`mod@ext_time_ref`] module"]
 pub type EXT_TIME_REF = crate::Reg<ext_time_ref::EXT_TIME_REF_SPEC>;
 #[doc = "Select a GPIO to use as a time reference, the source can be used to drive the low power clock at 32kHz, or to provide a 1ms tick to the timer, or provide a 1Hz tick to the timer. The tick selection is controlled by the POWMAN_TIMER register."]
 pub mod ext_time_ref;
@@ -664,8 +644,7 @@ pub mod ext_time_ref;
 
 You can [`read`](crate::Reg::read) this register and get [`lposc_freq_khz_int::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`lposc_freq_khz_int::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@lposc_freq_khz_int`]
-module"]
+For information about available fields see [`mod@lposc_freq_khz_int`] module"]
 pub type LPOSC_FREQ_KHZ_INT = crate::Reg<lposc_freq_khz_int::LPOSC_FREQ_KHZ_INT_SPEC>;
 #[doc = "Informs the AON Timer of the integer component of the clock frequency when running off the LPOSC."]
 pub mod lposc_freq_khz_int;
@@ -673,8 +652,7 @@ pub mod lposc_freq_khz_int;
 
 You can [`read`](crate::Reg::read) this register and get [`lposc_freq_khz_frac::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`lposc_freq_khz_frac::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@lposc_freq_khz_frac`]
-module"]
+For information about available fields see [`mod@lposc_freq_khz_frac`] module"]
 pub type LPOSC_FREQ_KHZ_FRAC = crate::Reg<lposc_freq_khz_frac::LPOSC_FREQ_KHZ_FRAC_SPEC>;
 #[doc = "Informs the AON Timer of the fractional component of the clock frequency when running off the LPOSC."]
 pub mod lposc_freq_khz_frac;
@@ -682,8 +660,7 @@ pub mod lposc_freq_khz_frac;
 
 You can [`read`](crate::Reg::read) this register and get [`xosc_freq_khz_int::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`xosc_freq_khz_int::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@xosc_freq_khz_int`]
-module"]
+For information about available fields see [`mod@xosc_freq_khz_int`] module"]
 pub type XOSC_FREQ_KHZ_INT = crate::Reg<xosc_freq_khz_int::XOSC_FREQ_KHZ_INT_SPEC>;
 #[doc = "Informs the AON Timer of the integer component of the clock frequency when running off the XOSC."]
 pub mod xosc_freq_khz_int;
@@ -691,8 +668,7 @@ pub mod xosc_freq_khz_int;
 
 You can [`read`](crate::Reg::read) this register and get [`xosc_freq_khz_frac::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`xosc_freq_khz_frac::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@xosc_freq_khz_frac`]
-module"]
+For information about available fields see [`mod@xosc_freq_khz_frac`] module"]
 pub type XOSC_FREQ_KHZ_FRAC = crate::Reg<xosc_freq_khz_frac::XOSC_FREQ_KHZ_FRAC_SPEC>;
 #[doc = "Informs the AON Timer of the fractional component of the clock frequency when running off the XOSC."]
 pub mod xosc_freq_khz_frac;
@@ -700,8 +676,7 @@ pub mod xosc_freq_khz_frac;
 
 You can [`read`](crate::Reg::read) this register and get [`set_time_63to48::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`set_time_63to48::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@set_time_63to48`]
-module"]
+For information about available fields see [`mod@set_time_63to48`] module"]
 pub type SET_TIME_63TO48 = crate::Reg<set_time_63to48::SET_TIME_63TO48_SPEC>;
 #[doc = ""]
 pub mod set_time_63to48;
@@ -709,8 +684,7 @@ pub mod set_time_63to48;
 
 You can [`read`](crate::Reg::read) this register and get [`set_time_47to32::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`set_time_47to32::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@set_time_47to32`]
-module"]
+For information about available fields see [`mod@set_time_47to32`] module"]
 pub type SET_TIME_47TO32 = crate::Reg<set_time_47to32::SET_TIME_47TO32_SPEC>;
 #[doc = ""]
 pub mod set_time_47to32;
@@ -718,8 +692,7 @@ pub mod set_time_47to32;
 
 You can [`read`](crate::Reg::read) this register and get [`set_time_31to16::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`set_time_31to16::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@set_time_31to16`]
-module"]
+For information about available fields see [`mod@set_time_31to16`] module"]
 pub type SET_TIME_31TO16 = crate::Reg<set_time_31to16::SET_TIME_31TO16_SPEC>;
 #[doc = ""]
 pub mod set_time_31to16;
@@ -727,8 +700,7 @@ pub mod set_time_31to16;
 
 You can [`read`](crate::Reg::read) this register and get [`set_time_15to0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`set_time_15to0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@set_time_15to0`]
-module"]
+For information about available fields see [`mod@set_time_15to0`] module"]
 pub type SET_TIME_15TO0 = crate::Reg<set_time_15to0::SET_TIME_15TO0_SPEC>;
 #[doc = ""]
 pub mod set_time_15to0;
@@ -736,8 +708,7 @@ pub mod set_time_15to0;
 
 You can [`read`](crate::Reg::read) this register and get [`read_time_upper::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@read_time_upper`]
-module"]
+For information about available fields see [`mod@read_time_upper`] module"]
 pub type READ_TIME_UPPER = crate::Reg<read_time_upper::READ_TIME_UPPER_SPEC>;
 #[doc = ""]
 pub mod read_time_upper;
@@ -745,8 +716,7 @@ pub mod read_time_upper;
 
 You can [`read`](crate::Reg::read) this register and get [`read_time_lower::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@read_time_lower`]
-module"]
+For information about available fields see [`mod@read_time_lower`] module"]
 pub type READ_TIME_LOWER = crate::Reg<read_time_lower::READ_TIME_LOWER_SPEC>;
 #[doc = ""]
 pub mod read_time_lower;
@@ -754,8 +724,7 @@ pub mod read_time_lower;
 
 You can [`read`](crate::Reg::read) this register and get [`alarm_time_63to48::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`alarm_time_63to48::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@alarm_time_63to48`]
-module"]
+For information about available fields see [`mod@alarm_time_63to48`] module"]
 pub type ALARM_TIME_63TO48 = crate::Reg<alarm_time_63to48::ALARM_TIME_63TO48_SPEC>;
 #[doc = ""]
 pub mod alarm_time_63to48;
@@ -763,8 +732,7 @@ pub mod alarm_time_63to48;
 
 You can [`read`](crate::Reg::read) this register and get [`alarm_time_47to32::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`alarm_time_47to32::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@alarm_time_47to32`]
-module"]
+For information about available fields see [`mod@alarm_time_47to32`] module"]
 pub type ALARM_TIME_47TO32 = crate::Reg<alarm_time_47to32::ALARM_TIME_47TO32_SPEC>;
 #[doc = ""]
 pub mod alarm_time_47to32;
@@ -772,8 +740,7 @@ pub mod alarm_time_47to32;
 
 You can [`read`](crate::Reg::read) this register and get [`alarm_time_31to16::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`alarm_time_31to16::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@alarm_time_31to16`]
-module"]
+For information about available fields see [`mod@alarm_time_31to16`] module"]
 pub type ALARM_TIME_31TO16 = crate::Reg<alarm_time_31to16::ALARM_TIME_31TO16_SPEC>;
 #[doc = ""]
 pub mod alarm_time_31to16;
@@ -781,8 +748,7 @@ pub mod alarm_time_31to16;
 
 You can [`read`](crate::Reg::read) this register and get [`alarm_time_15to0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`alarm_time_15to0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@alarm_time_15to0`]
-module"]
+For information about available fields see [`mod@alarm_time_15to0`] module"]
 pub type ALARM_TIME_15TO0 = crate::Reg<alarm_time_15to0::ALARM_TIME_15TO0_SPEC>;
 #[doc = ""]
 pub mod alarm_time_15to0;
@@ -790,8 +756,7 @@ pub mod alarm_time_15to0;
 
 You can [`read`](crate::Reg::read) this register and get [`timer::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`timer::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@timer`]
-module"]
+For information about available fields see [`mod@timer`] module"]
 pub type TIMER = crate::Reg<timer::TIMER_SPEC>;
 #[doc = ""]
 pub mod timer;
@@ -813,8 +778,7 @@ pub mod timer;
 
 You can [`read`](crate::Reg::read) this register and get [`pwrup0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pwrup0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pwrup0`]
-module"]
+For information about available fields see [`mod@pwrup0`] module"]
 pub type PWRUP0 = crate::Reg<pwrup0::PWRUP0_SPEC>;
 #[doc = "4 GPIO powerup events can be configured to wake the chip up from a low power state.   
  The pwrups are level/edge sensitive and can be set to trigger on a high/rising or low/falling event   
@@ -850,8 +814,7 @@ pub mod pwrup0;
 
 You can [`read`](crate::Reg::read) this register and get [`pwrup1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pwrup1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pwrup1`]
-module"]
+For information about available fields see [`mod@pwrup1`] module"]
 pub type PWRUP1 = crate::Reg<pwrup1::PWRUP1_SPEC>;
 #[doc = "4 GPIO powerup events can be configured to wake the chip up from a low power state.   
  The pwrups are level/edge sensitive and can be set to trigger on a high/rising or low/falling event   
@@ -887,8 +850,7 @@ pub mod pwrup1;
 
 You can [`read`](crate::Reg::read) this register and get [`pwrup2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pwrup2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pwrup2`]
-module"]
+For information about available fields see [`mod@pwrup2`] module"]
 pub type PWRUP2 = crate::Reg<pwrup2::PWRUP2_SPEC>;
 #[doc = "4 GPIO powerup events can be configured to wake the chip up from a low power state.   
  The pwrups are level/edge sensitive and can be set to trigger on a high/rising or low/falling event   
@@ -924,8 +886,7 @@ pub mod pwrup2;
 
 You can [`read`](crate::Reg::read) this register and get [`pwrup3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pwrup3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pwrup3`]
-module"]
+For information about available fields see [`mod@pwrup3`] module"]
 pub type PWRUP3 = crate::Reg<pwrup3::PWRUP3_SPEC>;
 #[doc = "4 GPIO powerup events can be configured to wake the chip up from a low power state.   
  The pwrups are level/edge sensitive and can be set to trigger on a high/rising or low/falling event   
@@ -955,8 +916,7 @@ pub mod pwrup3;
 
 You can [`read`](crate::Reg::read) this register and get [`current_pwrup_req::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@current_pwrup_req`]
-module"]
+For information about available fields see [`mod@current_pwrup_req`] module"]
 pub type CURRENT_PWRUP_REQ = crate::Reg<current_pwrup_req::CURRENT_PWRUP_REQ_SPEC>;
 #[doc = "Indicates current powerup request state   
  pwrup events can be cleared by removing the enable from the pwrup register. The alarm pwrup req can be cleared by clearing timer.alarm_enab   
@@ -979,8 +939,7 @@ pub mod current_pwrup_req;
 
 You can [`read`](crate::Reg::read) this register and get [`last_swcore_pwrup::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@last_swcore_pwrup`]
-module"]
+For information about available fields see [`mod@last_swcore_pwrup`] module"]
 pub type LAST_SWCORE_PWRUP = crate::Reg<last_swcore_pwrup::LAST_SWCORE_PWRUP_SPEC>;
 #[doc = "Indicates which pwrup source triggered the last switched-core power up   
  0 = chip reset, for the source of the last reset see POWMAN_CHIP_RESET   
@@ -995,8 +954,7 @@ pub mod last_swcore_pwrup;
 
 You can [`read`](crate::Reg::read) this register and get [`dbg_pwrcfg::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dbg_pwrcfg::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dbg_pwrcfg`]
-module"]
+For information about available fields see [`mod@dbg_pwrcfg`] module"]
 pub type DBG_PWRCFG = crate::Reg<dbg_pwrcfg::DBG_PWRCFG_SPEC>;
 #[doc = ""]
 pub mod dbg_pwrcfg;
@@ -1010,8 +968,7 @@ pub mod dbg_pwrcfg;
 
 You can [`read`](crate::Reg::read) this register and get [`bootdis::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bootdis::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootdis`]
-module"]
+For information about available fields see [`mod@bootdis`] module"]
 pub type BOOTDIS = crate::Reg<bootdis::BOOTDIS_SPEC>;
 #[doc = "Tell the bootrom to ignore the BOOT0..3 registers following the next RSM reset (e.g. the next core power down/up).  
 
@@ -1025,8 +982,7 @@ pub mod bootdis;
 
 You can [`read`](crate::Reg::read) this register and get [`dbgconfig::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dbgconfig::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dbgconfig`]
-module"]
+For information about available fields see [`mod@dbgconfig`] module"]
 pub type DBGCONFIG = crate::Reg<dbgconfig::DBGCONFIG_SPEC>;
 #[doc = ""]
 pub mod dbgconfig;
@@ -1034,8 +990,7 @@ pub mod dbgconfig;
 
 You can [`read`](crate::Reg::read) this register and get [`scratch0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`scratch0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@scratch0`]
-module"]
+For information about available fields see [`mod@scratch0`] module"]
 pub type SCRATCH0 = crate::Reg<scratch0::SCRATCH0_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod scratch0;
@@ -1043,8 +998,7 @@ pub mod scratch0;
 
 You can [`read`](crate::Reg::read) this register and get [`scratch1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`scratch1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@scratch1`]
-module"]
+For information about available fields see [`mod@scratch1`] module"]
 pub type SCRATCH1 = crate::Reg<scratch1::SCRATCH1_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod scratch1;
@@ -1052,8 +1006,7 @@ pub mod scratch1;
 
 You can [`read`](crate::Reg::read) this register and get [`scratch2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`scratch2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@scratch2`]
-module"]
+For information about available fields see [`mod@scratch2`] module"]
 pub type SCRATCH2 = crate::Reg<scratch2::SCRATCH2_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod scratch2;
@@ -1061,8 +1014,7 @@ pub mod scratch2;
 
 You can [`read`](crate::Reg::read) this register and get [`scratch3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`scratch3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@scratch3`]
-module"]
+For information about available fields see [`mod@scratch3`] module"]
 pub type SCRATCH3 = crate::Reg<scratch3::SCRATCH3_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod scratch3;
@@ -1070,8 +1022,7 @@ pub mod scratch3;
 
 You can [`read`](crate::Reg::read) this register and get [`scratch4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`scratch4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@scratch4`]
-module"]
+For information about available fields see [`mod@scratch4`] module"]
 pub type SCRATCH4 = crate::Reg<scratch4::SCRATCH4_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod scratch4;
@@ -1079,8 +1030,7 @@ pub mod scratch4;
 
 You can [`read`](crate::Reg::read) this register and get [`scratch5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`scratch5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@scratch5`]
-module"]
+For information about available fields see [`mod@scratch5`] module"]
 pub type SCRATCH5 = crate::Reg<scratch5::SCRATCH5_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod scratch5;
@@ -1088,8 +1038,7 @@ pub mod scratch5;
 
 You can [`read`](crate::Reg::read) this register and get [`scratch6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`scratch6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@scratch6`]
-module"]
+For information about available fields see [`mod@scratch6`] module"]
 pub type SCRATCH6 = crate::Reg<scratch6::SCRATCH6_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod scratch6;
@@ -1097,8 +1046,7 @@ pub mod scratch6;
 
 You can [`read`](crate::Reg::read) this register and get [`scratch7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`scratch7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@scratch7`]
-module"]
+For information about available fields see [`mod@scratch7`] module"]
 pub type SCRATCH7 = crate::Reg<scratch7::SCRATCH7_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod scratch7;
@@ -1106,8 +1054,7 @@ pub mod scratch7;
 
 You can [`read`](crate::Reg::read) this register and get [`boot0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`boot0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot0`]
-module"]
+For information about available fields see [`mod@boot0`] module"]
 pub type BOOT0 = crate::Reg<boot0::BOOT0_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod boot0;
@@ -1115,8 +1062,7 @@ pub mod boot0;
 
 You can [`read`](crate::Reg::read) this register and get [`boot1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`boot1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot1`]
-module"]
+For information about available fields see [`mod@boot1`] module"]
 pub type BOOT1 = crate::Reg<boot1::BOOT1_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod boot1;
@@ -1124,8 +1070,7 @@ pub mod boot1;
 
 You can [`read`](crate::Reg::read) this register and get [`boot2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`boot2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot2`]
-module"]
+For information about available fields see [`mod@boot2`] module"]
 pub type BOOT2 = crate::Reg<boot2::BOOT2_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod boot2;
@@ -1133,8 +1078,7 @@ pub mod boot2;
 
 You can [`read`](crate::Reg::read) this register and get [`boot3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`boot3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot3`]
-module"]
+For information about available fields see [`mod@boot3`] module"]
 pub type BOOT3 = crate::Reg<boot3::BOOT3_SPEC>;
 #[doc = "Scratch register. Information persists in low power mode"]
 pub mod boot3;
@@ -1142,8 +1086,7 @@ pub mod boot3;
 
 You can [`read`](crate::Reg::read) this register and get [`intr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intr`]
-module"]
+For information about available fields see [`mod@intr`] module"]
 pub type INTR = crate::Reg<intr::INTR_SPEC>;
 #[doc = "Raw Interrupts"]
 pub mod intr;
@@ -1151,8 +1094,7 @@ pub mod intr;
 
 You can [`read`](crate::Reg::read) this register and get [`inte::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`inte::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@inte`]
-module"]
+For information about available fields see [`mod@inte`] module"]
 pub type INTE = crate::Reg<inte::INTE_SPEC>;
 #[doc = "Interrupt Enable"]
 pub mod inte;
@@ -1160,17 +1102,15 @@ pub mod inte;
 
 You can [`read`](crate::Reg::read) this register and get [`intf::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intf::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intf`]
-module"]
+For information about available fields see [`mod@intf`] module"]
 pub type INTF = crate::Reg<intf::INTF_SPEC>;
 #[doc = "Interrupt Force"]
 pub mod intf;
-#[doc = "INTS (r) register accessor: Interrupt status after masking &amp; forcing  
+#[doc = "INTS (r) register accessor: Interrupt status after masking & forcing  
 
 You can [`read`](crate::Reg::read) this register and get [`ints::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ints`]
-module"]
+For information about available fields see [`mod@ints`] module"]
 pub type INTS = crate::Reg<ints::INTS_SPEC>;
-#[doc = "Interrupt status after masking &amp; forcing"]
+#[doc = "Interrupt status after masking & forcing"]
 pub mod ints;

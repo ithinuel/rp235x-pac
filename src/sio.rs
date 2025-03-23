@@ -134,7 +134,7 @@ impl RegisterBlock {
         &self.gpio_out_clr
     }
     #[doc = "0x24 - Output value clear for GPIO32..47, QSPI IOs and USB pins.   
- Perform an atomic bit-clear on GPIO_HI_OUT, i.e. `GPIO_HI_OUT &amp;= ~wdata`"]
+ Perform an atomic bit-clear on GPIO_HI_OUT, i.e. `GPIO_HI_OUT &= ~wdata`"]
     #[inline(always)]
     pub const fn gpio_hi_out_clr(&self) -> &GPIO_HI_OUT_CLR {
         &self.gpio_hi_out_clr
@@ -181,7 +181,7 @@ impl RegisterBlock {
         &self.gpio_oe_clr
     }
     #[doc = "0x44 - Output enable clear for GPIO32...47, QSPI IOs and USB pins.   
- Perform an atomic bit-clear on GPIO_HI_OE, i.e. `GPIO_HI_OE &amp;= ~wdata`"]
+ Perform an atomic bit-clear on GPIO_HI_OE, i.e. `GPIO_HI_OE &= ~wdata`"]
     #[inline(always)]
     pub const fn gpio_hi_oe_clr(&self) -> &GPIO_HI_OE_CLR {
         &self.gpio_hi_oe_clr
@@ -395,7 +395,7 @@ impl RegisterBlock {
 
  Writing (any value) releases the lock.   
  If core 0 and core 1 attempt to claim the same lock simultaneously, core 0 wins.   
- The value returned on success is 0x1 &lt;&lt; lock number."]
+ The value returned on success is 0x1 << lock number."]
     #[inline(always)]
     pub const fn spinlock(&self, n: usize) -> &SPINLOCK {
         &self.spinlock[n]
@@ -407,7 +407,7 @@ impl RegisterBlock {
 
  Writing (any value) releases the lock.   
  If core 0 and core 1 attempt to claim the same lock simultaneously, core 0 wins.   
- The value returned on success is 0x1 &lt;&lt; lock number."]
+ The value returned on success is 0x1 << lock number."]
     #[inline(always)]
     pub fn spinlock_iter(&self) -> impl Iterator<Item = &SPINLOCK> {
         self.spinlock.iter()
@@ -562,8 +562,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`cpuid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cpuid`]
-module"]
+For information about available fields see [`mod@cpuid`] module"]
 pub type CPUID = crate::Reg<cpuid::CPUID_SPEC>;
 #[doc = "Processor core identifier"]
 pub mod cpuid;
@@ -573,8 +572,7 @@ pub mod cpuid;
 
 You can [`read`](crate::Reg::read) this register and get [`gpio_in::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_in`]
-module"]
+For information about available fields see [`mod@gpio_in`] module"]
 pub type GPIO_IN = crate::Reg<gpio_in::GPIO_IN_SPEC>;
 #[doc = "Input value for GPIO0...31.  
 
@@ -586,8 +584,7 @@ pub mod gpio_in;
 
 You can [`read`](crate::Reg::read) this register and get [`gpio_hi_in::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_hi_in`]
-module"]
+For information about available fields see [`mod@gpio_hi_in`] module"]
 pub type GPIO_HI_IN = crate::Reg<gpio_hi_in::GPIO_HI_IN_SPEC>;
 #[doc = "Input value on GPIO32...47, QSPI IOs and USB pins  
 
@@ -597,8 +594,7 @@ pub mod gpio_hi_in;
 
 You can [`read`](crate::Reg::read) this register and get [`gpio_out::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_out::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_out`]
-module"]
+For information about available fields see [`mod@gpio_out`] module"]
 pub type GPIO_OUT = crate::Reg<gpio_out::GPIO_OUT_SPEC>;
 #[doc = "GPIO0...31 output value"]
 pub mod gpio_out;
@@ -610,8 +606,7 @@ pub mod gpio_out;
 
 You can [`read`](crate::Reg::read) this register and get [`gpio_hi_out::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_hi_out::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_hi_out`]
-module"]
+For information about available fields see [`mod@gpio_hi_out`] module"]
 pub type GPIO_HI_OUT = crate::Reg<gpio_hi_out::GPIO_HI_OUT_SPEC>;
 #[doc = "Output value for GPIO32...47, QSPI IOs and USB pins.  
 
@@ -623,8 +618,7 @@ pub mod gpio_hi_out;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_out_set::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_out_set`]
-module"]
+For information about available fields see [`mod@gpio_out_set`] module"]
 pub type GPIO_OUT_SET = crate::Reg<gpio_out_set::GPIO_OUT_SET_SPEC>;
 #[doc = "GPIO0...31 output value set"]
 pub mod gpio_out_set;
@@ -633,8 +627,7 @@ pub mod gpio_out_set;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_hi_out_set::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_hi_out_set`]
-module"]
+For information about available fields see [`mod@gpio_hi_out_set`] module"]
 pub type GPIO_HI_OUT_SET = crate::Reg<gpio_hi_out_set::GPIO_HI_OUT_SET_SPEC>;
 #[doc = "Output value set for GPIO32..47, QSPI IOs and USB pins.   
  Perform an atomic bit-set on GPIO_HI_OUT, i.e. `GPIO_HI_OUT |= wdata`"]
@@ -643,28 +636,25 @@ pub mod gpio_hi_out_set;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_out_clr::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_out_clr`]
-module"]
+For information about available fields see [`mod@gpio_out_clr`] module"]
 pub type GPIO_OUT_CLR = crate::Reg<gpio_out_clr::GPIO_OUT_CLR_SPEC>;
 #[doc = "GPIO0...31 output value clear"]
 pub mod gpio_out_clr;
 #[doc = "GPIO_HI_OUT_CLR (w) register accessor: Output value clear for GPIO32..47, QSPI IOs and USB pins.   
- Perform an atomic bit-clear on GPIO_HI_OUT, i.e. `GPIO_HI_OUT &amp;= ~wdata`  
+ Perform an atomic bit-clear on GPIO_HI_OUT, i.e. `GPIO_HI_OUT &= ~wdata`  
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_hi_out_clr::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_hi_out_clr`]
-module"]
+For information about available fields see [`mod@gpio_hi_out_clr`] module"]
 pub type GPIO_HI_OUT_CLR = crate::Reg<gpio_hi_out_clr::GPIO_HI_OUT_CLR_SPEC>;
 #[doc = "Output value clear for GPIO32..47, QSPI IOs and USB pins.   
- Perform an atomic bit-clear on GPIO_HI_OUT, i.e. `GPIO_HI_OUT &amp;= ~wdata`"]
+ Perform an atomic bit-clear on GPIO_HI_OUT, i.e. `GPIO_HI_OUT &= ~wdata`"]
 pub mod gpio_hi_out_clr;
 #[doc = "GPIO_OUT_XOR (w) register accessor: GPIO0...31 output value XOR  
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_out_xor::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_out_xor`]
-module"]
+For information about available fields see [`mod@gpio_out_xor`] module"]
 pub type GPIO_OUT_XOR = crate::Reg<gpio_out_xor::GPIO_OUT_XOR_SPEC>;
 #[doc = "GPIO0...31 output value XOR"]
 pub mod gpio_out_xor;
@@ -673,8 +663,7 @@ pub mod gpio_out_xor;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_hi_out_xor::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_hi_out_xor`]
-module"]
+For information about available fields see [`mod@gpio_hi_out_xor`] module"]
 pub type GPIO_HI_OUT_XOR = crate::Reg<gpio_hi_out_xor::GPIO_HI_OUT_XOR_SPEC>;
 #[doc = "Output value XOR for GPIO32..47, QSPI IOs and USB pins.   
  Perform an atomic bitwise XOR on GPIO_HI_OUT, i.e. `GPIO_HI_OUT ^= wdata`"]
@@ -683,8 +672,7 @@ pub mod gpio_hi_out_xor;
 
 You can [`read`](crate::Reg::read) this register and get [`gpio_oe::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_oe::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_oe`]
-module"]
+For information about available fields see [`mod@gpio_oe`] module"]
 pub type GPIO_OE = crate::Reg<gpio_oe::GPIO_OE_SPEC>;
 #[doc = "GPIO0...31 output enable"]
 pub mod gpio_oe;
@@ -696,8 +684,7 @@ pub mod gpio_oe;
 
 You can [`read`](crate::Reg::read) this register and get [`gpio_hi_oe::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_hi_oe::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_hi_oe`]
-module"]
+For information about available fields see [`mod@gpio_hi_oe`] module"]
 pub type GPIO_HI_OE = crate::Reg<gpio_hi_oe::GPIO_HI_OE_SPEC>;
 #[doc = "Output enable value for GPIO32...47, QSPI IOs and USB pins.  
 
@@ -709,8 +696,7 @@ pub mod gpio_hi_oe;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_oe_set::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_oe_set`]
-module"]
+For information about available fields see [`mod@gpio_oe_set`] module"]
 pub type GPIO_OE_SET = crate::Reg<gpio_oe_set::GPIO_OE_SET_SPEC>;
 #[doc = "GPIO0...31 output enable set"]
 pub mod gpio_oe_set;
@@ -719,8 +705,7 @@ pub mod gpio_oe_set;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_hi_oe_set::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_hi_oe_set`]
-module"]
+For information about available fields see [`mod@gpio_hi_oe_set`] module"]
 pub type GPIO_HI_OE_SET = crate::Reg<gpio_hi_oe_set::GPIO_HI_OE_SET_SPEC>;
 #[doc = "Output enable set for GPIO32...47, QSPI IOs and USB pins.   
  Perform an atomic bit-set on GPIO_HI_OE, i.e. `GPIO_HI_OE |= wdata`"]
@@ -729,28 +714,25 @@ pub mod gpio_hi_oe_set;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_oe_clr::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_oe_clr`]
-module"]
+For information about available fields see [`mod@gpio_oe_clr`] module"]
 pub type GPIO_OE_CLR = crate::Reg<gpio_oe_clr::GPIO_OE_CLR_SPEC>;
 #[doc = "GPIO0...31 output enable clear"]
 pub mod gpio_oe_clr;
 #[doc = "GPIO_HI_OE_CLR (w) register accessor: Output enable clear for GPIO32...47, QSPI IOs and USB pins.   
- Perform an atomic bit-clear on GPIO_HI_OE, i.e. `GPIO_HI_OE &amp;= ~wdata`  
+ Perform an atomic bit-clear on GPIO_HI_OE, i.e. `GPIO_HI_OE &= ~wdata`  
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_hi_oe_clr::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_hi_oe_clr`]
-module"]
+For information about available fields see [`mod@gpio_hi_oe_clr`] module"]
 pub type GPIO_HI_OE_CLR = crate::Reg<gpio_hi_oe_clr::GPIO_HI_OE_CLR_SPEC>;
 #[doc = "Output enable clear for GPIO32...47, QSPI IOs and USB pins.   
- Perform an atomic bit-clear on GPIO_HI_OE, i.e. `GPIO_HI_OE &amp;= ~wdata`"]
+ Perform an atomic bit-clear on GPIO_HI_OE, i.e. `GPIO_HI_OE &= ~wdata`"]
 pub mod gpio_hi_oe_clr;
 #[doc = "GPIO_OE_XOR (w) register accessor: GPIO0...31 output enable XOR  
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_oe_xor::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_oe_xor`]
-module"]
+For information about available fields see [`mod@gpio_oe_xor`] module"]
 pub type GPIO_OE_XOR = crate::Reg<gpio_oe_xor::GPIO_OE_XOR_SPEC>;
 #[doc = "GPIO0...31 output enable XOR"]
 pub mod gpio_oe_xor;
@@ -759,8 +741,7 @@ pub mod gpio_oe_xor;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_hi_oe_xor::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_hi_oe_xor`]
-module"]
+For information about available fields see [`mod@gpio_hi_oe_xor`] module"]
 pub type GPIO_HI_OE_XOR = crate::Reg<gpio_hi_oe_xor::GPIO_HI_OE_XOR_SPEC>;
 #[doc = "Output enable XOR for GPIO32...47, QSPI IOs and USB pins.   
  Perform an atomic bitwise XOR on GPIO_HI_OE, i.e. `GPIO_HI_OE ^= wdata`"]
@@ -773,8 +754,7 @@ pub mod gpio_hi_oe_xor;
 
 You can [`read`](crate::Reg::read) this register and get [`fifo_st::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fifo_st::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fifo_st`]
-module"]
+For information about available fields see [`mod@fifo_st`] module"]
 pub type FIFO_ST = crate::Reg<fifo_st::FIFO_ST_SPEC>;
 #[doc = "Status register for inter-core FIFOs (mailboxes).   
  There is one FIFO in the core 0 -> core 1 direction, and one core 1 -> core 0. Both are 32 bits wide and 8 words deep.   
@@ -786,8 +766,7 @@ pub mod fifo_st;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fifo_wr::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fifo_wr`]
-module"]
+For information about available fields see [`mod@fifo_wr`] module"]
 pub type FIFO_WR = crate::Reg<fifo_wr::FIFO_WR_SPEC>;
 #[doc = "Write access to this core's TX FIFO"]
 pub mod fifo_wr;
@@ -795,8 +774,7 @@ pub mod fifo_wr;
 
 You can [`read`](crate::Reg::read) this register and get [`fifo_rd::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fifo_rd`]
-module"]
+For information about available fields see [`mod@fifo_rd`] module"]
 pub type FIFO_RD = crate::Reg<fifo_rd::FIFO_RD_SPEC>;
 #[doc = "Read access to this core's RX FIFO"]
 pub mod fifo_rd;
@@ -806,8 +784,7 @@ pub mod fifo_rd;
 
 You can [`read`](crate::Reg::read) this register and get [`spinlock_st::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@spinlock_st`]
-module"]
+For information about available fields see [`mod@spinlock_st`] module"]
 pub type SPINLOCK_ST = crate::Reg<spinlock_st::SPINLOCK_ST_SPEC>;
 #[doc = "Spinlock state   
  A bitmap containing the state of all 32 spinlocks (1=locked).   
@@ -817,8 +794,7 @@ pub mod spinlock_st;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_accum0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_accum0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_accum0`]
-module"]
+For information about available fields see [`mod@interp0_accum0`] module"]
 pub type INTERP0_ACCUM0 = crate::Reg<interp0_accum0::INTERP0_ACCUM0_SPEC>;
 #[doc = "Read/write access to accumulator 0"]
 pub mod interp0_accum0;
@@ -826,8 +802,7 @@ pub mod interp0_accum0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_accum1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_accum1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_accum1`]
-module"]
+For information about available fields see [`mod@interp0_accum1`] module"]
 pub type INTERP0_ACCUM1 = crate::Reg<interp0_accum1::INTERP0_ACCUM1_SPEC>;
 #[doc = "Read/write access to accumulator 1"]
 pub mod interp0_accum1;
@@ -835,8 +810,7 @@ pub mod interp0_accum1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_base0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_base0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_base0`]
-module"]
+For information about available fields see [`mod@interp0_base0`] module"]
 pub type INTERP0_BASE0 = crate::Reg<interp0_base0::INTERP0_BASE0_SPEC>;
 #[doc = "Read/write access to BASE0 register."]
 pub mod interp0_base0;
@@ -844,8 +818,7 @@ pub mod interp0_base0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_base1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_base1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_base1`]
-module"]
+For information about available fields see [`mod@interp0_base1`] module"]
 pub type INTERP0_BASE1 = crate::Reg<interp0_base1::INTERP0_BASE1_SPEC>;
 #[doc = "Read/write access to BASE1 register."]
 pub mod interp0_base1;
@@ -853,8 +826,7 @@ pub mod interp0_base1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_base2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_base2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_base2`]
-module"]
+For information about available fields see [`mod@interp0_base2`] module"]
 pub type INTERP0_BASE2 = crate::Reg<interp0_base2::INTERP0_BASE2_SPEC>;
 #[doc = "Read/write access to BASE2 register."]
 pub mod interp0_base2;
@@ -862,8 +834,7 @@ pub mod interp0_base2;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_pop_lane0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_pop_lane0`]
-module"]
+For information about available fields see [`mod@interp0_pop_lane0`] module"]
 pub type INTERP0_POP_LANE0 = crate::Reg<interp0_pop_lane0::INTERP0_POP_LANE0_SPEC>;
 #[doc = "Read LANE0 result, and simultaneously write lane results to both accumulators (POP)."]
 pub mod interp0_pop_lane0;
@@ -871,8 +842,7 @@ pub mod interp0_pop_lane0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_pop_lane1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_pop_lane1`]
-module"]
+For information about available fields see [`mod@interp0_pop_lane1`] module"]
 pub type INTERP0_POP_LANE1 = crate::Reg<interp0_pop_lane1::INTERP0_POP_LANE1_SPEC>;
 #[doc = "Read LANE1 result, and simultaneously write lane results to both accumulators (POP)."]
 pub mod interp0_pop_lane1;
@@ -880,8 +850,7 @@ pub mod interp0_pop_lane1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_pop_full::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_pop_full`]
-module"]
+For information about available fields see [`mod@interp0_pop_full`] module"]
 pub type INTERP0_POP_FULL = crate::Reg<interp0_pop_full::INTERP0_POP_FULL_SPEC>;
 #[doc = "Read FULL result, and simultaneously write lane results to both accumulators (POP)."]
 pub mod interp0_pop_full;
@@ -889,8 +858,7 @@ pub mod interp0_pop_full;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_peek_lane0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_peek_lane0`]
-module"]
+For information about available fields see [`mod@interp0_peek_lane0`] module"]
 pub type INTERP0_PEEK_LANE0 = crate::Reg<interp0_peek_lane0::INTERP0_PEEK_LANE0_SPEC>;
 #[doc = "Read LANE0 result, without altering any internal state (PEEK)."]
 pub mod interp0_peek_lane0;
@@ -898,8 +866,7 @@ pub mod interp0_peek_lane0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_peek_lane1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_peek_lane1`]
-module"]
+For information about available fields see [`mod@interp0_peek_lane1`] module"]
 pub type INTERP0_PEEK_LANE1 = crate::Reg<interp0_peek_lane1::INTERP0_PEEK_LANE1_SPEC>;
 #[doc = "Read LANE1 result, without altering any internal state (PEEK)."]
 pub mod interp0_peek_lane1;
@@ -907,8 +874,7 @@ pub mod interp0_peek_lane1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_peek_full::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_peek_full`]
-module"]
+For information about available fields see [`mod@interp0_peek_full`] module"]
 pub type INTERP0_PEEK_FULL = crate::Reg<interp0_peek_full::INTERP0_PEEK_FULL_SPEC>;
 #[doc = "Read FULL result, without altering any internal state (PEEK)."]
 pub mod interp0_peek_full;
@@ -916,8 +882,7 @@ pub mod interp0_peek_full;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_ctrl_lane0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_ctrl_lane0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_ctrl_lane0`]
-module"]
+For information about available fields see [`mod@interp0_ctrl_lane0`] module"]
 pub type INTERP0_CTRL_LANE0 = crate::Reg<interp0_ctrl_lane0::INTERP0_CTRL_LANE0_SPEC>;
 #[doc = "Control register for lane 0"]
 pub mod interp0_ctrl_lane0;
@@ -925,8 +890,7 @@ pub mod interp0_ctrl_lane0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_ctrl_lane1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_ctrl_lane1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_ctrl_lane1`]
-module"]
+For information about available fields see [`mod@interp0_ctrl_lane1`] module"]
 pub type INTERP0_CTRL_LANE1 = crate::Reg<interp0_ctrl_lane1::INTERP0_CTRL_LANE1_SPEC>;
 #[doc = "Control register for lane 1"]
 pub mod interp0_ctrl_lane1;
@@ -935,8 +899,7 @@ pub mod interp0_ctrl_lane1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_accum0_add::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_accum0_add::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_accum0_add`]
-module"]
+For information about available fields see [`mod@interp0_accum0_add`] module"]
 pub type INTERP0_ACCUM0_ADD = crate::Reg<interp0_accum0_add::INTERP0_ACCUM0_ADD_SPEC>;
 #[doc = "Values written here are atomically added to ACCUM0   
  Reading yields lane 0's raw shift and mask value (BASE0 not added)."]
@@ -946,8 +909,7 @@ pub mod interp0_accum0_add;
 
 You can [`read`](crate::Reg::read) this register and get [`interp0_accum1_add::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_accum1_add::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_accum1_add`]
-module"]
+For information about available fields see [`mod@interp0_accum1_add`] module"]
 pub type INTERP0_ACCUM1_ADD = crate::Reg<interp0_accum1_add::INTERP0_ACCUM1_ADD_SPEC>;
 #[doc = "Values written here are atomically added to ACCUM1   
  Reading yields lane 1's raw shift and mask value (BASE1 not added)."]
@@ -957,8 +919,7 @@ pub mod interp0_accum1_add;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp0_base_1and0::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp0_base_1and0`]
-module"]
+For information about available fields see [`mod@interp0_base_1and0`] module"]
 pub type INTERP0_BASE_1AND0 = crate::Reg<interp0_base_1and0::INTERP0_BASE_1AND0_SPEC>;
 #[doc = "On write, the lower 16 bits go to BASE0, upper bits to BASE1 simultaneously.   
  Each half is sign-extended to 32 bits if that lane's SIGNED flag is set."]
@@ -967,8 +928,7 @@ pub mod interp0_base_1and0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_accum0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_accum0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_accum0`]
-module"]
+For information about available fields see [`mod@interp1_accum0`] module"]
 pub type INTERP1_ACCUM0 = crate::Reg<interp1_accum0::INTERP1_ACCUM0_SPEC>;
 #[doc = "Read/write access to accumulator 0"]
 pub mod interp1_accum0;
@@ -976,8 +936,7 @@ pub mod interp1_accum0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_accum1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_accum1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_accum1`]
-module"]
+For information about available fields see [`mod@interp1_accum1`] module"]
 pub type INTERP1_ACCUM1 = crate::Reg<interp1_accum1::INTERP1_ACCUM1_SPEC>;
 #[doc = "Read/write access to accumulator 1"]
 pub mod interp1_accum1;
@@ -985,8 +944,7 @@ pub mod interp1_accum1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_base0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_base0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_base0`]
-module"]
+For information about available fields see [`mod@interp1_base0`] module"]
 pub type INTERP1_BASE0 = crate::Reg<interp1_base0::INTERP1_BASE0_SPEC>;
 #[doc = "Read/write access to BASE0 register."]
 pub mod interp1_base0;
@@ -994,8 +952,7 @@ pub mod interp1_base0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_base1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_base1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_base1`]
-module"]
+For information about available fields see [`mod@interp1_base1`] module"]
 pub type INTERP1_BASE1 = crate::Reg<interp1_base1::INTERP1_BASE1_SPEC>;
 #[doc = "Read/write access to BASE1 register."]
 pub mod interp1_base1;
@@ -1003,8 +960,7 @@ pub mod interp1_base1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_base2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_base2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_base2`]
-module"]
+For information about available fields see [`mod@interp1_base2`] module"]
 pub type INTERP1_BASE2 = crate::Reg<interp1_base2::INTERP1_BASE2_SPEC>;
 #[doc = "Read/write access to BASE2 register."]
 pub mod interp1_base2;
@@ -1012,8 +968,7 @@ pub mod interp1_base2;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_pop_lane0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_pop_lane0`]
-module"]
+For information about available fields see [`mod@interp1_pop_lane0`] module"]
 pub type INTERP1_POP_LANE0 = crate::Reg<interp1_pop_lane0::INTERP1_POP_LANE0_SPEC>;
 #[doc = "Read LANE0 result, and simultaneously write lane results to both accumulators (POP)."]
 pub mod interp1_pop_lane0;
@@ -1021,8 +976,7 @@ pub mod interp1_pop_lane0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_pop_lane1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_pop_lane1`]
-module"]
+For information about available fields see [`mod@interp1_pop_lane1`] module"]
 pub type INTERP1_POP_LANE1 = crate::Reg<interp1_pop_lane1::INTERP1_POP_LANE1_SPEC>;
 #[doc = "Read LANE1 result, and simultaneously write lane results to both accumulators (POP)."]
 pub mod interp1_pop_lane1;
@@ -1030,8 +984,7 @@ pub mod interp1_pop_lane1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_pop_full::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_pop_full`]
-module"]
+For information about available fields see [`mod@interp1_pop_full`] module"]
 pub type INTERP1_POP_FULL = crate::Reg<interp1_pop_full::INTERP1_POP_FULL_SPEC>;
 #[doc = "Read FULL result, and simultaneously write lane results to both accumulators (POP)."]
 pub mod interp1_pop_full;
@@ -1039,8 +992,7 @@ pub mod interp1_pop_full;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_peek_lane0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_peek_lane0`]
-module"]
+For information about available fields see [`mod@interp1_peek_lane0`] module"]
 pub type INTERP1_PEEK_LANE0 = crate::Reg<interp1_peek_lane0::INTERP1_PEEK_LANE0_SPEC>;
 #[doc = "Read LANE0 result, without altering any internal state (PEEK)."]
 pub mod interp1_peek_lane0;
@@ -1048,8 +1000,7 @@ pub mod interp1_peek_lane0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_peek_lane1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_peek_lane1`]
-module"]
+For information about available fields see [`mod@interp1_peek_lane1`] module"]
 pub type INTERP1_PEEK_LANE1 = crate::Reg<interp1_peek_lane1::INTERP1_PEEK_LANE1_SPEC>;
 #[doc = "Read LANE1 result, without altering any internal state (PEEK)."]
 pub mod interp1_peek_lane1;
@@ -1057,8 +1008,7 @@ pub mod interp1_peek_lane1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_peek_full::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_peek_full`]
-module"]
+For information about available fields see [`mod@interp1_peek_full`] module"]
 pub type INTERP1_PEEK_FULL = crate::Reg<interp1_peek_full::INTERP1_PEEK_FULL_SPEC>;
 #[doc = "Read FULL result, without altering any internal state (PEEK)."]
 pub mod interp1_peek_full;
@@ -1066,8 +1016,7 @@ pub mod interp1_peek_full;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_ctrl_lane0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_ctrl_lane0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_ctrl_lane0`]
-module"]
+For information about available fields see [`mod@interp1_ctrl_lane0`] module"]
 pub type INTERP1_CTRL_LANE0 = crate::Reg<interp1_ctrl_lane0::INTERP1_CTRL_LANE0_SPEC>;
 #[doc = "Control register for lane 0"]
 pub mod interp1_ctrl_lane0;
@@ -1075,8 +1024,7 @@ pub mod interp1_ctrl_lane0;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_ctrl_lane1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_ctrl_lane1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_ctrl_lane1`]
-module"]
+For information about available fields see [`mod@interp1_ctrl_lane1`] module"]
 pub type INTERP1_CTRL_LANE1 = crate::Reg<interp1_ctrl_lane1::INTERP1_CTRL_LANE1_SPEC>;
 #[doc = "Control register for lane 1"]
 pub mod interp1_ctrl_lane1;
@@ -1085,8 +1033,7 @@ pub mod interp1_ctrl_lane1;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_accum0_add::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_accum0_add::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_accum0_add`]
-module"]
+For information about available fields see [`mod@interp1_accum0_add`] module"]
 pub type INTERP1_ACCUM0_ADD = crate::Reg<interp1_accum0_add::INTERP1_ACCUM0_ADD_SPEC>;
 #[doc = "Values written here are atomically added to ACCUM0   
  Reading yields lane 0's raw shift and mask value (BASE0 not added)."]
@@ -1096,8 +1043,7 @@ pub mod interp1_accum0_add;
 
 You can [`read`](crate::Reg::read) this register and get [`interp1_accum1_add::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_accum1_add::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_accum1_add`]
-module"]
+For information about available fields see [`mod@interp1_accum1_add`] module"]
 pub type INTERP1_ACCUM1_ADD = crate::Reg<interp1_accum1_add::INTERP1_ACCUM1_ADD_SPEC>;
 #[doc = "Values written here are atomically added to ACCUM1   
  Reading yields lane 1's raw shift and mask value (BASE1 not added)."]
@@ -1107,8 +1053,7 @@ pub mod interp1_accum1_add;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`interp1_base_1and0::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@interp1_base_1and0`]
-module"]
+For information about available fields see [`mod@interp1_base_1and0`] module"]
 pub type INTERP1_BASE_1AND0 = crate::Reg<interp1_base_1and0::INTERP1_BASE_1AND0_SPEC>;
 #[doc = "On write, the lower 16 bits go to BASE0, upper bits to BASE1 simultaneously.   
  Each half is sign-extended to 32 bits if that lane's SIGNED flag is set."]
@@ -1119,12 +1064,11 @@ pub mod interp1_base_1and0;
 
  Writing (any value) releases the lock.   
  If core 0 and core 1 attempt to claim the same lock simultaneously, core 0 wins.   
- The value returned on success is 0x1 &lt;&lt; lock number.  
+ The value returned on success is 0x1 << lock number.  
 
 You can [`read`](crate::Reg::read) this register and get [`spinlock::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`spinlock::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@spinlock`]
-module"]
+For information about available fields see [`mod@spinlock`] module"]
 pub type SPINLOCK = crate::Reg<spinlock::SPINLOCK_SPEC>;
 #[doc = "Reading from a spinlock address will:   
  - Return 0 if lock is already locked   
@@ -1132,7 +1076,7 @@ pub type SPINLOCK = crate::Reg<spinlock::SPINLOCK_SPEC>;
 
  Writing (any value) releases the lock.   
  If core 0 and core 1 attempt to claim the same lock simultaneously, core 0 wins.   
- The value returned on success is 0x1 &lt;&lt; lock number."]
+ The value returned on success is 0x1 << lock number."]
 pub mod spinlock;
 #[doc = "DOORBELL_OUT_SET (rw) register accessor: Trigger a doorbell interrupt on the opposite core.  
 
@@ -1142,8 +1086,7 @@ pub mod spinlock;
 
 You can [`read`](crate::Reg::read) this register and get [`doorbell_out_set::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`doorbell_out_set::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@doorbell_out_set`]
-module"]
+For information about available fields see [`mod@doorbell_out_set`] module"]
 pub type DOORBELL_OUT_SET = crate::Reg<doorbell_out_set::DOORBELL_OUT_SET_SPEC>;
 #[doc = "Trigger a doorbell interrupt on the opposite core.  
 
@@ -1159,8 +1102,7 @@ pub mod doorbell_out_set;
 
 You can [`read`](crate::Reg::read) this register and get [`doorbell_out_clr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`doorbell_out_clr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@doorbell_out_clr`]
-module"]
+For information about available fields see [`mod@doorbell_out_clr`] module"]
 pub type DOORBELL_OUT_CLR = crate::Reg<doorbell_out_clr::DOORBELL_OUT_CLR_SPEC>;
 #[doc = "Clear doorbells which have been posted to the opposite core. This register is intended for debugging and initialisation purposes.  
 
@@ -1172,8 +1114,7 @@ pub mod doorbell_out_clr;
 
 You can [`read`](crate::Reg::read) this register and get [`doorbell_in_set::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`doorbell_in_set::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@doorbell_in_set`]
-module"]
+For information about available fields see [`mod@doorbell_in_set`] module"]
 pub type DOORBELL_IN_SET = crate::Reg<doorbell_in_set::DOORBELL_IN_SET_SPEC>;
 #[doc = "Write 1s to trigger doorbell interrupts on this core. Read to get status of doorbells currently asserted on this core."]
 pub mod doorbell_in_set;
@@ -1183,8 +1124,7 @@ pub mod doorbell_in_set;
 
 You can [`read`](crate::Reg::read) this register and get [`doorbell_in_clr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`doorbell_in_clr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@doorbell_in_clr`]
-module"]
+For information about available fields see [`mod@doorbell_in_clr`] module"]
 pub type DOORBELL_IN_CLR = crate::Reg<doorbell_in_clr::DOORBELL_IN_CLR_SPEC>;
 #[doc = "Check and acknowledge doorbells posted to this core. This core's doorbell interrupt is asserted when any bit in this register is 1.  
 
@@ -1198,8 +1138,7 @@ pub mod doorbell_in_clr;
 
 You can [`read`](crate::Reg::read) this register and get [`peri_nonsec::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`peri_nonsec::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@peri_nonsec`]
-module"]
+For information about available fields see [`mod@peri_nonsec`] module"]
 pub type PERI_NONSEC = crate::Reg<peri_nonsec::PERI_NONSEC_SPEC>;
 #[doc = "Detach certain core-local peripherals from Secure SIO, and attach them to Non-secure SIO, so that Non-secure software can use them. Attempting to access one of these peripherals from the Secure SIO when it is attached to the Non-secure SIO, or vice versa, will generate a bus error.  
 
@@ -1215,8 +1154,7 @@ pub mod peri_nonsec;
 
 You can [`read`](crate::Reg::read) this register and get [`riscv_softirq::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`riscv_softirq::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@riscv_softirq`]
-module"]
+For information about available fields see [`mod@riscv_softirq`] module"]
 pub type RISCV_SOFTIRQ = crate::Reg<riscv_softirq::RISCV_SOFTIRQ_SPEC>;
 #[doc = "Control the assertion of the standard software interrupt (MIP.MSIP) on the RISC-V cores.  
 
@@ -1230,8 +1168,7 @@ pub mod riscv_softirq;
 
 You can [`read`](crate::Reg::read) this register and get [`mtime_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mtime_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mtime_ctrl`]
-module"]
+For information about available fields see [`mod@mtime_ctrl`] module"]
 pub type MTIME_CTRL = crate::Reg<mtime_ctrl::MTIME_CTRL_SPEC>;
 #[doc = "Control register for the RISC-V 64-bit Machine-mode timer. This timer is only present in the Secure SIO, so is only accessible to an Arm core in Secure mode or a RISC-V core in Machine mode.  
 
@@ -1241,8 +1178,7 @@ pub mod mtime_ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`mtime::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mtime::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mtime`]
-module"]
+For information about available fields see [`mod@mtime`] module"]
 pub type MTIME = crate::Reg<mtime::MTIME_SPEC>;
 #[doc = "Read/write access to the high half of RISC-V Machine-mode timer. This register is shared between both cores. If both cores write on the same cycle, core 1 takes precedence."]
 pub mod mtime;
@@ -1250,8 +1186,7 @@ pub mod mtime;
 
 You can [`read`](crate::Reg::read) this register and get [`mtimeh::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mtimeh::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mtimeh`]
-module"]
+For information about available fields see [`mod@mtimeh`] module"]
 pub type MTIMEH = crate::Reg<mtimeh::MTIMEH_SPEC>;
 #[doc = "Read/write access to the high half of RISC-V Machine-mode timer. This register is shared between both cores. If both cores write on the same cycle, core 1 takes precedence."]
 pub mod mtimeh;
@@ -1261,8 +1196,7 @@ pub mod mtimeh;
 
 You can [`read`](crate::Reg::read) this register and get [`mtimecmp::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mtimecmp::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mtimecmp`]
-module"]
+For information about available fields see [`mod@mtimecmp`] module"]
 pub type MTIMECMP = crate::Reg<mtimecmp::MTIMECMP_SPEC>;
 #[doc = "Low half of RISC-V Machine-mode timer comparator. This register is core-local, i.e., each core gets a copy of this register, with the comparison result routed to its own interrupt line.  
 
@@ -1274,8 +1208,7 @@ pub mod mtimecmp;
 
 You can [`read`](crate::Reg::read) this register and get [`mtimecmph::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mtimecmph::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mtimecmph`]
-module"]
+For information about available fields see [`mod@mtimecmph`] module"]
 pub type MTIMECMPH = crate::Reg<mtimecmph::MTIMECMPH_SPEC>;
 #[doc = "High half of RISC-V Machine-mode timer comparator. This register is core-local.  
 
@@ -1285,8 +1218,7 @@ pub mod mtimecmph;
 
 You can [`read`](crate::Reg::read) this register and get [`tmds_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`tmds_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_ctrl`]
-module"]
+For information about available fields see [`mod@tmds_ctrl`] module"]
 pub type TMDS_CTRL = crate::Reg<tmds_ctrl::TMDS_CTRL_SPEC>;
 #[doc = "Control register for TMDS encoder."]
 pub mod tmds_ctrl;
@@ -1294,8 +1226,7 @@ pub mod tmds_ctrl;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`tmds_wdata::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_wdata`]
-module"]
+For information about available fields see [`mod@tmds_wdata`] module"]
 pub type TMDS_WDATA = crate::Reg<tmds_wdata::TMDS_WDATA_SPEC>;
 #[doc = "Write-only access to the TMDS colour data register."]
 pub mod tmds_wdata;
@@ -1305,8 +1236,7 @@ pub mod tmds_wdata;
 
 You can [`read`](crate::Reg::read) this register and get [`tmds_peek_single::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_peek_single`]
-module"]
+For information about available fields see [`mod@tmds_peek_single`] module"]
 pub type TMDS_PEEK_SINGLE = crate::Reg<tmds_peek_single::TMDS_PEEK_SINGLE_SPEC>;
 #[doc = "Get the encoding of one pixel's worth of colour data, packed into a 32-bit value (3x10-bit symbols).  
 
@@ -1318,8 +1248,7 @@ pub mod tmds_peek_single;
 
 You can [`read`](crate::Reg::read) this register and get [`tmds_pop_single::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_pop_single`]
-module"]
+For information about available fields see [`mod@tmds_pop_single`] module"]
 pub type TMDS_POP_SINGLE = crate::Reg<tmds_pop_single::TMDS_POP_SINGLE_SPEC>;
 #[doc = "Get the encoding of one pixel's worth of colour data, packed into a 32-bit value. The packing is 5 chunks of 3 lanes times 2 bits (30 bits total). Each chunk contains two bits of a TMDS symbol per lane. This format is intended for shifting out with the HSTX peripheral on RP2350.  
 
@@ -1331,8 +1260,7 @@ pub mod tmds_pop_single;
 
 You can [`read`](crate::Reg::read) this register and get [`tmds_peek_double_l0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_peek_double_l0`]
-module"]
+For information about available fields see [`mod@tmds_peek_double_l0`] module"]
 pub type TMDS_PEEK_DOUBLE_L0 = crate::Reg<tmds_peek_double_l0::TMDS_PEEK_DOUBLE_L0_SPEC>;
 #[doc = "Get lane 0 of the encoding of two pixels' worth of colour data. Two 10-bit TMDS symbols are packed at the bottom of a 32-bit word.  
 
@@ -1344,8 +1272,7 @@ pub mod tmds_peek_double_l0;
 
 You can [`read`](crate::Reg::read) this register and get [`tmds_pop_double_l0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_pop_double_l0`]
-module"]
+For information about available fields see [`mod@tmds_pop_double_l0`] module"]
 pub type TMDS_POP_DOUBLE_L0 = crate::Reg<tmds_pop_double_l0::TMDS_POP_DOUBLE_L0_SPEC>;
 #[doc = "Get lane 0 of the encoding of two pixels' worth of colour data. Two 10-bit TMDS symbols are packed at the bottom of a 32-bit word.  
 
@@ -1357,8 +1284,7 @@ pub mod tmds_pop_double_l0;
 
 You can [`read`](crate::Reg::read) this register and get [`tmds_peek_double_l1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_peek_double_l1`]
-module"]
+For information about available fields see [`mod@tmds_peek_double_l1`] module"]
 pub type TMDS_PEEK_DOUBLE_L1 = crate::Reg<tmds_peek_double_l1::TMDS_PEEK_DOUBLE_L1_SPEC>;
 #[doc = "Get lane 1 of the encoding of two pixels' worth of colour data. Two 10-bit TMDS symbols are packed at the bottom of a 32-bit word.  
 
@@ -1370,8 +1296,7 @@ pub mod tmds_peek_double_l1;
 
 You can [`read`](crate::Reg::read) this register and get [`tmds_pop_double_l1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_pop_double_l1`]
-module"]
+For information about available fields see [`mod@tmds_pop_double_l1`] module"]
 pub type TMDS_POP_DOUBLE_L1 = crate::Reg<tmds_pop_double_l1::TMDS_POP_DOUBLE_L1_SPEC>;
 #[doc = "Get lane 1 of the encoding of two pixels' worth of colour data. Two 10-bit TMDS symbols are packed at the bottom of a 32-bit word.  
 
@@ -1383,8 +1308,7 @@ pub mod tmds_pop_double_l1;
 
 You can [`read`](crate::Reg::read) this register and get [`tmds_peek_double_l2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_peek_double_l2`]
-module"]
+For information about available fields see [`mod@tmds_peek_double_l2`] module"]
 pub type TMDS_PEEK_DOUBLE_L2 = crate::Reg<tmds_peek_double_l2::TMDS_PEEK_DOUBLE_L2_SPEC>;
 #[doc = "Get lane 2 of the encoding of two pixels' worth of colour data. Two 10-bit TMDS symbols are packed at the bottom of a 32-bit word.  
 
@@ -1396,8 +1320,7 @@ pub mod tmds_peek_double_l2;
 
 You can [`read`](crate::Reg::read) this register and get [`tmds_pop_double_l2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tmds_pop_double_l2`]
-module"]
+For information about available fields see [`mod@tmds_pop_double_l2`] module"]
 pub type TMDS_POP_DOUBLE_L2 = crate::Reg<tmds_pop_double_l2::TMDS_POP_DOUBLE_L2_SPEC>;
 #[doc = "Get lane 2 of the encoding of two pixels' worth of colour data. Two 10-bit TMDS symbols are packed at the bottom of a 32-bit word.  
 

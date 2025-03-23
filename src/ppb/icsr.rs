@@ -99,25 +99,21 @@ impl R {
 impl W {
     #[doc = "Bit 24 - Controls whether in a single SysTick implementation, the SysTick is Secure or Non-secure"]
     #[inline(always)]
-    #[must_use]
     pub fn sttns(&mut self) -> STTNS_W<ICSR_SPEC> {
         STTNS_W::new(self, 24)
     }
     #[doc = "Bit 25 - Allows the SysTick exception pend state to be cleared `FTSSS"]
     #[inline(always)]
-    #[must_use]
     pub fn pendstclr(&mut self) -> PENDSTCLR_W<ICSR_SPEC> {
         PENDSTCLR_W::new(self, 25)
     }
     #[doc = "Bit 27 - Allows the PendSV exception pend state to be cleared `FTSSS"]
     #[inline(always)]
-    #[must_use]
     pub fn pendsvclr(&mut self) -> PENDSVCLR_W<ICSR_SPEC> {
         PENDSVCLR_W::new(self, 27)
     }
     #[doc = "Bit 30 - Allows the NMI exception pend state to be cleared"]
     #[inline(always)]
-    #[must_use]
     pub fn pendnmiclr(&mut self) -> PENDNMICLR_W<ICSR_SPEC> {
         PENDNMICLR_W::new(self, 30)
     }
@@ -134,10 +130,6 @@ impl crate::Readable for ICSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`icsr::W`](W) writer structure"]
 impl crate::Writable for ICSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ICSR to value 0"]
-impl crate::Resettable for ICSR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ICSR_SPEC {}

@@ -52,31 +52,26 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Sticky flag indicating that a Halt request debug event or Step debug event has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn halted(&mut self) -> HALTED_W<DFSR_SPEC> {
         HALTED_W::new(self, 0)
     }
     #[doc = "Bit 1 - Sticky flag indicating whether a Breakpoint debug event has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn bkpt(&mut self) -> BKPT_W<DFSR_SPEC> {
         BKPT_W::new(self, 1)
     }
     #[doc = "Bit 2 - Sticky flag indicating whether a Watchpoint debug event has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn dwttrap(&mut self) -> DWTTRAP_W<DFSR_SPEC> {
         DWTTRAP_W::new(self, 2)
     }
     #[doc = "Bit 3 - Sticky flag indicating whether a Vector catch debug event has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn vcatch(&mut self) -> VCATCH_W<DFSR_SPEC> {
         VCATCH_W::new(self, 3)
     }
     #[doc = "Bit 4 - Sticky flag indicating whether an External debug request debug event has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn external(&mut self) -> EXTERNAL_W<DFSR_SPEC> {
         EXTERNAL_W::new(self, 4)
     }
@@ -93,10 +88,6 @@ impl crate::Readable for DFSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dfsr::W`](W) writer structure"]
 impl crate::Writable for DFSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DFSR to value 0"]
-impl crate::Resettable for DFSR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DFSR_SPEC {}

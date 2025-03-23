@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:15 - For setting the time, do not use for reading the time, use POWMAN_READ_TIME_UPPER and POWMAN_READ_TIME_LOWER. This field must only be written when POWMAN_TIMER_RUN=0"]
     #[inline(always)]
-    #[must_use]
     pub fn set_time_63to48(&mut self) -> SET_TIME_63TO48_W<SET_TIME_63TO48_SPEC> {
         SET_TIME_63TO48_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for SET_TIME_63TO48_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`set_time_63to48::W`](W) writer structure"]
 impl crate::Writable for SET_TIME_63TO48_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SET_TIME_63TO48 to value 0"]
-impl crate::Resettable for SET_TIME_63TO48_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SET_TIME_63TO48_SPEC {}

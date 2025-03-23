@@ -127,13 +127,11 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Select architecture for core 0."]
     #[inline(always)]
-    #[must_use]
     pub fn core0(&mut self) -> CORE0_W<ARCHSEL_SPEC> {
         CORE0_W::new(self, 0)
     }
     #[doc = "Bit 1 - Select architecture for core 1."]
     #[inline(always)]
-    #[must_use]
     pub fn core1(&mut self) -> CORE1_W<ARCHSEL_SPEC> {
         CORE1_W::new(self, 1)
     }
@@ -156,10 +154,6 @@ impl crate::Readable for ARCHSEL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`archsel::W`](W) writer structure"]
 impl crate::Writable for ARCHSEL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ARCHSEL to value 0"]
-impl crate::Resettable for ARCHSEL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ARCHSEL_SPEC {}

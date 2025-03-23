@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0 - 1'b1-mask interrupt, no interrupt will be generated. See RNG_ISR for an explanation on this interrupt."]
     #[inline(always)]
-    #[must_use]
     pub fn ehr_valid_int_mask(&mut self) -> EHR_VALID_INT_MASK_W<RNG_IMR_SPEC> {
         EHR_VALID_INT_MASK_W::new(self, 0)
     }
     #[doc = "Bit 1 - 1'b1-mask interrupt, no interrupt will be generated. See RNG_ISR for an explanation on this interrupt."]
     #[inline(always)]
-    #[must_use]
     pub fn autocorr_err_int_mask(&mut self) -> AUTOCORR_ERR_INT_MASK_W<RNG_IMR_SPEC> {
         AUTOCORR_ERR_INT_MASK_W::new(self, 1)
     }
     #[doc = "Bit 2 - 1'b1-mask interrupt, no interrupt will be generated. See RNG_ISR for an explanation on this interrupt."]
     #[inline(always)]
-    #[must_use]
     pub fn crngt_err_int_mask(&mut self) -> CRNGT_ERR_INT_MASK_W<RNG_IMR_SPEC> {
         CRNGT_ERR_INT_MASK_W::new(self, 2)
     }
     #[doc = "Bit 3 - 1'b1-mask interrupt, no interrupt will be generated. See RNG_ISR for an explanation on this interrupt."]
     #[inline(always)]
-    #[must_use]
     pub fn vn_err_int_mask(&mut self) -> VN_ERR_INT_MASK_W<RNG_IMR_SPEC> {
         VN_ERR_INT_MASK_W::new(self, 3)
     }
@@ -78,8 +74,6 @@ impl crate::Readable for RNG_IMR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`rng_imr::W`](W) writer structure"]
 impl crate::Writable for RNG_IMR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets RNG_IMR to value 0x0f"]
 impl crate::Resettable for RNG_IMR_SPEC {

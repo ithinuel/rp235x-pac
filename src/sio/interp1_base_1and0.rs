@@ -5,7 +5,6 @@ pub type INTERP1_BASE_1AND0_W<'a, REG> = crate::FieldWriter<'a, REG, 32, u32>;
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn interp1_base_1and0(&mut self) -> INTERP1_BASE_1AND0_W<INTERP1_BASE_1AND0_SPEC> {
         INTERP1_BASE_1AND0_W::new(self, 0)
     }
@@ -21,10 +20,6 @@ impl crate::RegisterSpec for INTERP1_BASE_1AND0_SPEC {
 #[doc = "`write(|w| ..)` method takes [`interp1_base_1and0::W`](W) writer structure"]
 impl crate::Writable for INTERP1_BASE_1AND0_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets INTERP1_BASE_1AND0 to value 0"]
-impl crate::Resettable for INTERP1_BASE_1AND0_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for INTERP1_BASE_1AND0_SPEC {}

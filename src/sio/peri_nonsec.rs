@@ -34,19 +34,16 @@ impl R {
 impl W {
     #[doc = "Bit 0 - If 1, detach interpolator 0 (of this core) from the Secure SIO, and attach to the Non-secure SIO."]
     #[inline(always)]
-    #[must_use]
     pub fn interp0(&mut self) -> INTERP0_W<PERI_NONSEC_SPEC> {
         INTERP0_W::new(self, 0)
     }
     #[doc = "Bit 1 - If 1, detach interpolator 1 (of this core) from the Secure SIO, and attach to the Non-secure SIO."]
     #[inline(always)]
-    #[must_use]
     pub fn interp1(&mut self) -> INTERP1_W<PERI_NONSEC_SPEC> {
         INTERP1_W::new(self, 1)
     }
     #[doc = "Bit 5 - IF 1, detach TMDS encoder (of this core) from the Secure SIO, and attach to the Non-secure SIO."]
     #[inline(always)]
-    #[must_use]
     pub fn tmds(&mut self) -> TMDS_W<PERI_NONSEC_SPEC> {
         TMDS_W::new(self, 5)
     }
@@ -67,10 +64,6 @@ impl crate::Readable for PERI_NONSEC_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`peri_nonsec::W`](W) writer structure"]
 impl crate::Writable for PERI_NONSEC_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets PERI_NONSEC to value 0"]
-impl crate::Resettable for PERI_NONSEC_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for PERI_NONSEC_SPEC {}

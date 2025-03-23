@@ -74,7 +74,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:15"]
     #[inline(always)]
-    #[must_use]
     pub fn arm(&mut self) -> ARM_W<ARM_SPEC> {
         ARM_W::new(self, 0)
     }
@@ -95,8 +94,6 @@ impl crate::Readable for ARM_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`arm::W`](W) writer structure"]
 impl crate::Writable for ARM_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ARM to value 0x5bad"]
 impl crate::Resettable for ARM_SPEC {

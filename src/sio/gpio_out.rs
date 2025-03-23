@@ -32,7 +32,6 @@ impl W {
 
  In the Non-secure SIO, Secure-only GPIOs (as per ACCESSCTRL) ignore writes, and their output status reads back as zero. This is also true for SET/CLR/XOR aliases of this register."]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_out(&mut self) -> GPIO_OUT_W<GPIO_OUT_SPEC> {
         GPIO_OUT_W::new(self, 0)
     }
@@ -49,10 +48,6 @@ impl crate::Readable for GPIO_OUT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`gpio_out::W`](W) writer structure"]
 impl crate::Writable for GPIO_OUT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets GPIO_OUT to value 0"]
-impl crate::Resettable for GPIO_OUT_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for GPIO_OUT_SPEC {}

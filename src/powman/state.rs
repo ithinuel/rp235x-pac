@@ -69,19 +69,16 @@ impl R {
 impl W {
     #[doc = "Bits 4:7"]
     #[inline(always)]
-    #[must_use]
     pub fn req(&mut self) -> REQ_W<STATE_SPEC> {
         REQ_W::new(self, 4)
     }
     #[doc = "Bit 8"]
     #[inline(always)]
-    #[must_use]
     pub fn req_ignored(&mut self) -> REQ_IGNORED_W<STATE_SPEC> {
         REQ_IGNORED_W::new(self, 8)
     }
     #[doc = "Bit 9 - Request ignored because of a pending pwrup request. See current_pwrup_req. Note this blocks powering up AND powering down."]
     #[inline(always)]
-    #[must_use]
     pub fn pwrup_while_waiting(&mut self) -> PWRUP_WHILE_WAITING_W<STATE_SPEC> {
         PWRUP_WHILE_WAITING_W::new(self, 9)
     }
@@ -89,7 +86,7 @@ impl W {
 #[doc = "This register controls the power state of the 4 power domains.   
  The current power state is indicated in POWMAN_STATE_CURRENT which is read-only.   
  To change the state, write to POWMAN_STATE_REQ.   
- The coding of POWMAN_STATE_CURRENT &amp; POWMAN_STATE_REQ corresponds to the power states   
+ The coding of POWMAN_STATE_CURRENT & POWMAN_STATE_REQ corresponds to the power states   
  defined in the datasheet:   
  bit 3 = SWCORE   
  bit 2 = XIP cache   
@@ -109,7 +106,6 @@ impl crate::Readable for STATE_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`state::W`](W) writer structure"]
 impl crate::Writable for STATE_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x0300;
 }
 #[doc = "`reset()` method sets STATE to value 0x0f"]

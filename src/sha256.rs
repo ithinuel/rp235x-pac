@@ -68,8 +68,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`csr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`csr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@csr`]
-module"]
+For information about available fields see [`mod@csr`] module"]
 pub type CSR = crate::Reg<csr::CSR_SPEC>;
 #[doc = "Control and status register"]
 pub mod csr;
@@ -77,8 +76,7 @@ pub mod csr;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`wdata::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@wdata`]
-module"]
+For information about available fields see [`mod@wdata`] module"]
 pub type WDATA = crate::Reg<wdata::WDATA_SPEC>;
 #[doc = "Write data register"]
 pub mod wdata;
@@ -86,8 +84,7 @@ pub mod wdata;
 
 You can [`read`](crate::Reg::read) this register and get [`sum0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sum0`]
-module"]
+For information about available fields see [`mod@sum0`] module"]
 pub type SUM0 = crate::Reg<sum0::SUM0_SPEC>;
 #[doc = "256-bit checksum result. Contents are undefined when CSR_SUM_VLD is 0."]
 pub mod sum0;
@@ -95,8 +92,7 @@ pub mod sum0;
 
 You can [`read`](crate::Reg::read) this register and get [`sum1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sum1`]
-module"]
+For information about available fields see [`mod@sum1`] module"]
 pub type SUM1 = crate::Reg<sum1::SUM1_SPEC>;
 #[doc = "256-bit checksum result. Contents are undefined when CSR_SUM_VLD is 0."]
 pub mod sum1;
@@ -104,8 +100,7 @@ pub mod sum1;
 
 You can [`read`](crate::Reg::read) this register and get [`sum2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sum2`]
-module"]
+For information about available fields see [`mod@sum2`] module"]
 pub type SUM2 = crate::Reg<sum2::SUM2_SPEC>;
 #[doc = "256-bit checksum result. Contents are undefined when CSR_SUM_VLD is 0."]
 pub mod sum2;
@@ -113,8 +108,7 @@ pub mod sum2;
 
 You can [`read`](crate::Reg::read) this register and get [`sum3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sum3`]
-module"]
+For information about available fields see [`mod@sum3`] module"]
 pub type SUM3 = crate::Reg<sum3::SUM3_SPEC>;
 #[doc = "256-bit checksum result. Contents are undefined when CSR_SUM_VLD is 0."]
 pub mod sum3;
@@ -122,8 +116,7 @@ pub mod sum3;
 
 You can [`read`](crate::Reg::read) this register and get [`sum4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sum4`]
-module"]
+For information about available fields see [`mod@sum4`] module"]
 pub type SUM4 = crate::Reg<sum4::SUM4_SPEC>;
 #[doc = "256-bit checksum result. Contents are undefined when CSR_SUM_VLD is 0."]
 pub mod sum4;
@@ -131,8 +124,7 @@ pub mod sum4;
 
 You can [`read`](crate::Reg::read) this register and get [`sum5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sum5`]
-module"]
+For information about available fields see [`mod@sum5`] module"]
 pub type SUM5 = crate::Reg<sum5::SUM5_SPEC>;
 #[doc = "256-bit checksum result. Contents are undefined when CSR_SUM_VLD is 0."]
 pub mod sum5;
@@ -140,8 +132,7 @@ pub mod sum5;
 
 You can [`read`](crate::Reg::read) this register and get [`sum6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sum6`]
-module"]
+For information about available fields see [`mod@sum6`] module"]
 pub type SUM6 = crate::Reg<sum6::SUM6_SPEC>;
 #[doc = "256-bit checksum result. Contents are undefined when CSR_SUM_VLD is 0."]
 pub mod sum6;
@@ -149,8 +140,7 @@ pub mod sum6;
 
 You can [`read`](crate::Reg::read) this register and get [`sum7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sum7`]
-module"]
+For information about available fields see [`mod@sum7`] module"]
 pub type SUM7 = crate::Reg<sum7::SUM7_SPEC>;
 #[doc = "256-bit checksum result. Contents are undefined when CSR_SUM_VLD is 0."]
 pub mod sum7;

@@ -34,19 +34,16 @@ impl R {
 impl W {
     #[doc = "Bit 1 - Indicates when a fault has occurred because of a vector table read error on exception processing"]
     #[inline(always)]
-    #[must_use]
     pub fn vecttbl(&mut self) -> VECTTBL_W<HFSR_SPEC> {
         VECTTBL_W::new(self, 1)
     }
     #[doc = "Bit 30 - Indicates that a fault with configurable priority has been escalated to a HardFault exception, because it could not be made active, because of priority, or because it was disabled"]
     #[inline(always)]
-    #[must_use]
     pub fn forced(&mut self) -> FORCED_W<HFSR_SPEC> {
         FORCED_W::new(self, 30)
     }
     #[doc = "Bit 31 - Indicates when a Debug event has occurred"]
     #[inline(always)]
-    #[must_use]
     pub fn debugevt(&mut self) -> DEBUGEVT_W<HFSR_SPEC> {
         DEBUGEVT_W::new(self, 31)
     }
@@ -63,10 +60,6 @@ impl crate::Readable for HFSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`hfsr::W`](W) writer structure"]
 impl crate::Writable for HFSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets HFSR to value 0"]
-impl crate::Resettable for HFSR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for HFSR_SPEC {}

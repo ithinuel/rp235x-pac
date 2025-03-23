@@ -106,13 +106,11 @@ impl R {
 impl W {
     #[doc = "Bit 1 - Clears all active state information for fixed and configurable exceptions. This bit: is self-clearing, can only be set by the DAP when the core is halted. When set: clears all active exception status of the processor, forces a return to Thread mode, forces an IPSR of 0. A debugger must re-initialize the stack."]
     #[inline(always)]
-    #[must_use]
     pub fn vectclractive(&mut self) -> VECTCLRACTIVE_W<AIRCR_SPEC> {
         VECTCLRACTIVE_W::new(self, 1)
     }
     #[doc = "Bit 2 - Writing 1 to this bit causes the SYSRESETREQ signal to the outer system to be asserted to request a reset. The intention is to force a large system reset of all major components except for debug. The C_HALT bit in the DHCSR is cleared as a result of the system reset requested. The debugger does not lose contact with the device."]
     #[inline(always)]
-    #[must_use]
     pub fn sysresetreq(&mut self) -> SYSRESETREQ_W<AIRCR_SPEC> {
         SYSRESETREQ_W::new(self, 2)
     }
@@ -120,14 +118,12 @@ impl W {
  0 SYSRESETREQ functionality is available to both Security states.   
  1 SYSRESETREQ functionality is only available to Secure state."]
     #[inline(always)]
-    #[must_use]
     pub fn sysresetreqs(&mut self) -> SYSRESETREQS_W<AIRCR_SPEC> {
         SYSRESETREQS_W::new(self, 3)
     }
     #[doc = "Bits 8:10 - Interrupt priority grouping field. This field determines the split of group priority from subpriority.   
  See https://developer.arm.com/documentation/100235/0004/the-cortex-m33-peripherals/system-control-block/application-interrupt-and-reset-control-register?lang=en"]
     #[inline(always)]
-    #[must_use]
     pub fn prigroup(&mut self) -> PRIGROUP_W<AIRCR_SPEC> {
         PRIGROUP_W::new(self, 8)
     }
@@ -135,7 +131,6 @@ impl W {
  0 BusFault, HardFault, and NMI are Secure.   
  1 BusFault and NMI are Non-secure and exceptions can target Non-secure HardFault."]
     #[inline(always)]
-    #[must_use]
     pub fn bfhfnmins(&mut self) -> BFHFNMINS_W<AIRCR_SPEC> {
         BFHFNMINS_W::new(self, 13)
     }
@@ -143,7 +138,6 @@ impl W {
  0 Priority ranges of Secure and Non-secure exceptions are identical.   
  1 Non-secure exceptions are de-prioritized."]
     #[inline(always)]
-    #[must_use]
     pub fn pris(&mut self) -> PRIS_W<AIRCR_SPEC> {
         PRIS_W::new(self, 14)
     }
@@ -151,7 +145,6 @@ impl W {
  Reads as Unknown   
  On writes, write 0x05FA to VECTKEY, otherwise the write is ignored."]
     #[inline(always)]
-    #[must_use]
     pub fn vectkey(&mut self) -> VECTKEY_W<AIRCR_SPEC> {
         VECTKEY_W::new(self, 16)
     }
@@ -168,10 +161,6 @@ impl crate::Readable for AIRCR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`aircr::W`](W) writer structure"]
 impl crate::Writable for AIRCR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets AIRCR to value 0"]
-impl crate::Resettable for AIRCR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for AIRCR_SPEC {}

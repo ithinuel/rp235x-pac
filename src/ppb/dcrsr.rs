@@ -25,13 +25,11 @@ impl R {
 impl W {
     #[doc = "Bits 0:6 - Specifies the general-purpose register, special-purpose register, or FP register to transfer"]
     #[inline(always)]
-    #[must_use]
     pub fn regsel(&mut self) -> REGSEL_W<DCRSR_SPEC> {
         REGSEL_W::new(self, 0)
     }
     #[doc = "Bit 16 - Specifies the access type for the transfer"]
     #[inline(always)]
-    #[must_use]
     pub fn regwnr(&mut self) -> REGWNR_W<DCRSR_SPEC> {
         REGWNR_W::new(self, 16)
     }
@@ -48,10 +46,6 @@ impl crate::Readable for DCRSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dcrsr::W`](W) writer structure"]
 impl crate::Writable for DCRSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DCRSR to value 0"]
-impl crate::Resettable for DCRSR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DCRSR_SPEC {}

@@ -40,13 +40,11 @@ impl W {
 
  Setting LIGHT_SLEEP to 1 keeps the clock request asserted during a normal sleep (Arm SCR.SLEEPDEEP = 0), for faster wakeup. Processor deep sleep (Arm SCR.SLEEPDEEP = 1) is not affected, and will always deassert the system-level clock request."]
     #[inline(always)]
-    #[must_use]
     pub fn light_sleep(&mut self) -> LIGHT_SLEEP_W<SLEEPCTRL_SPEC> {
         LIGHT_SLEEP_W::new(self, 0)
     }
     #[doc = "Bit 1 - Request that the next processor deep sleep is a WIC sleep. After setting this bit, before sleeping, poll WICENACK to ensure the processor interrupt controller has acknowledged the change."]
     #[inline(always)]
-    #[must_use]
     pub fn wicenreq(&mut self) -> WICENREQ_W<SLEEPCTRL_SPEC> {
         WICENREQ_W::new(self, 1)
     }
@@ -63,8 +61,6 @@ impl crate::Readable for SLEEPCTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sleepctrl::W`](W) writer structure"]
 impl crate::Writable for SLEEPCTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SLEEPCTRL to value 0x02"]
 impl crate::Resettable for SLEEPCTRL_SPEC {

@@ -140,85 +140,71 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Enable Reset Vector Catch. This causes a warm reset to halt a running system"]
     #[inline(always)]
-    #[must_use]
     pub fn vc_corereset(&mut self) -> VC_CORERESET_W<DEMCR_SPEC> {
         VC_CORERESET_W::new(self, 0)
     }
     #[doc = "Bit 4 - Enable halting debug trap on a MemManage exception"]
     #[inline(always)]
-    #[must_use]
     pub fn vc_mmerr(&mut self) -> VC_MMERR_W<DEMCR_SPEC> {
         VC_MMERR_W::new(self, 4)
     }
     #[doc = "Bit 5 - Enable halting debug trap on a UsageFault caused by an access to a coprocessor"]
     #[inline(always)]
-    #[must_use]
     pub fn vc_nocperr(&mut self) -> VC_NOCPERR_W<DEMCR_SPEC> {
         VC_NOCPERR_W::new(self, 5)
     }
     #[doc = "Bit 6 - Enable halting debug trap on a UsageFault exception caused by a checking error, for example an alignment check error"]
     #[inline(always)]
-    #[must_use]
     pub fn vc_chkerr(&mut self) -> VC_CHKERR_W<DEMCR_SPEC> {
         VC_CHKERR_W::new(self, 6)
     }
     #[doc = "Bit 7 - Enable halting debug trap on a UsageFault exception caused by a state information error, for example an Undefined Instruction exception"]
     #[inline(always)]
-    #[must_use]
     pub fn vc_staterr(&mut self) -> VC_STATERR_W<DEMCR_SPEC> {
         VC_STATERR_W::new(self, 7)
     }
     #[doc = "Bit 8 - BusFault exception halting debug vector catch enable"]
     #[inline(always)]
-    #[must_use]
     pub fn vc_buserr(&mut self) -> VC_BUSERR_W<DEMCR_SPEC> {
         VC_BUSERR_W::new(self, 8)
     }
     #[doc = "Bit 9 - Enable halting debug vector catch for faults during exception entry and return"]
     #[inline(always)]
-    #[must_use]
     pub fn vc_interr(&mut self) -> VC_INTERR_W<DEMCR_SPEC> {
         VC_INTERR_W::new(self, 9)
     }
     #[doc = "Bit 10 - HardFault exception halting debug vector catch enable"]
     #[inline(always)]
-    #[must_use]
     pub fn vc_harderr(&mut self) -> VC_HARDERR_W<DEMCR_SPEC> {
         VC_HARDERR_W::new(self, 10)
     }
     #[doc = "Bit 11 - SecureFault exception halting debug vector catch enable"]
     #[inline(always)]
-    #[must_use]
     pub fn vc_sferr(&mut self) -> VC_SFERR_W<DEMCR_SPEC> {
         VC_SFERR_W::new(self, 11)
     }
     #[doc = "Bit 16 - Enable the DebugMonitor exception"]
     #[inline(always)]
-    #[must_use]
     pub fn mon_en(&mut self) -> MON_EN_W<DEMCR_SPEC> {
         MON_EN_W::new(self, 16)
     }
     #[doc = "Bit 17 - Sets or clears the pending state of the DebugMonitor exception"]
     #[inline(always)]
-    #[must_use]
     pub fn mon_pend(&mut self) -> MON_PEND_W<DEMCR_SPEC> {
         MON_PEND_W::new(self, 17)
     }
     #[doc = "Bit 18 - Enable DebugMonitor stepping"]
     #[inline(always)]
-    #[must_use]
     pub fn mon_step(&mut self) -> MON_STEP_W<DEMCR_SPEC> {
         MON_STEP_W::new(self, 18)
     }
     #[doc = "Bit 19 - DebugMonitor semaphore bit"]
     #[inline(always)]
-    #[must_use]
     pub fn mon_req(&mut self) -> MON_REQ_W<DEMCR_SPEC> {
         MON_REQ_W::new(self, 19)
     }
     #[doc = "Bit 24 - Global enable for all DWT and ITM features"]
     #[inline(always)]
-    #[must_use]
     pub fn trcena(&mut self) -> TRCENA_W<DEMCR_SPEC> {
         TRCENA_W::new(self, 24)
     }
@@ -235,10 +221,6 @@ impl crate::Readable for DEMCR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`demcr::W`](W) writer structure"]
 impl crate::Writable for DEMCR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DEMCR to value 0"]
-impl crate::Resettable for DEMCR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DEMCR_SPEC {}

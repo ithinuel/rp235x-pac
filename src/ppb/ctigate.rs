@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Enable ctichout0. Set to 0 to disable channel propagation."]
     #[inline(always)]
-    #[must_use]
     pub fn ctigateen0(&mut self) -> CTIGATEEN0_W<CTIGATE_SPEC> {
         CTIGATEEN0_W::new(self, 0)
     }
     #[doc = "Bit 1 - Enable ctichout1. Set to 0 to disable channel propagation."]
     #[inline(always)]
-    #[must_use]
     pub fn ctigateen1(&mut self) -> CTIGATEEN1_W<CTIGATE_SPEC> {
         CTIGATEEN1_W::new(self, 1)
     }
     #[doc = "Bit 2 - Enable ctichout2. Set to 0 to disable channel propagation."]
     #[inline(always)]
-    #[must_use]
     pub fn ctigateen2(&mut self) -> CTIGATEEN2_W<CTIGATE_SPEC> {
         CTIGATEEN2_W::new(self, 2)
     }
     #[doc = "Bit 3 - Enable ctichout3. Set to 0 to disable channel propagation."]
     #[inline(always)]
-    #[must_use]
     pub fn ctigateen3(&mut self) -> CTIGATEEN3_W<CTIGATE_SPEC> {
         CTIGATEEN3_W::new(self, 3)
     }
@@ -78,8 +74,6 @@ impl crate::Readable for CTIGATE_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ctigate::W`](W) writer structure"]
 impl crate::Writable for CTIGATE_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CTIGATE to value 0x0f"]
 impl crate::Resettable for CTIGATE_SPEC {

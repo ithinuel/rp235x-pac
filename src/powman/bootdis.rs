@@ -45,7 +45,6 @@ impl W {
 
  The bootrom checks this flag before reading the BOOT0..3 registers. If it is set, the bootrom clears it, and ignores the BOOT registers. This prevents Secure software from diverting the boot path before a bootloader has had the chance to soft lock OTP pages containing sensitive data."]
     #[inline(always)]
-    #[must_use]
     pub fn now(&mut self) -> NOW_W<BOOTDIS_SPEC> {
         NOW_W::new(self, 0)
     }
@@ -55,7 +54,6 @@ impl W {
 
  This flag should be set by an early boot stage that has soft-locked OTP pages, to prevent later stages from unlocking it by power cycling."]
     #[inline(always)]
-    #[must_use]
     pub fn next(&mut self) -> NEXT_W<BOOTDIS_SPEC> {
         NEXT_W::new(self, 1)
     }
@@ -78,10 +76,7 @@ impl crate::Readable for BOOTDIS_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`bootdis::W`](W) writer structure"]
 impl crate::Writable for BOOTDIS_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x01;
 }
 #[doc = "`reset()` method sets BOOTDIS to value 0"]
-impl crate::Resettable for BOOTDIS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for BOOTDIS_SPEC {}

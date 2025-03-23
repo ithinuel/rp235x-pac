@@ -19,6 +19,4 @@ impl crate::RegisterSpec for READ_TIME_LOWER_SPEC {
 #[doc = "`read()` method returns [`read_time_lower::R`](R) reader structure"]
 impl crate::Readable for READ_TIME_LOWER_SPEC {}
 #[doc = "`reset()` method sets READ_TIME_LOWER to value 0"]
-impl crate::Resettable for READ_TIME_LOWER_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for READ_TIME_LOWER_SPEC {}

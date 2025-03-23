@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31 - Data to write to the Stimulus Port FIFO, for forwarding as an Instrumentation packet. The size of write access determines the type of Instrumentation packet generated."]
     #[inline(always)]
-    #[must_use]
     pub fn stimulus(&mut self) -> STIMULUS_W<ITM_STIM1_SPEC> {
         STIMULUS_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for ITM_STIM1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`itm_stim1::W`](W) writer structure"]
 impl crate::Writable for ITM_STIM1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ITM_STIM1 to value 0"]
-impl crate::Resettable for ITM_STIM1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ITM_STIM1_SPEC {}

@@ -5,7 +5,6 @@ pub type TRIG_FORCE_W<'a, REG> = crate::FieldWriter<'a, REG, 4>;
 impl W {
     #[doc = "Bits 0:3"]
     #[inline(always)]
-    #[must_use]
     pub fn trig_force(&mut self) -> TRIG_FORCE_W<TRIG_FORCE_SPEC> {
         TRIG_FORCE_W::new(self, 0)
     }
@@ -24,10 +23,6 @@ impl crate::RegisterSpec for TRIG_FORCE_SPEC {
 #[doc = "`write(|w| ..)` method takes [`trig_force::W`](W) writer structure"]
 impl crate::Writable for TRIG_FORCE_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRIG_FORCE to value 0"]
-impl crate::Resettable for TRIG_FORCE_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRIG_FORCE_SPEC {}

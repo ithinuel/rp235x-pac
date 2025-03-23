@@ -68,6 +68,4 @@ impl crate::RegisterSpec for IRQSUMMARY_DORMANT_WAKE_NONSECURE_SPEC {
 #[doc = "`read()` method returns [`irqsummary_dormant_wake_nonsecure::R`](R) reader structure"]
 impl crate::Readable for IRQSUMMARY_DORMANT_WAKE_NONSECURE_SPEC {}
 #[doc = "`reset()` method sets IRQSUMMARY_DORMANT_WAKE_NONSECURE to value 0"]
-impl crate::Resettable for IRQSUMMARY_DORMANT_WAKE_NONSECURE_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for IRQSUMMARY_DORMANT_WAKE_NONSECURE_SPEC {}

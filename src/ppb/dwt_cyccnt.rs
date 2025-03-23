@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31 - Increments one on each processor clock cycle when DWT_CTRL.CYCCNTENA == 1 and DEMCR.TRCENA == 1. On overflow, CYCCNT wraps to zero"]
     #[inline(always)]
-    #[must_use]
     pub fn cyccnt(&mut self) -> CYCCNT_W<DWT_CYCCNT_SPEC> {
         CYCCNT_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for DWT_CYCCNT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dwt_cyccnt::W`](W) writer structure"]
 impl crate::Writable for DWT_CYCCNT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DWT_CYCCNT to value 0"]
-impl crate::Resettable for DWT_CYCCNT_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DWT_CYCCNT_SPEC {}

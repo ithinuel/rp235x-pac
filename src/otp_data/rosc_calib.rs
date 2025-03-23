@@ -21,6 +21,4 @@ impl crate::RegisterSpec for ROSC_CALIB_SPEC {
 #[doc = "`read()` method returns [`rosc_calib::R`](R) reader structure"]
 impl crate::Readable for ROSC_CALIB_SPEC {}
 #[doc = "`reset()` method sets ROSC_CALIB to value 0"]
-impl crate::Resettable for ROSC_CALIB_SPEC {
-    const RESET_VALUE: u16 = 0;
-}
+impl crate::Resettable for ROSC_CALIB_SPEC {}

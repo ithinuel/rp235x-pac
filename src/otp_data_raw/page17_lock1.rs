@@ -205,6 +205,4 @@ impl crate::RegisterSpec for PAGE17_LOCK1_SPEC {
 #[doc = "`read()` method returns [`page17_lock1::R`](R) reader structure"]
 impl crate::Readable for PAGE17_LOCK1_SPEC {}
 #[doc = "`reset()` method sets PAGE17_LOCK1 to value 0"]
-impl crate::Resettable for PAGE17_LOCK1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for PAGE17_LOCK1_SPEC {}

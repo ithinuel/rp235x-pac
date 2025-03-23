@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn badpasswd(&mut self) -> BADPASSWD_W<BADPASSWD_SPEC> {
         BADPASSWD_W::new(self, 0)
     }
@@ -33,10 +32,7 @@ impl crate::Readable for BADPASSWD_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`badpasswd::W`](W) writer structure"]
 impl crate::Writable for BADPASSWD_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x01;
 }
 #[doc = "`reset()` method sets BADPASSWD to value 0"]
-impl crate::Resettable for BADPASSWD_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for BADPASSWD_SPEC {}

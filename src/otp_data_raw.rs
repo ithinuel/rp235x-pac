@@ -2159,8 +2159,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`chipid0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chipid0`]
-module"]
+For information about available fields see [`mod@chipid0`] module"]
 pub type CHIPID0 = crate::Reg<chipid0::CHIPID0_SPEC>;
 #[doc = "Bits 15:0 of public device ID. (ECC)  
 
@@ -2172,8 +2171,7 @@ pub mod chipid0;
 
 You can [`read`](crate::Reg::read) this register and get [`chipid1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chipid1`]
-module"]
+For information about available fields see [`mod@chipid1`] module"]
 pub type CHIPID1 = crate::Reg<chipid1::CHIPID1_SPEC>;
 #[doc = "Bits 31:16 of public device ID (ECC)"]
 pub mod chipid1;
@@ -2181,8 +2179,7 @@ pub mod chipid1;
 
 You can [`read`](crate::Reg::read) this register and get [`chipid2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chipid2`]
-module"]
+For information about available fields see [`mod@chipid2`] module"]
 pub type CHIPID2 = crate::Reg<chipid2::CHIPID2_SPEC>;
 #[doc = "Bits 47:32 of public device ID (ECC)"]
 pub mod chipid2;
@@ -2190,8 +2187,7 @@ pub mod chipid2;
 
 You can [`read`](crate::Reg::read) this register and get [`chipid3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@chipid3`]
-module"]
+For information about available fields see [`mod@chipid3`] module"]
 pub type CHIPID3 = crate::Reg<chipid3::CHIPID3_SPEC>;
 #[doc = "Bits 63:48 of public device ID (ECC)"]
 pub mod chipid3;
@@ -2203,8 +2199,7 @@ pub mod chipid3;
 
 You can [`read`](crate::Reg::read) this register and get [`randid0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid0`]
-module"]
+For information about available fields see [`mod@randid0`] module"]
 pub type RANDID0 = crate::Reg<randid0::RANDID0_SPEC>;
 #[doc = "Bits 15:0 of private per-device random number (ECC)  
 
@@ -2216,8 +2211,7 @@ pub mod randid0;
 
 You can [`read`](crate::Reg::read) this register and get [`randid1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid1`]
-module"]
+For information about available fields see [`mod@randid1`] module"]
 pub type RANDID1 = crate::Reg<randid1::RANDID1_SPEC>;
 #[doc = "Bits 31:16 of private per-device random number (ECC)"]
 pub mod randid1;
@@ -2225,8 +2219,7 @@ pub mod randid1;
 
 You can [`read`](crate::Reg::read) this register and get [`randid2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid2`]
-module"]
+For information about available fields see [`mod@randid2`] module"]
 pub type RANDID2 = crate::Reg<randid2::RANDID2_SPEC>;
 #[doc = "Bits 47:32 of private per-device random number (ECC)"]
 pub mod randid2;
@@ -2234,8 +2227,7 @@ pub mod randid2;
 
 You can [`read`](crate::Reg::read) this register and get [`randid3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid3`]
-module"]
+For information about available fields see [`mod@randid3`] module"]
 pub type RANDID3 = crate::Reg<randid3::RANDID3_SPEC>;
 #[doc = "Bits 63:48 of private per-device random number (ECC)"]
 pub mod randid3;
@@ -2243,8 +2235,7 @@ pub mod randid3;
 
 You can [`read`](crate::Reg::read) this register and get [`randid4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid4`]
-module"]
+For information about available fields see [`mod@randid4`] module"]
 pub type RANDID4 = crate::Reg<randid4::RANDID4_SPEC>;
 #[doc = "Bits 79:64 of private per-device random number (ECC)"]
 pub mod randid4;
@@ -2252,8 +2243,7 @@ pub mod randid4;
 
 You can [`read`](crate::Reg::read) this register and get [`randid5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid5`]
-module"]
+For information about available fields see [`mod@randid5`] module"]
 pub type RANDID5 = crate::Reg<randid5::RANDID5_SPEC>;
 #[doc = "Bits 95:80 of private per-device random number (ECC)"]
 pub mod randid5;
@@ -2261,8 +2251,7 @@ pub mod randid5;
 
 You can [`read`](crate::Reg::read) this register and get [`randid6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid6`]
-module"]
+For information about available fields see [`mod@randid6`] module"]
 pub type RANDID6 = crate::Reg<randid6::RANDID6_SPEC>;
 #[doc = "Bits 111:96 of private per-device random number (ECC)"]
 pub mod randid6;
@@ -2270,8 +2259,7 @@ pub mod randid6;
 
 You can [`read`](crate::Reg::read) this register and get [`randid7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@randid7`]
-module"]
+For information about available fields see [`mod@randid7`] module"]
 pub type RANDID7 = crate::Reg<randid7::RANDID7_SPEC>;
 #[doc = "Bits 127:112 of private per-device random number (ECC)"]
 pub mod randid7;
@@ -2281,8 +2269,7 @@ pub mod randid7;
 
 You can [`read`](crate::Reg::read) this register and get [`rosc_calib::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rosc_calib`]
-module"]
+For information about available fields see [`mod@rosc_calib`] module"]
 pub type ROSC_CALIB = crate::Reg<rosc_calib::ROSC_CALIB_SPEC>;
 #[doc = "Ring oscillator frequency in kHz, measured during manufacturing (ECC)  
 
@@ -2294,8 +2281,7 @@ pub mod rosc_calib;
 
 You can [`read`](crate::Reg::read) this register and get [`lposc_calib::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@lposc_calib`]
-module"]
+For information about available fields see [`mod@lposc_calib`] module"]
 pub type LPOSC_CALIB = crate::Reg<lposc_calib::LPOSC_CALIB_SPEC>;
 #[doc = "Low-power oscillator frequency in Hz, measured during manufacturing (ECC)  
 
@@ -2305,8 +2291,7 @@ pub mod lposc_calib;
 
 You can [`read`](crate::Reg::read) this register and get [`num_gpios::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@num_gpios`]
-module"]
+For information about available fields see [`mod@num_gpios`] module"]
 pub type NUM_GPIOS = crate::Reg<num_gpios::NUM_GPIOS_SPEC>;
 #[doc = "The number of main user GPIOs (bank 0). Should read 48 in the QFN80 package, and 30 in the QFN60 package. (ECC)"]
 pub mod num_gpios;
@@ -2314,8 +2299,7 @@ pub mod num_gpios;
 
 You can [`read`](crate::Reg::read) this register and get [`info_crc0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@info_crc0`]
-module"]
+For information about available fields see [`mod@info_crc0`] module"]
 pub type INFO_CRC0 = crate::Reg<info_crc0::INFO_CRC0_SPEC>;
 #[doc = "Lower 16 bits of CRC32 of OTP addresses 0x00 through 0x6b (polynomial 0x4c11db7, input reflected, output reflected, seed all-ones, final XOR all-ones) (ECC)"]
 pub mod info_crc0;
@@ -2323,8 +2307,7 @@ pub mod info_crc0;
 
 You can [`read`](crate::Reg::read) this register and get [`info_crc1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@info_crc1`]
-module"]
+For information about available fields see [`mod@info_crc1`] module"]
 pub type INFO_CRC1 = crate::Reg<info_crc1::INFO_CRC1_SPEC>;
 #[doc = "Upper 16 bits of CRC32 of OTP addresses 0x00 through 0x6b (ECC)"]
 pub mod info_crc1;
@@ -2332,8 +2315,7 @@ pub mod info_crc1;
 
 You can [`read`](crate::Reg::read) this register and get [`crit0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit0`]
-module"]
+For information about available fields see [`mod@crit0`] module"]
 pub type CRIT0 = crate::Reg<crit0::CRIT0_SPEC>;
 #[doc = "Page 0 critical boot flags (RBIT-8)"]
 pub mod crit0;
@@ -2341,8 +2323,7 @@ pub mod crit0;
 
 You can [`read`](crate::Reg::read) this register and get [`crit0_r1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit0_r1`]
-module"]
+For information about available fields see [`mod@crit0_r1`] module"]
 pub type CRIT0_R1 = crate::Reg<crit0_r1::CRIT0_R1_SPEC>;
 #[doc = "Redundant copy of CRIT0"]
 pub mod crit0_r1;
@@ -2350,8 +2331,7 @@ pub mod crit0_r1;
 
 You can [`read`](crate::Reg::read) this register and get [`crit0_r2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit0_r2`]
-module"]
+For information about available fields see [`mod@crit0_r2`] module"]
 pub type CRIT0_R2 = crate::Reg<crit0_r2::CRIT0_R2_SPEC>;
 #[doc = "Redundant copy of CRIT0"]
 pub mod crit0_r2;
@@ -2359,8 +2339,7 @@ pub mod crit0_r2;
 
 You can [`read`](crate::Reg::read) this register and get [`crit0_r3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit0_r3`]
-module"]
+For information about available fields see [`mod@crit0_r3`] module"]
 pub type CRIT0_R3 = crate::Reg<crit0_r3::CRIT0_R3_SPEC>;
 #[doc = "Redundant copy of CRIT0"]
 pub mod crit0_r3;
@@ -2368,8 +2347,7 @@ pub mod crit0_r3;
 
 You can [`read`](crate::Reg::read) this register and get [`crit0_r4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit0_r4`]
-module"]
+For information about available fields see [`mod@crit0_r4`] module"]
 pub type CRIT0_R4 = crate::Reg<crit0_r4::CRIT0_R4_SPEC>;
 #[doc = "Redundant copy of CRIT0"]
 pub mod crit0_r4;
@@ -2377,8 +2355,7 @@ pub mod crit0_r4;
 
 You can [`read`](crate::Reg::read) this register and get [`crit0_r5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit0_r5`]
-module"]
+For information about available fields see [`mod@crit0_r5`] module"]
 pub type CRIT0_R5 = crate::Reg<crit0_r5::CRIT0_R5_SPEC>;
 #[doc = "Redundant copy of CRIT0"]
 pub mod crit0_r5;
@@ -2386,8 +2363,7 @@ pub mod crit0_r5;
 
 You can [`read`](crate::Reg::read) this register and get [`crit0_r6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit0_r6`]
-module"]
+For information about available fields see [`mod@crit0_r6`] module"]
 pub type CRIT0_R6 = crate::Reg<crit0_r6::CRIT0_R6_SPEC>;
 #[doc = "Redundant copy of CRIT0"]
 pub mod crit0_r6;
@@ -2395,8 +2371,7 @@ pub mod crit0_r6;
 
 You can [`read`](crate::Reg::read) this register and get [`crit0_r7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit0_r7`]
-module"]
+For information about available fields see [`mod@crit0_r7`] module"]
 pub type CRIT0_R7 = crate::Reg<crit0_r7::CRIT0_R7_SPEC>;
 #[doc = "Redundant copy of CRIT0"]
 pub mod crit0_r7;
@@ -2404,8 +2379,7 @@ pub mod crit0_r7;
 
 You can [`read`](crate::Reg::read) this register and get [`crit1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit1`]
-module"]
+For information about available fields see [`mod@crit1`] module"]
 pub type CRIT1 = crate::Reg<crit1::CRIT1_SPEC>;
 #[doc = "Page 1 critical boot flags (RBIT-8)"]
 pub mod crit1;
@@ -2413,8 +2387,7 @@ pub mod crit1;
 
 You can [`read`](crate::Reg::read) this register and get [`crit1_r1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit1_r1`]
-module"]
+For information about available fields see [`mod@crit1_r1`] module"]
 pub type CRIT1_R1 = crate::Reg<crit1_r1::CRIT1_R1_SPEC>;
 #[doc = "Redundant copy of CRIT1"]
 pub mod crit1_r1;
@@ -2422,8 +2395,7 @@ pub mod crit1_r1;
 
 You can [`read`](crate::Reg::read) this register and get [`crit1_r2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit1_r2`]
-module"]
+For information about available fields see [`mod@crit1_r2`] module"]
 pub type CRIT1_R2 = crate::Reg<crit1_r2::CRIT1_R2_SPEC>;
 #[doc = "Redundant copy of CRIT1"]
 pub mod crit1_r2;
@@ -2431,8 +2403,7 @@ pub mod crit1_r2;
 
 You can [`read`](crate::Reg::read) this register and get [`crit1_r3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit1_r3`]
-module"]
+For information about available fields see [`mod@crit1_r3`] module"]
 pub type CRIT1_R3 = crate::Reg<crit1_r3::CRIT1_R3_SPEC>;
 #[doc = "Redundant copy of CRIT1"]
 pub mod crit1_r3;
@@ -2440,8 +2411,7 @@ pub mod crit1_r3;
 
 You can [`read`](crate::Reg::read) this register and get [`crit1_r4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit1_r4`]
-module"]
+For information about available fields see [`mod@crit1_r4`] module"]
 pub type CRIT1_R4 = crate::Reg<crit1_r4::CRIT1_R4_SPEC>;
 #[doc = "Redundant copy of CRIT1"]
 pub mod crit1_r4;
@@ -2449,8 +2419,7 @@ pub mod crit1_r4;
 
 You can [`read`](crate::Reg::read) this register and get [`crit1_r5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit1_r5`]
-module"]
+For information about available fields see [`mod@crit1_r5`] module"]
 pub type CRIT1_R5 = crate::Reg<crit1_r5::CRIT1_R5_SPEC>;
 #[doc = "Redundant copy of CRIT1"]
 pub mod crit1_r5;
@@ -2458,8 +2427,7 @@ pub mod crit1_r5;
 
 You can [`read`](crate::Reg::read) this register and get [`crit1_r6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit1_r6`]
-module"]
+For information about available fields see [`mod@crit1_r6`] module"]
 pub type CRIT1_R6 = crate::Reg<crit1_r6::CRIT1_R6_SPEC>;
 #[doc = "Redundant copy of CRIT1"]
 pub mod crit1_r6;
@@ -2467,8 +2435,7 @@ pub mod crit1_r6;
 
 You can [`read`](crate::Reg::read) this register and get [`crit1_r7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crit1_r7`]
-module"]
+For information about available fields see [`mod@crit1_r7`] module"]
 pub type CRIT1_R7 = crate::Reg<crit1_r7::CRIT1_R7_SPEC>;
 #[doc = "Redundant copy of CRIT1"]
 pub mod crit1_r7;
@@ -2476,8 +2443,7 @@ pub mod crit1_r7;
 
 You can [`read`](crate::Reg::read) this register and get [`boot_flags0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot_flags0`]
-module"]
+For information about available fields see [`mod@boot_flags0`] module"]
 pub type BOOT_FLAGS0 = crate::Reg<boot_flags0::BOOT_FLAGS0_SPEC>;
 #[doc = "Disable/Enable boot paths/features in the RP2350 mask ROM. Disables always supersede enables. Enables are provided where there are other configurations in OTP that must be valid. (RBIT-3)"]
 pub mod boot_flags0;
@@ -2485,8 +2451,7 @@ pub mod boot_flags0;
 
 You can [`read`](crate::Reg::read) this register and get [`boot_flags0_r1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot_flags0_r1`]
-module"]
+For information about available fields see [`mod@boot_flags0_r1`] module"]
 pub type BOOT_FLAGS0_R1 = crate::Reg<boot_flags0_r1::BOOT_FLAGS0_R1_SPEC>;
 #[doc = "Redundant copy of BOOT_FLAGS0"]
 pub mod boot_flags0_r1;
@@ -2494,8 +2459,7 @@ pub mod boot_flags0_r1;
 
 You can [`read`](crate::Reg::read) this register and get [`boot_flags0_r2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot_flags0_r2`]
-module"]
+For information about available fields see [`mod@boot_flags0_r2`] module"]
 pub type BOOT_FLAGS0_R2 = crate::Reg<boot_flags0_r2::BOOT_FLAGS0_R2_SPEC>;
 #[doc = "Redundant copy of BOOT_FLAGS0"]
 pub mod boot_flags0_r2;
@@ -2503,8 +2467,7 @@ pub mod boot_flags0_r2;
 
 You can [`read`](crate::Reg::read) this register and get [`boot_flags1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot_flags1`]
-module"]
+For information about available fields see [`mod@boot_flags1`] module"]
 pub type BOOT_FLAGS1 = crate::Reg<boot_flags1::BOOT_FLAGS1_SPEC>;
 #[doc = "Disable/Enable boot paths/features in the RP2350 mask ROM. Disables always supersede enables. Enables are provided where there are other configurations in OTP that must be valid. (RBIT-3)"]
 pub mod boot_flags1;
@@ -2512,8 +2475,7 @@ pub mod boot_flags1;
 
 You can [`read`](crate::Reg::read) this register and get [`boot_flags1_r1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot_flags1_r1`]
-module"]
+For information about available fields see [`mod@boot_flags1_r1`] module"]
 pub type BOOT_FLAGS1_R1 = crate::Reg<boot_flags1_r1::BOOT_FLAGS1_R1_SPEC>;
 #[doc = "Redundant copy of BOOT_FLAGS1"]
 pub mod boot_flags1_r1;
@@ -2521,8 +2483,7 @@ pub mod boot_flags1_r1;
 
 You can [`read`](crate::Reg::read) this register and get [`boot_flags1_r2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@boot_flags1_r2`]
-module"]
+For information about available fields see [`mod@boot_flags1_r2`] module"]
 pub type BOOT_FLAGS1_R2 = crate::Reg<boot_flags1_r2::BOOT_FLAGS1_R2_SPEC>;
 #[doc = "Redundant copy of BOOT_FLAGS1"]
 pub mod boot_flags1_r2;
@@ -2530,8 +2491,7 @@ pub mod boot_flags1_r2;
 
 You can [`read`](crate::Reg::read) this register and get [`default_boot_version0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@default_boot_version0`]
-module"]
+For information about available fields see [`mod@default_boot_version0`] module"]
 pub type DEFAULT_BOOT_VERSION0 = crate::Reg<default_boot_version0::DEFAULT_BOOT_VERSION0_SPEC>;
 #[doc = "Default boot version thermometer counter, bits 23:0 (RBIT-3)"]
 pub mod default_boot_version0;
@@ -2539,8 +2499,7 @@ pub mod default_boot_version0;
 
 You can [`read`](crate::Reg::read) this register and get [`default_boot_version0_r1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@default_boot_version0_r1`]
-module"]
+For information about available fields see [`mod@default_boot_version0_r1`] module"]
 pub type DEFAULT_BOOT_VERSION0_R1 =
     crate::Reg<default_boot_version0_r1::DEFAULT_BOOT_VERSION0_R1_SPEC>;
 #[doc = "Redundant copy of DEFAULT_BOOT_VERSION0"]
@@ -2549,8 +2508,7 @@ pub mod default_boot_version0_r1;
 
 You can [`read`](crate::Reg::read) this register and get [`default_boot_version0_r2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@default_boot_version0_r2`]
-module"]
+For information about available fields see [`mod@default_boot_version0_r2`] module"]
 pub type DEFAULT_BOOT_VERSION0_R2 =
     crate::Reg<default_boot_version0_r2::DEFAULT_BOOT_VERSION0_R2_SPEC>;
 #[doc = "Redundant copy of DEFAULT_BOOT_VERSION0"]
@@ -2559,8 +2517,7 @@ pub mod default_boot_version0_r2;
 
 You can [`read`](crate::Reg::read) this register and get [`default_boot_version1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@default_boot_version1`]
-module"]
+For information about available fields see [`mod@default_boot_version1`] module"]
 pub type DEFAULT_BOOT_VERSION1 = crate::Reg<default_boot_version1::DEFAULT_BOOT_VERSION1_SPEC>;
 #[doc = "Default boot version thermometer counter, bits 47:24 (RBIT-3)"]
 pub mod default_boot_version1;
@@ -2568,8 +2525,7 @@ pub mod default_boot_version1;
 
 You can [`read`](crate::Reg::read) this register and get [`default_boot_version1_r1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@default_boot_version1_r1`]
-module"]
+For information about available fields see [`mod@default_boot_version1_r1`] module"]
 pub type DEFAULT_BOOT_VERSION1_R1 =
     crate::Reg<default_boot_version1_r1::DEFAULT_BOOT_VERSION1_R1_SPEC>;
 #[doc = "Redundant copy of DEFAULT_BOOT_VERSION1"]
@@ -2578,8 +2534,7 @@ pub mod default_boot_version1_r1;
 
 You can [`read`](crate::Reg::read) this register and get [`default_boot_version1_r2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@default_boot_version1_r2`]
-module"]
+For information about available fields see [`mod@default_boot_version1_r2`] module"]
 pub type DEFAULT_BOOT_VERSION1_R2 =
     crate::Reg<default_boot_version1_r2::DEFAULT_BOOT_VERSION1_R2_SPEC>;
 #[doc = "Redundant copy of DEFAULT_BOOT_VERSION1"]
@@ -2590,8 +2545,7 @@ pub mod default_boot_version1_r2;
 
 You can [`read`](crate::Reg::read) this register and get [`flash_devinfo::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@flash_devinfo`]
-module"]
+For information about available fields see [`mod@flash_devinfo`] module"]
 pub type FLASH_DEVINFO = crate::Reg<flash_devinfo::FLASH_DEVINFO_SPEC>;
 #[doc = "Stores information about external flash device(s). (ECC)  
 
@@ -2601,8 +2555,7 @@ pub mod flash_devinfo;
 
 You can [`read`](crate::Reg::read) this register and get [`flash_partition_slot_size::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@flash_partition_slot_size`]
-module"]
+For information about available fields see [`mod@flash_partition_slot_size`] module"]
 pub type FLASH_PARTITION_SLOT_SIZE =
     crate::Reg<flash_partition_slot_size::FLASH_PARTITION_SLOT_SIZE_SPEC>;
 #[doc = "Gap between partition table slot 0 and slot 1 at the start of flash (the default size is 4096 bytes) (ECC) Enabled by the OVERRIDE_FLASH_PARTITION_SLOT_SIZE bit in BOOT_FLAGS, the size is 4096 * (value + 1)"]
@@ -2612,8 +2565,7 @@ pub mod flash_partition_slot_size;
 
 You can [`read`](crate::Reg::read) this register and get [`bootsel_led_cfg::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootsel_led_cfg`]
-module"]
+For information about available fields see [`mod@bootsel_led_cfg`] module"]
 pub type BOOTSEL_LED_CFG = crate::Reg<bootsel_led_cfg::BOOTSEL_LED_CFG_SPEC>;
 #[doc = "Pin configuration for LED status, used by USB bootloader. (ECC)   
  Must be valid if BOOT_FLAGS0_ENABLE_BOOTSEL_LED is set."]
@@ -2638,8 +2590,7 @@ pub mod bootsel_led_cfg;
 
 You can [`read`](crate::Reg::read) this register and get [`bootsel_pll_cfg::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootsel_pll_cfg`]
-module"]
+For information about available fields see [`mod@bootsel_pll_cfg`] module"]
 pub type BOOTSEL_PLL_CFG = crate::Reg<bootsel_pll_cfg::BOOTSEL_PLL_CFG_SPEC>;
 #[doc = "Optional PLL configuration for BOOTSEL mode. (ECC)  
 
@@ -2667,8 +2618,7 @@ pub mod bootsel_pll_cfg;
 
 You can [`read`](crate::Reg::read) this register and get [`bootsel_xosc_cfg::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootsel_xosc_cfg`]
-module"]
+For information about available fields see [`mod@bootsel_xosc_cfg`] module"]
 pub type BOOTSEL_XOSC_CFG = crate::Reg<bootsel_xosc_cfg::BOOTSEL_XOSC_CFG_SPEC>;
 #[doc = "Non-default crystal oscillator configuration for the USB bootloader. (ECC)  
 
@@ -2680,8 +2630,7 @@ pub mod bootsel_xosc_cfg;
 
 You can [`read`](crate::Reg::read) this register and get [`usb_boot_flags::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@usb_boot_flags`]
-module"]
+For information about available fields see [`mod@usb_boot_flags`] module"]
 pub type USB_BOOT_FLAGS = crate::Reg<usb_boot_flags::USB_BOOT_FLAGS_SPEC>;
 #[doc = "USB boot specific feature flags (RBIT-3)"]
 pub mod usb_boot_flags;
@@ -2689,8 +2638,7 @@ pub mod usb_boot_flags;
 
 You can [`read`](crate::Reg::read) this register and get [`usb_boot_flags_r1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@usb_boot_flags_r1`]
-module"]
+For information about available fields see [`mod@usb_boot_flags_r1`] module"]
 pub type USB_BOOT_FLAGS_R1 = crate::Reg<usb_boot_flags_r1::USB_BOOT_FLAGS_R1_SPEC>;
 #[doc = "Redundant copy of USB_BOOT_FLAGS"]
 pub mod usb_boot_flags_r1;
@@ -2698,8 +2646,7 @@ pub mod usb_boot_flags_r1;
 
 You can [`read`](crate::Reg::read) this register and get [`usb_boot_flags_r2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@usb_boot_flags_r2`]
-module"]
+For information about available fields see [`mod@usb_boot_flags_r2`] module"]
 pub type USB_BOOT_FLAGS_R2 = crate::Reg<usb_boot_flags_r2::USB_BOOT_FLAGS_R2_SPEC>;
 #[doc = "Redundant copy of USB_BOOT_FLAGS"]
 pub mod usb_boot_flags_r2;
@@ -2721,8 +2668,7 @@ pub mod usb_boot_flags_r2;
 
 You can [`read`](crate::Reg::read) this register and get [`usb_white_label_addr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@usb_white_label_addr`]
-module"]
+For information about available fields see [`mod@usb_white_label_addr`] module"]
 pub type USB_WHITE_LABEL_ADDR = crate::Reg<usb_white_label_addr::USB_WHITE_LABEL_ADDR_SPEC>;
 #[doc = "Row index of the USB_WHITE_LABEL structure within OTP (ECC)  
 
@@ -2748,8 +2694,7 @@ pub mod usb_white_label_addr;
 
 You can [`read`](crate::Reg::read) this register and get [`otpboot_src::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@otpboot_src`]
-module"]
+For information about available fields see [`mod@otpboot_src`] module"]
 pub type OTPBOOT_SRC = crate::Reg<otpboot_src::OTPBOOT_SRC_SPEC>;
 #[doc = "OTP start row for the OTP boot image. (ECC)  
 
@@ -2763,8 +2708,7 @@ pub mod otpboot_src;
 
 You can [`read`](crate::Reg::read) this register and get [`otpboot_len::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@otpboot_len`]
-module"]
+For information about available fields see [`mod@otpboot_len`] module"]
 pub type OTPBOOT_LEN = crate::Reg<otpboot_len::OTPBOOT_LEN_SPEC>;
 #[doc = "Length in rows of the OTP boot image. (ECC)  
 
@@ -2776,8 +2720,7 @@ pub mod otpboot_len;
 
 You can [`read`](crate::Reg::read) this register and get [`otpboot_dst0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@otpboot_dst0`]
-module"]
+For information about available fields see [`mod@otpboot_dst0`] module"]
 pub type OTPBOOT_DST0 = crate::Reg<otpboot_dst0::OTPBOOT_DST0_SPEC>;
 #[doc = "Bits 15:0 of the OTP boot image load destination (and entry point). (ECC)  
 
@@ -2789,8 +2732,7 @@ pub mod otpboot_dst0;
 
 You can [`read`](crate::Reg::read) this register and get [`otpboot_dst1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@otpboot_dst1`]
-module"]
+For information about available fields see [`mod@otpboot_dst1`] module"]
 pub type OTPBOOT_DST1 = crate::Reg<otpboot_dst1::OTPBOOT_DST1_SPEC>;
 #[doc = "Bits 31:16 of the OTP boot image load destination (and entry point). (ECC)  
 
@@ -2800,8 +2742,7 @@ pub mod otpboot_dst1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_0`]
-module"]
+For information about available fields see [`mod@bootkey0_0`] module"]
 pub type BOOTKEY0_0 = crate::Reg<bootkey0_0::BOOTKEY0_0_SPEC>;
 #[doc = "Bits 15:0 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_0;
@@ -2809,8 +2750,7 @@ pub mod bootkey0_0;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_1`]
-module"]
+For information about available fields see [`mod@bootkey0_1`] module"]
 pub type BOOTKEY0_1 = crate::Reg<bootkey0_1::BOOTKEY0_1_SPEC>;
 #[doc = "Bits 31:16 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_1;
@@ -2818,8 +2758,7 @@ pub mod bootkey0_1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_2`]
-module"]
+For information about available fields see [`mod@bootkey0_2`] module"]
 pub type BOOTKEY0_2 = crate::Reg<bootkey0_2::BOOTKEY0_2_SPEC>;
 #[doc = "Bits 47:32 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_2;
@@ -2827,8 +2766,7 @@ pub mod bootkey0_2;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_3`]
-module"]
+For information about available fields see [`mod@bootkey0_3`] module"]
 pub type BOOTKEY0_3 = crate::Reg<bootkey0_3::BOOTKEY0_3_SPEC>;
 #[doc = "Bits 63:48 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_3;
@@ -2836,8 +2774,7 @@ pub mod bootkey0_3;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_4`]
-module"]
+For information about available fields see [`mod@bootkey0_4`] module"]
 pub type BOOTKEY0_4 = crate::Reg<bootkey0_4::BOOTKEY0_4_SPEC>;
 #[doc = "Bits 79:64 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_4;
@@ -2845,8 +2782,7 @@ pub mod bootkey0_4;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_5`]
-module"]
+For information about available fields see [`mod@bootkey0_5`] module"]
 pub type BOOTKEY0_5 = crate::Reg<bootkey0_5::BOOTKEY0_5_SPEC>;
 #[doc = "Bits 95:80 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_5;
@@ -2854,8 +2790,7 @@ pub mod bootkey0_5;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_6`]
-module"]
+For information about available fields see [`mod@bootkey0_6`] module"]
 pub type BOOTKEY0_6 = crate::Reg<bootkey0_6::BOOTKEY0_6_SPEC>;
 #[doc = "Bits 111:96 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_6;
@@ -2863,8 +2798,7 @@ pub mod bootkey0_6;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_7`]
-module"]
+For information about available fields see [`mod@bootkey0_7`] module"]
 pub type BOOTKEY0_7 = crate::Reg<bootkey0_7::BOOTKEY0_7_SPEC>;
 #[doc = "Bits 127:112 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_7;
@@ -2872,8 +2806,7 @@ pub mod bootkey0_7;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_8::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_8`]
-module"]
+For information about available fields see [`mod@bootkey0_8`] module"]
 pub type BOOTKEY0_8 = crate::Reg<bootkey0_8::BOOTKEY0_8_SPEC>;
 #[doc = "Bits 143:128 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_8;
@@ -2881,8 +2814,7 @@ pub mod bootkey0_8;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_9::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_9`]
-module"]
+For information about available fields see [`mod@bootkey0_9`] module"]
 pub type BOOTKEY0_9 = crate::Reg<bootkey0_9::BOOTKEY0_9_SPEC>;
 #[doc = "Bits 159:144 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_9;
@@ -2890,8 +2822,7 @@ pub mod bootkey0_9;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_10::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_10`]
-module"]
+For information about available fields see [`mod@bootkey0_10`] module"]
 pub type BOOTKEY0_10 = crate::Reg<bootkey0_10::BOOTKEY0_10_SPEC>;
 #[doc = "Bits 175:160 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_10;
@@ -2899,8 +2830,7 @@ pub mod bootkey0_10;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_11::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_11`]
-module"]
+For information about available fields see [`mod@bootkey0_11`] module"]
 pub type BOOTKEY0_11 = crate::Reg<bootkey0_11::BOOTKEY0_11_SPEC>;
 #[doc = "Bits 191:176 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_11;
@@ -2908,8 +2838,7 @@ pub mod bootkey0_11;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_12::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_12`]
-module"]
+For information about available fields see [`mod@bootkey0_12`] module"]
 pub type BOOTKEY0_12 = crate::Reg<bootkey0_12::BOOTKEY0_12_SPEC>;
 #[doc = "Bits 207:192 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_12;
@@ -2917,8 +2846,7 @@ pub mod bootkey0_12;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_13::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_13`]
-module"]
+For information about available fields see [`mod@bootkey0_13`] module"]
 pub type BOOTKEY0_13 = crate::Reg<bootkey0_13::BOOTKEY0_13_SPEC>;
 #[doc = "Bits 223:208 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_13;
@@ -2926,8 +2854,7 @@ pub mod bootkey0_13;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_14::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_14`]
-module"]
+For information about available fields see [`mod@bootkey0_14`] module"]
 pub type BOOTKEY0_14 = crate::Reg<bootkey0_14::BOOTKEY0_14_SPEC>;
 #[doc = "Bits 239:224 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_14;
@@ -2935,8 +2862,7 @@ pub mod bootkey0_14;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey0_15::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey0_15`]
-module"]
+For information about available fields see [`mod@bootkey0_15`] module"]
 pub type BOOTKEY0_15 = crate::Reg<bootkey0_15::BOOTKEY0_15_SPEC>;
 #[doc = "Bits 255:240 of SHA-256 hash of boot key 0 (ECC)"]
 pub mod bootkey0_15;
@@ -2944,8 +2870,7 @@ pub mod bootkey0_15;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_0`]
-module"]
+For information about available fields see [`mod@bootkey1_0`] module"]
 pub type BOOTKEY1_0 = crate::Reg<bootkey1_0::BOOTKEY1_0_SPEC>;
 #[doc = "Bits 15:0 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_0;
@@ -2953,8 +2878,7 @@ pub mod bootkey1_0;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_1`]
-module"]
+For information about available fields see [`mod@bootkey1_1`] module"]
 pub type BOOTKEY1_1 = crate::Reg<bootkey1_1::BOOTKEY1_1_SPEC>;
 #[doc = "Bits 31:16 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_1;
@@ -2962,8 +2886,7 @@ pub mod bootkey1_1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_2`]
-module"]
+For information about available fields see [`mod@bootkey1_2`] module"]
 pub type BOOTKEY1_2 = crate::Reg<bootkey1_2::BOOTKEY1_2_SPEC>;
 #[doc = "Bits 47:32 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_2;
@@ -2971,8 +2894,7 @@ pub mod bootkey1_2;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_3`]
-module"]
+For information about available fields see [`mod@bootkey1_3`] module"]
 pub type BOOTKEY1_3 = crate::Reg<bootkey1_3::BOOTKEY1_3_SPEC>;
 #[doc = "Bits 63:48 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_3;
@@ -2980,8 +2902,7 @@ pub mod bootkey1_3;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_4`]
-module"]
+For information about available fields see [`mod@bootkey1_4`] module"]
 pub type BOOTKEY1_4 = crate::Reg<bootkey1_4::BOOTKEY1_4_SPEC>;
 #[doc = "Bits 79:64 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_4;
@@ -2989,8 +2910,7 @@ pub mod bootkey1_4;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_5`]
-module"]
+For information about available fields see [`mod@bootkey1_5`] module"]
 pub type BOOTKEY1_5 = crate::Reg<bootkey1_5::BOOTKEY1_5_SPEC>;
 #[doc = "Bits 95:80 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_5;
@@ -2998,8 +2918,7 @@ pub mod bootkey1_5;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_6`]
-module"]
+For information about available fields see [`mod@bootkey1_6`] module"]
 pub type BOOTKEY1_6 = crate::Reg<bootkey1_6::BOOTKEY1_6_SPEC>;
 #[doc = "Bits 111:96 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_6;
@@ -3007,8 +2926,7 @@ pub mod bootkey1_6;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_7`]
-module"]
+For information about available fields see [`mod@bootkey1_7`] module"]
 pub type BOOTKEY1_7 = crate::Reg<bootkey1_7::BOOTKEY1_7_SPEC>;
 #[doc = "Bits 127:112 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_7;
@@ -3016,8 +2934,7 @@ pub mod bootkey1_7;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_8::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_8`]
-module"]
+For information about available fields see [`mod@bootkey1_8`] module"]
 pub type BOOTKEY1_8 = crate::Reg<bootkey1_8::BOOTKEY1_8_SPEC>;
 #[doc = "Bits 143:128 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_8;
@@ -3025,8 +2942,7 @@ pub mod bootkey1_8;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_9::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_9`]
-module"]
+For information about available fields see [`mod@bootkey1_9`] module"]
 pub type BOOTKEY1_9 = crate::Reg<bootkey1_9::BOOTKEY1_9_SPEC>;
 #[doc = "Bits 159:144 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_9;
@@ -3034,8 +2950,7 @@ pub mod bootkey1_9;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_10::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_10`]
-module"]
+For information about available fields see [`mod@bootkey1_10`] module"]
 pub type BOOTKEY1_10 = crate::Reg<bootkey1_10::BOOTKEY1_10_SPEC>;
 #[doc = "Bits 175:160 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_10;
@@ -3043,8 +2958,7 @@ pub mod bootkey1_10;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_11::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_11`]
-module"]
+For information about available fields see [`mod@bootkey1_11`] module"]
 pub type BOOTKEY1_11 = crate::Reg<bootkey1_11::BOOTKEY1_11_SPEC>;
 #[doc = "Bits 191:176 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_11;
@@ -3052,8 +2966,7 @@ pub mod bootkey1_11;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_12::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_12`]
-module"]
+For information about available fields see [`mod@bootkey1_12`] module"]
 pub type BOOTKEY1_12 = crate::Reg<bootkey1_12::BOOTKEY1_12_SPEC>;
 #[doc = "Bits 207:192 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_12;
@@ -3061,8 +2974,7 @@ pub mod bootkey1_12;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_13::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_13`]
-module"]
+For information about available fields see [`mod@bootkey1_13`] module"]
 pub type BOOTKEY1_13 = crate::Reg<bootkey1_13::BOOTKEY1_13_SPEC>;
 #[doc = "Bits 223:208 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_13;
@@ -3070,8 +2982,7 @@ pub mod bootkey1_13;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_14::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_14`]
-module"]
+For information about available fields see [`mod@bootkey1_14`] module"]
 pub type BOOTKEY1_14 = crate::Reg<bootkey1_14::BOOTKEY1_14_SPEC>;
 #[doc = "Bits 239:224 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_14;
@@ -3079,8 +2990,7 @@ pub mod bootkey1_14;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey1_15::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey1_15`]
-module"]
+For information about available fields see [`mod@bootkey1_15`] module"]
 pub type BOOTKEY1_15 = crate::Reg<bootkey1_15::BOOTKEY1_15_SPEC>;
 #[doc = "Bits 255:240 of SHA-256 hash of boot key 1 (ECC)"]
 pub mod bootkey1_15;
@@ -3088,8 +2998,7 @@ pub mod bootkey1_15;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_0`]
-module"]
+For information about available fields see [`mod@bootkey2_0`] module"]
 pub type BOOTKEY2_0 = crate::Reg<bootkey2_0::BOOTKEY2_0_SPEC>;
 #[doc = "Bits 15:0 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_0;
@@ -3097,8 +3006,7 @@ pub mod bootkey2_0;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_1`]
-module"]
+For information about available fields see [`mod@bootkey2_1`] module"]
 pub type BOOTKEY2_1 = crate::Reg<bootkey2_1::BOOTKEY2_1_SPEC>;
 #[doc = "Bits 31:16 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_1;
@@ -3106,8 +3014,7 @@ pub mod bootkey2_1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_2`]
-module"]
+For information about available fields see [`mod@bootkey2_2`] module"]
 pub type BOOTKEY2_2 = crate::Reg<bootkey2_2::BOOTKEY2_2_SPEC>;
 #[doc = "Bits 47:32 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_2;
@@ -3115,8 +3022,7 @@ pub mod bootkey2_2;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_3`]
-module"]
+For information about available fields see [`mod@bootkey2_3`] module"]
 pub type BOOTKEY2_3 = crate::Reg<bootkey2_3::BOOTKEY2_3_SPEC>;
 #[doc = "Bits 63:48 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_3;
@@ -3124,8 +3030,7 @@ pub mod bootkey2_3;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_4`]
-module"]
+For information about available fields see [`mod@bootkey2_4`] module"]
 pub type BOOTKEY2_4 = crate::Reg<bootkey2_4::BOOTKEY2_4_SPEC>;
 #[doc = "Bits 79:64 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_4;
@@ -3133,8 +3038,7 @@ pub mod bootkey2_4;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_5`]
-module"]
+For information about available fields see [`mod@bootkey2_5`] module"]
 pub type BOOTKEY2_5 = crate::Reg<bootkey2_5::BOOTKEY2_5_SPEC>;
 #[doc = "Bits 95:80 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_5;
@@ -3142,8 +3046,7 @@ pub mod bootkey2_5;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_6`]
-module"]
+For information about available fields see [`mod@bootkey2_6`] module"]
 pub type BOOTKEY2_6 = crate::Reg<bootkey2_6::BOOTKEY2_6_SPEC>;
 #[doc = "Bits 111:96 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_6;
@@ -3151,8 +3054,7 @@ pub mod bootkey2_6;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_7`]
-module"]
+For information about available fields see [`mod@bootkey2_7`] module"]
 pub type BOOTKEY2_7 = crate::Reg<bootkey2_7::BOOTKEY2_7_SPEC>;
 #[doc = "Bits 127:112 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_7;
@@ -3160,8 +3062,7 @@ pub mod bootkey2_7;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_8::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_8`]
-module"]
+For information about available fields see [`mod@bootkey2_8`] module"]
 pub type BOOTKEY2_8 = crate::Reg<bootkey2_8::BOOTKEY2_8_SPEC>;
 #[doc = "Bits 143:128 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_8;
@@ -3169,8 +3070,7 @@ pub mod bootkey2_8;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_9::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_9`]
-module"]
+For information about available fields see [`mod@bootkey2_9`] module"]
 pub type BOOTKEY2_9 = crate::Reg<bootkey2_9::BOOTKEY2_9_SPEC>;
 #[doc = "Bits 159:144 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_9;
@@ -3178,8 +3078,7 @@ pub mod bootkey2_9;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_10::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_10`]
-module"]
+For information about available fields see [`mod@bootkey2_10`] module"]
 pub type BOOTKEY2_10 = crate::Reg<bootkey2_10::BOOTKEY2_10_SPEC>;
 #[doc = "Bits 175:160 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_10;
@@ -3187,8 +3086,7 @@ pub mod bootkey2_10;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_11::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_11`]
-module"]
+For information about available fields see [`mod@bootkey2_11`] module"]
 pub type BOOTKEY2_11 = crate::Reg<bootkey2_11::BOOTKEY2_11_SPEC>;
 #[doc = "Bits 191:176 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_11;
@@ -3196,8 +3094,7 @@ pub mod bootkey2_11;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_12::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_12`]
-module"]
+For information about available fields see [`mod@bootkey2_12`] module"]
 pub type BOOTKEY2_12 = crate::Reg<bootkey2_12::BOOTKEY2_12_SPEC>;
 #[doc = "Bits 207:192 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_12;
@@ -3205,8 +3102,7 @@ pub mod bootkey2_12;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_13::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_13`]
-module"]
+For information about available fields see [`mod@bootkey2_13`] module"]
 pub type BOOTKEY2_13 = crate::Reg<bootkey2_13::BOOTKEY2_13_SPEC>;
 #[doc = "Bits 223:208 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_13;
@@ -3214,8 +3110,7 @@ pub mod bootkey2_13;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_14::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_14`]
-module"]
+For information about available fields see [`mod@bootkey2_14`] module"]
 pub type BOOTKEY2_14 = crate::Reg<bootkey2_14::BOOTKEY2_14_SPEC>;
 #[doc = "Bits 239:224 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_14;
@@ -3223,8 +3118,7 @@ pub mod bootkey2_14;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey2_15::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey2_15`]
-module"]
+For information about available fields see [`mod@bootkey2_15`] module"]
 pub type BOOTKEY2_15 = crate::Reg<bootkey2_15::BOOTKEY2_15_SPEC>;
 #[doc = "Bits 255:240 of SHA-256 hash of boot key 2 (ECC)"]
 pub mod bootkey2_15;
@@ -3232,8 +3126,7 @@ pub mod bootkey2_15;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_0`]
-module"]
+For information about available fields see [`mod@bootkey3_0`] module"]
 pub type BOOTKEY3_0 = crate::Reg<bootkey3_0::BOOTKEY3_0_SPEC>;
 #[doc = "Bits 15:0 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_0;
@@ -3241,8 +3134,7 @@ pub mod bootkey3_0;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_1`]
-module"]
+For information about available fields see [`mod@bootkey3_1`] module"]
 pub type BOOTKEY3_1 = crate::Reg<bootkey3_1::BOOTKEY3_1_SPEC>;
 #[doc = "Bits 31:16 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_1;
@@ -3250,8 +3142,7 @@ pub mod bootkey3_1;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_2`]
-module"]
+For information about available fields see [`mod@bootkey3_2`] module"]
 pub type BOOTKEY3_2 = crate::Reg<bootkey3_2::BOOTKEY3_2_SPEC>;
 #[doc = "Bits 47:32 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_2;
@@ -3259,8 +3150,7 @@ pub mod bootkey3_2;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_3`]
-module"]
+For information about available fields see [`mod@bootkey3_3`] module"]
 pub type BOOTKEY3_3 = crate::Reg<bootkey3_3::BOOTKEY3_3_SPEC>;
 #[doc = "Bits 63:48 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_3;
@@ -3268,8 +3158,7 @@ pub mod bootkey3_3;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_4`]
-module"]
+For information about available fields see [`mod@bootkey3_4`] module"]
 pub type BOOTKEY3_4 = crate::Reg<bootkey3_4::BOOTKEY3_4_SPEC>;
 #[doc = "Bits 79:64 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_4;
@@ -3277,8 +3166,7 @@ pub mod bootkey3_4;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_5`]
-module"]
+For information about available fields see [`mod@bootkey3_5`] module"]
 pub type BOOTKEY3_5 = crate::Reg<bootkey3_5::BOOTKEY3_5_SPEC>;
 #[doc = "Bits 95:80 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_5;
@@ -3286,8 +3174,7 @@ pub mod bootkey3_5;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_6`]
-module"]
+For information about available fields see [`mod@bootkey3_6`] module"]
 pub type BOOTKEY3_6 = crate::Reg<bootkey3_6::BOOTKEY3_6_SPEC>;
 #[doc = "Bits 111:96 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_6;
@@ -3295,8 +3182,7 @@ pub mod bootkey3_6;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_7`]
-module"]
+For information about available fields see [`mod@bootkey3_7`] module"]
 pub type BOOTKEY3_7 = crate::Reg<bootkey3_7::BOOTKEY3_7_SPEC>;
 #[doc = "Bits 127:112 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_7;
@@ -3304,8 +3190,7 @@ pub mod bootkey3_7;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_8::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_8`]
-module"]
+For information about available fields see [`mod@bootkey3_8`] module"]
 pub type BOOTKEY3_8 = crate::Reg<bootkey3_8::BOOTKEY3_8_SPEC>;
 #[doc = "Bits 143:128 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_8;
@@ -3313,8 +3198,7 @@ pub mod bootkey3_8;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_9::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_9`]
-module"]
+For information about available fields see [`mod@bootkey3_9`] module"]
 pub type BOOTKEY3_9 = crate::Reg<bootkey3_9::BOOTKEY3_9_SPEC>;
 #[doc = "Bits 159:144 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_9;
@@ -3322,8 +3206,7 @@ pub mod bootkey3_9;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_10::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_10`]
-module"]
+For information about available fields see [`mod@bootkey3_10`] module"]
 pub type BOOTKEY3_10 = crate::Reg<bootkey3_10::BOOTKEY3_10_SPEC>;
 #[doc = "Bits 175:160 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_10;
@@ -3331,8 +3214,7 @@ pub mod bootkey3_10;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_11::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_11`]
-module"]
+For information about available fields see [`mod@bootkey3_11`] module"]
 pub type BOOTKEY3_11 = crate::Reg<bootkey3_11::BOOTKEY3_11_SPEC>;
 #[doc = "Bits 191:176 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_11;
@@ -3340,8 +3222,7 @@ pub mod bootkey3_11;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_12::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_12`]
-module"]
+For information about available fields see [`mod@bootkey3_12`] module"]
 pub type BOOTKEY3_12 = crate::Reg<bootkey3_12::BOOTKEY3_12_SPEC>;
 #[doc = "Bits 207:192 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_12;
@@ -3349,8 +3230,7 @@ pub mod bootkey3_12;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_13::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_13`]
-module"]
+For information about available fields see [`mod@bootkey3_13`] module"]
 pub type BOOTKEY3_13 = crate::Reg<bootkey3_13::BOOTKEY3_13_SPEC>;
 #[doc = "Bits 223:208 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_13;
@@ -3358,8 +3238,7 @@ pub mod bootkey3_13;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_14::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_14`]
-module"]
+For information about available fields see [`mod@bootkey3_14`] module"]
 pub type BOOTKEY3_14 = crate::Reg<bootkey3_14::BOOTKEY3_14_SPEC>;
 #[doc = "Bits 239:224 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_14;
@@ -3367,8 +3246,7 @@ pub mod bootkey3_14;
 
 You can [`read`](crate::Reg::read) this register and get [`bootkey3_15::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootkey3_15`]
-module"]
+For information about available fields see [`mod@bootkey3_15`] module"]
 pub type BOOTKEY3_15 = crate::Reg<bootkey3_15::BOOTKEY3_15_SPEC>;
 #[doc = "Bits 255:240 of SHA-256 hash of boot key 3 (ECC)"]
 pub mod bootkey3_15;
@@ -3376,8 +3254,7 @@ pub mod bootkey3_15;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_0`]
-module"]
+For information about available fields see [`mod@key1_0`] module"]
 pub type KEY1_0 = crate::Reg<key1_0::KEY1_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 1 (ECC)"]
 pub mod key1_0;
@@ -3385,8 +3262,7 @@ pub mod key1_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_1`]
-module"]
+For information about available fields see [`mod@key1_1`] module"]
 pub type KEY1_1 = crate::Reg<key1_1::KEY1_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 1 (ECC)"]
 pub mod key1_1;
@@ -3394,8 +3270,7 @@ pub mod key1_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_2`]
-module"]
+For information about available fields see [`mod@key1_2`] module"]
 pub type KEY1_2 = crate::Reg<key1_2::KEY1_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 1 (ECC)"]
 pub mod key1_2;
@@ -3403,8 +3278,7 @@ pub mod key1_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_3`]
-module"]
+For information about available fields see [`mod@key1_3`] module"]
 pub type KEY1_3 = crate::Reg<key1_3::KEY1_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 1 (ECC)"]
 pub mod key1_3;
@@ -3412,8 +3286,7 @@ pub mod key1_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_4`]
-module"]
+For information about available fields see [`mod@key1_4`] module"]
 pub type KEY1_4 = crate::Reg<key1_4::KEY1_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 1 (ECC)"]
 pub mod key1_4;
@@ -3421,8 +3294,7 @@ pub mod key1_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_5`]
-module"]
+For information about available fields see [`mod@key1_5`] module"]
 pub type KEY1_5 = crate::Reg<key1_5::KEY1_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 1 (ECC)"]
 pub mod key1_5;
@@ -3430,8 +3302,7 @@ pub mod key1_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_6`]
-module"]
+For information about available fields see [`mod@key1_6`] module"]
 pub type KEY1_6 = crate::Reg<key1_6::KEY1_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 1 (ECC)"]
 pub mod key1_6;
@@ -3439,8 +3310,7 @@ pub mod key1_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_7`]
-module"]
+For information about available fields see [`mod@key1_7`] module"]
 pub type KEY1_7 = crate::Reg<key1_7::KEY1_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 1 (ECC)"]
 pub mod key1_7;
@@ -3448,8 +3318,7 @@ pub mod key1_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_0`]
-module"]
+For information about available fields see [`mod@key2_0`] module"]
 pub type KEY2_0 = crate::Reg<key2_0::KEY2_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 2 (ECC)"]
 pub mod key2_0;
@@ -3457,8 +3326,7 @@ pub mod key2_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_1`]
-module"]
+For information about available fields see [`mod@key2_1`] module"]
 pub type KEY2_1 = crate::Reg<key2_1::KEY2_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 2 (ECC)"]
 pub mod key2_1;
@@ -3466,8 +3334,7 @@ pub mod key2_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_2`]
-module"]
+For information about available fields see [`mod@key2_2`] module"]
 pub type KEY2_2 = crate::Reg<key2_2::KEY2_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 2 (ECC)"]
 pub mod key2_2;
@@ -3475,8 +3342,7 @@ pub mod key2_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_3`]
-module"]
+For information about available fields see [`mod@key2_3`] module"]
 pub type KEY2_3 = crate::Reg<key2_3::KEY2_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 2 (ECC)"]
 pub mod key2_3;
@@ -3484,8 +3350,7 @@ pub mod key2_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_4`]
-module"]
+For information about available fields see [`mod@key2_4`] module"]
 pub type KEY2_4 = crate::Reg<key2_4::KEY2_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 2 (ECC)"]
 pub mod key2_4;
@@ -3493,8 +3358,7 @@ pub mod key2_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_5`]
-module"]
+For information about available fields see [`mod@key2_5`] module"]
 pub type KEY2_5 = crate::Reg<key2_5::KEY2_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 2 (ECC)"]
 pub mod key2_5;
@@ -3502,8 +3366,7 @@ pub mod key2_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_6`]
-module"]
+For information about available fields see [`mod@key2_6`] module"]
 pub type KEY2_6 = crate::Reg<key2_6::KEY2_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 2 (ECC)"]
 pub mod key2_6;
@@ -3511,8 +3374,7 @@ pub mod key2_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_7`]
-module"]
+For information about available fields see [`mod@key2_7`] module"]
 pub type KEY2_7 = crate::Reg<key2_7::KEY2_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 2 (ECC)"]
 pub mod key2_7;
@@ -3520,8 +3382,7 @@ pub mod key2_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_0`]
-module"]
+For information about available fields see [`mod@key3_0`] module"]
 pub type KEY3_0 = crate::Reg<key3_0::KEY3_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 3 (ECC)"]
 pub mod key3_0;
@@ -3529,8 +3390,7 @@ pub mod key3_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_1`]
-module"]
+For information about available fields see [`mod@key3_1`] module"]
 pub type KEY3_1 = crate::Reg<key3_1::KEY3_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 3 (ECC)"]
 pub mod key3_1;
@@ -3538,8 +3398,7 @@ pub mod key3_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_2`]
-module"]
+For information about available fields see [`mod@key3_2`] module"]
 pub type KEY3_2 = crate::Reg<key3_2::KEY3_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 3 (ECC)"]
 pub mod key3_2;
@@ -3547,8 +3406,7 @@ pub mod key3_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_3`]
-module"]
+For information about available fields see [`mod@key3_3`] module"]
 pub type KEY3_3 = crate::Reg<key3_3::KEY3_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 3 (ECC)"]
 pub mod key3_3;
@@ -3556,8 +3414,7 @@ pub mod key3_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_4`]
-module"]
+For information about available fields see [`mod@key3_4`] module"]
 pub type KEY3_4 = crate::Reg<key3_4::KEY3_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 3 (ECC)"]
 pub mod key3_4;
@@ -3565,8 +3422,7 @@ pub mod key3_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_5`]
-module"]
+For information about available fields see [`mod@key3_5`] module"]
 pub type KEY3_5 = crate::Reg<key3_5::KEY3_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 3 (ECC)"]
 pub mod key3_5;
@@ -3574,8 +3430,7 @@ pub mod key3_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_6`]
-module"]
+For information about available fields see [`mod@key3_6`] module"]
 pub type KEY3_6 = crate::Reg<key3_6::KEY3_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 3 (ECC)"]
 pub mod key3_6;
@@ -3583,8 +3438,7 @@ pub mod key3_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_7`]
-module"]
+For information about available fields see [`mod@key3_7`] module"]
 pub type KEY3_7 = crate::Reg<key3_7::KEY3_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 3 (ECC)"]
 pub mod key3_7;
@@ -3592,8 +3446,7 @@ pub mod key3_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_0`]
-module"]
+For information about available fields see [`mod@key4_0`] module"]
 pub type KEY4_0 = crate::Reg<key4_0::KEY4_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 4 (ECC)"]
 pub mod key4_0;
@@ -3601,8 +3454,7 @@ pub mod key4_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_1`]
-module"]
+For information about available fields see [`mod@key4_1`] module"]
 pub type KEY4_1 = crate::Reg<key4_1::KEY4_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 4 (ECC)"]
 pub mod key4_1;
@@ -3610,8 +3462,7 @@ pub mod key4_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_2`]
-module"]
+For information about available fields see [`mod@key4_2`] module"]
 pub type KEY4_2 = crate::Reg<key4_2::KEY4_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 4 (ECC)"]
 pub mod key4_2;
@@ -3619,8 +3470,7 @@ pub mod key4_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_3`]
-module"]
+For information about available fields see [`mod@key4_3`] module"]
 pub type KEY4_3 = crate::Reg<key4_3::KEY4_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 4 (ECC)"]
 pub mod key4_3;
@@ -3628,8 +3478,7 @@ pub mod key4_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_4`]
-module"]
+For information about available fields see [`mod@key4_4`] module"]
 pub type KEY4_4 = crate::Reg<key4_4::KEY4_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 4 (ECC)"]
 pub mod key4_4;
@@ -3637,8 +3486,7 @@ pub mod key4_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_5`]
-module"]
+For information about available fields see [`mod@key4_5`] module"]
 pub type KEY4_5 = crate::Reg<key4_5::KEY4_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 4 (ECC)"]
 pub mod key4_5;
@@ -3646,8 +3494,7 @@ pub mod key4_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_6`]
-module"]
+For information about available fields see [`mod@key4_6`] module"]
 pub type KEY4_6 = crate::Reg<key4_6::KEY4_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 4 (ECC)"]
 pub mod key4_6;
@@ -3655,8 +3502,7 @@ pub mod key4_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_7`]
-module"]
+For information about available fields see [`mod@key4_7`] module"]
 pub type KEY4_7 = crate::Reg<key4_7::KEY4_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 4 (ECC)"]
 pub mod key4_7;
@@ -3664,8 +3510,7 @@ pub mod key4_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_0`]
-module"]
+For information about available fields see [`mod@key5_0`] module"]
 pub type KEY5_0 = crate::Reg<key5_0::KEY5_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 5 (ECC)"]
 pub mod key5_0;
@@ -3673,8 +3518,7 @@ pub mod key5_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_1`]
-module"]
+For information about available fields see [`mod@key5_1`] module"]
 pub type KEY5_1 = crate::Reg<key5_1::KEY5_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 5 (ECC)"]
 pub mod key5_1;
@@ -3682,8 +3526,7 @@ pub mod key5_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_2`]
-module"]
+For information about available fields see [`mod@key5_2`] module"]
 pub type KEY5_2 = crate::Reg<key5_2::KEY5_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 5 (ECC)"]
 pub mod key5_2;
@@ -3691,8 +3534,7 @@ pub mod key5_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_3`]
-module"]
+For information about available fields see [`mod@key5_3`] module"]
 pub type KEY5_3 = crate::Reg<key5_3::KEY5_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 5 (ECC)"]
 pub mod key5_3;
@@ -3700,8 +3542,7 @@ pub mod key5_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_4`]
-module"]
+For information about available fields see [`mod@key5_4`] module"]
 pub type KEY5_4 = crate::Reg<key5_4::KEY5_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 5 (ECC)"]
 pub mod key5_4;
@@ -3709,8 +3550,7 @@ pub mod key5_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_5`]
-module"]
+For information about available fields see [`mod@key5_5`] module"]
 pub type KEY5_5 = crate::Reg<key5_5::KEY5_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 5 (ECC)"]
 pub mod key5_5;
@@ -3718,8 +3558,7 @@ pub mod key5_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_6`]
-module"]
+For information about available fields see [`mod@key5_6`] module"]
 pub type KEY5_6 = crate::Reg<key5_6::KEY5_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 5 (ECC)"]
 pub mod key5_6;
@@ -3727,8 +3566,7 @@ pub mod key5_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_7`]
-module"]
+For information about available fields see [`mod@key5_7`] module"]
 pub type KEY5_7 = crate::Reg<key5_7::KEY5_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 5 (ECC)"]
 pub mod key5_7;
@@ -3736,8 +3574,7 @@ pub mod key5_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_0`]
-module"]
+For information about available fields see [`mod@key6_0`] module"]
 pub type KEY6_0 = crate::Reg<key6_0::KEY6_0_SPEC>;
 #[doc = "Bits 15:0 of OTP access key 6 (ECC)"]
 pub mod key6_0;
@@ -3745,8 +3582,7 @@ pub mod key6_0;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_1`]
-module"]
+For information about available fields see [`mod@key6_1`] module"]
 pub type KEY6_1 = crate::Reg<key6_1::KEY6_1_SPEC>;
 #[doc = "Bits 31:16 of OTP access key 6 (ECC)"]
 pub mod key6_1;
@@ -3754,8 +3590,7 @@ pub mod key6_1;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_2`]
-module"]
+For information about available fields see [`mod@key6_2`] module"]
 pub type KEY6_2 = crate::Reg<key6_2::KEY6_2_SPEC>;
 #[doc = "Bits 47:32 of OTP access key 6 (ECC)"]
 pub mod key6_2;
@@ -3763,8 +3598,7 @@ pub mod key6_2;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_3`]
-module"]
+For information about available fields see [`mod@key6_3`] module"]
 pub type KEY6_3 = crate::Reg<key6_3::KEY6_3_SPEC>;
 #[doc = "Bits 63:48 of OTP access key 6 (ECC)"]
 pub mod key6_3;
@@ -3772,8 +3606,7 @@ pub mod key6_3;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_4`]
-module"]
+For information about available fields see [`mod@key6_4`] module"]
 pub type KEY6_4 = crate::Reg<key6_4::KEY6_4_SPEC>;
 #[doc = "Bits 79:64 of OTP access key 6 (ECC)"]
 pub mod key6_4;
@@ -3781,8 +3614,7 @@ pub mod key6_4;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_5`]
-module"]
+For information about available fields see [`mod@key6_5`] module"]
 pub type KEY6_5 = crate::Reg<key6_5::KEY6_5_SPEC>;
 #[doc = "Bits 95:80 of OTP access key 6 (ECC)"]
 pub mod key6_5;
@@ -3790,8 +3622,7 @@ pub mod key6_5;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_6::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_6`]
-module"]
+For information about available fields see [`mod@key6_6`] module"]
 pub type KEY6_6 = crate::Reg<key6_6::KEY6_6_SPEC>;
 #[doc = "Bits 111:96 of OTP access key 6 (ECC)"]
 pub mod key6_6;
@@ -3799,8 +3630,7 @@ pub mod key6_6;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_7::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_7`]
-module"]
+For information about available fields see [`mod@key6_7`] module"]
 pub type KEY6_7 = crate::Reg<key6_7::KEY6_7_SPEC>;
 #[doc = "Bits 127:112 of OTP access key 6 (ECC)"]
 pub mod key6_7;
@@ -3808,8 +3638,7 @@ pub mod key6_7;
 
 You can [`read`](crate::Reg::read) this register and get [`key1_valid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key1_valid`]
-module"]
+For information about available fields see [`mod@key1_valid`] module"]
 pub type KEY1_VALID = crate::Reg<key1_valid::KEY1_VALID_SPEC>;
 #[doc = "Valid flag for key 1. Once the valid flag is set, the key can no longer be read or written, and becomes a valid fixed key for protecting OTP pages."]
 pub mod key1_valid;
@@ -3817,8 +3646,7 @@ pub mod key1_valid;
 
 You can [`read`](crate::Reg::read) this register and get [`key2_valid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key2_valid`]
-module"]
+For information about available fields see [`mod@key2_valid`] module"]
 pub type KEY2_VALID = crate::Reg<key2_valid::KEY2_VALID_SPEC>;
 #[doc = "Valid flag for key 2. Once the valid flag is set, the key can no longer be read or written, and becomes a valid fixed key for protecting OTP pages."]
 pub mod key2_valid;
@@ -3826,8 +3654,7 @@ pub mod key2_valid;
 
 You can [`read`](crate::Reg::read) this register and get [`key3_valid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key3_valid`]
-module"]
+For information about available fields see [`mod@key3_valid`] module"]
 pub type KEY3_VALID = crate::Reg<key3_valid::KEY3_VALID_SPEC>;
 #[doc = "Valid flag for key 3. Once the valid flag is set, the key can no longer be read or written, and becomes a valid fixed key for protecting OTP pages."]
 pub mod key3_valid;
@@ -3835,8 +3662,7 @@ pub mod key3_valid;
 
 You can [`read`](crate::Reg::read) this register and get [`key4_valid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key4_valid`]
-module"]
+For information about available fields see [`mod@key4_valid`] module"]
 pub type KEY4_VALID = crate::Reg<key4_valid::KEY4_VALID_SPEC>;
 #[doc = "Valid flag for key 4. Once the valid flag is set, the key can no longer be read or written, and becomes a valid fixed key for protecting OTP pages."]
 pub mod key4_valid;
@@ -3844,8 +3670,7 @@ pub mod key4_valid;
 
 You can [`read`](crate::Reg::read) this register and get [`key5_valid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key5_valid`]
-module"]
+For information about available fields see [`mod@key5_valid`] module"]
 pub type KEY5_VALID = crate::Reg<key5_valid::KEY5_VALID_SPEC>;
 #[doc = "Valid flag for key 5. Once the valid flag is set, the key can no longer be read or written, and becomes a valid fixed key for protecting OTP pages."]
 pub mod key5_valid;
@@ -3853,8 +3678,7 @@ pub mod key5_valid;
 
 You can [`read`](crate::Reg::read) this register and get [`key6_valid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key6_valid`]
-module"]
+For information about available fields see [`mod@key6_valid`] module"]
 pub type KEY6_VALID = crate::Reg<key6_valid::KEY6_VALID_SPEC>;
 #[doc = "Valid flag for key 6. Once the valid flag is set, the key can no longer be read or written, and becomes a valid fixed key for protecting OTP pages."]
 pub mod key6_valid;
@@ -3864,8 +3688,7 @@ pub mod key6_valid;
 
 You can [`read`](crate::Reg::read) this register and get [`page0_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page0_lock0`]
-module"]
+For information about available fields see [`mod@page0_lock0`] module"]
 pub type PAGE0_LOCK0 = crate::Reg<page0_lock0::PAGE0_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 0 (rows 0x0 through 0x3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3877,8 +3700,7 @@ pub mod page0_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page0_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page0_lock1`]
-module"]
+For information about available fields see [`mod@page0_lock1`] module"]
 pub type PAGE0_LOCK1 = crate::Reg<page0_lock1::PAGE0_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 0 (rows 0x0 through 0x3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3890,8 +3712,7 @@ pub mod page0_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page1_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page1_lock0`]
-module"]
+For information about available fields see [`mod@page1_lock0`] module"]
 pub type PAGE1_LOCK0 = crate::Reg<page1_lock0::PAGE1_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 1 (rows 0x40 through 0x7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3903,8 +3724,7 @@ pub mod page1_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page1_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page1_lock1`]
-module"]
+For information about available fields see [`mod@page1_lock1`] module"]
 pub type PAGE1_LOCK1 = crate::Reg<page1_lock1::PAGE1_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 1 (rows 0x40 through 0x7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3916,8 +3736,7 @@ pub mod page1_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page2_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page2_lock0`]
-module"]
+For information about available fields see [`mod@page2_lock0`] module"]
 pub type PAGE2_LOCK0 = crate::Reg<page2_lock0::PAGE2_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 2 (rows 0x80 through 0xbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3929,8 +3748,7 @@ pub mod page2_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page2_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page2_lock1`]
-module"]
+For information about available fields see [`mod@page2_lock1`] module"]
 pub type PAGE2_LOCK1 = crate::Reg<page2_lock1::PAGE2_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 2 (rows 0x80 through 0xbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3942,8 +3760,7 @@ pub mod page2_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page3_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page3_lock0`]
-module"]
+For information about available fields see [`mod@page3_lock0`] module"]
 pub type PAGE3_LOCK0 = crate::Reg<page3_lock0::PAGE3_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 3 (rows 0xc0 through 0xff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3955,8 +3772,7 @@ pub mod page3_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page3_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page3_lock1`]
-module"]
+For information about available fields see [`mod@page3_lock1`] module"]
 pub type PAGE3_LOCK1 = crate::Reg<page3_lock1::PAGE3_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 3 (rows 0xc0 through 0xff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3968,8 +3784,7 @@ pub mod page3_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page4_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page4_lock0`]
-module"]
+For information about available fields see [`mod@page4_lock0`] module"]
 pub type PAGE4_LOCK0 = crate::Reg<page4_lock0::PAGE4_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 4 (rows 0x100 through 0x13f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3981,8 +3796,7 @@ pub mod page4_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page4_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page4_lock1`]
-module"]
+For information about available fields see [`mod@page4_lock1`] module"]
 pub type PAGE4_LOCK1 = crate::Reg<page4_lock1::PAGE4_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 4 (rows 0x100 through 0x13f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -3994,8 +3808,7 @@ pub mod page4_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page5_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page5_lock0`]
-module"]
+For information about available fields see [`mod@page5_lock0`] module"]
 pub type PAGE5_LOCK0 = crate::Reg<page5_lock0::PAGE5_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 5 (rows 0x140 through 0x17f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4007,8 +3820,7 @@ pub mod page5_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page5_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page5_lock1`]
-module"]
+For information about available fields see [`mod@page5_lock1`] module"]
 pub type PAGE5_LOCK1 = crate::Reg<page5_lock1::PAGE5_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 5 (rows 0x140 through 0x17f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4020,8 +3832,7 @@ pub mod page5_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page6_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page6_lock0`]
-module"]
+For information about available fields see [`mod@page6_lock0`] module"]
 pub type PAGE6_LOCK0 = crate::Reg<page6_lock0::PAGE6_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 6 (rows 0x180 through 0x1bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4033,8 +3844,7 @@ pub mod page6_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page6_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page6_lock1`]
-module"]
+For information about available fields see [`mod@page6_lock1`] module"]
 pub type PAGE6_LOCK1 = crate::Reg<page6_lock1::PAGE6_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 6 (rows 0x180 through 0x1bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4046,8 +3856,7 @@ pub mod page6_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page7_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page7_lock0`]
-module"]
+For information about available fields see [`mod@page7_lock0`] module"]
 pub type PAGE7_LOCK0 = crate::Reg<page7_lock0::PAGE7_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 7 (rows 0x1c0 through 0x1ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4059,8 +3868,7 @@ pub mod page7_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page7_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page7_lock1`]
-module"]
+For information about available fields see [`mod@page7_lock1`] module"]
 pub type PAGE7_LOCK1 = crate::Reg<page7_lock1::PAGE7_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 7 (rows 0x1c0 through 0x1ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4072,8 +3880,7 @@ pub mod page7_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page8_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page8_lock0`]
-module"]
+For information about available fields see [`mod@page8_lock0`] module"]
 pub type PAGE8_LOCK0 = crate::Reg<page8_lock0::PAGE8_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 8 (rows 0x200 through 0x23f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4085,8 +3892,7 @@ pub mod page8_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page8_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page8_lock1`]
-module"]
+For information about available fields see [`mod@page8_lock1`] module"]
 pub type PAGE8_LOCK1 = crate::Reg<page8_lock1::PAGE8_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 8 (rows 0x200 through 0x23f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4098,8 +3904,7 @@ pub mod page8_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page9_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page9_lock0`]
-module"]
+For information about available fields see [`mod@page9_lock0`] module"]
 pub type PAGE9_LOCK0 = crate::Reg<page9_lock0::PAGE9_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 9 (rows 0x240 through 0x27f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4111,8 +3916,7 @@ pub mod page9_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page9_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page9_lock1`]
-module"]
+For information about available fields see [`mod@page9_lock1`] module"]
 pub type PAGE9_LOCK1 = crate::Reg<page9_lock1::PAGE9_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 9 (rows 0x240 through 0x27f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4124,8 +3928,7 @@ pub mod page9_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page10_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page10_lock0`]
-module"]
+For information about available fields see [`mod@page10_lock0`] module"]
 pub type PAGE10_LOCK0 = crate::Reg<page10_lock0::PAGE10_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 10 (rows 0x280 through 0x2bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4137,8 +3940,7 @@ pub mod page10_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page10_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page10_lock1`]
-module"]
+For information about available fields see [`mod@page10_lock1`] module"]
 pub type PAGE10_LOCK1 = crate::Reg<page10_lock1::PAGE10_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 10 (rows 0x280 through 0x2bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4150,8 +3952,7 @@ pub mod page10_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page11_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page11_lock0`]
-module"]
+For information about available fields see [`mod@page11_lock0`] module"]
 pub type PAGE11_LOCK0 = crate::Reg<page11_lock0::PAGE11_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 11 (rows 0x2c0 through 0x2ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4163,8 +3964,7 @@ pub mod page11_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page11_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page11_lock1`]
-module"]
+For information about available fields see [`mod@page11_lock1`] module"]
 pub type PAGE11_LOCK1 = crate::Reg<page11_lock1::PAGE11_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 11 (rows 0x2c0 through 0x2ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4176,8 +3976,7 @@ pub mod page11_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page12_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page12_lock0`]
-module"]
+For information about available fields see [`mod@page12_lock0`] module"]
 pub type PAGE12_LOCK0 = crate::Reg<page12_lock0::PAGE12_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 12 (rows 0x300 through 0x33f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4189,8 +3988,7 @@ pub mod page12_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page12_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page12_lock1`]
-module"]
+For information about available fields see [`mod@page12_lock1`] module"]
 pub type PAGE12_LOCK1 = crate::Reg<page12_lock1::PAGE12_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 12 (rows 0x300 through 0x33f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4202,8 +4000,7 @@ pub mod page12_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page13_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page13_lock0`]
-module"]
+For information about available fields see [`mod@page13_lock0`] module"]
 pub type PAGE13_LOCK0 = crate::Reg<page13_lock0::PAGE13_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 13 (rows 0x340 through 0x37f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4215,8 +4012,7 @@ pub mod page13_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page13_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page13_lock1`]
-module"]
+For information about available fields see [`mod@page13_lock1`] module"]
 pub type PAGE13_LOCK1 = crate::Reg<page13_lock1::PAGE13_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 13 (rows 0x340 through 0x37f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4228,8 +4024,7 @@ pub mod page13_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page14_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page14_lock0`]
-module"]
+For information about available fields see [`mod@page14_lock0`] module"]
 pub type PAGE14_LOCK0 = crate::Reg<page14_lock0::PAGE14_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 14 (rows 0x380 through 0x3bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4241,8 +4036,7 @@ pub mod page14_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page14_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page14_lock1`]
-module"]
+For information about available fields see [`mod@page14_lock1`] module"]
 pub type PAGE14_LOCK1 = crate::Reg<page14_lock1::PAGE14_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 14 (rows 0x380 through 0x3bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4254,8 +4048,7 @@ pub mod page14_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page15_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page15_lock0`]
-module"]
+For information about available fields see [`mod@page15_lock0`] module"]
 pub type PAGE15_LOCK0 = crate::Reg<page15_lock0::PAGE15_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 15 (rows 0x3c0 through 0x3ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4267,8 +4060,7 @@ pub mod page15_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page15_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page15_lock1`]
-module"]
+For information about available fields see [`mod@page15_lock1`] module"]
 pub type PAGE15_LOCK1 = crate::Reg<page15_lock1::PAGE15_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 15 (rows 0x3c0 through 0x3ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4280,8 +4072,7 @@ pub mod page15_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page16_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page16_lock0`]
-module"]
+For information about available fields see [`mod@page16_lock0`] module"]
 pub type PAGE16_LOCK0 = crate::Reg<page16_lock0::PAGE16_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 16 (rows 0x400 through 0x43f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4293,8 +4084,7 @@ pub mod page16_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page16_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page16_lock1`]
-module"]
+For information about available fields see [`mod@page16_lock1`] module"]
 pub type PAGE16_LOCK1 = crate::Reg<page16_lock1::PAGE16_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 16 (rows 0x400 through 0x43f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4306,8 +4096,7 @@ pub mod page16_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page17_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page17_lock0`]
-module"]
+For information about available fields see [`mod@page17_lock0`] module"]
 pub type PAGE17_LOCK0 = crate::Reg<page17_lock0::PAGE17_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 17 (rows 0x440 through 0x47f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4319,8 +4108,7 @@ pub mod page17_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page17_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page17_lock1`]
-module"]
+For information about available fields see [`mod@page17_lock1`] module"]
 pub type PAGE17_LOCK1 = crate::Reg<page17_lock1::PAGE17_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 17 (rows 0x440 through 0x47f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4332,8 +4120,7 @@ pub mod page17_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page18_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page18_lock0`]
-module"]
+For information about available fields see [`mod@page18_lock0`] module"]
 pub type PAGE18_LOCK0 = crate::Reg<page18_lock0::PAGE18_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 18 (rows 0x480 through 0x4bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4345,8 +4132,7 @@ pub mod page18_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page18_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page18_lock1`]
-module"]
+For information about available fields see [`mod@page18_lock1`] module"]
 pub type PAGE18_LOCK1 = crate::Reg<page18_lock1::PAGE18_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 18 (rows 0x480 through 0x4bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4358,8 +4144,7 @@ pub mod page18_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page19_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page19_lock0`]
-module"]
+For information about available fields see [`mod@page19_lock0`] module"]
 pub type PAGE19_LOCK0 = crate::Reg<page19_lock0::PAGE19_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 19 (rows 0x4c0 through 0x4ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4371,8 +4156,7 @@ pub mod page19_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page19_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page19_lock1`]
-module"]
+For information about available fields see [`mod@page19_lock1`] module"]
 pub type PAGE19_LOCK1 = crate::Reg<page19_lock1::PAGE19_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 19 (rows 0x4c0 through 0x4ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4384,8 +4168,7 @@ pub mod page19_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page20_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page20_lock0`]
-module"]
+For information about available fields see [`mod@page20_lock0`] module"]
 pub type PAGE20_LOCK0 = crate::Reg<page20_lock0::PAGE20_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 20 (rows 0x500 through 0x53f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4397,8 +4180,7 @@ pub mod page20_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page20_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page20_lock1`]
-module"]
+For information about available fields see [`mod@page20_lock1`] module"]
 pub type PAGE20_LOCK1 = crate::Reg<page20_lock1::PAGE20_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 20 (rows 0x500 through 0x53f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4410,8 +4192,7 @@ pub mod page20_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page21_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page21_lock0`]
-module"]
+For information about available fields see [`mod@page21_lock0`] module"]
 pub type PAGE21_LOCK0 = crate::Reg<page21_lock0::PAGE21_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 21 (rows 0x540 through 0x57f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4423,8 +4204,7 @@ pub mod page21_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page21_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page21_lock1`]
-module"]
+For information about available fields see [`mod@page21_lock1`] module"]
 pub type PAGE21_LOCK1 = crate::Reg<page21_lock1::PAGE21_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 21 (rows 0x540 through 0x57f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4436,8 +4216,7 @@ pub mod page21_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page22_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page22_lock0`]
-module"]
+For information about available fields see [`mod@page22_lock0`] module"]
 pub type PAGE22_LOCK0 = crate::Reg<page22_lock0::PAGE22_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 22 (rows 0x580 through 0x5bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4449,8 +4228,7 @@ pub mod page22_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page22_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page22_lock1`]
-module"]
+For information about available fields see [`mod@page22_lock1`] module"]
 pub type PAGE22_LOCK1 = crate::Reg<page22_lock1::PAGE22_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 22 (rows 0x580 through 0x5bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4462,8 +4240,7 @@ pub mod page22_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page23_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page23_lock0`]
-module"]
+For information about available fields see [`mod@page23_lock0`] module"]
 pub type PAGE23_LOCK0 = crate::Reg<page23_lock0::PAGE23_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 23 (rows 0x5c0 through 0x5ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4475,8 +4252,7 @@ pub mod page23_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page23_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page23_lock1`]
-module"]
+For information about available fields see [`mod@page23_lock1`] module"]
 pub type PAGE23_LOCK1 = crate::Reg<page23_lock1::PAGE23_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 23 (rows 0x5c0 through 0x5ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4488,8 +4264,7 @@ pub mod page23_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page24_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page24_lock0`]
-module"]
+For information about available fields see [`mod@page24_lock0`] module"]
 pub type PAGE24_LOCK0 = crate::Reg<page24_lock0::PAGE24_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 24 (rows 0x600 through 0x63f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4501,8 +4276,7 @@ pub mod page24_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page24_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page24_lock1`]
-module"]
+For information about available fields see [`mod@page24_lock1`] module"]
 pub type PAGE24_LOCK1 = crate::Reg<page24_lock1::PAGE24_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 24 (rows 0x600 through 0x63f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4514,8 +4288,7 @@ pub mod page24_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page25_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page25_lock0`]
-module"]
+For information about available fields see [`mod@page25_lock0`] module"]
 pub type PAGE25_LOCK0 = crate::Reg<page25_lock0::PAGE25_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 25 (rows 0x640 through 0x67f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4527,8 +4300,7 @@ pub mod page25_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page25_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page25_lock1`]
-module"]
+For information about available fields see [`mod@page25_lock1`] module"]
 pub type PAGE25_LOCK1 = crate::Reg<page25_lock1::PAGE25_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 25 (rows 0x640 through 0x67f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4540,8 +4312,7 @@ pub mod page25_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page26_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page26_lock0`]
-module"]
+For information about available fields see [`mod@page26_lock0`] module"]
 pub type PAGE26_LOCK0 = crate::Reg<page26_lock0::PAGE26_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 26 (rows 0x680 through 0x6bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4553,8 +4324,7 @@ pub mod page26_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page26_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page26_lock1`]
-module"]
+For information about available fields see [`mod@page26_lock1`] module"]
 pub type PAGE26_LOCK1 = crate::Reg<page26_lock1::PAGE26_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 26 (rows 0x680 through 0x6bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4566,8 +4336,7 @@ pub mod page26_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page27_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page27_lock0`]
-module"]
+For information about available fields see [`mod@page27_lock0`] module"]
 pub type PAGE27_LOCK0 = crate::Reg<page27_lock0::PAGE27_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 27 (rows 0x6c0 through 0x6ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4579,8 +4348,7 @@ pub mod page27_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page27_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page27_lock1`]
-module"]
+For information about available fields see [`mod@page27_lock1`] module"]
 pub type PAGE27_LOCK1 = crate::Reg<page27_lock1::PAGE27_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 27 (rows 0x6c0 through 0x6ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4592,8 +4360,7 @@ pub mod page27_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page28_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page28_lock0`]
-module"]
+For information about available fields see [`mod@page28_lock0`] module"]
 pub type PAGE28_LOCK0 = crate::Reg<page28_lock0::PAGE28_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 28 (rows 0x700 through 0x73f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4605,8 +4372,7 @@ pub mod page28_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page28_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page28_lock1`]
-module"]
+For information about available fields see [`mod@page28_lock1`] module"]
 pub type PAGE28_LOCK1 = crate::Reg<page28_lock1::PAGE28_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 28 (rows 0x700 through 0x73f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4618,8 +4384,7 @@ pub mod page28_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page29_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page29_lock0`]
-module"]
+For information about available fields see [`mod@page29_lock0`] module"]
 pub type PAGE29_LOCK0 = crate::Reg<page29_lock0::PAGE29_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 29 (rows 0x740 through 0x77f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4631,8 +4396,7 @@ pub mod page29_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page29_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page29_lock1`]
-module"]
+For information about available fields see [`mod@page29_lock1`] module"]
 pub type PAGE29_LOCK1 = crate::Reg<page29_lock1::PAGE29_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 29 (rows 0x740 through 0x77f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4644,8 +4408,7 @@ pub mod page29_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page30_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page30_lock0`]
-module"]
+For information about available fields see [`mod@page30_lock0`] module"]
 pub type PAGE30_LOCK0 = crate::Reg<page30_lock0::PAGE30_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 30 (rows 0x780 through 0x7bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4657,8 +4420,7 @@ pub mod page30_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page30_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page30_lock1`]
-module"]
+For information about available fields see [`mod@page30_lock1`] module"]
 pub type PAGE30_LOCK1 = crate::Reg<page30_lock1::PAGE30_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 30 (rows 0x780 through 0x7bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4670,8 +4432,7 @@ pub mod page30_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page31_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page31_lock0`]
-module"]
+For information about available fields see [`mod@page31_lock0`] module"]
 pub type PAGE31_LOCK0 = crate::Reg<page31_lock0::PAGE31_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 31 (rows 0x7c0 through 0x7ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4683,8 +4444,7 @@ pub mod page31_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page31_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page31_lock1`]
-module"]
+For information about available fields see [`mod@page31_lock1`] module"]
 pub type PAGE31_LOCK1 = crate::Reg<page31_lock1::PAGE31_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 31 (rows 0x7c0 through 0x7ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4696,8 +4456,7 @@ pub mod page31_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page32_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page32_lock0`]
-module"]
+For information about available fields see [`mod@page32_lock0`] module"]
 pub type PAGE32_LOCK0 = crate::Reg<page32_lock0::PAGE32_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 32 (rows 0x800 through 0x83f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4709,8 +4468,7 @@ pub mod page32_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page32_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page32_lock1`]
-module"]
+For information about available fields see [`mod@page32_lock1`] module"]
 pub type PAGE32_LOCK1 = crate::Reg<page32_lock1::PAGE32_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 32 (rows 0x800 through 0x83f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4722,8 +4480,7 @@ pub mod page32_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page33_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page33_lock0`]
-module"]
+For information about available fields see [`mod@page33_lock0`] module"]
 pub type PAGE33_LOCK0 = crate::Reg<page33_lock0::PAGE33_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 33 (rows 0x840 through 0x87f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4735,8 +4492,7 @@ pub mod page33_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page33_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page33_lock1`]
-module"]
+For information about available fields see [`mod@page33_lock1`] module"]
 pub type PAGE33_LOCK1 = crate::Reg<page33_lock1::PAGE33_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 33 (rows 0x840 through 0x87f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4748,8 +4504,7 @@ pub mod page33_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page34_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page34_lock0`]
-module"]
+For information about available fields see [`mod@page34_lock0`] module"]
 pub type PAGE34_LOCK0 = crate::Reg<page34_lock0::PAGE34_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 34 (rows 0x880 through 0x8bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4761,8 +4516,7 @@ pub mod page34_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page34_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page34_lock1`]
-module"]
+For information about available fields see [`mod@page34_lock1`] module"]
 pub type PAGE34_LOCK1 = crate::Reg<page34_lock1::PAGE34_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 34 (rows 0x880 through 0x8bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4774,8 +4528,7 @@ pub mod page34_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page35_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page35_lock0`]
-module"]
+For information about available fields see [`mod@page35_lock0`] module"]
 pub type PAGE35_LOCK0 = crate::Reg<page35_lock0::PAGE35_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 35 (rows 0x8c0 through 0x8ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4787,8 +4540,7 @@ pub mod page35_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page35_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page35_lock1`]
-module"]
+For information about available fields see [`mod@page35_lock1`] module"]
 pub type PAGE35_LOCK1 = crate::Reg<page35_lock1::PAGE35_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 35 (rows 0x8c0 through 0x8ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4800,8 +4552,7 @@ pub mod page35_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page36_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page36_lock0`]
-module"]
+For information about available fields see [`mod@page36_lock0`] module"]
 pub type PAGE36_LOCK0 = crate::Reg<page36_lock0::PAGE36_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 36 (rows 0x900 through 0x93f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4813,8 +4564,7 @@ pub mod page36_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page36_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page36_lock1`]
-module"]
+For information about available fields see [`mod@page36_lock1`] module"]
 pub type PAGE36_LOCK1 = crate::Reg<page36_lock1::PAGE36_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 36 (rows 0x900 through 0x93f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4826,8 +4576,7 @@ pub mod page36_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page37_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page37_lock0`]
-module"]
+For information about available fields see [`mod@page37_lock0`] module"]
 pub type PAGE37_LOCK0 = crate::Reg<page37_lock0::PAGE37_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 37 (rows 0x940 through 0x97f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4839,8 +4588,7 @@ pub mod page37_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page37_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page37_lock1`]
-module"]
+For information about available fields see [`mod@page37_lock1`] module"]
 pub type PAGE37_LOCK1 = crate::Reg<page37_lock1::PAGE37_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 37 (rows 0x940 through 0x97f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4852,8 +4600,7 @@ pub mod page37_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page38_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page38_lock0`]
-module"]
+For information about available fields see [`mod@page38_lock0`] module"]
 pub type PAGE38_LOCK0 = crate::Reg<page38_lock0::PAGE38_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 38 (rows 0x980 through 0x9bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4865,8 +4612,7 @@ pub mod page38_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page38_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page38_lock1`]
-module"]
+For information about available fields see [`mod@page38_lock1`] module"]
 pub type PAGE38_LOCK1 = crate::Reg<page38_lock1::PAGE38_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 38 (rows 0x980 through 0x9bf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4878,8 +4624,7 @@ pub mod page38_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page39_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page39_lock0`]
-module"]
+For information about available fields see [`mod@page39_lock0`] module"]
 pub type PAGE39_LOCK0 = crate::Reg<page39_lock0::PAGE39_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 39 (rows 0x9c0 through 0x9ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4891,8 +4636,7 @@ pub mod page39_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page39_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page39_lock1`]
-module"]
+For information about available fields see [`mod@page39_lock1`] module"]
 pub type PAGE39_LOCK1 = crate::Reg<page39_lock1::PAGE39_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 39 (rows 0x9c0 through 0x9ff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4904,8 +4648,7 @@ pub mod page39_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page40_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page40_lock0`]
-module"]
+For information about available fields see [`mod@page40_lock0`] module"]
 pub type PAGE40_LOCK0 = crate::Reg<page40_lock0::PAGE40_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 40 (rows 0xa00 through 0xa3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4917,8 +4660,7 @@ pub mod page40_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page40_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page40_lock1`]
-module"]
+For information about available fields see [`mod@page40_lock1`] module"]
 pub type PAGE40_LOCK1 = crate::Reg<page40_lock1::PAGE40_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 40 (rows 0xa00 through 0xa3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4930,8 +4672,7 @@ pub mod page40_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page41_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page41_lock0`]
-module"]
+For information about available fields see [`mod@page41_lock0`] module"]
 pub type PAGE41_LOCK0 = crate::Reg<page41_lock0::PAGE41_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 41 (rows 0xa40 through 0xa7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4943,8 +4684,7 @@ pub mod page41_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page41_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page41_lock1`]
-module"]
+For information about available fields see [`mod@page41_lock1`] module"]
 pub type PAGE41_LOCK1 = crate::Reg<page41_lock1::PAGE41_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 41 (rows 0xa40 through 0xa7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4956,8 +4696,7 @@ pub mod page41_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page42_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page42_lock0`]
-module"]
+For information about available fields see [`mod@page42_lock0`] module"]
 pub type PAGE42_LOCK0 = crate::Reg<page42_lock0::PAGE42_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 42 (rows 0xa80 through 0xabf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4969,8 +4708,7 @@ pub mod page42_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page42_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page42_lock1`]
-module"]
+For information about available fields see [`mod@page42_lock1`] module"]
 pub type PAGE42_LOCK1 = crate::Reg<page42_lock1::PAGE42_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 42 (rows 0xa80 through 0xabf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4982,8 +4720,7 @@ pub mod page42_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page43_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page43_lock0`]
-module"]
+For information about available fields see [`mod@page43_lock0`] module"]
 pub type PAGE43_LOCK0 = crate::Reg<page43_lock0::PAGE43_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 43 (rows 0xac0 through 0xaff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -4995,8 +4732,7 @@ pub mod page43_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page43_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page43_lock1`]
-module"]
+For information about available fields see [`mod@page43_lock1`] module"]
 pub type PAGE43_LOCK1 = crate::Reg<page43_lock1::PAGE43_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 43 (rows 0xac0 through 0xaff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5008,8 +4744,7 @@ pub mod page43_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page44_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page44_lock0`]
-module"]
+For information about available fields see [`mod@page44_lock0`] module"]
 pub type PAGE44_LOCK0 = crate::Reg<page44_lock0::PAGE44_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 44 (rows 0xb00 through 0xb3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5021,8 +4756,7 @@ pub mod page44_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page44_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page44_lock1`]
-module"]
+For information about available fields see [`mod@page44_lock1`] module"]
 pub type PAGE44_LOCK1 = crate::Reg<page44_lock1::PAGE44_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 44 (rows 0xb00 through 0xb3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5034,8 +4768,7 @@ pub mod page44_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page45_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page45_lock0`]
-module"]
+For information about available fields see [`mod@page45_lock0`] module"]
 pub type PAGE45_LOCK0 = crate::Reg<page45_lock0::PAGE45_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 45 (rows 0xb40 through 0xb7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5047,8 +4780,7 @@ pub mod page45_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page45_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page45_lock1`]
-module"]
+For information about available fields see [`mod@page45_lock1`] module"]
 pub type PAGE45_LOCK1 = crate::Reg<page45_lock1::PAGE45_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 45 (rows 0xb40 through 0xb7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5060,8 +4792,7 @@ pub mod page45_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page46_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page46_lock0`]
-module"]
+For information about available fields see [`mod@page46_lock0`] module"]
 pub type PAGE46_LOCK0 = crate::Reg<page46_lock0::PAGE46_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 46 (rows 0xb80 through 0xbbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5073,8 +4804,7 @@ pub mod page46_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page46_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page46_lock1`]
-module"]
+For information about available fields see [`mod@page46_lock1`] module"]
 pub type PAGE46_LOCK1 = crate::Reg<page46_lock1::PAGE46_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 46 (rows 0xb80 through 0xbbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5086,8 +4816,7 @@ pub mod page46_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page47_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page47_lock0`]
-module"]
+For information about available fields see [`mod@page47_lock0`] module"]
 pub type PAGE47_LOCK0 = crate::Reg<page47_lock0::PAGE47_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 47 (rows 0xbc0 through 0xbff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5099,8 +4828,7 @@ pub mod page47_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page47_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page47_lock1`]
-module"]
+For information about available fields see [`mod@page47_lock1`] module"]
 pub type PAGE47_LOCK1 = crate::Reg<page47_lock1::PAGE47_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 47 (rows 0xbc0 through 0xbff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5112,8 +4840,7 @@ pub mod page47_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page48_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page48_lock0`]
-module"]
+For information about available fields see [`mod@page48_lock0`] module"]
 pub type PAGE48_LOCK0 = crate::Reg<page48_lock0::PAGE48_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 48 (rows 0xc00 through 0xc3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5125,8 +4852,7 @@ pub mod page48_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page48_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page48_lock1`]
-module"]
+For information about available fields see [`mod@page48_lock1`] module"]
 pub type PAGE48_LOCK1 = crate::Reg<page48_lock1::PAGE48_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 48 (rows 0xc00 through 0xc3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5138,8 +4864,7 @@ pub mod page48_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page49_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page49_lock0`]
-module"]
+For information about available fields see [`mod@page49_lock0`] module"]
 pub type PAGE49_LOCK0 = crate::Reg<page49_lock0::PAGE49_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 49 (rows 0xc40 through 0xc7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5151,8 +4876,7 @@ pub mod page49_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page49_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page49_lock1`]
-module"]
+For information about available fields see [`mod@page49_lock1`] module"]
 pub type PAGE49_LOCK1 = crate::Reg<page49_lock1::PAGE49_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 49 (rows 0xc40 through 0xc7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5164,8 +4888,7 @@ pub mod page49_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page50_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page50_lock0`]
-module"]
+For information about available fields see [`mod@page50_lock0`] module"]
 pub type PAGE50_LOCK0 = crate::Reg<page50_lock0::PAGE50_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 50 (rows 0xc80 through 0xcbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5177,8 +4900,7 @@ pub mod page50_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page50_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page50_lock1`]
-module"]
+For information about available fields see [`mod@page50_lock1`] module"]
 pub type PAGE50_LOCK1 = crate::Reg<page50_lock1::PAGE50_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 50 (rows 0xc80 through 0xcbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5190,8 +4912,7 @@ pub mod page50_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page51_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page51_lock0`]
-module"]
+For information about available fields see [`mod@page51_lock0`] module"]
 pub type PAGE51_LOCK0 = crate::Reg<page51_lock0::PAGE51_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 51 (rows 0xcc0 through 0xcff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5203,8 +4924,7 @@ pub mod page51_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page51_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page51_lock1`]
-module"]
+For information about available fields see [`mod@page51_lock1`] module"]
 pub type PAGE51_LOCK1 = crate::Reg<page51_lock1::PAGE51_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 51 (rows 0xcc0 through 0xcff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5216,8 +4936,7 @@ pub mod page51_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page52_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page52_lock0`]
-module"]
+For information about available fields see [`mod@page52_lock0`] module"]
 pub type PAGE52_LOCK0 = crate::Reg<page52_lock0::PAGE52_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 52 (rows 0xd00 through 0xd3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5229,8 +4948,7 @@ pub mod page52_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page52_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page52_lock1`]
-module"]
+For information about available fields see [`mod@page52_lock1`] module"]
 pub type PAGE52_LOCK1 = crate::Reg<page52_lock1::PAGE52_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 52 (rows 0xd00 through 0xd3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5242,8 +4960,7 @@ pub mod page52_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page53_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page53_lock0`]
-module"]
+For information about available fields see [`mod@page53_lock0`] module"]
 pub type PAGE53_LOCK0 = crate::Reg<page53_lock0::PAGE53_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 53 (rows 0xd40 through 0xd7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5255,8 +4972,7 @@ pub mod page53_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page53_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page53_lock1`]
-module"]
+For information about available fields see [`mod@page53_lock1`] module"]
 pub type PAGE53_LOCK1 = crate::Reg<page53_lock1::PAGE53_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 53 (rows 0xd40 through 0xd7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5268,8 +4984,7 @@ pub mod page53_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page54_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page54_lock0`]
-module"]
+For information about available fields see [`mod@page54_lock0`] module"]
 pub type PAGE54_LOCK0 = crate::Reg<page54_lock0::PAGE54_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 54 (rows 0xd80 through 0xdbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5281,8 +4996,7 @@ pub mod page54_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page54_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page54_lock1`]
-module"]
+For information about available fields see [`mod@page54_lock1`] module"]
 pub type PAGE54_LOCK1 = crate::Reg<page54_lock1::PAGE54_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 54 (rows 0xd80 through 0xdbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5294,8 +5008,7 @@ pub mod page54_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page55_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page55_lock0`]
-module"]
+For information about available fields see [`mod@page55_lock0`] module"]
 pub type PAGE55_LOCK0 = crate::Reg<page55_lock0::PAGE55_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 55 (rows 0xdc0 through 0xdff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5307,8 +5020,7 @@ pub mod page55_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page55_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page55_lock1`]
-module"]
+For information about available fields see [`mod@page55_lock1`] module"]
 pub type PAGE55_LOCK1 = crate::Reg<page55_lock1::PAGE55_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 55 (rows 0xdc0 through 0xdff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5320,8 +5032,7 @@ pub mod page55_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page56_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page56_lock0`]
-module"]
+For information about available fields see [`mod@page56_lock0`] module"]
 pub type PAGE56_LOCK0 = crate::Reg<page56_lock0::PAGE56_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 56 (rows 0xe00 through 0xe3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5333,8 +5044,7 @@ pub mod page56_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page56_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page56_lock1`]
-module"]
+For information about available fields see [`mod@page56_lock1`] module"]
 pub type PAGE56_LOCK1 = crate::Reg<page56_lock1::PAGE56_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 56 (rows 0xe00 through 0xe3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5346,8 +5056,7 @@ pub mod page56_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page57_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page57_lock0`]
-module"]
+For information about available fields see [`mod@page57_lock0`] module"]
 pub type PAGE57_LOCK0 = crate::Reg<page57_lock0::PAGE57_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 57 (rows 0xe40 through 0xe7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5359,8 +5068,7 @@ pub mod page57_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page57_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page57_lock1`]
-module"]
+For information about available fields see [`mod@page57_lock1`] module"]
 pub type PAGE57_LOCK1 = crate::Reg<page57_lock1::PAGE57_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 57 (rows 0xe40 through 0xe7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5372,8 +5080,7 @@ pub mod page57_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page58_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page58_lock0`]
-module"]
+For information about available fields see [`mod@page58_lock0`] module"]
 pub type PAGE58_LOCK0 = crate::Reg<page58_lock0::PAGE58_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 58 (rows 0xe80 through 0xebf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5385,8 +5092,7 @@ pub mod page58_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page58_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page58_lock1`]
-module"]
+For information about available fields see [`mod@page58_lock1`] module"]
 pub type PAGE58_LOCK1 = crate::Reg<page58_lock1::PAGE58_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 58 (rows 0xe80 through 0xebf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5398,8 +5104,7 @@ pub mod page58_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page59_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page59_lock0`]
-module"]
+For information about available fields see [`mod@page59_lock0`] module"]
 pub type PAGE59_LOCK0 = crate::Reg<page59_lock0::PAGE59_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 59 (rows 0xec0 through 0xeff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5411,8 +5116,7 @@ pub mod page59_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page59_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page59_lock1`]
-module"]
+For information about available fields see [`mod@page59_lock1`] module"]
 pub type PAGE59_LOCK1 = crate::Reg<page59_lock1::PAGE59_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 59 (rows 0xec0 through 0xeff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5424,8 +5128,7 @@ pub mod page59_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page60_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page60_lock0`]
-module"]
+For information about available fields see [`mod@page60_lock0`] module"]
 pub type PAGE60_LOCK0 = crate::Reg<page60_lock0::PAGE60_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 60 (rows 0xf00 through 0xf3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5437,8 +5140,7 @@ pub mod page60_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page60_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page60_lock1`]
-module"]
+For information about available fields see [`mod@page60_lock1`] module"]
 pub type PAGE60_LOCK1 = crate::Reg<page60_lock1::PAGE60_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 60 (rows 0xf00 through 0xf3f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5450,8 +5152,7 @@ pub mod page60_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page61_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page61_lock0`]
-module"]
+For information about available fields see [`mod@page61_lock0`] module"]
 pub type PAGE61_LOCK0 = crate::Reg<page61_lock0::PAGE61_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 61 (rows 0xf40 through 0xf7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5463,8 +5164,7 @@ pub mod page61_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page61_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page61_lock1`]
-module"]
+For information about available fields see [`mod@page61_lock1`] module"]
 pub type PAGE61_LOCK1 = crate::Reg<page61_lock1::PAGE61_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 61 (rows 0xf40 through 0xf7f). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5476,8 +5176,7 @@ pub mod page61_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page62_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page62_lock0`]
-module"]
+For information about available fields see [`mod@page62_lock0`] module"]
 pub type PAGE62_LOCK0 = crate::Reg<page62_lock0::PAGE62_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 62 (rows 0xf80 through 0xfbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5489,8 +5188,7 @@ pub mod page62_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page62_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page62_lock1`]
-module"]
+For information about available fields see [`mod@page62_lock1`] module"]
 pub type PAGE62_LOCK1 = crate::Reg<page62_lock1::PAGE62_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 62 (rows 0xf80 through 0xfbf). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5502,8 +5200,7 @@ pub mod page62_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`page63_lock0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page63_lock0`]
-module"]
+For information about available fields see [`mod@page63_lock0`] module"]
 pub type PAGE63_LOCK0 = crate::Reg<page63_lock0::PAGE63_LOCK0_SPEC>;
 #[doc = "Lock configuration LSBs for page 63 (rows 0xfc0 through 0xfff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 
@@ -5515,8 +5212,7 @@ pub mod page63_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`page63_lock1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@page63_lock1`]
-module"]
+For information about available fields see [`mod@page63_lock1`] module"]
 pub type PAGE63_LOCK1 = crate::Reg<page63_lock1::PAGE63_LOCK1_SPEC>;
 #[doc = "Lock configuration MSBs for page 63 (rows 0xfc0 through 0xfff). Locks are stored with 3-way majority vote encoding, so that bits can be set independently.  
 

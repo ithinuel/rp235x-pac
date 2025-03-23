@@ -185,7 +185,6 @@ impl W {
 
  Once the HSTX is enabled again, and data is pushed to the FIFO, the generated clock's first rising edge will be one half-period after the first data is launched."]
     #[inline(always)]
-    #[must_use]
     pub fn en(&mut self) -> EN_W<CSR_SPEC> {
         EN_W::new(self, 0)
     }
@@ -193,7 +192,6 @@ impl W {
 
  Do not change CXPD_EN whilst EN is set. It's safe to set CXPD_EN simultaneously with setting EN."]
     #[inline(always)]
-    #[must_use]
     pub fn expand_en(&mut self) -> EXPAND_EN_W<CSR_SPEC> {
         EXPAND_EN_W::new(self, 1)
     }
@@ -205,13 +203,11 @@ impl W {
 
  For example, if HSTX is on GPIOs 12 through 19, then PIO outputs 12 through 19 are connected to the HSTX when coupled mode is engaged."]
     #[inline(always)]
-    #[must_use]
     pub fn coupled_mode(&mut self) -> COUPLED_MODE_W<CSR_SPEC> {
         COUPLED_MODE_W::new(self, 4)
     }
     #[doc = "Bits 5:6 - Select which PIO to use for coupled mode operation."]
     #[inline(always)]
-    #[must_use]
     pub fn coupled_sel(&mut self) -> COUPLED_SEL_W<CSR_SPEC> {
         COUPLED_SEL_W::new(self, 5)
     }
@@ -219,7 +215,6 @@ impl W {
 
  The use of a rotate rather than a shift allows left shifts to be emulated, by subtracting the left-shift amount from 32. It also allows data to be repeated, when the product of SHIFT and N_SHIFTS is greater than 32."]
     #[inline(always)]
-    #[must_use]
     pub fn shift(&mut self) -> SHIFT_W<CSR_SPEC> {
         SHIFT_W::new(self, 8)
     }
@@ -227,7 +222,6 @@ impl W {
 
  A register value of 0 means shift 32 times."]
     #[inline(always)]
-    #[must_use]
     pub fn n_shifts(&mut self) -> N_SHIFTS_W<CSR_SPEC> {
         N_SHIFTS_W::new(self, 16)
     }
@@ -247,7 +241,6 @@ impl W {
 
  Note CLKPHASE must be strictly less than double the value of CLKDIV (one full period), else its operation is undefined."]
     #[inline(always)]
-    #[must_use]
     pub fn clkphase(&mut self) -> CLKPHASE_W<CSR_SPEC> {
         CLKPHASE_W::new(self, 24)
     }
@@ -257,7 +250,6 @@ impl W {
 
  A CLKDIV value of 0 is mapped to a period of 16 HSTX clock cycles."]
     #[inline(always)]
-    #[must_use]
     pub fn clkdiv(&mut self) -> CLKDIV_W<CSR_SPEC> {
         CLKDIV_W::new(self, 28)
     }
@@ -274,8 +266,6 @@ impl crate::Readable for CSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`csr::W`](W) writer structure"]
 impl crate::Writable for CSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CSR to value 0x1005_0600"]
 impl crate::Resettable for CSR_SPEC {

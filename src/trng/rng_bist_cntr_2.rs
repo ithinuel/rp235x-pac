@@ -19,6 +19,4 @@ impl crate::RegisterSpec for RNG_BIST_CNTR_2_SPEC {
 #[doc = "`read()` method returns [`rng_bist_cntr_2::R`](R) reader structure"]
 impl crate::Readable for RNG_BIST_CNTR_2_SPEC {}
 #[doc = "`reset()` method sets RNG_BIST_CNTR_2 to value 0"]
-impl crate::Resettable for RNG_BIST_CNTR_2_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for RNG_BIST_CNTR_2_SPEC {}

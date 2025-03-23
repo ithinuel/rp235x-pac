@@ -146,55 +146,46 @@ impl R {
 impl W {
     #[doc = "Bits 0:1 - Set sensitivity for detector 0. Higher values are more sensitive."]
     #[inline(always)]
-    #[must_use]
     pub fn det0(&mut self) -> DET0_W<SENSITIVITY_SPEC> {
         DET0_W::new(self, 0)
     }
     #[doc = "Bits 2:3 - Set sensitivity for detector 1. Higher values are more sensitive."]
     #[inline(always)]
-    #[must_use]
     pub fn det1(&mut self) -> DET1_W<SENSITIVITY_SPEC> {
         DET1_W::new(self, 2)
     }
     #[doc = "Bits 4:5 - Set sensitivity for detector 2. Higher values are more sensitive."]
     #[inline(always)]
-    #[must_use]
     pub fn det2(&mut self) -> DET2_W<SENSITIVITY_SPEC> {
         DET2_W::new(self, 4)
     }
     #[doc = "Bits 6:7 - Set sensitivity for detector 3. Higher values are more sensitive."]
     #[inline(always)]
-    #[must_use]
     pub fn det3(&mut self) -> DET3_W<SENSITIVITY_SPEC> {
         DET3_W::new(self, 6)
     }
     #[doc = "Bits 8:9 - Must be the inverse of DET0, else the default value is used."]
     #[inline(always)]
-    #[must_use]
     pub fn det0_inv(&mut self) -> DET0_INV_W<SENSITIVITY_SPEC> {
         DET0_INV_W::new(self, 8)
     }
     #[doc = "Bits 10:11 - Must be the inverse of DET1, else the default value is used."]
     #[inline(always)]
-    #[must_use]
     pub fn det1_inv(&mut self) -> DET1_INV_W<SENSITIVITY_SPEC> {
         DET1_INV_W::new(self, 10)
     }
     #[doc = "Bits 12:13 - Must be the inverse of DET2, else the default value is used."]
     #[inline(always)]
-    #[must_use]
     pub fn det2_inv(&mut self) -> DET2_INV_W<SENSITIVITY_SPEC> {
         DET2_INV_W::new(self, 12)
     }
     #[doc = "Bits 14:15 - Must be the inverse of DET3, else the default value is used."]
     #[inline(always)]
-    #[must_use]
     pub fn det3_inv(&mut self) -> DET3_INV_W<SENSITIVITY_SPEC> {
         DET3_INV_W::new(self, 14)
     }
     #[doc = "Bits 24:31"]
     #[inline(always)]
-    #[must_use]
     pub fn default(&mut self) -> DEFAULT_W<SENSITIVITY_SPEC> {
         DEFAULT_W::new(self, 24)
     }
@@ -213,10 +204,6 @@ impl crate::Readable for SENSITIVITY_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sensitivity::W`](W) writer structure"]
 impl crate::Writable for SENSITIVITY_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SENSITIVITY to value 0"]
-impl crate::Resettable for SENSITIVITY_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SENSITIVITY_SPEC {}

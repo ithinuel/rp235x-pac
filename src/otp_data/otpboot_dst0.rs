@@ -21,6 +21,4 @@ impl crate::RegisterSpec for OTPBOOT_DST0_SPEC {
 #[doc = "`read()` method returns [`otpboot_dst0::R`](R) reader structure"]
 impl crate::Readable for OTPBOOT_DST0_SPEC {}
 #[doc = "`reset()` method sets OTPBOOT_DST0 to value 0"]
-impl crate::Resettable for OTPBOOT_DST0_SPEC {
-    const RESET_VALUE: u16 = 0;
-}
+impl crate::Resettable for OTPBOOT_DST0_SPEC {}

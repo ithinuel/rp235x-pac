@@ -25,13 +25,11 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Enables the SAU"]
     #[inline(always)]
-    #[must_use]
     pub fn enable(&mut self) -> ENABLE_W<SAU_CTRL_SPEC> {
         ENABLE_W::new(self, 0)
     }
     #[doc = "Bit 1 - When SAU_CTRL.ENABLE is 0 this bit controls if the memory is marked as Non-secure or Secure"]
     #[inline(always)]
-    #[must_use]
     pub fn allns(&mut self) -> ALLNS_W<SAU_CTRL_SPEC> {
         ALLNS_W::new(self, 1)
     }
@@ -48,10 +46,6 @@ impl crate::Readable for SAU_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sau_ctrl::W`](W) writer structure"]
 impl crate::Writable for SAU_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SAU_CTRL to value 0"]
-impl crate::Resettable for SAU_CTRL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SAU_CTRL_SPEC {}

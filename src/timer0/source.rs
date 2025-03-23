@@ -67,7 +67,6 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys(&mut self) -> CLK_SYS_W<SOURCE_SPEC> {
         CLK_SYS_W::new(self, 0)
     }
@@ -84,10 +83,6 @@ impl crate::Readable for SOURCE_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`source::W`](W) writer structure"]
 impl crate::Writable for SOURCE_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SOURCE to value 0"]
-impl crate::Resettable for SOURCE_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SOURCE_SPEC {}

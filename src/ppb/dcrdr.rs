@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31 - Provides debug access for reading and writing the general-purpose registers, special-purpose registers, and Floating-point Extension registers"]
     #[inline(always)]
-    #[must_use]
     pub fn dbgtmp(&mut self) -> DBGTMP_W<DCRDR_SPEC> {
         DBGTMP_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for DCRDR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dcrdr::W`](W) writer structure"]
 impl crate::Writable for DCRDR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DCRDR to value 0"]
-impl crate::Resettable for DCRDR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DCRDR_SPEC {}

@@ -703,7 +703,7 @@ impl RegisterBlock {
     pub const fn intf(&self) -> &INTF {
         &self.intf
     }
-    #[doc = "0x170 - Interrupt status after masking &amp; forcing"]
+    #[doc = "0x170 - Interrupt status after masking & forcing"]
     #[inline(always)]
     pub const fn ints(&self) -> &INTS {
         &self.ints
@@ -715,8 +715,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock0`]
-module"]
+For information about available fields see [`mod@sw_lock0`] module"]
 pub type SW_LOCK0 = crate::Reg<sw_lock0::SW_LOCK0_SPEC>;
 #[doc = "Software lock register for page 0.  
 
@@ -728,8 +727,7 @@ pub mod sw_lock0;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock1`]
-module"]
+For information about available fields see [`mod@sw_lock1`] module"]
 pub type SW_LOCK1 = crate::Reg<sw_lock1::SW_LOCK1_SPEC>;
 #[doc = "Software lock register for page 1.  
 
@@ -741,8 +739,7 @@ pub mod sw_lock1;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock2`]
-module"]
+For information about available fields see [`mod@sw_lock2`] module"]
 pub type SW_LOCK2 = crate::Reg<sw_lock2::SW_LOCK2_SPEC>;
 #[doc = "Software lock register for page 2.  
 
@@ -754,8 +751,7 @@ pub mod sw_lock2;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock3`]
-module"]
+For information about available fields see [`mod@sw_lock3`] module"]
 pub type SW_LOCK3 = crate::Reg<sw_lock3::SW_LOCK3_SPEC>;
 #[doc = "Software lock register for page 3.  
 
@@ -767,8 +763,7 @@ pub mod sw_lock3;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock4`]
-module"]
+For information about available fields see [`mod@sw_lock4`] module"]
 pub type SW_LOCK4 = crate::Reg<sw_lock4::SW_LOCK4_SPEC>;
 #[doc = "Software lock register for page 4.  
 
@@ -780,8 +775,7 @@ pub mod sw_lock4;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock5`]
-module"]
+For information about available fields see [`mod@sw_lock5`] module"]
 pub type SW_LOCK5 = crate::Reg<sw_lock5::SW_LOCK5_SPEC>;
 #[doc = "Software lock register for page 5.  
 
@@ -793,8 +787,7 @@ pub mod sw_lock5;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock6`]
-module"]
+For information about available fields see [`mod@sw_lock6`] module"]
 pub type SW_LOCK6 = crate::Reg<sw_lock6::SW_LOCK6_SPEC>;
 #[doc = "Software lock register for page 6.  
 
@@ -806,8 +799,7 @@ pub mod sw_lock6;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock7`]
-module"]
+For information about available fields see [`mod@sw_lock7`] module"]
 pub type SW_LOCK7 = crate::Reg<sw_lock7::SW_LOCK7_SPEC>;
 #[doc = "Software lock register for page 7.  
 
@@ -819,8 +811,7 @@ pub mod sw_lock7;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock8::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock8::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock8`]
-module"]
+For information about available fields see [`mod@sw_lock8`] module"]
 pub type SW_LOCK8 = crate::Reg<sw_lock8::SW_LOCK8_SPEC>;
 #[doc = "Software lock register for page 8.  
 
@@ -832,8 +823,7 @@ pub mod sw_lock8;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock9::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock9::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock9`]
-module"]
+For information about available fields see [`mod@sw_lock9`] module"]
 pub type SW_LOCK9 = crate::Reg<sw_lock9::SW_LOCK9_SPEC>;
 #[doc = "Software lock register for page 9.  
 
@@ -845,8 +835,7 @@ pub mod sw_lock9;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock10::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock10::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock10`]
-module"]
+For information about available fields see [`mod@sw_lock10`] module"]
 pub type SW_LOCK10 = crate::Reg<sw_lock10::SW_LOCK10_SPEC>;
 #[doc = "Software lock register for page 10.  
 
@@ -858,8 +847,7 @@ pub mod sw_lock10;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock11::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock11::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock11`]
-module"]
+For information about available fields see [`mod@sw_lock11`] module"]
 pub type SW_LOCK11 = crate::Reg<sw_lock11::SW_LOCK11_SPEC>;
 #[doc = "Software lock register for page 11.  
 
@@ -871,8 +859,7 @@ pub mod sw_lock11;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock12::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock12::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock12`]
-module"]
+For information about available fields see [`mod@sw_lock12`] module"]
 pub type SW_LOCK12 = crate::Reg<sw_lock12::SW_LOCK12_SPEC>;
 #[doc = "Software lock register for page 12.  
 
@@ -884,8 +871,7 @@ pub mod sw_lock12;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock13::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock13::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock13`]
-module"]
+For information about available fields see [`mod@sw_lock13`] module"]
 pub type SW_LOCK13 = crate::Reg<sw_lock13::SW_LOCK13_SPEC>;
 #[doc = "Software lock register for page 13.  
 
@@ -897,8 +883,7 @@ pub mod sw_lock13;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock14::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock14::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock14`]
-module"]
+For information about available fields see [`mod@sw_lock14`] module"]
 pub type SW_LOCK14 = crate::Reg<sw_lock14::SW_LOCK14_SPEC>;
 #[doc = "Software lock register for page 14.  
 
@@ -910,8 +895,7 @@ pub mod sw_lock14;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock15::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock15::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock15`]
-module"]
+For information about available fields see [`mod@sw_lock15`] module"]
 pub type SW_LOCK15 = crate::Reg<sw_lock15::SW_LOCK15_SPEC>;
 #[doc = "Software lock register for page 15.  
 
@@ -923,8 +907,7 @@ pub mod sw_lock15;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock16::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock16::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock16`]
-module"]
+For information about available fields see [`mod@sw_lock16`] module"]
 pub type SW_LOCK16 = crate::Reg<sw_lock16::SW_LOCK16_SPEC>;
 #[doc = "Software lock register for page 16.  
 
@@ -936,8 +919,7 @@ pub mod sw_lock16;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock17::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock17::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock17`]
-module"]
+For information about available fields see [`mod@sw_lock17`] module"]
 pub type SW_LOCK17 = crate::Reg<sw_lock17::SW_LOCK17_SPEC>;
 #[doc = "Software lock register for page 17.  
 
@@ -949,8 +931,7 @@ pub mod sw_lock17;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock18::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock18::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock18`]
-module"]
+For information about available fields see [`mod@sw_lock18`] module"]
 pub type SW_LOCK18 = crate::Reg<sw_lock18::SW_LOCK18_SPEC>;
 #[doc = "Software lock register for page 18.  
 
@@ -962,8 +943,7 @@ pub mod sw_lock18;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock19::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock19::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock19`]
-module"]
+For information about available fields see [`mod@sw_lock19`] module"]
 pub type SW_LOCK19 = crate::Reg<sw_lock19::SW_LOCK19_SPEC>;
 #[doc = "Software lock register for page 19.  
 
@@ -975,8 +955,7 @@ pub mod sw_lock19;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock20::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock20::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock20`]
-module"]
+For information about available fields see [`mod@sw_lock20`] module"]
 pub type SW_LOCK20 = crate::Reg<sw_lock20::SW_LOCK20_SPEC>;
 #[doc = "Software lock register for page 20.  
 
@@ -988,8 +967,7 @@ pub mod sw_lock20;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock21::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock21::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock21`]
-module"]
+For information about available fields see [`mod@sw_lock21`] module"]
 pub type SW_LOCK21 = crate::Reg<sw_lock21::SW_LOCK21_SPEC>;
 #[doc = "Software lock register for page 21.  
 
@@ -1001,8 +979,7 @@ pub mod sw_lock21;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock22::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock22::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock22`]
-module"]
+For information about available fields see [`mod@sw_lock22`] module"]
 pub type SW_LOCK22 = crate::Reg<sw_lock22::SW_LOCK22_SPEC>;
 #[doc = "Software lock register for page 22.  
 
@@ -1014,8 +991,7 @@ pub mod sw_lock22;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock23::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock23::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock23`]
-module"]
+For information about available fields see [`mod@sw_lock23`] module"]
 pub type SW_LOCK23 = crate::Reg<sw_lock23::SW_LOCK23_SPEC>;
 #[doc = "Software lock register for page 23.  
 
@@ -1027,8 +1003,7 @@ pub mod sw_lock23;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock24::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock24::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock24`]
-module"]
+For information about available fields see [`mod@sw_lock24`] module"]
 pub type SW_LOCK24 = crate::Reg<sw_lock24::SW_LOCK24_SPEC>;
 #[doc = "Software lock register for page 24.  
 
@@ -1040,8 +1015,7 @@ pub mod sw_lock24;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock25::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock25::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock25`]
-module"]
+For information about available fields see [`mod@sw_lock25`] module"]
 pub type SW_LOCK25 = crate::Reg<sw_lock25::SW_LOCK25_SPEC>;
 #[doc = "Software lock register for page 25.  
 
@@ -1053,8 +1027,7 @@ pub mod sw_lock25;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock26::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock26::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock26`]
-module"]
+For information about available fields see [`mod@sw_lock26`] module"]
 pub type SW_LOCK26 = crate::Reg<sw_lock26::SW_LOCK26_SPEC>;
 #[doc = "Software lock register for page 26.  
 
@@ -1066,8 +1039,7 @@ pub mod sw_lock26;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock27::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock27::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock27`]
-module"]
+For information about available fields see [`mod@sw_lock27`] module"]
 pub type SW_LOCK27 = crate::Reg<sw_lock27::SW_LOCK27_SPEC>;
 #[doc = "Software lock register for page 27.  
 
@@ -1079,8 +1051,7 @@ pub mod sw_lock27;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock28::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock28::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock28`]
-module"]
+For information about available fields see [`mod@sw_lock28`] module"]
 pub type SW_LOCK28 = crate::Reg<sw_lock28::SW_LOCK28_SPEC>;
 #[doc = "Software lock register for page 28.  
 
@@ -1092,8 +1063,7 @@ pub mod sw_lock28;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock29::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock29::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock29`]
-module"]
+For information about available fields see [`mod@sw_lock29`] module"]
 pub type SW_LOCK29 = crate::Reg<sw_lock29::SW_LOCK29_SPEC>;
 #[doc = "Software lock register for page 29.  
 
@@ -1105,8 +1075,7 @@ pub mod sw_lock29;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock30::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock30::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock30`]
-module"]
+For information about available fields see [`mod@sw_lock30`] module"]
 pub type SW_LOCK30 = crate::Reg<sw_lock30::SW_LOCK30_SPEC>;
 #[doc = "Software lock register for page 30.  
 
@@ -1118,8 +1087,7 @@ pub mod sw_lock30;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock31::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock31::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock31`]
-module"]
+For information about available fields see [`mod@sw_lock31`] module"]
 pub type SW_LOCK31 = crate::Reg<sw_lock31::SW_LOCK31_SPEC>;
 #[doc = "Software lock register for page 31.  
 
@@ -1131,8 +1099,7 @@ pub mod sw_lock31;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock32::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock32::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock32`]
-module"]
+For information about available fields see [`mod@sw_lock32`] module"]
 pub type SW_LOCK32 = crate::Reg<sw_lock32::SW_LOCK32_SPEC>;
 #[doc = "Software lock register for page 32.  
 
@@ -1144,8 +1111,7 @@ pub mod sw_lock32;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock33::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock33::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock33`]
-module"]
+For information about available fields see [`mod@sw_lock33`] module"]
 pub type SW_LOCK33 = crate::Reg<sw_lock33::SW_LOCK33_SPEC>;
 #[doc = "Software lock register for page 33.  
 
@@ -1157,8 +1123,7 @@ pub mod sw_lock33;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock34::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock34::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock34`]
-module"]
+For information about available fields see [`mod@sw_lock34`] module"]
 pub type SW_LOCK34 = crate::Reg<sw_lock34::SW_LOCK34_SPEC>;
 #[doc = "Software lock register for page 34.  
 
@@ -1170,8 +1135,7 @@ pub mod sw_lock34;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock35::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock35::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock35`]
-module"]
+For information about available fields see [`mod@sw_lock35`] module"]
 pub type SW_LOCK35 = crate::Reg<sw_lock35::SW_LOCK35_SPEC>;
 #[doc = "Software lock register for page 35.  
 
@@ -1183,8 +1147,7 @@ pub mod sw_lock35;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock36::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock36::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock36`]
-module"]
+For information about available fields see [`mod@sw_lock36`] module"]
 pub type SW_LOCK36 = crate::Reg<sw_lock36::SW_LOCK36_SPEC>;
 #[doc = "Software lock register for page 36.  
 
@@ -1196,8 +1159,7 @@ pub mod sw_lock36;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock37::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock37::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock37`]
-module"]
+For information about available fields see [`mod@sw_lock37`] module"]
 pub type SW_LOCK37 = crate::Reg<sw_lock37::SW_LOCK37_SPEC>;
 #[doc = "Software lock register for page 37.  
 
@@ -1209,8 +1171,7 @@ pub mod sw_lock37;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock38::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock38::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock38`]
-module"]
+For information about available fields see [`mod@sw_lock38`] module"]
 pub type SW_LOCK38 = crate::Reg<sw_lock38::SW_LOCK38_SPEC>;
 #[doc = "Software lock register for page 38.  
 
@@ -1222,8 +1183,7 @@ pub mod sw_lock38;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock39::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock39::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock39`]
-module"]
+For information about available fields see [`mod@sw_lock39`] module"]
 pub type SW_LOCK39 = crate::Reg<sw_lock39::SW_LOCK39_SPEC>;
 #[doc = "Software lock register for page 39.  
 
@@ -1235,8 +1195,7 @@ pub mod sw_lock39;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock40::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock40::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock40`]
-module"]
+For information about available fields see [`mod@sw_lock40`] module"]
 pub type SW_LOCK40 = crate::Reg<sw_lock40::SW_LOCK40_SPEC>;
 #[doc = "Software lock register for page 40.  
 
@@ -1248,8 +1207,7 @@ pub mod sw_lock40;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock41::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock41::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock41`]
-module"]
+For information about available fields see [`mod@sw_lock41`] module"]
 pub type SW_LOCK41 = crate::Reg<sw_lock41::SW_LOCK41_SPEC>;
 #[doc = "Software lock register for page 41.  
 
@@ -1261,8 +1219,7 @@ pub mod sw_lock41;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock42::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock42::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock42`]
-module"]
+For information about available fields see [`mod@sw_lock42`] module"]
 pub type SW_LOCK42 = crate::Reg<sw_lock42::SW_LOCK42_SPEC>;
 #[doc = "Software lock register for page 42.  
 
@@ -1274,8 +1231,7 @@ pub mod sw_lock42;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock43::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock43::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock43`]
-module"]
+For information about available fields see [`mod@sw_lock43`] module"]
 pub type SW_LOCK43 = crate::Reg<sw_lock43::SW_LOCK43_SPEC>;
 #[doc = "Software lock register for page 43.  
 
@@ -1287,8 +1243,7 @@ pub mod sw_lock43;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock44::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock44::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock44`]
-module"]
+For information about available fields see [`mod@sw_lock44`] module"]
 pub type SW_LOCK44 = crate::Reg<sw_lock44::SW_LOCK44_SPEC>;
 #[doc = "Software lock register for page 44.  
 
@@ -1300,8 +1255,7 @@ pub mod sw_lock44;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock45::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock45::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock45`]
-module"]
+For information about available fields see [`mod@sw_lock45`] module"]
 pub type SW_LOCK45 = crate::Reg<sw_lock45::SW_LOCK45_SPEC>;
 #[doc = "Software lock register for page 45.  
 
@@ -1313,8 +1267,7 @@ pub mod sw_lock45;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock46::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock46::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock46`]
-module"]
+For information about available fields see [`mod@sw_lock46`] module"]
 pub type SW_LOCK46 = crate::Reg<sw_lock46::SW_LOCK46_SPEC>;
 #[doc = "Software lock register for page 46.  
 
@@ -1326,8 +1279,7 @@ pub mod sw_lock46;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock47::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock47::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock47`]
-module"]
+For information about available fields see [`mod@sw_lock47`] module"]
 pub type SW_LOCK47 = crate::Reg<sw_lock47::SW_LOCK47_SPEC>;
 #[doc = "Software lock register for page 47.  
 
@@ -1339,8 +1291,7 @@ pub mod sw_lock47;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock48::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock48::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock48`]
-module"]
+For information about available fields see [`mod@sw_lock48`] module"]
 pub type SW_LOCK48 = crate::Reg<sw_lock48::SW_LOCK48_SPEC>;
 #[doc = "Software lock register for page 48.  
 
@@ -1352,8 +1303,7 @@ pub mod sw_lock48;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock49::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock49::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock49`]
-module"]
+For information about available fields see [`mod@sw_lock49`] module"]
 pub type SW_LOCK49 = crate::Reg<sw_lock49::SW_LOCK49_SPEC>;
 #[doc = "Software lock register for page 49.  
 
@@ -1365,8 +1315,7 @@ pub mod sw_lock49;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock50::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock50::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock50`]
-module"]
+For information about available fields see [`mod@sw_lock50`] module"]
 pub type SW_LOCK50 = crate::Reg<sw_lock50::SW_LOCK50_SPEC>;
 #[doc = "Software lock register for page 50.  
 
@@ -1378,8 +1327,7 @@ pub mod sw_lock50;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock51::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock51::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock51`]
-module"]
+For information about available fields see [`mod@sw_lock51`] module"]
 pub type SW_LOCK51 = crate::Reg<sw_lock51::SW_LOCK51_SPEC>;
 #[doc = "Software lock register for page 51.  
 
@@ -1391,8 +1339,7 @@ pub mod sw_lock51;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock52::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock52::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock52`]
-module"]
+For information about available fields see [`mod@sw_lock52`] module"]
 pub type SW_LOCK52 = crate::Reg<sw_lock52::SW_LOCK52_SPEC>;
 #[doc = "Software lock register for page 52.  
 
@@ -1404,8 +1351,7 @@ pub mod sw_lock52;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock53::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock53::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock53`]
-module"]
+For information about available fields see [`mod@sw_lock53`] module"]
 pub type SW_LOCK53 = crate::Reg<sw_lock53::SW_LOCK53_SPEC>;
 #[doc = "Software lock register for page 53.  
 
@@ -1417,8 +1363,7 @@ pub mod sw_lock53;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock54::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock54::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock54`]
-module"]
+For information about available fields see [`mod@sw_lock54`] module"]
 pub type SW_LOCK54 = crate::Reg<sw_lock54::SW_LOCK54_SPEC>;
 #[doc = "Software lock register for page 54.  
 
@@ -1430,8 +1375,7 @@ pub mod sw_lock54;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock55::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock55::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock55`]
-module"]
+For information about available fields see [`mod@sw_lock55`] module"]
 pub type SW_LOCK55 = crate::Reg<sw_lock55::SW_LOCK55_SPEC>;
 #[doc = "Software lock register for page 55.  
 
@@ -1443,8 +1387,7 @@ pub mod sw_lock55;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock56::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock56::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock56`]
-module"]
+For information about available fields see [`mod@sw_lock56`] module"]
 pub type SW_LOCK56 = crate::Reg<sw_lock56::SW_LOCK56_SPEC>;
 #[doc = "Software lock register for page 56.  
 
@@ -1456,8 +1399,7 @@ pub mod sw_lock56;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock57::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock57::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock57`]
-module"]
+For information about available fields see [`mod@sw_lock57`] module"]
 pub type SW_LOCK57 = crate::Reg<sw_lock57::SW_LOCK57_SPEC>;
 #[doc = "Software lock register for page 57.  
 
@@ -1469,8 +1411,7 @@ pub mod sw_lock57;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock58::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock58::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock58`]
-module"]
+For information about available fields see [`mod@sw_lock58`] module"]
 pub type SW_LOCK58 = crate::Reg<sw_lock58::SW_LOCK58_SPEC>;
 #[doc = "Software lock register for page 58.  
 
@@ -1482,8 +1423,7 @@ pub mod sw_lock58;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock59::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock59::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock59`]
-module"]
+For information about available fields see [`mod@sw_lock59`] module"]
 pub type SW_LOCK59 = crate::Reg<sw_lock59::SW_LOCK59_SPEC>;
 #[doc = "Software lock register for page 59.  
 
@@ -1495,8 +1435,7 @@ pub mod sw_lock59;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock60::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock60::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock60`]
-module"]
+For information about available fields see [`mod@sw_lock60`] module"]
 pub type SW_LOCK60 = crate::Reg<sw_lock60::SW_LOCK60_SPEC>;
 #[doc = "Software lock register for page 60.  
 
@@ -1508,8 +1447,7 @@ pub mod sw_lock60;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock61::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock61::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock61`]
-module"]
+For information about available fields see [`mod@sw_lock61`] module"]
 pub type SW_LOCK61 = crate::Reg<sw_lock61::SW_LOCK61_SPEC>;
 #[doc = "Software lock register for page 61.  
 
@@ -1521,8 +1459,7 @@ pub mod sw_lock61;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock62::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock62::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock62`]
-module"]
+For information about available fields see [`mod@sw_lock62`] module"]
 pub type SW_LOCK62 = crate::Reg<sw_lock62::SW_LOCK62_SPEC>;
 #[doc = "Software lock register for page 62.  
 
@@ -1534,8 +1471,7 @@ pub mod sw_lock62;
 
 You can [`read`](crate::Reg::read) this register and get [`sw_lock63::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sw_lock63::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sw_lock63`]
-module"]
+For information about available fields see [`mod@sw_lock63`] module"]
 pub type SW_LOCK63 = crate::Reg<sw_lock63::SW_LOCK63_SPEC>;
 #[doc = "Software lock register for page 63.  
 
@@ -1545,8 +1481,7 @@ pub mod sw_lock63;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_instr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sbpi_instr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_instr`]
-module"]
+For information about available fields see [`mod@sbpi_instr`] module"]
 pub type SBPI_INSTR = crate::Reg<sbpi_instr::SBPI_INSTR_SPEC>;
 #[doc = "Dispatch instructions to the SBPI interface, used for programming the OTP fuses."]
 pub mod sbpi_instr;
@@ -1554,8 +1489,7 @@ pub mod sbpi_instr;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_wdata_0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sbpi_wdata_0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_wdata_0`]
-module"]
+For information about available fields see [`mod@sbpi_wdata_0`] module"]
 pub type SBPI_WDATA_0 = crate::Reg<sbpi_wdata_0::SBPI_WDATA_0_SPEC>;
 #[doc = "SBPI write payload bytes 3..0"]
 pub mod sbpi_wdata_0;
@@ -1563,8 +1497,7 @@ pub mod sbpi_wdata_0;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_wdata_1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sbpi_wdata_1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_wdata_1`]
-module"]
+For information about available fields see [`mod@sbpi_wdata_1`] module"]
 pub type SBPI_WDATA_1 = crate::Reg<sbpi_wdata_1::SBPI_WDATA_1_SPEC>;
 #[doc = "SBPI write payload bytes 7..4"]
 pub mod sbpi_wdata_1;
@@ -1572,8 +1505,7 @@ pub mod sbpi_wdata_1;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_wdata_2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sbpi_wdata_2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_wdata_2`]
-module"]
+For information about available fields see [`mod@sbpi_wdata_2`] module"]
 pub type SBPI_WDATA_2 = crate::Reg<sbpi_wdata_2::SBPI_WDATA_2_SPEC>;
 #[doc = "SBPI write payload bytes 11..8"]
 pub mod sbpi_wdata_2;
@@ -1581,8 +1513,7 @@ pub mod sbpi_wdata_2;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_wdata_3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sbpi_wdata_3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_wdata_3`]
-module"]
+For information about available fields see [`mod@sbpi_wdata_3`] module"]
 pub type SBPI_WDATA_3 = crate::Reg<sbpi_wdata_3::SBPI_WDATA_3_SPEC>;
 #[doc = "SBPI write payload bytes 15..12"]
 pub mod sbpi_wdata_3;
@@ -1590,8 +1521,7 @@ pub mod sbpi_wdata_3;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_rdata_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_rdata_0`]
-module"]
+For information about available fields see [`mod@sbpi_rdata_0`] module"]
 pub type SBPI_RDATA_0 = crate::Reg<sbpi_rdata_0::SBPI_RDATA_0_SPEC>;
 #[doc = "Read payload bytes 3..0. Once read, the data in the register will automatically clear to 0."]
 pub mod sbpi_rdata_0;
@@ -1599,8 +1529,7 @@ pub mod sbpi_rdata_0;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_rdata_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_rdata_1`]
-module"]
+For information about available fields see [`mod@sbpi_rdata_1`] module"]
 pub type SBPI_RDATA_1 = crate::Reg<sbpi_rdata_1::SBPI_RDATA_1_SPEC>;
 #[doc = "Read payload bytes 7..4. Once read, the data in the register will automatically clear to 0."]
 pub mod sbpi_rdata_1;
@@ -1608,8 +1537,7 @@ pub mod sbpi_rdata_1;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_rdata_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_rdata_2`]
-module"]
+For information about available fields see [`mod@sbpi_rdata_2`] module"]
 pub type SBPI_RDATA_2 = crate::Reg<sbpi_rdata_2::SBPI_RDATA_2_SPEC>;
 #[doc = "Read payload bytes 11..8. Once read, the data in the register will automatically clear to 0."]
 pub mod sbpi_rdata_2;
@@ -1617,8 +1545,7 @@ pub mod sbpi_rdata_2;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_rdata_3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_rdata_3`]
-module"]
+For information about available fields see [`mod@sbpi_rdata_3`] module"]
 pub type SBPI_RDATA_3 = crate::Reg<sbpi_rdata_3::SBPI_RDATA_3_SPEC>;
 #[doc = "Read payload bytes 15..12. Once read, the data in the register will automatically clear to 0."]
 pub mod sbpi_rdata_3;
@@ -1626,8 +1553,7 @@ pub mod sbpi_rdata_3;
 
 You can [`read`](crate::Reg::read) this register and get [`sbpi_status::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sbpi_status::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sbpi_status`]
-module"]
+For information about available fields see [`mod@sbpi_status`] module"]
 pub type SBPI_STATUS = crate::Reg<sbpi_status::SBPI_STATUS_SPEC>;
 #[doc = ""]
 pub mod sbpi_status;
@@ -1635,8 +1561,7 @@ pub mod sbpi_status;
 
 You can [`read`](crate::Reg::read) this register and get [`usr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`usr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@usr`]
-module"]
+For information about available fields see [`mod@usr`] module"]
 pub type USR = crate::Reg<usr::USR_SPEC>;
 #[doc = "Controls for APB data read interface (USER interface)"]
 pub mod usr;
@@ -1644,8 +1569,7 @@ pub mod usr;
 
 You can [`read`](crate::Reg::read) this register and get [`dbg::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dbg::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dbg`]
-module"]
+For information about available fields see [`mod@dbg`] module"]
 pub type DBG = crate::Reg<dbg::DBG_SPEC>;
 #[doc = "Debug for OTP power-on state machine"]
 pub mod dbg;
@@ -1653,8 +1577,7 @@ pub mod dbg;
 
 You can [`read`](crate::Reg::read) this register and get [`bist::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bist::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bist`]
-module"]
+For information about available fields see [`mod@bist`] module"]
 pub type BIST = crate::Reg<bist::BIST_SPEC>;
 #[doc = "During BIST, count address locations that have at least one leaky bit"]
 pub mod bist;
@@ -1662,8 +1585,7 @@ pub mod bist;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`crt_key_w0::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crt_key_w0`]
-module"]
+For information about available fields see [`mod@crt_key_w0`] module"]
 pub type CRT_KEY_W0 = crate::Reg<crt_key_w0::CRT_KEY_W0_SPEC>;
 #[doc = "Word 0 (bits 31..0) of the key. Write only, read returns 0x0"]
 pub mod crt_key_w0;
@@ -1671,8 +1593,7 @@ pub mod crt_key_w0;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`crt_key_w1::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crt_key_w1`]
-module"]
+For information about available fields see [`mod@crt_key_w1`] module"]
 pub type CRT_KEY_W1 = crate::Reg<crt_key_w1::CRT_KEY_W1_SPEC>;
 #[doc = "Word 1 (bits 63..32) of the key. Write only, read returns 0x0"]
 pub mod crt_key_w1;
@@ -1680,8 +1601,7 @@ pub mod crt_key_w1;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`crt_key_w2::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crt_key_w2`]
-module"]
+For information about available fields see [`mod@crt_key_w2`] module"]
 pub type CRT_KEY_W2 = crate::Reg<crt_key_w2::CRT_KEY_W2_SPEC>;
 #[doc = "Word 2 (bits 95..64) of the key. Write only, read returns 0x0"]
 pub mod crt_key_w2;
@@ -1689,8 +1609,7 @@ pub mod crt_key_w2;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`crt_key_w3::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@crt_key_w3`]
-module"]
+For information about available fields see [`mod@crt_key_w3`] module"]
 pub type CRT_KEY_W3 = crate::Reg<crt_key_w3::CRT_KEY_W3_SPEC>;
 #[doc = "Word 3 (bits 127..96) of the key. Write only, read returns 0x0"]
 pub mod crt_key_w3;
@@ -1698,8 +1617,7 @@ pub mod crt_key_w3;
 
 You can [`read`](crate::Reg::read) this register and get [`critical::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@critical`]
-module"]
+For information about available fields see [`mod@critical`] module"]
 pub type CRITICAL = crate::Reg<critical::CRITICAL_SPEC>;
 #[doc = "Quickly check values of critical flags read during boot up"]
 pub mod critical;
@@ -1707,8 +1625,7 @@ pub mod critical;
 
 You can [`read`](crate::Reg::read) this register and get [`key_valid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@key_valid`]
-module"]
+For information about available fields see [`mod@key_valid`] module"]
 pub type KEY_VALID = crate::Reg<key_valid::KEY_VALID_SPEC>;
 #[doc = "Which keys were valid (enrolled) at boot time"]
 pub mod key_valid;
@@ -1728,8 +1645,7 @@ pub mod key_valid;
 
 You can [`read`](crate::Reg::read) this register and get [`debugen::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`debugen::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@debugen`]
-module"]
+For information about available fields see [`mod@debugen`] module"]
 pub type DEBUGEN = crate::Reg<debugen::DEBUGEN_SPEC>;
 #[doc = "Enable a debug feature that has been disabled. Debug features are disabled if one of the relevant critical boot flags is set in OTP (DEBUG_DISABLE or SECURE_DEBUG_DISABLE), OR if a debug key is marked valid in OTP, and the matching key value has not been supplied over SWD.  
 
@@ -1749,8 +1665,7 @@ pub mod debugen;
 
 You can [`read`](crate::Reg::read) this register and get [`debugen_lock::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`debugen_lock::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@debugen_lock`]
-module"]
+For information about available fields see [`mod@debugen_lock`] module"]
 pub type DEBUGEN_LOCK = crate::Reg<debugen_lock::DEBUGEN_LOCK_SPEC>;
 #[doc = "Write 1s to lock corresponding bits in DEBUGEN. This register is reset by the processor cold reset."]
 pub mod debugen_lock;
@@ -1764,8 +1679,7 @@ pub mod debugen_lock;
 
 You can [`read`](crate::Reg::read) this register and get [`archsel::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`archsel::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@archsel`]
-module"]
+For information about available fields see [`mod@archsel`] module"]
 pub type ARCHSEL = crate::Reg<archsel::ARCHSEL_SPEC>;
 #[doc = "Architecture select (Arm/RISC-V). The default and allowable values of this register are constrained by the critical boot flags.  
 
@@ -1779,8 +1693,7 @@ pub mod archsel;
 
 You can [`read`](crate::Reg::read) this register and get [`archsel_status::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@archsel_status`]
-module"]
+For information about available fields see [`mod@archsel_status`] module"]
 pub type ARCHSEL_STATUS = crate::Reg<archsel_status::ARCHSEL_STATUS_SPEC>;
 #[doc = "Get the current architecture select state of each core. Cores sample the current value of the ARCHSEL register when their warm reset is released, at which point the corresponding bit in this register will also update."]
 pub mod archsel_status;
@@ -1794,8 +1707,7 @@ pub mod archsel_status;
 
 You can [`read`](crate::Reg::read) this register and get [`bootdis::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bootdis::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bootdis`]
-module"]
+For information about available fields see [`mod@bootdis`] module"]
 pub type BOOTDIS = crate::Reg<bootdis::BOOTDIS_SPEC>;
 #[doc = "Tell the bootrom to ignore scratch register boot vectors (both power manager and watchdog) on the next power up.  
 
@@ -1809,8 +1721,7 @@ pub mod bootdis;
 
 You can [`read`](crate::Reg::read) this register and get [`intr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intr`]
-module"]
+For information about available fields see [`mod@intr`] module"]
 pub type INTR = crate::Reg<intr::INTR_SPEC>;
 #[doc = "Raw Interrupts"]
 pub mod intr;
@@ -1818,8 +1729,7 @@ pub mod intr;
 
 You can [`read`](crate::Reg::read) this register and get [`inte::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`inte::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@inte`]
-module"]
+For information about available fields see [`mod@inte`] module"]
 pub type INTE = crate::Reg<inte::INTE_SPEC>;
 #[doc = "Interrupt Enable"]
 pub mod inte;
@@ -1827,17 +1737,15 @@ pub mod inte;
 
 You can [`read`](crate::Reg::read) this register and get [`intf::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`intf::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@intf`]
-module"]
+For information about available fields see [`mod@intf`] module"]
 pub type INTF = crate::Reg<intf::INTF_SPEC>;
 #[doc = "Interrupt Force"]
 pub mod intf;
-#[doc = "INTS (r) register accessor: Interrupt status after masking &amp; forcing  
+#[doc = "INTS (r) register accessor: Interrupt status after masking & forcing  
 
 You can [`read`](crate::Reg::read) this register and get [`ints::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ints`]
-module"]
+For information about available fields see [`mod@ints`] module"]
 pub type INTS = crate::Reg<ints::INTS_SPEC>;
-#[doc = "Interrupt status after masking &amp; forcing"]
+#[doc = "Interrupt status after masking & forcing"]
 pub mod ints;

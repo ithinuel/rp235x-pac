@@ -286,187 +286,156 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_peri_spi0(&mut self) -> CLK_PERI_SPI0_W<SLEEP_EN1_SPEC> {
         CLK_PERI_SPI0_W::new(self, 0)
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_spi0(&mut self) -> CLK_SYS_SPI0_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SPI0_W::new(self, 1)
     }
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_peri_spi1(&mut self) -> CLK_PERI_SPI1_W<SLEEP_EN1_SPEC> {
         CLK_PERI_SPI1_W::new(self, 2)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_spi1(&mut self) -> CLK_SYS_SPI1_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SPI1_W::new(self, 3)
     }
     #[doc = "Bit 4"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram0(&mut self) -> CLK_SYS_SRAM0_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM0_W::new(self, 4)
     }
     #[doc = "Bit 5"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram1(&mut self) -> CLK_SYS_SRAM1_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM1_W::new(self, 5)
     }
     #[doc = "Bit 6"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram2(&mut self) -> CLK_SYS_SRAM2_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM2_W::new(self, 6)
     }
     #[doc = "Bit 7"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram3(&mut self) -> CLK_SYS_SRAM3_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM3_W::new(self, 7)
     }
     #[doc = "Bit 8"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram4(&mut self) -> CLK_SYS_SRAM4_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM4_W::new(self, 8)
     }
     #[doc = "Bit 9"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram5(&mut self) -> CLK_SYS_SRAM5_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM5_W::new(self, 9)
     }
     #[doc = "Bit 10"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram6(&mut self) -> CLK_SYS_SRAM6_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM6_W::new(self, 10)
     }
     #[doc = "Bit 11"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram7(&mut self) -> CLK_SYS_SRAM7_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM7_W::new(self, 11)
     }
     #[doc = "Bit 12"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram8(&mut self) -> CLK_SYS_SRAM8_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM8_W::new(self, 12)
     }
     #[doc = "Bit 13"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sram9(&mut self) -> CLK_SYS_SRAM9_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SRAM9_W::new(self, 13)
     }
     #[doc = "Bit 14"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_syscfg(&mut self) -> CLK_SYS_SYSCFG_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SYSCFG_W::new(self, 14)
     }
     #[doc = "Bit 15"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_sysinfo(&mut self) -> CLK_SYS_SYSINFO_W<SLEEP_EN1_SPEC> {
         CLK_SYS_SYSINFO_W::new(self, 15)
     }
     #[doc = "Bit 16"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_tbman(&mut self) -> CLK_SYS_TBMAN_W<SLEEP_EN1_SPEC> {
         CLK_SYS_TBMAN_W::new(self, 16)
     }
     #[doc = "Bit 17"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_ref_ticks(&mut self) -> CLK_REF_TICKS_W<SLEEP_EN1_SPEC> {
         CLK_REF_TICKS_W::new(self, 17)
     }
     #[doc = "Bit 18"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_ticks(&mut self) -> CLK_SYS_TICKS_W<SLEEP_EN1_SPEC> {
         CLK_SYS_TICKS_W::new(self, 18)
     }
     #[doc = "Bit 19"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_timer0(&mut self) -> CLK_SYS_TIMER0_W<SLEEP_EN1_SPEC> {
         CLK_SYS_TIMER0_W::new(self, 19)
     }
     #[doc = "Bit 20"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_timer1(&mut self) -> CLK_SYS_TIMER1_W<SLEEP_EN1_SPEC> {
         CLK_SYS_TIMER1_W::new(self, 20)
     }
     #[doc = "Bit 21"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_trng(&mut self) -> CLK_SYS_TRNG_W<SLEEP_EN1_SPEC> {
         CLK_SYS_TRNG_W::new(self, 21)
     }
     #[doc = "Bit 22"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_peri_uart0(&mut self) -> CLK_PERI_UART0_W<SLEEP_EN1_SPEC> {
         CLK_PERI_UART0_W::new(self, 22)
     }
     #[doc = "Bit 23"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_uart0(&mut self) -> CLK_SYS_UART0_W<SLEEP_EN1_SPEC> {
         CLK_SYS_UART0_W::new(self, 23)
     }
     #[doc = "Bit 24"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_peri_uart1(&mut self) -> CLK_PERI_UART1_W<SLEEP_EN1_SPEC> {
         CLK_PERI_UART1_W::new(self, 24)
     }
     #[doc = "Bit 25"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_uart1(&mut self) -> CLK_SYS_UART1_W<SLEEP_EN1_SPEC> {
         CLK_SYS_UART1_W::new(self, 25)
     }
     #[doc = "Bit 26"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_usbctrl(&mut self) -> CLK_SYS_USBCTRL_W<SLEEP_EN1_SPEC> {
         CLK_SYS_USBCTRL_W::new(self, 26)
     }
     #[doc = "Bit 27"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_usb(&mut self) -> CLK_USB_W<SLEEP_EN1_SPEC> {
         CLK_USB_W::new(self, 27)
     }
     #[doc = "Bit 28"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_watchdog(&mut self) -> CLK_SYS_WATCHDOG_W<SLEEP_EN1_SPEC> {
         CLK_SYS_WATCHDOG_W::new(self, 28)
     }
     #[doc = "Bit 29"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_xip(&mut self) -> CLK_SYS_XIP_W<SLEEP_EN1_SPEC> {
         CLK_SYS_XIP_W::new(self, 29)
     }
     #[doc = "Bit 30"]
     #[inline(always)]
-    #[must_use]
     pub fn clk_sys_xosc(&mut self) -> CLK_SYS_XOSC_W<SLEEP_EN1_SPEC> {
         CLK_SYS_XOSC_W::new(self, 30)
     }
@@ -483,8 +452,6 @@ impl crate::Readable for SLEEP_EN1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sleep_en1::W`](W) writer structure"]
 impl crate::Writable for SLEEP_EN1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SLEEP_EN1 to value 0x7fff_ffff"]
 impl crate::Resettable for SLEEP_EN1_SPEC {

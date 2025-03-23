@@ -26,8 +26,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`nmi_mask0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nmi_mask0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nmi_mask0`]
-module"]
+For information about available fields see [`mod@nmi_mask0`] module"]
 pub type NMI_MASK0 = crate::Reg<nmi_mask0::NMI_MASK0_SPEC>;
 #[doc = "NMI mask for IRQs 0 through 31. This register is core-local, and is reset by a processor warm reset."]
 pub mod nmi_mask0;
@@ -35,8 +34,7 @@ pub mod nmi_mask0;
 
 You can [`read`](crate::Reg::read) this register and get [`nmi_mask1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nmi_mask1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nmi_mask1`]
-module"]
+For information about available fields see [`mod@nmi_mask1`] module"]
 pub type NMI_MASK1 = crate::Reg<nmi_mask1::NMI_MASK1_SPEC>;
 #[doc = "NMI mask for IRQs 0 though 51. This register is core-local, and is reset by a processor warm reset."]
 pub mod nmi_mask1;
@@ -44,8 +42,7 @@ pub mod nmi_mask1;
 
 You can [`read`](crate::Reg::read) this register and get [`sleepctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sleepctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sleepctrl`]
-module"]
+For information about available fields see [`mod@sleepctrl`] module"]
 pub type SLEEPCTRL = crate::Reg<sleepctrl::SLEEPCTRL_SPEC>;
 #[doc = "Nonstandard sleep control register"]
 pub mod sleepctrl;

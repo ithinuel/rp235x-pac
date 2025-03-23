@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bits 0:7 - Memory attribute encoding for MPU regions with an AttrIndex of 4"]
     #[inline(always)]
-    #[must_use]
     pub fn attr4(&mut self) -> ATTR4_W<MPU_MAIR1_SPEC> {
         ATTR4_W::new(self, 0)
     }
     #[doc = "Bits 8:15 - Memory attribute encoding for MPU regions with an AttrIndex of 5"]
     #[inline(always)]
-    #[must_use]
     pub fn attr5(&mut self) -> ATTR5_W<MPU_MAIR1_SPEC> {
         ATTR5_W::new(self, 8)
     }
     #[doc = "Bits 16:23 - Memory attribute encoding for MPU regions with an AttrIndex of 6"]
     #[inline(always)]
-    #[must_use]
     pub fn attr6(&mut self) -> ATTR6_W<MPU_MAIR1_SPEC> {
         ATTR6_W::new(self, 16)
     }
     #[doc = "Bits 24:31 - Memory attribute encoding for MPU regions with an AttrIndex of 7"]
     #[inline(always)]
-    #[must_use]
     pub fn attr7(&mut self) -> ATTR7_W<MPU_MAIR1_SPEC> {
         ATTR7_W::new(self, 24)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for MPU_MAIR1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`mpu_mair1::W`](W) writer structure"]
 impl crate::Writable for MPU_MAIR1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets MPU_MAIR1 to value 0"]
-impl crate::Resettable for MPU_MAIR1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for MPU_MAIR1_SPEC {}

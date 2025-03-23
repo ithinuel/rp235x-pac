@@ -10,11 +10,9 @@ pub type ENABLE_W<'a, REG> = crate::BitWriter<'a, REG>;
 pub type NSC_R = crate::BitReader;
 #[doc = "Field `NSC` writer - Controls whether Non-secure state is permitted to execute an SG instruction from this region"]
 pub type NSC_W<'a, REG> = crate::BitWriter<'a, REG>;
-#[doc = "Field `LADDR` reader - Holds bits \\[31:5\\]
-of the limit address for the selected SAU region"]
+#[doc = "Field `LADDR` reader - Holds bits \\[31:5\\] of the limit address for the selected SAU region"]
 pub type LADDR_R = crate::FieldReader<u32>;
-#[doc = "Field `LADDR` writer - Holds bits \\[31:5\\]
-of the limit address for the selected SAU region"]
+#[doc = "Field `LADDR` writer - Holds bits \\[31:5\\] of the limit address for the selected SAU region"]
 pub type LADDR_W<'a, REG> = crate::FieldWriter<'a, REG, 27, u32>;
 impl R {
     #[doc = "Bit 0 - SAU region enable"]
@@ -27,8 +25,7 @@ impl R {
     pub fn nsc(&self) -> NSC_R {
         NSC_R::new(((self.bits >> 1) & 1) != 0)
     }
-    #[doc = "Bits 5:31 - Holds bits \\[31:5\\]
-of the limit address for the selected SAU region"]
+    #[doc = "Bits 5:31 - Holds bits \\[31:5\\] of the limit address for the selected SAU region"]
     #[inline(always)]
     pub fn laddr(&self) -> LADDR_R {
         LADDR_R::new((self.bits >> 5) & 0x07ff_ffff)
@@ -37,20 +34,16 @@ of the limit address for the selected SAU region"]
 impl W {
     #[doc = "Bit 0 - SAU region enable"]
     #[inline(always)]
-    #[must_use]
     pub fn enable(&mut self) -> ENABLE_W<SAU_RLAR_SPEC> {
         ENABLE_W::new(self, 0)
     }
     #[doc = "Bit 1 - Controls whether Non-secure state is permitted to execute an SG instruction from this region"]
     #[inline(always)]
-    #[must_use]
     pub fn nsc(&mut self) -> NSC_W<SAU_RLAR_SPEC> {
         NSC_W::new(self, 1)
     }
-    #[doc = "Bits 5:31 - Holds bits \\[31:5\\]
-of the limit address for the selected SAU region"]
+    #[doc = "Bits 5:31 - Holds bits \\[31:5\\] of the limit address for the selected SAU region"]
     #[inline(always)]
-    #[must_use]
     pub fn laddr(&mut self) -> LADDR_W<SAU_RLAR_SPEC> {
         LADDR_W::new(self, 5)
     }
@@ -67,10 +60,6 @@ impl crate::Readable for SAU_RLAR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sau_rlar::W`](W) writer structure"]
 impl crate::Writable for SAU_RLAR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SAU_RLAR to value 0"]
-impl crate::Resettable for SAU_RLAR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SAU_RLAR_SPEC {}

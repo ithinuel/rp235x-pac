@@ -150,8 +150,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`rng_imr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`rng_imr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rng_imr`]
-module"]
+For information about available fields see [`mod@rng_imr`] module"]
 pub type RNG_IMR = crate::Reg<rng_imr::RNG_IMR_SPEC>;
 #[doc = "Interrupt masking."]
 pub mod rng_imr;
@@ -159,8 +158,7 @@ pub mod rng_imr;
 
 You can [`read`](crate::Reg::read) this register and get [`rng_isr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rng_isr`]
-module"]
+For information about available fields see [`mod@rng_isr`] module"]
 pub type RNG_ISR = crate::Reg<rng_isr::RNG_ISR_SPEC>;
 #[doc = "RNG status register. If corresponding RNG_IMR bit is unmasked, an interrupt will be generated."]
 pub mod rng_isr;
@@ -168,8 +166,7 @@ pub mod rng_isr;
 
 You can [`read`](crate::Reg::read) this register and get [`rng_icr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`rng_icr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rng_icr`]
-module"]
+For information about available fields see [`mod@rng_icr`] module"]
 pub type RNG_ICR = crate::Reg<rng_icr::RNG_ICR_SPEC>;
 #[doc = "Interrupt/status bit clear Register."]
 pub mod rng_icr;
@@ -177,8 +174,7 @@ pub mod rng_icr;
 
 You can [`read`](crate::Reg::read) this register and get [`trng_config::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trng_config::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trng_config`]
-module"]
+For information about available fields see [`mod@trng_config`] module"]
 pub type TRNG_CONFIG = crate::Reg<trng_config::TRNG_CONFIG_SPEC>;
 #[doc = "Selecting the inverter-chain length."]
 pub mod trng_config;
@@ -186,8 +182,7 @@ pub mod trng_config;
 
 You can [`read`](crate::Reg::read) this register and get [`trng_valid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trng_valid`]
-module"]
+For information about available fields see [`mod@trng_valid`] module"]
 pub type TRNG_VALID = crate::Reg<trng_valid::TRNG_VALID_SPEC>;
 #[doc = "192 bit collection indication."]
 pub mod trng_valid;
@@ -195,8 +190,7 @@ pub mod trng_valid;
 
 You can [`read`](crate::Reg::read) this register and get [`ehr_data0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ehr_data0`]
-module"]
+For information about available fields see [`mod@ehr_data0`] module"]
 pub type EHR_DATA0 = crate::Reg<ehr_data0::EHR_DATA0_SPEC>;
 #[doc = "RNG collected bits."]
 pub mod ehr_data0;
@@ -204,8 +198,7 @@ pub mod ehr_data0;
 
 You can [`read`](crate::Reg::read) this register and get [`ehr_data1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ehr_data1`]
-module"]
+For information about available fields see [`mod@ehr_data1`] module"]
 pub type EHR_DATA1 = crate::Reg<ehr_data1::EHR_DATA1_SPEC>;
 #[doc = "RNG collected bits."]
 pub mod ehr_data1;
@@ -213,8 +206,7 @@ pub mod ehr_data1;
 
 You can [`read`](crate::Reg::read) this register and get [`ehr_data2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ehr_data2`]
-module"]
+For information about available fields see [`mod@ehr_data2`] module"]
 pub type EHR_DATA2 = crate::Reg<ehr_data2::EHR_DATA2_SPEC>;
 #[doc = "RNG collected bits."]
 pub mod ehr_data2;
@@ -222,8 +214,7 @@ pub mod ehr_data2;
 
 You can [`read`](crate::Reg::read) this register and get [`ehr_data3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ehr_data3`]
-module"]
+For information about available fields see [`mod@ehr_data3`] module"]
 pub type EHR_DATA3 = crate::Reg<ehr_data3::EHR_DATA3_SPEC>;
 #[doc = "RNG collected bits."]
 pub mod ehr_data3;
@@ -231,8 +222,7 @@ pub mod ehr_data3;
 
 You can [`read`](crate::Reg::read) this register and get [`ehr_data4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ehr_data4`]
-module"]
+For information about available fields see [`mod@ehr_data4`] module"]
 pub type EHR_DATA4 = crate::Reg<ehr_data4::EHR_DATA4_SPEC>;
 #[doc = "RNG collected bits."]
 pub mod ehr_data4;
@@ -240,8 +230,7 @@ pub mod ehr_data4;
 
 You can [`read`](crate::Reg::read) this register and get [`ehr_data5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ehr_data5`]
-module"]
+For information about available fields see [`mod@ehr_data5`] module"]
 pub type EHR_DATA5 = crate::Reg<ehr_data5::EHR_DATA5_SPEC>;
 #[doc = "RNG collected bits."]
 pub mod ehr_data5;
@@ -249,8 +238,7 @@ pub mod ehr_data5;
 
 You can [`read`](crate::Reg::read) this register and get [`rnd_source_enable::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`rnd_source_enable::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rnd_source_enable`]
-module"]
+For information about available fields see [`mod@rnd_source_enable`] module"]
 pub type RND_SOURCE_ENABLE = crate::Reg<rnd_source_enable::RND_SOURCE_ENABLE_SPEC>;
 #[doc = "Enable signal for the random source."]
 pub mod rnd_source_enable;
@@ -258,8 +246,7 @@ pub mod rnd_source_enable;
 
 You can [`read`](crate::Reg::read) this register and get [`sample_cnt1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sample_cnt1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sample_cnt1`]
-module"]
+For information about available fields see [`mod@sample_cnt1`] module"]
 pub type SAMPLE_CNT1 = crate::Reg<sample_cnt1::SAMPLE_CNT1_SPEC>;
 #[doc = "Counts clocks between sampling of random bit."]
 pub mod sample_cnt1;
@@ -267,8 +254,7 @@ pub mod sample_cnt1;
 
 You can [`read`](crate::Reg::read) this register and get [`autocorr_statistic::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`autocorr_statistic::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@autocorr_statistic`]
-module"]
+For information about available fields see [`mod@autocorr_statistic`] module"]
 pub type AUTOCORR_STATISTIC = crate::Reg<autocorr_statistic::AUTOCORR_STATISTIC_SPEC>;
 #[doc = "Statistic about Autocorrelation test activations."]
 pub mod autocorr_statistic;
@@ -276,8 +262,7 @@ pub mod autocorr_statistic;
 
 You can [`read`](crate::Reg::read) this register and get [`trng_debug_control::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trng_debug_control::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trng_debug_control`]
-module"]
+For information about available fields see [`mod@trng_debug_control`] module"]
 pub type TRNG_DEBUG_CONTROL = crate::Reg<trng_debug_control::TRNG_DEBUG_CONTROL_SPEC>;
 #[doc = "Debug register."]
 pub mod trng_debug_control;
@@ -285,8 +270,7 @@ pub mod trng_debug_control;
 
 You can [`read`](crate::Reg::read) this register and get [`trng_sw_reset::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trng_sw_reset::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trng_sw_reset`]
-module"]
+For information about available fields see [`mod@trng_sw_reset`] module"]
 pub type TRNG_SW_RESET = crate::Reg<trng_sw_reset::TRNG_SW_RESET_SPEC>;
 #[doc = "Generate internal SW reset within the RNG block."]
 pub mod trng_sw_reset;
@@ -294,8 +278,7 @@ pub mod trng_sw_reset;
 
 You can [`read`](crate::Reg::read) this register and get [`rng_debug_en_input::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`rng_debug_en_input::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rng_debug_en_input`]
-module"]
+For information about available fields see [`mod@rng_debug_en_input`] module"]
 pub type RNG_DEBUG_EN_INPUT = crate::Reg<rng_debug_en_input::RNG_DEBUG_EN_INPUT_SPEC>;
 #[doc = "Enable the RNG debug mode"]
 pub mod rng_debug_en_input;
@@ -303,8 +286,7 @@ pub mod rng_debug_en_input;
 
 You can [`read`](crate::Reg::read) this register and get [`trng_busy::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trng_busy`]
-module"]
+For information about available fields see [`mod@trng_busy`] module"]
 pub type TRNG_BUSY = crate::Reg<trng_busy::TRNG_BUSY_SPEC>;
 #[doc = "RNG Busy indication."]
 pub mod trng_busy;
@@ -312,8 +294,7 @@ pub mod trng_busy;
 
 You can [`read`](crate::Reg::read) this register and get [`rst_bits_counter::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`rst_bits_counter::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rst_bits_counter`]
-module"]
+For information about available fields see [`mod@rst_bits_counter`] module"]
 pub type RST_BITS_COUNTER = crate::Reg<rst_bits_counter::RST_BITS_COUNTER_SPEC>;
 #[doc = "Reset the counter of collected bits in the RNG."]
 pub mod rst_bits_counter;
@@ -321,8 +302,7 @@ pub mod rst_bits_counter;
 
 You can [`read`](crate::Reg::read) this register and get [`rng_version::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rng_version`]
-module"]
+For information about available fields see [`mod@rng_version`] module"]
 pub type RNG_VERSION = crate::Reg<rng_version::RNG_VERSION_SPEC>;
 #[doc = "Displays the version settings of the TRNG."]
 pub mod rng_version;
@@ -330,8 +310,7 @@ pub mod rng_version;
 
 You can [`read`](crate::Reg::read) this register and get [`rng_bist_cntr_0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rng_bist_cntr_0`]
-module"]
+For information about available fields see [`mod@rng_bist_cntr_0`] module"]
 pub type RNG_BIST_CNTR_0 = crate::Reg<rng_bist_cntr_0::RNG_BIST_CNTR_0_SPEC>;
 #[doc = "Collected BIST results."]
 pub mod rng_bist_cntr_0;
@@ -339,8 +318,7 @@ pub mod rng_bist_cntr_0;
 
 You can [`read`](crate::Reg::read) this register and get [`rng_bist_cntr_1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rng_bist_cntr_1`]
-module"]
+For information about available fields see [`mod@rng_bist_cntr_1`] module"]
 pub type RNG_BIST_CNTR_1 = crate::Reg<rng_bist_cntr_1::RNG_BIST_CNTR_1_SPEC>;
 #[doc = "Collected BIST results."]
 pub mod rng_bist_cntr_1;
@@ -348,8 +326,7 @@ pub mod rng_bist_cntr_1;
 
 You can [`read`](crate::Reg::read) this register and get [`rng_bist_cntr_2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rng_bist_cntr_2`]
-module"]
+For information about available fields see [`mod@rng_bist_cntr_2`] module"]
 pub type RNG_BIST_CNTR_2 = crate::Reg<rng_bist_cntr_2::RNG_BIST_CNTR_2_SPEC>;
 #[doc = "Collected BIST results."]
 pub mod rng_bist_cntr_2;

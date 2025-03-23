@@ -61,37 +61,31 @@ impl R {
 impl W {
     #[doc = "Bits 0:4 - Right-rotate applied to the current shifter data before the lane 0 TMDS encoder."]
     #[inline(always)]
-    #[must_use]
     pub fn l0_rot(&mut self) -> L0_ROT_W<EXPAND_TMDS_SPEC> {
         L0_ROT_W::new(self, 0)
     }
     #[doc = "Bits 5:7 - Number of valid data bits for the lane 0 TMDS encoder, starting from bit 7 of the rotated data. Field values of 0 -> 7 encode counts of 1 -> 8 bits."]
     #[inline(always)]
-    #[must_use]
     pub fn l0_nbits(&mut self) -> L0_NBITS_W<EXPAND_TMDS_SPEC> {
         L0_NBITS_W::new(self, 5)
     }
     #[doc = "Bits 8:12 - Right-rotate applied to the current shifter data before the lane 1 TMDS encoder."]
     #[inline(always)]
-    #[must_use]
     pub fn l1_rot(&mut self) -> L1_ROT_W<EXPAND_TMDS_SPEC> {
         L1_ROT_W::new(self, 8)
     }
     #[doc = "Bits 13:15 - Number of valid data bits for the lane 1 TMDS encoder, starting from bit 7 of the rotated data. Field values of 0 -> 7 encode counts of 1 -> 8 bits."]
     #[inline(always)]
-    #[must_use]
     pub fn l1_nbits(&mut self) -> L1_NBITS_W<EXPAND_TMDS_SPEC> {
         L1_NBITS_W::new(self, 13)
     }
     #[doc = "Bits 16:20 - Right-rotate applied to the current shifter data before the lane 2 TMDS encoder."]
     #[inline(always)]
-    #[must_use]
     pub fn l2_rot(&mut self) -> L2_ROT_W<EXPAND_TMDS_SPEC> {
         L2_ROT_W::new(self, 16)
     }
     #[doc = "Bits 21:23 - Number of valid data bits for the lane 2 TMDS encoder, starting from bit 7 of the rotated data. Field values of 0 -> 7 encode counts of 1 -> 8 bits."]
     #[inline(always)]
-    #[must_use]
     pub fn l2_nbits(&mut self) -> L2_NBITS_W<EXPAND_TMDS_SPEC> {
         L2_NBITS_W::new(self, 21)
     }
@@ -108,10 +102,6 @@ impl crate::Readable for EXPAND_TMDS_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`expand_tmds::W`](W) writer structure"]
 impl crate::Writable for EXPAND_TMDS_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets EXPAND_TMDS to value 0"]
-impl crate::Resettable for EXPAND_TMDS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for EXPAND_TMDS_SPEC {}

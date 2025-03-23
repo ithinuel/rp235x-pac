@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:7 - Sets the value of the ctitrigout outputs"]
     #[inline(always)]
-    #[must_use]
     pub fn cttrigout(&mut self) -> CTTRIGOUT_W<ITTRIGOUT_SPEC> {
         CTTRIGOUT_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for ITTRIGOUT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ittrigout::W`](W) writer structure"]
 impl crate::Writable for ITTRIGOUT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets ITTRIGOUT to value 0"]
-impl crate::Resettable for ITTRIGOUT_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for ITTRIGOUT_SPEC {}

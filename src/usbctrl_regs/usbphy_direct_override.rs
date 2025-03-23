@@ -160,7 +160,6 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn dp_pullup_hisel_override_en(
         &mut self,
     ) -> DP_PULLUP_HISEL_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
@@ -168,7 +167,6 @@ impl W {
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn dm_pullup_hisel_override_en(
         &mut self,
     ) -> DM_PULLUP_HISEL_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
@@ -176,7 +174,6 @@ impl W {
     }
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn dp_pullup_en_override_en(
         &mut self,
     ) -> DP_PULLUP_EN_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
@@ -184,7 +181,6 @@ impl W {
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn dp_pulldn_en_override_en(
         &mut self,
     ) -> DP_PULLDN_EN_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
@@ -192,7 +188,6 @@ impl W {
     }
     #[doc = "Bit 4"]
     #[inline(always)]
-    #[must_use]
     pub fn dm_pulldn_en_override_en(
         &mut self,
     ) -> DM_PULLDN_EN_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
@@ -200,43 +195,36 @@ impl W {
     }
     #[doc = "Bit 5"]
     #[inline(always)]
-    #[must_use]
     pub fn tx_dp_oe_override_en(&mut self) -> TX_DP_OE_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
         TX_DP_OE_OVERRIDE_EN_W::new(self, 5)
     }
     #[doc = "Bit 6"]
     #[inline(always)]
-    #[must_use]
     pub fn tx_dm_oe_override_en(&mut self) -> TX_DM_OE_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
         TX_DM_OE_OVERRIDE_EN_W::new(self, 6)
     }
     #[doc = "Bit 7"]
     #[inline(always)]
-    #[must_use]
     pub fn tx_dp_override_en(&mut self) -> TX_DP_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
         TX_DP_OVERRIDE_EN_W::new(self, 7)
     }
     #[doc = "Bit 8"]
     #[inline(always)]
-    #[must_use]
     pub fn tx_dm_override_en(&mut self) -> TX_DM_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
         TX_DM_OVERRIDE_EN_W::new(self, 8)
     }
     #[doc = "Bit 9"]
     #[inline(always)]
-    #[must_use]
     pub fn rx_pd_override_en(&mut self) -> RX_PD_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
         RX_PD_OVERRIDE_EN_W::new(self, 9)
     }
     #[doc = "Bit 10"]
     #[inline(always)]
-    #[must_use]
     pub fn tx_pd_override_en(&mut self) -> TX_PD_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
         TX_PD_OVERRIDE_EN_W::new(self, 10)
     }
     #[doc = "Bit 11"]
     #[inline(always)]
-    #[must_use]
     pub fn tx_fsslew_override_en(
         &mut self,
     ) -> TX_FSSLEW_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
@@ -244,7 +232,6 @@ impl W {
     }
     #[doc = "Bit 12"]
     #[inline(always)]
-    #[must_use]
     pub fn dm_pullup_override_en(
         &mut self,
     ) -> DM_PULLUP_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
@@ -252,7 +239,6 @@ impl W {
     }
     #[doc = "Bit 15"]
     #[inline(always)]
-    #[must_use]
     pub fn tx_diffmode_override_en(
         &mut self,
     ) -> TX_DIFFMODE_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
@@ -260,19 +246,16 @@ impl W {
     }
     #[doc = "Bit 16"]
     #[inline(always)]
-    #[must_use]
     pub fn rx_dd_override_en(&mut self) -> RX_DD_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
         RX_DD_OVERRIDE_EN_W::new(self, 16)
     }
     #[doc = "Bit 17"]
     #[inline(always)]
-    #[must_use]
     pub fn rx_dp_override_en(&mut self) -> RX_DP_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
         RX_DP_OVERRIDE_EN_W::new(self, 17)
     }
     #[doc = "Bit 18"]
     #[inline(always)]
-    #[must_use]
     pub fn rx_dm_override_en(&mut self) -> RX_DM_OVERRIDE_EN_W<USBPHY_DIRECT_OVERRIDE_SPEC> {
         RX_DM_OVERRIDE_EN_W::new(self, 18)
     }
@@ -289,10 +272,6 @@ impl crate::Readable for USBPHY_DIRECT_OVERRIDE_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`usbphy_direct_override::W`](W) writer structure"]
 impl crate::Writable for USBPHY_DIRECT_OVERRIDE_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets USBPHY_DIRECT_OVERRIDE to value 0"]
-impl crate::Resettable for USBPHY_DIRECT_OVERRIDE_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for USBPHY_DIRECT_OVERRIDE_SPEC {}

@@ -28,7 +28,6 @@ impl W {
 
  Channels with a security/privilege (SECCFG_CHx) greater SECCFG_IRQ2) read as 0 in this register, and ignore writes."]
     #[inline(always)]
-    #[must_use]
     pub fn ints2(&mut self) -> INTS2_W<INTS2_SPEC> {
         INTS2_W::new(self, 0)
     }
@@ -45,10 +44,7 @@ impl crate::Readable for INTS2_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ints2::W`](W) writer structure"]
 impl crate::Writable for INTS2_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0xffff;
 }
 #[doc = "`reset()` method sets INTS2 to value 0"]
-impl crate::Resettable for INTS2_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for INTS2_SPEC {}

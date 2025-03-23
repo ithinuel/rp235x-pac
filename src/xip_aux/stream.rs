@@ -21,6 +21,4 @@ impl crate::RegisterSpec for STREAM_SPEC {
 #[doc = "`read()` method returns [`stream::R`](R) reader structure"]
 impl crate::Readable for STREAM_SPEC {}
 #[doc = "`reset()` method sets STREAM to value 0"]
-impl crate::Resettable for STREAM_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for STREAM_SPEC {}

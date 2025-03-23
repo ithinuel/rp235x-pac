@@ -19,6 +19,4 @@ impl crate::RegisterSpec for SUM4_SPEC {
 #[doc = "`read()` method returns [`sum4::R`](R) reader structure"]
 impl crate::Readable for SUM4_SPEC {}
 #[doc = "`reset()` method sets SUM4 to value 0"]
-impl crate::Resettable for SUM4_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SUM4_SPEC {}

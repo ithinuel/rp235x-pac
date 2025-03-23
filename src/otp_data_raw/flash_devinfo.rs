@@ -14,7 +14,7 @@ pub type CS1_GPIO_R = crate::FieldReader;
 pub type D8H_ERASE_SUPPORTED_R = crate::BitReader;
 #[doc = "The size of the flash/PSRAM device on chip select 0 (addressable at 0x10000000 through 0x10ffffff).  
 
- A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB &lt;&lt; CS0_SIZE. For example, four megabytes is encoded with a CS0_SIZE value of 10, and 16 megabytes is encoded with a CS0_SIZE value of 12.  
+ A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB << CS0_SIZE. For example, four megabytes is encoded with a CS0_SIZE value of 10, and 16 megabytes is encoded with a CS0_SIZE value of 12.  
 
  When BOOT_FLAGS0_FLASH_DEVINFO_ENABLE is not set, a default of 12 (16 MiB) is used.  
 
@@ -61,7 +61,7 @@ impl crate::FieldSpec for CS0_SIZE_A {
 impl crate::IsEnum for CS0_SIZE_A {}
 #[doc = "Field `CS0_SIZE` reader - The size of the flash/PSRAM device on chip select 0 (addressable at 0x10000000 through 0x10ffffff).  
 
- A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB &lt;&lt; CS0_SIZE. For example, four megabytes is encoded with a CS0_SIZE value of 10, and 16 megabytes is encoded with a CS0_SIZE value of 12.  
+ A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB << CS0_SIZE. For example, four megabytes is encoded with a CS0_SIZE value of 10, and 16 megabytes is encoded with a CS0_SIZE value of 12.  
 
  When BOOT_FLAGS0_FLASH_DEVINFO_ENABLE is not set, a default of 12 (16 MiB) is used."]
 pub type CS0_SIZE_R = crate::FieldReader<CS0_SIZE_A>;
@@ -154,7 +154,7 @@ impl CS0_SIZE_R {
 }
 #[doc = "The size of the flash/PSRAM device on chip select 1 (addressable at 0x11000000 through 0x11ffffff).  
 
- A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB &lt;&lt; CS1_SIZE. For example, four megabytes is encoded with a CS1_SIZE value of 10, and 16 megabytes is encoded with a CS1_SIZE value of 12.  
+ A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB << CS1_SIZE. For example, four megabytes is encoded with a CS1_SIZE value of 10, and 16 megabytes is encoded with a CS1_SIZE value of 12.  
 
  When BOOT_FLAGS0_FLASH_DEVINFO_ENABLE is not set, a default of zero is used.  
 
@@ -201,7 +201,7 @@ impl crate::FieldSpec for CS1_SIZE_A {
 impl crate::IsEnum for CS1_SIZE_A {}
 #[doc = "Field `CS1_SIZE` reader - The size of the flash/PSRAM device on chip select 1 (addressable at 0x11000000 through 0x11ffffff).  
 
- A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB &lt;&lt; CS1_SIZE. For example, four megabytes is encoded with a CS1_SIZE value of 10, and 16 megabytes is encoded with a CS1_SIZE value of 12.  
+ A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB << CS1_SIZE. For example, four megabytes is encoded with a CS1_SIZE value of 10, and 16 megabytes is encoded with a CS1_SIZE value of 12.  
 
  When BOOT_FLAGS0_FLASH_DEVINFO_ENABLE is not set, a default of zero is used."]
 pub type CS1_SIZE_R = crate::FieldReader<CS1_SIZE_A>;
@@ -313,7 +313,7 @@ impl R {
     }
     #[doc = "Bits 8:11 - The size of the flash/PSRAM device on chip select 0 (addressable at 0x10000000 through 0x10ffffff).  
 
- A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB &lt;&lt; CS0_SIZE. For example, four megabytes is encoded with a CS0_SIZE value of 10, and 16 megabytes is encoded with a CS0_SIZE value of 12.  
+ A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB << CS0_SIZE. For example, four megabytes is encoded with a CS0_SIZE value of 10, and 16 megabytes is encoded with a CS0_SIZE value of 12.  
 
  When BOOT_FLAGS0_FLASH_DEVINFO_ENABLE is not set, a default of 12 (16 MiB) is used."]
     #[inline(always)]
@@ -322,7 +322,7 @@ impl R {
     }
     #[doc = "Bits 12:15 - The size of the flash/PSRAM device on chip select 1 (addressable at 0x11000000 through 0x11ffffff).  
 
- A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB &lt;&lt; CS1_SIZE. For example, four megabytes is encoded with a CS1_SIZE value of 10, and 16 megabytes is encoded with a CS1_SIZE value of 12.  
+ A value of zero is decoded as a size of zero (no device). Nonzero values are decoded as 4kiB << CS1_SIZE. For example, four megabytes is encoded with a CS1_SIZE value of 10, and 16 megabytes is encoded with a CS1_SIZE value of 12.  
 
  When BOOT_FLAGS0_FLASH_DEVINFO_ENABLE is not set, a default of zero is used."]
     #[inline(always)]
@@ -342,6 +342,4 @@ impl crate::RegisterSpec for FLASH_DEVINFO_SPEC {
 #[doc = "`read()` method returns [`flash_devinfo::R`](R) reader structure"]
 impl crate::Readable for FLASH_DEVINFO_SPEC {}
 #[doc = "`reset()` method sets FLASH_DEVINFO to value 0"]
-impl crate::Resettable for FLASH_DEVINFO_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for FLASH_DEVINFO_SPEC {}

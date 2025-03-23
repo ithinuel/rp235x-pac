@@ -33,13 +33,11 @@ impl W {
 
  This bit must be cleared before performing any SBPI access, such as when programming the OTP. The APB data read interface (USER interface) will be inaccessible during this time, and will return a bus error if any read is attempted."]
     #[inline(always)]
-    #[must_use]
     pub fn dctrl(&mut self) -> DCTRL_W<USR_SPEC> {
         DCTRL_W::new(self, 0)
     }
     #[doc = "Bit 4 - Power-down; 1 disables current reference. Must be 0 to read data from the OTP."]
     #[inline(always)]
-    #[must_use]
     pub fn pd(&mut self) -> PD_W<USR_SPEC> {
         PD_W::new(self, 4)
     }
@@ -56,8 +54,6 @@ impl crate::Readable for USR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`usr::W`](W) writer structure"]
 impl crate::Writable for USR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets USR to value 0x01"]
 impl crate::Resettable for USR_SPEC {

@@ -2,25 +2,20 @@
 pub type R = crate::R<NVIC_ISPR1_SPEC>;
 #[doc = "Register `NVIC_ISPR1` writer"]
 pub type W = crate::W<NVIC_ISPR1_SPEC>;
-#[doc = "Field `SETPEND` reader - For SETPEND\\[m\\]
-in NVIC_ISPR*n, indicates whether interrupt 32*n + m is pending"]
+#[doc = "Field `SETPEND` reader - For SETPEND\\[m\\] in NVIC_ISPR*n, indicates whether interrupt 32*n + m is pending"]
 pub type SETPEND_R = crate::FieldReader<u32>;
-#[doc = "Field `SETPEND` writer - For SETPEND\\[m\\]
-in NVIC_ISPR*n, indicates whether interrupt 32*n + m is pending"]
+#[doc = "Field `SETPEND` writer - For SETPEND\\[m\\] in NVIC_ISPR*n, indicates whether interrupt 32*n + m is pending"]
 pub type SETPEND_W<'a, REG> = crate::FieldWriter<'a, REG, 32, u32>;
 impl R {
-    #[doc = "Bits 0:31 - For SETPEND\\[m\\]
-in NVIC_ISPR*n, indicates whether interrupt 32*n + m is pending"]
+    #[doc = "Bits 0:31 - For SETPEND\\[m\\] in NVIC_ISPR*n, indicates whether interrupt 32*n + m is pending"]
     #[inline(always)]
     pub fn setpend(&self) -> SETPEND_R {
         SETPEND_R::new(self.bits)
     }
 }
 impl W {
-    #[doc = "Bits 0:31 - For SETPEND\\[m\\]
-in NVIC_ISPR*n, indicates whether interrupt 32*n + m is pending"]
+    #[doc = "Bits 0:31 - For SETPEND\\[m\\] in NVIC_ISPR*n, indicates whether interrupt 32*n + m is pending"]
     #[inline(always)]
-    #[must_use]
     pub fn setpend(&mut self) -> SETPEND_W<NVIC_ISPR1_SPEC> {
         SETPEND_W::new(self, 0)
     }
@@ -37,10 +32,6 @@ impl crate::Readable for NVIC_ISPR1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`nvic_ispr1::W`](W) writer structure"]
 impl crate::Writable for NVIC_ISPR1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets NVIC_ISPR1 to value 0"]
-impl crate::Resettable for NVIC_ISPR1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for NVIC_ISPR1_SPEC {}

@@ -8,9 +8,7 @@ pub type ARCHVER_R = crate::FieldReader;
 pub type REVISION_R = crate::FieldReader;
 #[doc = "Field `PRESENT` reader - Defines that the DEVARCH register is present"]
 pub type PRESENT_R = crate::BitReader;
-#[doc = "Field `ARCHITECT` reader - Defines the architect of the component. Bits \\[31:28\\]
-are the JEP106 continuation code (JEP106 bank ID, minus 1) and bits \\[27:21\\]
-are the JEP106 ID code."]
+#[doc = "Field `ARCHITECT` reader - Defines the architect of the component. Bits \\[31:28\\] are the JEP106 continuation code (JEP106 bank ID, minus 1) and bits \\[27:21\\] are the JEP106 ID code."]
 pub type ARCHITECT_R = crate::FieldReader<u16>;
 impl R {
     #[doc = "Bits 0:11 - Defines the architecture of the component"]
@@ -33,9 +31,7 @@ impl R {
     pub fn present(&self) -> PRESENT_R {
         PRESENT_R::new(((self.bits >> 20) & 1) != 0)
     }
-    #[doc = "Bits 21:31 - Defines the architect of the component. Bits \\[31:28\\]
-are the JEP106 continuation code (JEP106 bank ID, minus 1) and bits \\[27:21\\]
-are the JEP106 ID code."]
+    #[doc = "Bits 21:31 - Defines the architect of the component. Bits \\[31:28\\] are the JEP106 continuation code (JEP106 bank ID, minus 1) and bits \\[27:21\\] are the JEP106 ID code."]
     #[inline(always)]
     pub fn architect(&self) -> ARCHITECT_R {
         ARCHITECT_R::new(((self.bits >> 21) & 0x07ff) as u16)

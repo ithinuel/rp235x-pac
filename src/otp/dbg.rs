@@ -51,7 +51,6 @@ impl R {
 impl W {
     #[doc = "Bit 2 - Ring oscillator was seen up and running"]
     #[inline(always)]
-    #[must_use]
     pub fn rosc_up_seen(&mut self) -> ROSC_UP_SEEN_W<DBG_SPEC> {
         ROSC_UP_SEEN_W::new(self, 2)
     }
@@ -68,10 +67,7 @@ impl crate::Readable for DBG_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dbg::W`](W) writer structure"]
 impl crate::Writable for DBG_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x04;
 }
 #[doc = "`reset()` method sets DBG to value 0"]
-impl crate::Resettable for DBG_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DBG_SPEC {}

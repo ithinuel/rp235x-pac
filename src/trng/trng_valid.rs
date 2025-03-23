@@ -19,6 +19,4 @@ impl crate::RegisterSpec for TRNG_VALID_SPEC {
 #[doc = "`read()` method returns [`trng_valid::R`](R) reader structure"]
 impl crate::Readable for TRNG_VALID_SPEC {}
 #[doc = "`reset()` method sets TRNG_VALID to value 0"]
-impl crate::Resettable for TRNG_VALID_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRNG_VALID_SPEC {}

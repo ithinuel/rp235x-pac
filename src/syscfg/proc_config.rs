@@ -26,6 +26,4 @@ impl crate::RegisterSpec for PROC_CONFIG_SPEC {
 #[doc = "`read()` method returns [`proc_config::R`](R) reader structure"]
 impl crate::Readable for PROC_CONFIG_SPEC {}
 #[doc = "`reset()` method sets PROC_CONFIG to value 0"]
-impl crate::Resettable for PROC_CONFIG_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for PROC_CONFIG_SPEC {}

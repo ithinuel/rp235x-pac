@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bits 0:4 - Shift register data bit select for the first half of the HSTX clock cycle"]
     #[inline(always)]
-    #[must_use]
     pub fn sel_p(&mut self) -> SEL_P_W<BIT6_SPEC> {
         SEL_P_W::new(self, 0)
     }
     #[doc = "Bits 8:12 - Shift register data bit select for the second half of the HSTX clock cycle"]
     #[inline(always)]
-    #[must_use]
     pub fn sel_n(&mut self) -> SEL_N_W<BIT6_SPEC> {
         SEL_N_W::new(self, 8)
     }
     #[doc = "Bit 16 - Invert this data output (logical NOT)"]
     #[inline(always)]
-    #[must_use]
     pub fn inv(&mut self) -> INV_W<BIT6_SPEC> {
         INV_W::new(self, 16)
     }
     #[doc = "Bit 17 - Connect this output to the generated clock, rather than the data shift register. SEL_P and SEL_N are ignored if this bit is set, but INV can still be set to generate an antiphase clock."]
     #[inline(always)]
-    #[must_use]
     pub fn clk(&mut self) -> CLK_W<BIT6_SPEC> {
         CLK_W::new(self, 17)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for BIT6_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`bit6::W`](W) writer structure"]
 impl crate::Writable for BIT6_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets BIT6 to value 0"]
-impl crate::Resettable for BIT6_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for BIT6_SPEC {}

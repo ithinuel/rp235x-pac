@@ -295,193 +295,161 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn ep0_transaction(&mut self) -> EP0_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP0_TRANSACTION_W::new(self, 0)
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn ep0_seq(&mut self) -> EP0_SEQ_W<EP_RX_ERROR_SPEC> {
         EP0_SEQ_W::new(self, 1)
     }
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn ep1_transaction(&mut self) -> EP1_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP1_TRANSACTION_W::new(self, 2)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn ep1_seq(&mut self) -> EP1_SEQ_W<EP_RX_ERROR_SPEC> {
         EP1_SEQ_W::new(self, 3)
     }
     #[doc = "Bit 4"]
     #[inline(always)]
-    #[must_use]
     pub fn ep2_transaction(&mut self) -> EP2_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP2_TRANSACTION_W::new(self, 4)
     }
     #[doc = "Bit 5"]
     #[inline(always)]
-    #[must_use]
     pub fn ep2_seq(&mut self) -> EP2_SEQ_W<EP_RX_ERROR_SPEC> {
         EP2_SEQ_W::new(self, 5)
     }
     #[doc = "Bit 6"]
     #[inline(always)]
-    #[must_use]
     pub fn ep3_transaction(&mut self) -> EP3_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP3_TRANSACTION_W::new(self, 6)
     }
     #[doc = "Bit 7"]
     #[inline(always)]
-    #[must_use]
     pub fn ep3_seq(&mut self) -> EP3_SEQ_W<EP_RX_ERROR_SPEC> {
         EP3_SEQ_W::new(self, 7)
     }
     #[doc = "Bit 8"]
     #[inline(always)]
-    #[must_use]
     pub fn ep4_transaction(&mut self) -> EP4_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP4_TRANSACTION_W::new(self, 8)
     }
     #[doc = "Bit 9"]
     #[inline(always)]
-    #[must_use]
     pub fn ep4_seq(&mut self) -> EP4_SEQ_W<EP_RX_ERROR_SPEC> {
         EP4_SEQ_W::new(self, 9)
     }
     #[doc = "Bit 10"]
     #[inline(always)]
-    #[must_use]
     pub fn ep5_transaction(&mut self) -> EP5_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP5_TRANSACTION_W::new(self, 10)
     }
     #[doc = "Bit 11"]
     #[inline(always)]
-    #[must_use]
     pub fn ep5_seq(&mut self) -> EP5_SEQ_W<EP_RX_ERROR_SPEC> {
         EP5_SEQ_W::new(self, 11)
     }
     #[doc = "Bit 12"]
     #[inline(always)]
-    #[must_use]
     pub fn ep6_transaction(&mut self) -> EP6_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP6_TRANSACTION_W::new(self, 12)
     }
     #[doc = "Bit 13"]
     #[inline(always)]
-    #[must_use]
     pub fn ep6_seq(&mut self) -> EP6_SEQ_W<EP_RX_ERROR_SPEC> {
         EP6_SEQ_W::new(self, 13)
     }
     #[doc = "Bit 14"]
     #[inline(always)]
-    #[must_use]
     pub fn ep7_transaction(&mut self) -> EP7_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP7_TRANSACTION_W::new(self, 14)
     }
     #[doc = "Bit 15"]
     #[inline(always)]
-    #[must_use]
     pub fn ep7_seq(&mut self) -> EP7_SEQ_W<EP_RX_ERROR_SPEC> {
         EP7_SEQ_W::new(self, 15)
     }
     #[doc = "Bit 16"]
     #[inline(always)]
-    #[must_use]
     pub fn ep8_transaction(&mut self) -> EP8_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP8_TRANSACTION_W::new(self, 16)
     }
     #[doc = "Bit 17"]
     #[inline(always)]
-    #[must_use]
     pub fn ep8_seq(&mut self) -> EP8_SEQ_W<EP_RX_ERROR_SPEC> {
         EP8_SEQ_W::new(self, 17)
     }
     #[doc = "Bit 18"]
     #[inline(always)]
-    #[must_use]
     pub fn ep9_transaction(&mut self) -> EP9_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP9_TRANSACTION_W::new(self, 18)
     }
     #[doc = "Bit 19"]
     #[inline(always)]
-    #[must_use]
     pub fn ep9_seq(&mut self) -> EP9_SEQ_W<EP_RX_ERROR_SPEC> {
         EP9_SEQ_W::new(self, 19)
     }
     #[doc = "Bit 20"]
     #[inline(always)]
-    #[must_use]
     pub fn ep10_transaction(&mut self) -> EP10_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP10_TRANSACTION_W::new(self, 20)
     }
     #[doc = "Bit 21"]
     #[inline(always)]
-    #[must_use]
     pub fn ep10_seq(&mut self) -> EP10_SEQ_W<EP_RX_ERROR_SPEC> {
         EP10_SEQ_W::new(self, 21)
     }
     #[doc = "Bit 22"]
     #[inline(always)]
-    #[must_use]
     pub fn ep11_transaction(&mut self) -> EP11_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP11_TRANSACTION_W::new(self, 22)
     }
     #[doc = "Bit 23"]
     #[inline(always)]
-    #[must_use]
     pub fn ep11_seq(&mut self) -> EP11_SEQ_W<EP_RX_ERROR_SPEC> {
         EP11_SEQ_W::new(self, 23)
     }
     #[doc = "Bit 24"]
     #[inline(always)]
-    #[must_use]
     pub fn ep12_transaction(&mut self) -> EP12_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP12_TRANSACTION_W::new(self, 24)
     }
     #[doc = "Bit 25"]
     #[inline(always)]
-    #[must_use]
     pub fn ep12_seq(&mut self) -> EP12_SEQ_W<EP_RX_ERROR_SPEC> {
         EP12_SEQ_W::new(self, 25)
     }
     #[doc = "Bit 26"]
     #[inline(always)]
-    #[must_use]
     pub fn ep13_transaction(&mut self) -> EP13_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP13_TRANSACTION_W::new(self, 26)
     }
     #[doc = "Bit 27"]
     #[inline(always)]
-    #[must_use]
     pub fn ep13_seq(&mut self) -> EP13_SEQ_W<EP_RX_ERROR_SPEC> {
         EP13_SEQ_W::new(self, 27)
     }
     #[doc = "Bit 28"]
     #[inline(always)]
-    #[must_use]
     pub fn ep14_transaction(&mut self) -> EP14_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP14_TRANSACTION_W::new(self, 28)
     }
     #[doc = "Bit 29"]
     #[inline(always)]
-    #[must_use]
     pub fn ep14_seq(&mut self) -> EP14_SEQ_W<EP_RX_ERROR_SPEC> {
         EP14_SEQ_W::new(self, 29)
     }
     #[doc = "Bit 30"]
     #[inline(always)]
-    #[must_use]
     pub fn ep15_transaction(&mut self) -> EP15_TRANSACTION_W<EP_RX_ERROR_SPEC> {
         EP15_TRANSACTION_W::new(self, 30)
     }
     #[doc = "Bit 31"]
     #[inline(always)]
-    #[must_use]
     pub fn ep15_seq(&mut self) -> EP15_SEQ_W<EP_RX_ERROR_SPEC> {
         EP15_SEQ_W::new(self, 31)
     }
@@ -498,10 +466,7 @@ impl crate::Readable for EP_RX_ERROR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ep_rx_error::W`](W) writer structure"]
 impl crate::Writable for EP_RX_ERROR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0xffff_ffff;
 }
 #[doc = "`reset()` method sets EP_RX_ERROR to value 0"]
-impl crate::Resettable for EP_RX_ERROR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for EP_RX_ERROR_SPEC {}

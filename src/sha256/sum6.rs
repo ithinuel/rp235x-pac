@@ -19,6 +19,4 @@ impl crate::RegisterSpec for SUM6_SPEC {
 #[doc = "`read()` method returns [`sum6::R`](R) reader structure"]
 impl crate::Readable for SUM6_SPEC {}
 #[doc = "`reset()` method sets SUM6 to value 0"]
-impl crate::Resettable for SUM6_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SUM6_SPEC {}

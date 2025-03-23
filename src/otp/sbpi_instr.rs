@@ -63,43 +63,36 @@ impl R {
 impl W {
     #[doc = "Bits 0:7 - wdata to be used only when payload_size_m1=0"]
     #[inline(always)]
-    #[must_use]
     pub fn short_wdata(&mut self) -> SHORT_WDATA_W<SBPI_INSTR_SPEC> {
         SHORT_WDATA_W::new(self, 0)
     }
     #[doc = "Bits 8:15"]
     #[inline(always)]
-    #[must_use]
     pub fn cmd(&mut self) -> CMD_W<SBPI_INSTR_SPEC> {
         CMD_W::new(self, 8)
     }
     #[doc = "Bits 16:23 - Instruction target, it can be PMC (0x3a) or DAP (0x02)"]
     #[inline(always)]
-    #[must_use]
     pub fn target(&mut self) -> TARGET_W<SBPI_INSTR_SPEC> {
         TARGET_W::new(self, 16)
     }
     #[doc = "Bits 24:27 - Instruction payload size in bytes minus 1"]
     #[inline(always)]
-    #[must_use]
     pub fn payload_size_m1(&mut self) -> PAYLOAD_SIZE_M1_W<SBPI_INSTR_SPEC> {
         PAYLOAD_SIZE_M1_W::new(self, 24)
     }
     #[doc = "Bit 28 - Instruction has payload (data to be written or to be read)"]
     #[inline(always)]
-    #[must_use]
     pub fn has_payload(&mut self) -> HAS_PAYLOAD_W<SBPI_INSTR_SPEC> {
         HAS_PAYLOAD_W::new(self, 28)
     }
     #[doc = "Bit 29 - Payload type is write"]
     #[inline(always)]
-    #[must_use]
     pub fn is_wr(&mut self) -> IS_WR_W<SBPI_INSTR_SPEC> {
         IS_WR_W::new(self, 29)
     }
     #[doc = "Bit 30 - Execute instruction"]
     #[inline(always)]
-    #[must_use]
     pub fn exec(&mut self) -> EXEC_W<SBPI_INSTR_SPEC> {
         EXEC_W::new(self, 30)
     }
@@ -116,10 +109,6 @@ impl crate::Readable for SBPI_INSTR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sbpi_instr::W`](W) writer structure"]
 impl crate::Writable for SBPI_INSTR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SBPI_INSTR to value 0"]
-impl crate::Resettable for SBPI_INSTR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SBPI_INSTR_SPEC {}

@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:8 - Indicates the interrupt to be pended. The value written is (ExceptionNumber - 16)"]
     #[inline(always)]
-    #[must_use]
     pub fn intid(&mut self) -> INTID_W<STIR_SPEC> {
         INTID_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for STIR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`stir::W`](W) writer structure"]
 impl crate::Writable for STIR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets STIR to value 0"]
-impl crate::Resettable for STIR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for STIR_SPEC {}

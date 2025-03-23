@@ -19,6 +19,4 @@ impl crate::RegisterSpec for BOOTKEY2_13_SPEC {
 #[doc = "`read()` method returns [`bootkey2_13::R`](R) reader structure"]
 impl crate::Readable for BOOTKEY2_13_SPEC {}
 #[doc = "`reset()` method sets BOOTKEY2_13 to value 0"]
-impl crate::Resettable for BOOTKEY2_13_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for BOOTKEY2_13_SPEC {}

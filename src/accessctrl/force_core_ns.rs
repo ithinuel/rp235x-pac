@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn core1(&mut self) -> CORE1_W<FORCE_CORE_NS_SPEC> {
         CORE1_W::new(self, 1)
     }
@@ -35,10 +34,6 @@ impl crate::Readable for FORCE_CORE_NS_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`force_core_ns::W`](W) writer structure"]
 impl crate::Writable for FORCE_CORE_NS_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets FORCE_CORE_NS to value 0"]
-impl crate::Resettable for FORCE_CORE_NS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for FORCE_CORE_NS_SPEC {}

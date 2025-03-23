@@ -86,7 +86,7 @@ impl R {
         CH11_R::new(((self.bits >> 11) & 1) != 0)
     }
 }
-#[doc = "Interrupt status after masking &amp; forcing for irq1  
+#[doc = "Interrupt status after masking & forcing for irq1  
 
 You can [`read`](crate::Reg::read) this register and get [`irq1_ints::R`](R). See [API](https://docs.rs/svd2rust/#read--modify--write-api)."]
 pub struct IRQ1_INTS_SPEC;
@@ -96,6 +96,4 @@ impl crate::RegisterSpec for IRQ1_INTS_SPEC {
 #[doc = "`read()` method returns [`irq1_ints::R`](R) reader structure"]
 impl crate::Readable for IRQ1_INTS_SPEC {}
 #[doc = "`reset()` method sets IRQ1_INTS to value 0"]
-impl crate::Resettable for IRQ1_INTS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for IRQ1_INTS_SPEC {}

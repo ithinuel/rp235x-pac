@@ -152,7 +152,6 @@ impl W {
 
  The RELOAD value can be observed at CHx_DBG_TCR. If TRANS_COUNT is used as a trigger, the written value is used immediately as the length of the new transfer sequence, as well as being written to RELOAD."]
     #[inline(always)]
-    #[must_use]
     pub fn count(&mut self) -> COUNT_W<CH_TRANS_COUNT_SPEC> {
         COUNT_W::new(self, 0)
     }
@@ -164,7 +163,6 @@ impl W {
 
  All other values are reserved."]
     #[inline(always)]
-    #[must_use]
     pub fn mode(&mut self) -> MODE_W<CH_TRANS_COUNT_SPEC> {
         MODE_W::new(self, 28)
     }
@@ -181,10 +179,6 @@ impl crate::Readable for CH_TRANS_COUNT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ch_trans_count::W`](W) writer structure"]
 impl crate::Writable for CH_TRANS_COUNT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CH_TRANS_COUNT to value 0"]
-impl crate::Resettable for CH_TRANS_COUNT_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CH_TRANS_COUNT_SPEC {}

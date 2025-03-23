@@ -164,32 +164,27 @@ impl R {
 impl W {
     #[doc = "Bits 0:5"]
     #[inline(always)]
-    #[must_use]
     pub fn source(&mut self) -> SOURCE_W<PWRUP1_SPEC> {
         SOURCE_W::new(self, 0)
     }
     #[doc = "Bit 6 - Set to 1 to enable the wakeup source. Set to 0 to disable the wakeup source and clear a pending wakeup event.   
  If using edge detect a latched edge needs to be cleared by writing 1 to the status register also."]
     #[inline(always)]
-    #[must_use]
     pub fn enable(&mut self) -> ENABLE_W<PWRUP1_SPEC> {
         ENABLE_W::new(self, 6)
     }
     #[doc = "Bit 7"]
     #[inline(always)]
-    #[must_use]
     pub fn direction(&mut self) -> DIRECTION_W<PWRUP1_SPEC> {
         DIRECTION_W::new(self, 7)
     }
     #[doc = "Bit 8 - Edge or level detect. Edge will detect a 0 to 1 transition (or 1 to 0 transition). Level will detect a 1 or 0. Both types of event get latched into the current_pwrup_req register."]
     #[inline(always)]
-    #[must_use]
     pub fn mode(&mut self) -> MODE_W<PWRUP1_SPEC> {
         MODE_W::new(self, 8)
     }
     #[doc = "Bit 9 - Status of gpio wakeup. Write to 1 to clear a latched edge detect."]
     #[inline(always)]
-    #[must_use]
     pub fn status(&mut self) -> STATUS_W<PWRUP1_SPEC> {
         STATUS_W::new(self, 9)
     }
@@ -220,7 +215,6 @@ impl crate::Readable for PWRUP1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`pwrup1::W`](W) writer structure"]
 impl crate::Writable for PWRUP1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x0200;
 }
 #[doc = "`reset()` method sets PWRUP1 to value 0x3f"]

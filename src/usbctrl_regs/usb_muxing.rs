@@ -64,38 +64,32 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn to_phy(&mut self) -> TO_PHY_W<USB_MUXING_SPEC> {
         TO_PHY_W::new(self, 0)
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn to_extphy(&mut self) -> TO_EXTPHY_W<USB_MUXING_SPEC> {
         TO_EXTPHY_W::new(self, 1)
     }
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn to_digital_pad(&mut self) -> TO_DIGITAL_PAD_W<USB_MUXING_SPEC> {
         TO_DIGITAL_PAD_W::new(self, 2)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn softcon(&mut self) -> SOFTCON_W<USB_MUXING_SPEC> {
         SOFTCON_W::new(self, 3)
     }
     #[doc = "Bit 4 - Use the usb DP and DM pins as GPIO pins instead of connecting them to the USB controller."]
     #[inline(always)]
-    #[must_use]
     pub fn usbphy_as_gpio(&mut self) -> USBPHY_AS_GPIO_W<USB_MUXING_SPEC> {
         USBPHY_AS_GPIO_W::new(self, 4)
     }
     #[doc = "Bit 31 - Swap the USB PHY DP and DM pins and all related controls and flip receive differential data. Can be used to switch USB DP/DP on the PCB.   
  This is done at a low level so overrides all other controls."]
     #[inline(always)]
-    #[must_use]
     pub fn swap_dpdm(&mut self) -> SWAP_DPDM_W<USB_MUXING_SPEC> {
         SWAP_DPDM_W::new(self, 31)
     }
@@ -112,8 +106,6 @@ impl crate::Readable for USB_MUXING_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`usb_muxing::W`](W) writer structure"]
 impl crate::Writable for USB_MUXING_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets USB_MUXING to value 0x01"]
 impl crate::Resettable for USB_MUXING_SPEC {

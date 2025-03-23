@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:15 - Fractional component of the LPOSC or GPIO clock source frequency in kHz. Default = 0.768 This field must only be written when POWMAN_TIMER_RUN=0 or POWMAN_TIMER_USING_XOSC=1"]
     #[inline(always)]
-    #[must_use]
     pub fn lposc_freq_khz_frac(&mut self) -> LPOSC_FREQ_KHZ_FRAC_W<LPOSC_FREQ_KHZ_FRAC_SPEC> {
         LPOSC_FREQ_KHZ_FRAC_W::new(self, 0)
     }
@@ -33,8 +32,6 @@ impl crate::Readable for LPOSC_FREQ_KHZ_FRAC_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`lposc_freq_khz_frac::W`](W) writer structure"]
 impl crate::Writable for LPOSC_FREQ_KHZ_FRAC_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets LPOSC_FREQ_KHZ_FRAC to value 0xc49c"]
 impl crate::Resettable for LPOSC_FREQ_KHZ_FRAC_SPEC {

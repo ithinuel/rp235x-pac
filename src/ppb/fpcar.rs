@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 3:31 - The location of the unpopulated floating-point register space allocated on an exception stack frame"]
     #[inline(always)]
-    #[must_use]
     pub fn address(&mut self) -> ADDRESS_W<FPCAR_SPEC> {
         ADDRESS_W::new(self, 3)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for FPCAR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`fpcar::W`](W) writer structure"]
 impl crate::Writable for FPCAR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets FPCAR to value 0"]
-impl crate::Resettable for FPCAR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for FPCAR_SPEC {}

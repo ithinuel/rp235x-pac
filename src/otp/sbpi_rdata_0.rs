@@ -21,6 +21,4 @@ impl crate::RegisterSpec for SBPI_RDATA_0_SPEC {
 #[doc = "`read()` method returns [`sbpi_rdata_0::R`](R) reader structure"]
 impl crate::Readable for SBPI_RDATA_0_SPEC {}
 #[doc = "`reset()` method sets SBPI_RDATA_0 to value 0"]
-impl crate::Resettable for SBPI_RDATA_0_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SBPI_RDATA_0_SPEC {}

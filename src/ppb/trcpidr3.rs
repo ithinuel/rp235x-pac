@@ -26,6 +26,4 @@ impl crate::RegisterSpec for TRCPIDR3_SPEC {
 #[doc = "`read()` method returns [`trcpidr3::R`](R) reader structure"]
 impl crate::Readable for TRCPIDR3_SPEC {}
 #[doc = "`reset()` method sets TRCPIDR3 to value 0"]
-impl crate::Resettable for TRCPIDR3_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCPIDR3_SPEC {}

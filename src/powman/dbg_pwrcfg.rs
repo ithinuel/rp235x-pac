@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Ignore pwrup req from debugger. If pwrup req is asserted then this will prevent power down and set powerdown blocked. Set ignore to stop paying attention to pwrup_req"]
     #[inline(always)]
-    #[must_use]
     pub fn ignore(&mut self) -> IGNORE_W<DBG_PWRCFG_SPEC> {
         IGNORE_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for DBG_PWRCFG_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dbg_pwrcfg::W`](W) writer structure"]
 impl crate::Writable for DBG_PWRCFG_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DBG_PWRCFG to value 0"]
-impl crate::Resettable for DBG_PWRCFG_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DBG_PWRCFG_SPEC {}

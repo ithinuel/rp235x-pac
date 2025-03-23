@@ -25,6 +25,4 @@ impl crate::RegisterSpec for QMI_DIRECT_RX_SPEC {
 #[doc = "`read()` method returns [`qmi_direct_rx::R`](R) reader structure"]
 impl crate::Readable for QMI_DIRECT_RX_SPEC {}
 #[doc = "`reset()` method sets QMI_DIRECT_RX to value 0"]
-impl crate::Resettable for QMI_DIRECT_RX_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for QMI_DIRECT_RX_SPEC {}

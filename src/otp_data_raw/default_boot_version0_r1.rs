@@ -19,6 +19,4 @@ impl crate::RegisterSpec for DEFAULT_BOOT_VERSION0_R1_SPEC {
 #[doc = "`read()` method returns [`default_boot_version0_r1::R`](R) reader structure"]
 impl crate::Readable for DEFAULT_BOOT_VERSION0_R1_SPEC {}
 #[doc = "`reset()` method sets DEFAULT_BOOT_VERSION0_R1 to value 0"]
-impl crate::Resettable for DEFAULT_BOOT_VERSION0_R1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DEFAULT_BOOT_VERSION0_R1_SPEC {}

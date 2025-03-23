@@ -19,6 +19,4 @@ impl crate::RegisterSpec for BOOT_FLAGS0_R2_SPEC {
 #[doc = "`read()` method returns [`boot_flags0_r2::R`](R) reader structure"]
 impl crate::Readable for BOOT_FLAGS0_R2_SPEC {}
 #[doc = "`reset()` method sets BOOT_FLAGS0_R2 to value 0"]
-impl crate::Resettable for BOOT_FLAGS0_R2_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for BOOT_FLAGS0_R2_SPEC {}

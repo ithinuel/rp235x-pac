@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0"]
     #[inline(always)]
-    #[must_use]
     pub fn det0(&mut self) -> DET0_W<TRIG_STATUS_SPEC> {
         DET0_W::new(self, 0)
     }
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn det1(&mut self) -> DET1_W<TRIG_STATUS_SPEC> {
         DET1_W::new(self, 1)
     }
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn det2(&mut self) -> DET2_W<TRIG_STATUS_SPEC> {
         DET2_W::new(self, 2)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn det3(&mut self) -> DET3_W<TRIG_STATUS_SPEC> {
         DET3_W::new(self, 3)
     }
@@ -82,10 +78,7 @@ impl crate::Readable for TRIG_STATUS_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trig_status::W`](W) writer structure"]
 impl crate::Writable for TRIG_STATUS_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x0f;
 }
 #[doc = "`reset()` method sets TRIG_STATUS to value 0"]
-impl crate::Resettable for TRIG_STATUS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRIG_STATUS_SPEC {}

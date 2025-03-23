@@ -14,11 +14,9 @@ pub type AP_W<'a, REG> = crate::FieldWriter<'a, REG, 2>;
 pub type SH_R = crate::FieldReader;
 #[doc = "Field `SH` writer - Defines the Shareability domain of this region for Normal memory"]
 pub type SH_W<'a, REG> = crate::FieldWriter<'a, REG, 2>;
-#[doc = "Field `BASE` reader - Contains bits \\[31:5\\]
-of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against"]
+#[doc = "Field `BASE` reader - Contains bits \\[31:5\\] of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against"]
 pub type BASE_R = crate::FieldReader<u32>;
-#[doc = "Field `BASE` writer - Contains bits \\[31:5\\]
-of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against"]
+#[doc = "Field `BASE` writer - Contains bits \\[31:5\\] of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against"]
 pub type BASE_W<'a, REG> = crate::FieldWriter<'a, REG, 27, u32>;
 impl R {
     #[doc = "Bit 0 - Defines whether code can be executed from this region"]
@@ -36,8 +34,7 @@ impl R {
     pub fn sh(&self) -> SH_R {
         SH_R::new(((self.bits >> 3) & 3) as u8)
     }
-    #[doc = "Bits 5:31 - Contains bits \\[31:5\\]
-of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against"]
+    #[doc = "Bits 5:31 - Contains bits \\[31:5\\] of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against"]
     #[inline(always)]
     pub fn base(&self) -> BASE_R {
         BASE_R::new((self.bits >> 5) & 0x07ff_ffff)
@@ -46,26 +43,21 @@ of the lower inclusive limit of the selected MPU memory region. This value is ze
 impl W {
     #[doc = "Bit 0 - Defines whether code can be executed from this region"]
     #[inline(always)]
-    #[must_use]
     pub fn xn(&mut self) -> XN_W<MPU_RBAR_A2_SPEC> {
         XN_W::new(self, 0)
     }
     #[doc = "Bits 1:2 - Defines the access permissions for this region"]
     #[inline(always)]
-    #[must_use]
     pub fn ap(&mut self) -> AP_W<MPU_RBAR_A2_SPEC> {
         AP_W::new(self, 1)
     }
     #[doc = "Bits 3:4 - Defines the Shareability domain of this region for Normal memory"]
     #[inline(always)]
-    #[must_use]
     pub fn sh(&mut self) -> SH_W<MPU_RBAR_A2_SPEC> {
         SH_W::new(self, 3)
     }
-    #[doc = "Bits 5:31 - Contains bits \\[31:5\\]
-of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against"]
+    #[doc = "Bits 5:31 - Contains bits \\[31:5\\] of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against"]
     #[inline(always)]
-    #[must_use]
     pub fn base(&mut self) -> BASE_W<MPU_RBAR_A2_SPEC> {
         BASE_W::new(self, 5)
     }
@@ -82,10 +74,6 @@ impl crate::Readable for MPU_RBAR_A2_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`mpu_rbar_a2::W`](W) writer structure"]
 impl crate::Writable for MPU_RBAR_A2_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets MPU_RBAR_A2 to value 0"]
-impl crate::Resettable for MPU_RBAR_A2_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for MPU_RBAR_A2_SPEC {}

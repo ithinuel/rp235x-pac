@@ -41,6 +41,4 @@ impl crate::RegisterSpec for TRACE_CAPTURE_FIFO_SPEC {
 #[doc = "`read()` method returns [`trace_capture_fifo::R`](R) reader structure"]
 impl crate::Readable for TRACE_CAPTURE_FIFO_SPEC {}
 #[doc = "`reset()` method sets TRACE_CAPTURE_FIFO to value 0"]
-impl crate::Resettable for TRACE_CAPTURE_FIFO_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRACE_CAPTURE_FIFO_SPEC {}

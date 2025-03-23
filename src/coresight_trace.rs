@@ -20,8 +20,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`ctrl_status::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctrl_status::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctrl_status`]
-module"]
+For information about available fields see [`mod@ctrl_status`] module"]
 pub type CTRL_STATUS = crate::Reg<ctrl_status::CTRL_STATUS_SPEC>;
 #[doc = "Control and status register"]
 pub mod ctrl_status;
@@ -29,8 +28,7 @@ pub mod ctrl_status;
 
 You can [`read`](crate::Reg::read) this register and get [`trace_capture_fifo::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trace_capture_fifo`]
-module"]
+For information about available fields see [`mod@trace_capture_fifo`] module"]
 pub type TRACE_CAPTURE_FIFO = crate::Reg<trace_capture_fifo::TRACE_CAPTURE_FIFO_SPEC>;
 #[doc = "FIFO for trace data captured from the TPIU"]
 pub mod trace_capture_fifo;

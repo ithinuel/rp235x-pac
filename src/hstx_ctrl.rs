@@ -74,8 +74,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`csr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`csr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@csr`]
-module"]
+For information about available fields see [`mod@csr`] module"]
 pub type CSR = crate::Reg<csr::CSR_SPEC>;
 #[doc = ""]
 pub mod csr;
@@ -83,8 +82,7 @@ pub mod csr;
 
 You can [`read`](crate::Reg::read) this register and get [`bit0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bit0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bit0`]
-module"]
+For information about available fields see [`mod@bit0`] module"]
 pub type BIT0 = crate::Reg<bit0::BIT0_SPEC>;
 #[doc = "Data control register for output bit 0"]
 pub mod bit0;
@@ -92,8 +90,7 @@ pub mod bit0;
 
 You can [`read`](crate::Reg::read) this register and get [`bit1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bit1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bit1`]
-module"]
+For information about available fields see [`mod@bit1`] module"]
 pub type BIT1 = crate::Reg<bit1::BIT1_SPEC>;
 #[doc = "Data control register for output bit 1"]
 pub mod bit1;
@@ -101,8 +98,7 @@ pub mod bit1;
 
 You can [`read`](crate::Reg::read) this register and get [`bit2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bit2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bit2`]
-module"]
+For information about available fields see [`mod@bit2`] module"]
 pub type BIT2 = crate::Reg<bit2::BIT2_SPEC>;
 #[doc = "Data control register for output bit 2"]
 pub mod bit2;
@@ -110,8 +106,7 @@ pub mod bit2;
 
 You can [`read`](crate::Reg::read) this register and get [`bit3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bit3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bit3`]
-module"]
+For information about available fields see [`mod@bit3`] module"]
 pub type BIT3 = crate::Reg<bit3::BIT3_SPEC>;
 #[doc = "Data control register for output bit 3"]
 pub mod bit3;
@@ -119,8 +114,7 @@ pub mod bit3;
 
 You can [`read`](crate::Reg::read) this register and get [`bit4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bit4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bit4`]
-module"]
+For information about available fields see [`mod@bit4`] module"]
 pub type BIT4 = crate::Reg<bit4::BIT4_SPEC>;
 #[doc = "Data control register for output bit 4"]
 pub mod bit4;
@@ -128,8 +122,7 @@ pub mod bit4;
 
 You can [`read`](crate::Reg::read) this register and get [`bit5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bit5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bit5`]
-module"]
+For information about available fields see [`mod@bit5`] module"]
 pub type BIT5 = crate::Reg<bit5::BIT5_SPEC>;
 #[doc = "Data control register for output bit 5"]
 pub mod bit5;
@@ -137,8 +130,7 @@ pub mod bit5;
 
 You can [`read`](crate::Reg::read) this register and get [`bit6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bit6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bit6`]
-module"]
+For information about available fields see [`mod@bit6`] module"]
 pub type BIT6 = crate::Reg<bit6::BIT6_SPEC>;
 #[doc = "Data control register for output bit 6"]
 pub mod bit6;
@@ -146,8 +138,7 @@ pub mod bit6;
 
 You can [`read`](crate::Reg::read) this register and get [`bit7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bit7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bit7`]
-module"]
+For information about available fields see [`mod@bit7`] module"]
 pub type BIT7 = crate::Reg<bit7::BIT7_SPEC>;
 #[doc = "Data control register for output bit 7"]
 pub mod bit7;
@@ -155,8 +146,7 @@ pub mod bit7;
 
 You can [`read`](crate::Reg::read) this register and get [`expand_shift::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`expand_shift::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@expand_shift`]
-module"]
+For information about available fields see [`mod@expand_shift`] module"]
 pub type EXPAND_SHIFT = crate::Reg<expand_shift::EXPAND_SHIFT_SPEC>;
 #[doc = "Configure the optional shifter inside the command expander"]
 pub mod expand_shift;
@@ -164,8 +154,7 @@ pub mod expand_shift;
 
 You can [`read`](crate::Reg::read) this register and get [`expand_tmds::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`expand_tmds::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@expand_tmds`]
-module"]
+For information about available fields see [`mod@expand_tmds`] module"]
 pub type EXPAND_TMDS = crate::Reg<expand_tmds::EXPAND_TMDS_SPEC>;
 #[doc = "Configure the optional TMDS encoder inside the command expander"]
 pub mod expand_tmds;

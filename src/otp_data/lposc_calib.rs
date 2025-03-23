@@ -21,6 +21,4 @@ impl crate::RegisterSpec for LPOSC_CALIB_SPEC {
 #[doc = "`read()` method returns [`lposc_calib::R`](R) reader structure"]
 impl crate::Readable for LPOSC_CALIB_SPEC {}
 #[doc = "`reset()` method sets LPOSC_CALIB to value 0"]
-impl crate::Resettable for LPOSC_CALIB_SPEC {
-    const RESET_VALUE: u16 = 0;
-}
+impl crate::Resettable for LPOSC_CALIB_SPEC {}

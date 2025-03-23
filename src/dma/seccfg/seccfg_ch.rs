@@ -60,7 +60,6 @@ impl W {
 
  If 1, this channel is controllable only from a Privileged context of the same Secure/Non-secure level, or any context of a higher Secure/Non-secure level."]
     #[inline(always)]
-    #[must_use]
     pub fn p(&mut self) -> P_W<SECCFG_CH_SPEC> {
         P_W::new(self, 0)
     }
@@ -68,7 +67,6 @@ impl W {
 
  If 1, this channel is controllable only from a Secure context."]
     #[inline(always)]
-    #[must_use]
     pub fn s(&mut self) -> S_W<SECCFG_CH_SPEC> {
         S_W::new(self, 1)
     }
@@ -78,7 +76,6 @@ impl W {
 
  A failed write, for example due to the write's privilege being lower than that specified in the channel's SECCFG register, will not set the LOCK bit."]
     #[inline(always)]
-    #[must_use]
     pub fn lock(&mut self) -> LOCK_W<SECCFG_CH_SPEC> {
         LOCK_W::new(self, 2)
     }
@@ -101,8 +98,6 @@ impl crate::Readable for SECCFG_CH_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`seccfg_ch::W`](W) writer structure"]
 impl crate::Writable for SECCFG_CH_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SECCFG_CH to value 0x03"]
 impl crate::Resettable for SECCFG_CH_SPEC {

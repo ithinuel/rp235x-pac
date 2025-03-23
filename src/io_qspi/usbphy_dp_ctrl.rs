@@ -477,31 +477,26 @@ impl W {
     #[doc = "Bits 0:4 - 0-31 -> selects pin function according to the gpio table   
  31 == NULL"]
     #[inline(always)]
-    #[must_use]
     pub fn funcsel(&mut self) -> FUNCSEL_W<USBPHY_DP_CTRL_SPEC> {
         FUNCSEL_W::new(self, 0)
     }
     #[doc = "Bits 12:13"]
     #[inline(always)]
-    #[must_use]
     pub fn outover(&mut self) -> OUTOVER_W<USBPHY_DP_CTRL_SPEC> {
         OUTOVER_W::new(self, 12)
     }
     #[doc = "Bits 14:15"]
     #[inline(always)]
-    #[must_use]
     pub fn oeover(&mut self) -> OEOVER_W<USBPHY_DP_CTRL_SPEC> {
         OEOVER_W::new(self, 14)
     }
     #[doc = "Bits 16:17"]
     #[inline(always)]
-    #[must_use]
     pub fn inover(&mut self) -> INOVER_W<USBPHY_DP_CTRL_SPEC> {
         INOVER_W::new(self, 16)
     }
     #[doc = "Bits 28:29"]
     #[inline(always)]
-    #[must_use]
     pub fn irqover(&mut self) -> IRQOVER_W<USBPHY_DP_CTRL_SPEC> {
         IRQOVER_W::new(self, 28)
     }
@@ -518,8 +513,6 @@ impl crate::Readable for USBPHY_DP_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`usbphy_dp_ctrl::W`](W) writer structure"]
 impl crate::Writable for USBPHY_DP_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets USBPHY_DP_CTRL to value 0x1f"]
 impl crate::Resettable for USBPHY_DP_CTRL_SPEC {

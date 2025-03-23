@@ -5,7 +5,6 @@ pub type TMDS_WDATA_W<'a, REG> = crate::FieldWriter<'a, REG, 32, u32>;
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn tmds_wdata(&mut self) -> TMDS_WDATA_W<TMDS_WDATA_SPEC> {
         TMDS_WDATA_W::new(self, 0)
     }
@@ -20,10 +19,6 @@ impl crate::RegisterSpec for TMDS_WDATA_SPEC {
 #[doc = "`write(|w| ..)` method takes [`tmds_wdata::W`](W) writer structure"]
 impl crate::Writable for TMDS_WDATA_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TMDS_WDATA to value 0"]
-impl crate::Resettable for TMDS_WDATA_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TMDS_WDATA_SPEC {}

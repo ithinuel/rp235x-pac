@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Writing 1'b1 to this register causes an internal RNG reset."]
     #[inline(always)]
-    #[must_use]
     pub fn trng_sw_reset(&mut self) -> TRNG_SW_RESET_W<TRNG_SW_RESET_SPEC> {
         TRNG_SW_RESET_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for TRNG_SW_RESET_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trng_sw_reset::W`](W) writer structure"]
 impl crate::Writable for TRNG_SW_RESET_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRNG_SW_RESET to value 0"]
-impl crate::Resettable for TRNG_SW_RESET_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRNG_SW_RESET_SPEC {}

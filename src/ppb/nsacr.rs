@@ -97,61 +97,51 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Enables Non-secure access to coprocessor CP0"]
     #[inline(always)]
-    #[must_use]
     pub fn cp0(&mut self) -> CP0_W<NSACR_SPEC> {
         CP0_W::new(self, 0)
     }
     #[doc = "Bit 1 - Enables Non-secure access to coprocessor CP1"]
     #[inline(always)]
-    #[must_use]
     pub fn cp1(&mut self) -> CP1_W<NSACR_SPEC> {
         CP1_W::new(self, 1)
     }
     #[doc = "Bit 2 - Enables Non-secure access to coprocessor CP2"]
     #[inline(always)]
-    #[must_use]
     pub fn cp2(&mut self) -> CP2_W<NSACR_SPEC> {
         CP2_W::new(self, 2)
     }
     #[doc = "Bit 3 - Enables Non-secure access to coprocessor CP3"]
     #[inline(always)]
-    #[must_use]
     pub fn cp3(&mut self) -> CP3_W<NSACR_SPEC> {
         CP3_W::new(self, 3)
     }
     #[doc = "Bit 4 - Enables Non-secure access to coprocessor CP4"]
     #[inline(always)]
-    #[must_use]
     pub fn cp4(&mut self) -> CP4_W<NSACR_SPEC> {
         CP4_W::new(self, 4)
     }
     #[doc = "Bit 5 - Enables Non-secure access to coprocessor CP5"]
     #[inline(always)]
-    #[must_use]
     pub fn cp5(&mut self) -> CP5_W<NSACR_SPEC> {
         CP5_W::new(self, 5)
     }
     #[doc = "Bit 6 - Enables Non-secure access to coprocessor CP6"]
     #[inline(always)]
-    #[must_use]
     pub fn cp6(&mut self) -> CP6_W<NSACR_SPEC> {
         CP6_W::new(self, 6)
     }
     #[doc = "Bit 7 - Enables Non-secure access to coprocessor CP7"]
     #[inline(always)]
-    #[must_use]
     pub fn cp7(&mut self) -> CP7_W<NSACR_SPEC> {
         CP7_W::new(self, 7)
     }
     #[doc = "Bit 10 - Enables Non-secure access to the Floating-point Extension"]
     #[inline(always)]
-    #[must_use]
     pub fn cp10(&mut self) -> CP10_W<NSACR_SPEC> {
         CP10_W::new(self, 10)
     }
     #[doc = "Bit 11 - Enables Non-secure access to the Floating-point Extension"]
     #[inline(always)]
-    #[must_use]
     pub fn cp11(&mut self) -> CP11_W<NSACR_SPEC> {
         CP11_W::new(self, 11)
     }
@@ -168,10 +158,6 @@ impl crate::Readable for NSACR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`nsacr::W`](W) writer structure"]
 impl crate::Writable for NSACR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets NSACR to value 0"]
-impl crate::Resettable for NSACR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for NSACR_SPEC {}

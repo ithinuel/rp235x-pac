@@ -19,6 +19,4 @@ impl crate::RegisterSpec for CRIT0_R7_SPEC {
 #[doc = "`read()` method returns [`crit0_r7::R`](R) reader structure"]
 impl crate::Readable for CRIT0_R7_SPEC {}
 #[doc = "`reset()` method sets CRIT0_R7 to value 0"]
-impl crate::Resettable for CRIT0_R7_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CRIT0_R7_SPEC {}

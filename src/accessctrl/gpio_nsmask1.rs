@@ -61,37 +61,31 @@ impl R {
 impl W {
     #[doc = "Bits 0:15"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio(&mut self) -> GPIO_W<GPIO_NSMASK1_SPEC> {
         GPIO_W::new(self, 0)
     }
     #[doc = "Bit 24"]
     #[inline(always)]
-    #[must_use]
     pub fn usb_dp(&mut self) -> USB_DP_W<GPIO_NSMASK1_SPEC> {
         USB_DP_W::new(self, 24)
     }
     #[doc = "Bit 25"]
     #[inline(always)]
-    #[must_use]
     pub fn usb_dm(&mut self) -> USB_DM_W<GPIO_NSMASK1_SPEC> {
         USB_DM_W::new(self, 25)
     }
     #[doc = "Bit 26"]
     #[inline(always)]
-    #[must_use]
     pub fn qspi_sck(&mut self) -> QSPI_SCK_W<GPIO_NSMASK1_SPEC> {
         QSPI_SCK_W::new(self, 26)
     }
     #[doc = "Bit 27"]
     #[inline(always)]
-    #[must_use]
     pub fn qspi_csn(&mut self) -> QSPI_CSN_W<GPIO_NSMASK1_SPEC> {
         QSPI_CSN_W::new(self, 27)
     }
     #[doc = "Bits 28:31"]
     #[inline(always)]
-    #[must_use]
     pub fn qspi_sd(&mut self) -> QSPI_SD_W<GPIO_NSMASK1_SPEC> {
         QSPI_SD_W::new(self, 28)
     }
@@ -108,10 +102,6 @@ impl crate::Readable for GPIO_NSMASK1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`gpio_nsmask1::W`](W) writer structure"]
 impl crate::Writable for GPIO_NSMASK1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets GPIO_NSMASK1 to value 0"]
-impl crate::Resettable for GPIO_NSMASK1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for GPIO_NSMASK1_SPEC {}

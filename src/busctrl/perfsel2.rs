@@ -932,7 +932,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:6 - Select an event for PERFCTR2. For each downstream port of the main crossbar, four events are available: ACCESS, an access took place; ACCESS_CONTESTED, an access took place that previously stalled due to contention from other masters; STALL_DOWNSTREAM, count cycles where any master stalled due to a stall on the downstream bus; STALL_UPSTREAM, count cycles where any master stalled for any reason, including contention from other masters."]
     #[inline(always)]
-    #[must_use]
     pub fn perfsel2(&mut self) -> PERFSEL2_W<PERFSEL2_SPEC> {
         PERFSEL2_W::new(self, 0)
     }
@@ -949,8 +948,6 @@ impl crate::Readable for PERFSEL2_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`perfsel2::W`](W) writer structure"]
 impl crate::Writable for PERFSEL2_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets PERFSEL2 to value 0x1f"]
 impl crate::Resettable for PERFSEL2_SPEC {

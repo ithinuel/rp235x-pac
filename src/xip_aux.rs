@@ -26,8 +26,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`stream::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@stream`]
-module"]
+For information about available fields see [`mod@stream`] module"]
 pub type STREAM = crate::Reg<stream::STREAM_SPEC>;
 #[doc = "Read the XIP stream FIFO (fast bus access to XIP_CTRL_STREAM_FIFO)"]
 pub mod stream;
@@ -35,8 +34,7 @@ pub mod stream;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`qmi_direct_tx::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@qmi_direct_tx`]
-module"]
+For information about available fields see [`mod@qmi_direct_tx`] module"]
 pub type QMI_DIRECT_TX = crate::Reg<qmi_direct_tx::QMI_DIRECT_TX_SPEC>;
 #[doc = "Write to the QMI direct-mode TX FIFO (fast bus access to QMI_DIRECT_TX)"]
 pub mod qmi_direct_tx;
@@ -44,8 +42,7 @@ pub mod qmi_direct_tx;
 
 You can [`read`](crate::Reg::read) this register and get [`qmi_direct_rx::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@qmi_direct_rx`]
-module"]
+For information about available fields see [`mod@qmi_direct_rx`] module"]
 pub type QMI_DIRECT_RX = crate::Reg<qmi_direct_rx::QMI_DIRECT_RX_SPEC>;
 #[doc = "Read from the QMI direct-mode RX FIFO (fast bus access to QMI_DIRECT_RX)"]
 pub mod qmi_direct_rx;

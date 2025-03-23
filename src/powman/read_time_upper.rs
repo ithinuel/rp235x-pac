@@ -19,6 +19,4 @@ impl crate::RegisterSpec for READ_TIME_UPPER_SPEC {
 #[doc = "`read()` method returns [`read_time_upper::R`](R) reader structure"]
 impl crate::Readable for READ_TIME_UPPER_SPEC {}
 #[doc = "`reset()` method sets READ_TIME_UPPER to value 0"]
-impl crate::Resettable for READ_TIME_UPPER_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for READ_TIME_UPPER_SPEC {}

@@ -25,13 +25,11 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Integration Mode instruction ATREADYM in"]
     #[inline(always)]
-    #[must_use]
     pub fn atreadym(&mut self) -> ATREADYM_W<TRCITIATBINR_SPEC> {
         ATREADYM_W::new(self, 0)
     }
     #[doc = "Bit 1 - Integration Mode instruction AFVALIDM in"]
     #[inline(always)]
-    #[must_use]
     pub fn afvalidm(&mut self) -> AFVALIDM_W<TRCITIATBINR_SPEC> {
         AFVALIDM_W::new(self, 1)
     }
@@ -48,10 +46,6 @@ impl crate::Readable for TRCITIATBINR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcitiatbinr::W`](W) writer structure"]
 impl crate::Writable for TRCITIATBINR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCITIATBINR to value 0"]
-impl crate::Resettable for TRCITIATBINR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCITIATBINR_SPEC {}

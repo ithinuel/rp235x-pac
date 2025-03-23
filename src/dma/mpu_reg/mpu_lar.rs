@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Region enable. If 1, any address within range specified by the base address (BAR_ADDR) and limit address (LAR_ADDR) has the attributes specified by S and P."]
     #[inline(always)]
-    #[must_use]
     pub fn en(&mut self) -> EN_W<MPU_LAR_SPEC> {
         EN_W::new(self, 0)
     }
     #[doc = "Bit 1 - Determines the Privileged/Unprivileged (=1/0) status of addresses matching this region, if this region is enabled. Writable from any Privileged context, if and only if the S bit is clear. Otherwise, writable only from a Secure, Privileged context."]
     #[inline(always)]
-    #[must_use]
     pub fn p(&mut self) -> P_W<MPU_LAR_SPEC> {
         P_W::new(self, 1)
     }
     #[doc = "Bit 2 - Determines the Secure/Non-secure (=1/0) status of addresses matching this region, if this region is enabled."]
     #[inline(always)]
-    #[must_use]
     pub fn s(&mut self) -> S_W<MPU_LAR_SPEC> {
         S_W::new(self, 2)
     }
     #[doc = "Bits 5:31 - Limit address bits 31:5. Readable from any Privileged context, if and only if this region's S bit is clear, and MPU_CTRL_NS_HIDE_ADDR is clear. Otherwise readable only from a Secure, Privileged context."]
     #[inline(always)]
-    #[must_use]
     pub fn addr(&mut self) -> ADDR_W<MPU_LAR_SPEC> {
         ADDR_W::new(self, 5)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for MPU_LAR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`mpu_lar::W`](W) writer structure"]
 impl crate::Writable for MPU_LAR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets MPU_LAR to value 0"]
-impl crate::Resettable for MPU_LAR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for MPU_LAR_SPEC {}

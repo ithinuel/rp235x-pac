@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:7 - Counts one on each cycle when all of the following are true: - DWT_CTRL.EXCEVTENA == 1 and DEMCR.TRCENA == 1. - No instruction is executed, see DWT_CPICNT. - An exception-entry or exception-exit related operation is in progress. - Either SecureNoninvasiveDebugAllowed() == TRUE, or NS-Req for the operation is set to Non-secure and NoninvasiveDebugAllowed() == TRUE."]
     #[inline(always)]
-    #[must_use]
     pub fn exccnt(&mut self) -> EXCCNT_W<DWT_EXCCNT_SPEC> {
         EXCCNT_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for DWT_EXCCNT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dwt_exccnt::W`](W) writer structure"]
 impl crate::Writable for DWT_EXCCNT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DWT_EXCCNT to value 0"]
-impl crate::Resettable for DWT_EXCCNT_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DWT_EXCCNT_SPEC {}

@@ -254,7 +254,6 @@ impl W {
 
  For example, for RGB565 (red most significant), blue is bits 4:0, so should be right-rotated by 13 to align with bits 7:3 of the encoder input."]
     #[inline(always)]
-    #[must_use]
     pub fn l0_rot(&mut self) -> L0_ROT_W<TMDS_CTRL_SPEC> {
         L0_ROT_W::new(self, 0)
     }
@@ -262,7 +261,6 @@ impl W {
 
  For example, for RGB565, green is bits 10:5, so should be right-rotated by 3 bits to align with bits 7:2 of the encoder input."]
     #[inline(always)]
-    #[must_use]
     pub fn l1_rot(&mut self) -> L1_ROT_W<TMDS_CTRL_SPEC> {
         L1_ROT_W::new(self, 4)
     }
@@ -270,25 +268,21 @@ impl W {
 
  For example, for RGB565 (red most significant), red is bits 15:11, so should be right-rotated by 8 bits to align with bits 7:3 of the encoder input."]
     #[inline(always)]
-    #[must_use]
     pub fn l2_rot(&mut self) -> L2_ROT_W<TMDS_CTRL_SPEC> {
         L2_ROT_W::new(self, 8)
     }
     #[doc = "Bits 12:14 - Number of valid colour MSBs for lane 0 (1-8 bits, encoded as 0 through 7). Remaining LSBs are masked to 0 after the rotate."]
     #[inline(always)]
-    #[must_use]
     pub fn l0_nbits(&mut self) -> L0_NBITS_W<TMDS_CTRL_SPEC> {
         L0_NBITS_W::new(self, 12)
     }
     #[doc = "Bits 15:17 - Number of valid colour MSBs for lane 1 (1-8 bits, encoded as 0 through 7). Remaining LSBs are masked to 0 after the rotate."]
     #[inline(always)]
-    #[must_use]
     pub fn l1_nbits(&mut self) -> L1_NBITS_W<TMDS_CTRL_SPEC> {
         L1_NBITS_W::new(self, 15)
     }
     #[doc = "Bits 18:20 - Number of valid colour MSBs for lane 2 (1-8 bits, encoded as 0 through 7). Remaining LSBs are masked to 0 after the rotate."]
     #[inline(always)]
-    #[must_use]
     pub fn l2_nbits(&mut self) -> L2_NBITS_W<TMDS_CTRL_SPEC> {
         L2_NBITS_W::new(self, 18)
     }
@@ -298,7 +292,6 @@ impl W {
 
  When interleaving is enabled, the symbols are packed into 5 chunks of 3 lanes times 2 bits (30 bits total). Each chunk contains two bits of a TMDS symbol per lane, with lane 0 being the least significant."]
     #[inline(always)]
-    #[must_use]
     pub fn interleave(&mut self) -> INTERLEAVE_W<TMDS_CTRL_SPEC> {
         INTERLEAVE_W::new(self, 23)
     }
@@ -308,7 +301,6 @@ impl W {
 
  Reading from a POP_DOUBLE register when PIX2_NOSHIFT is clear will shift by double the indicated amount. (Shift by 32 means no shift.)"]
     #[inline(always)]
-    #[must_use]
     pub fn pix_shift(&mut self) -> PIX_SHIFT_W<TMDS_CTRL_SPEC> {
         PIX_SHIFT_W::new(self, 24)
     }
@@ -316,13 +308,11 @@ impl W {
 
  This control disables that shift, so that both encoder layers see the same pixel data. This is used for pixel doubling."]
     #[inline(always)]
-    #[must_use]
     pub fn pix2_noshift(&mut self) -> PIX2_NOSHIFT_W<TMDS_CTRL_SPEC> {
         PIX2_NOSHIFT_W::new(self, 27)
     }
     #[doc = "Bit 28 - Clear the running DC balance state of the TMDS encoders. This bit should be written once at the beginning of each scanline."]
     #[inline(always)]
-    #[must_use]
     pub fn clear_balance(&mut self) -> CLEAR_BALANCE_W<TMDS_CTRL_SPEC> {
         CLEAR_BALANCE_W::new(self, 28)
     }
@@ -339,10 +329,6 @@ impl crate::Readable for TMDS_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`tmds_ctrl::W`](W) writer structure"]
 impl crate::Writable for TMDS_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TMDS_CTRL to value 0"]
-impl crate::Resettable for TMDS_CTRL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TMDS_CTRL_SPEC {}

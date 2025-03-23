@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bit 3 - Powerup request bit:"]
     #[inline(always)]
-    #[must_use]
     pub fn pu(&mut self) -> PU_W<TRCPDCR_SPEC> {
         PU_W::new(self, 3)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for TRCPDCR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcpdcr::W`](W) writer structure"]
 impl crate::Writable for TRCPDCR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCPDCR to value 0"]
-impl crate::Resettable for TRCPDCR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCPDCR_SPEC {}

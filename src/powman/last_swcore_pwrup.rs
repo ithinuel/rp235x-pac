@@ -26,6 +26,4 @@ impl crate::RegisterSpec for LAST_SWCORE_PWRUP_SPEC {
 #[doc = "`read()` method returns [`last_swcore_pwrup::R`](R) reader structure"]
 impl crate::Readable for LAST_SWCORE_PWRUP_SPEC {}
 #[doc = "`reset()` method sets LAST_SWCORE_PWRUP to value 0"]
-impl crate::Resettable for LAST_SWCORE_PWRUP_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for LAST_SWCORE_PWRUP_SPEC {}

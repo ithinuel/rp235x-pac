@@ -109,13 +109,11 @@ impl W {
  110 - 135C   
  111 - 150C"]
     #[inline(always)]
-    #[must_use]
     pub fn ht_th(&mut self) -> HT_TH_W<VREG_CTRL_SPEC> {
         HT_TH_W::new(self, 4)
     }
     #[doc = "Bit 8 - 0=not disabled, 1=enabled"]
     #[inline(always)]
-    #[must_use]
     pub fn disable_voltage_limit(&mut self) -> DISABLE_VOLTAGE_LIMIT_W<VREG_CTRL_SPEC> {
         DISABLE_VOLTAGE_LIMIT_W::new(self, 8)
     }
@@ -123,7 +121,6 @@ impl W {
  0 - not isolated (default)   
  1 - isolated"]
     #[inline(always)]
-    #[must_use]
     pub fn isolate(&mut self) -> ISOLATE_W<VREG_CTRL_SPEC> {
         ISOLATE_W::new(self, 12)
     }
@@ -132,7 +129,6 @@ impl W {
  1 - Unlocked   
  It cannot be relocked when it is unlocked."]
     #[inline(always)]
-    #[must_use]
     pub fn unlock(&mut self) -> UNLOCK_W<VREG_CTRL_SPEC> {
         UNLOCK_W::new(self, 13)
     }
@@ -140,7 +136,6 @@ impl W {
  0 - reset   
  1 - not reset (default)"]
     #[inline(always)]
-    #[must_use]
     pub fn rst_n(&mut self) -> RST_N_W<VREG_CTRL_SPEC> {
         RST_N_W::new(self, 15)
     }
@@ -157,8 +152,6 @@ impl crate::Readable for VREG_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`vreg_ctrl::W`](W) writer structure"]
 impl crate::Writable for VREG_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets VREG_CTRL to value 0x8050"]
 impl crate::Resettable for VREG_CTRL_SPEC {

@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn gpio_nsmask0(&mut self) -> GPIO_NSMASK0_W<GPIO_NSMASK0_SPEC> {
         GPIO_NSMASK0_W::new(self, 0)
     }
@@ -37,10 +36,6 @@ impl crate::Readable for GPIO_NSMASK0_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`gpio_nsmask0::W`](W) writer structure"]
 impl crate::Writable for GPIO_NSMASK0_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets GPIO_NSMASK0 to value 0"]
-impl crate::Resettable for GPIO_NSMASK0_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for GPIO_NSMASK0_SPEC {}

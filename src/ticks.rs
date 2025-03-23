@@ -5,6 +5,8 @@ pub struct RegisterBlock {
 }
 impl RegisterBlock {
     #[doc = "0x00..0x48 - Cluster TICK%s, containing *_CTRL, *_CYCLES, *_COUNT"]
+    #[doc = ""]
+    #[doc = "<div class=\"warning\">`n` is the index of cluster in the array. `n == 0` corresponds to `TICKPROC0` cluster.</div>"]
     #[inline(always)]
     pub const fn tick(&self, n: usize) -> &TICK {
         &self.tick[n]

@@ -355,7 +355,6 @@ impl R {
 impl W {
     #[doc = "Bit 0 - This flag is set by double-tapping RUN. It tells bootcode to go into the bootloader."]
     #[inline(always)]
-    #[must_use]
     pub fn double_tap(&mut self) -> DOUBLE_TAP_W<CHIP_RESET_SPEC> {
         DOUBLE_TAP_W::new(self, 0)
     }
@@ -363,7 +362,6 @@ impl W {
  Its purpose is to halt before the bootrom before booting from flash in order to recover from a boot lock-up.   
  The debugger can then attach once the bootrom has been halted and flash some working code that does not lock up."]
     #[inline(always)]
-    #[must_use]
     pub fn rescue_flag(&mut self) -> RESCUE_FLAG_W<CHIP_RESET_SPEC> {
         RESCUE_FLAG_W::new(self, 4)
     }
@@ -380,10 +378,7 @@ impl crate::Readable for CHIP_RESET_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`chip_reset::W`](W) writer structure"]
 impl crate::Writable for CHIP_RESET_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x10;
 }
 #[doc = "`reset()` method sets CHIP_RESET to value 0"]
-impl crate::Resettable for CHIP_RESET_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CHIP_RESET_SPEC {}

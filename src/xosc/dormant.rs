@@ -94,7 +94,6 @@ impl W {
  Warning: stop the PLLs before selecting dormant mode   
  Warning: setup the irq before selecting dormant mode"]
     #[inline(always)]
-    #[must_use]
     pub fn dormant(&mut self) -> DORMANT_W<DORMANT_SPEC> {
         DORMANT_W::new(self, 0)
     }
@@ -111,10 +110,6 @@ impl crate::Readable for DORMANT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dormant::W`](W) writer structure"]
 impl crate::Writable for DORMANT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DORMANT to value 0"]
-impl crate::Resettable for DORMANT_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DORMANT_SPEC {}

@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bits 0:7 - Selects one or more resources from the wanted group. One bit is provided per resource from the group"]
     #[inline(always)]
-    #[must_use]
     pub fn select(&mut self) -> SELECT_W<TRCRSCTLR2_SPEC> {
         SELECT_W::new(self, 0)
     }
     #[doc = "Bits 16:18 - Selects a group of resource"]
     #[inline(always)]
-    #[must_use]
     pub fn group(&mut self) -> GROUP_W<TRCRSCTLR2_SPEC> {
         GROUP_W::new(self, 16)
     }
     #[doc = "Bit 20 - Inverts the selected resources"]
     #[inline(always)]
-    #[must_use]
     pub fn inv(&mut self) -> INV_W<TRCRSCTLR2_SPEC> {
         INV_W::new(self, 20)
     }
     #[doc = "Bit 21 - Inverts the result of a combined pair of resources. This bit is only implemented on the lower register for a pair of resource selectors"]
     #[inline(always)]
-    #[must_use]
     pub fn pairinv(&mut self) -> PAIRINV_W<TRCRSCTLR2_SPEC> {
         PAIRINV_W::new(self, 21)
     }
@@ -78,10 +74,6 @@ impl crate::Readable for TRCRSCTLR2_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcrsctlr2::W`](W) writer structure"]
 impl crate::Writable for TRCRSCTLR2_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCRSCTLR2 to value 0"]
-impl crate::Resettable for TRCRSCTLR2_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCRSCTLR2_SPEC {}

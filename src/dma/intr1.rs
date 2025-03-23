@@ -48,7 +48,6 @@ impl W {
 
  If this register is accessed at a security/privilege level less than that of a given channel (as defined by that channel's SECCFG_CHx register), then that channel's interrupt status will read as 0, ignore writes."]
     #[inline(always)]
-    #[must_use]
     pub fn intr1(&mut self) -> INTR1_W<INTR1_SPEC> {
         INTR1_W::new(self, 0)
     }
@@ -65,10 +64,7 @@ impl crate::Readable for INTR1_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`intr1::W`](W) writer structure"]
 impl crate::Writable for INTR1_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0xffff;
 }
 #[doc = "`reset()` method sets INTR1 to value 0"]
-impl crate::Resettable for INTR1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for INTR1_SPEC {}

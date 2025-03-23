@@ -50,25 +50,21 @@ impl R {
 impl W {
     #[doc = "Bit 1"]
     #[inline(always)]
-    #[must_use]
     pub fn sbpi_wr_fail(&mut self) -> SBPI_WR_FAIL_W<INTR_SPEC> {
         SBPI_WR_FAIL_W::new(self, 1)
     }
     #[doc = "Bit 2"]
     #[inline(always)]
-    #[must_use]
     pub fn apb_dctrl_fail(&mut self) -> APB_DCTRL_FAIL_W<INTR_SPEC> {
         APB_DCTRL_FAIL_W::new(self, 2)
     }
     #[doc = "Bit 3"]
     #[inline(always)]
-    #[must_use]
     pub fn apb_rd_sec_fail(&mut self) -> APB_RD_SEC_FAIL_W<INTR_SPEC> {
         APB_RD_SEC_FAIL_W::new(self, 3)
     }
     #[doc = "Bit 4"]
     #[inline(always)]
-    #[must_use]
     pub fn apb_rd_nsec_fail(&mut self) -> APB_RD_NSEC_FAIL_W<INTR_SPEC> {
         APB_RD_NSEC_FAIL_W::new(self, 4)
     }
@@ -85,10 +81,7 @@ impl crate::Readable for INTR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`intr::W`](W) writer structure"]
 impl crate::Writable for INTR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0x1e;
 }
 #[doc = "`reset()` method sets INTR to value 0"]
-impl crate::Resettable for INTR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for INTR_SPEC {}

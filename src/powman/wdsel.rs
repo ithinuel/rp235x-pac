@@ -69,7 +69,6 @@ impl W {
  reset the switched core domain and run the full power-on state machine (PSM) sequence   
  This does not rely on clk_ref running"]
     #[inline(always)]
-    #[must_use]
     pub fn reset_powman_async(&mut self) -> RESET_POWMAN_ASYNC_W<WDSEL_SPEC> {
         RESET_POWMAN_ASYNC_W::new(self, 0)
     }
@@ -77,7 +76,6 @@ impl W {
  and run the full power-on state machine (PSM) sequence   
  This relies on clk_ref running. Use reset_powman_async if that may not be true"]
     #[inline(always)]
-    #[must_use]
     pub fn reset_powman(&mut self) -> RESET_POWMAN_W<WDSEL_SPEC> {
         RESET_POWMAN_W::new(self, 4)
     }
@@ -85,7 +83,6 @@ impl W {
  From a user perspective it is the same as setting RSM_WDSEL_PROC_COLD   
  From a hardware debug perspective it has the same effect as a power-on reset for the switched core power domain"]
     #[inline(always)]
-    #[must_use]
     pub fn reset_swcore(&mut self) -> RESET_SWCORE_W<WDSEL_SPEC> {
         RESET_SWCORE_W::new(self, 8)
     }
@@ -93,7 +90,6 @@ impl W {
  From a user perspective it is the same as setting RSM_WDSEL_PROC_COLD   
  From a hardware debug perspective it has the same effect as a reset from a glitch detector"]
     #[inline(always)]
-    #[must_use]
     pub fn reset_rsm(&mut self) -> RESET_RSM_W<WDSEL_SPEC> {
         RESET_RSM_W::new(self, 12)
     }
@@ -111,10 +107,6 @@ impl crate::Readable for WDSEL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`wdsel::W`](W) writer structure"]
 impl crate::Writable for WDSEL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets WDSEL to value 0"]
-impl crate::Resettable for WDSEL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for WDSEL_SPEC {}

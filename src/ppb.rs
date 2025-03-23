@@ -1964,8 +1964,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim0`]
-module"]
+For information about available fields see [`mod@itm_stim0`] module"]
 pub type ITM_STIM0 = crate::Reg<itm_stim0::ITM_STIM0_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim0;
@@ -1973,8 +1972,7 @@ pub mod itm_stim0;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim1`]
-module"]
+For information about available fields see [`mod@itm_stim1`] module"]
 pub type ITM_STIM1 = crate::Reg<itm_stim1::ITM_STIM1_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim1;
@@ -1982,8 +1980,7 @@ pub mod itm_stim1;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim2`]
-module"]
+For information about available fields see [`mod@itm_stim2`] module"]
 pub type ITM_STIM2 = crate::Reg<itm_stim2::ITM_STIM2_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim2;
@@ -1991,8 +1988,7 @@ pub mod itm_stim2;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim3`]
-module"]
+For information about available fields see [`mod@itm_stim3`] module"]
 pub type ITM_STIM3 = crate::Reg<itm_stim3::ITM_STIM3_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim3;
@@ -2000,8 +1996,7 @@ pub mod itm_stim3;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim4`]
-module"]
+For information about available fields see [`mod@itm_stim4`] module"]
 pub type ITM_STIM4 = crate::Reg<itm_stim4::ITM_STIM4_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim4;
@@ -2009,8 +2004,7 @@ pub mod itm_stim4;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim5`]
-module"]
+For information about available fields see [`mod@itm_stim5`] module"]
 pub type ITM_STIM5 = crate::Reg<itm_stim5::ITM_STIM5_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim5;
@@ -2018,8 +2012,7 @@ pub mod itm_stim5;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim6`]
-module"]
+For information about available fields see [`mod@itm_stim6`] module"]
 pub type ITM_STIM6 = crate::Reg<itm_stim6::ITM_STIM6_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim6;
@@ -2027,8 +2020,7 @@ pub mod itm_stim6;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim7`]
-module"]
+For information about available fields see [`mod@itm_stim7`] module"]
 pub type ITM_STIM7 = crate::Reg<itm_stim7::ITM_STIM7_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim7;
@@ -2036,8 +2028,7 @@ pub mod itm_stim7;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim8::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim8::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim8`]
-module"]
+For information about available fields see [`mod@itm_stim8`] module"]
 pub type ITM_STIM8 = crate::Reg<itm_stim8::ITM_STIM8_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim8;
@@ -2045,8 +2036,7 @@ pub mod itm_stim8;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim9::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim9::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim9`]
-module"]
+For information about available fields see [`mod@itm_stim9`] module"]
 pub type ITM_STIM9 = crate::Reg<itm_stim9::ITM_STIM9_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim9;
@@ -2054,8 +2044,7 @@ pub mod itm_stim9;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim10::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim10::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim10`]
-module"]
+For information about available fields see [`mod@itm_stim10`] module"]
 pub type ITM_STIM10 = crate::Reg<itm_stim10::ITM_STIM10_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim10;
@@ -2063,8 +2052,7 @@ pub mod itm_stim10;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim11::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim11::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim11`]
-module"]
+For information about available fields see [`mod@itm_stim11`] module"]
 pub type ITM_STIM11 = crate::Reg<itm_stim11::ITM_STIM11_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim11;
@@ -2072,8 +2060,7 @@ pub mod itm_stim11;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim12::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim12::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim12`]
-module"]
+For information about available fields see [`mod@itm_stim12`] module"]
 pub type ITM_STIM12 = crate::Reg<itm_stim12::ITM_STIM12_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim12;
@@ -2081,8 +2068,7 @@ pub mod itm_stim12;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim13::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim13::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim13`]
-module"]
+For information about available fields see [`mod@itm_stim13`] module"]
 pub type ITM_STIM13 = crate::Reg<itm_stim13::ITM_STIM13_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim13;
@@ -2090,8 +2076,7 @@ pub mod itm_stim13;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim14::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim14::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim14`]
-module"]
+For information about available fields see [`mod@itm_stim14`] module"]
 pub type ITM_STIM14 = crate::Reg<itm_stim14::ITM_STIM14_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim14;
@@ -2099,8 +2084,7 @@ pub mod itm_stim14;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim15::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim15::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim15`]
-module"]
+For information about available fields see [`mod@itm_stim15`] module"]
 pub type ITM_STIM15 = crate::Reg<itm_stim15::ITM_STIM15_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim15;
@@ -2108,8 +2092,7 @@ pub mod itm_stim15;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim16::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim16::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim16`]
-module"]
+For information about available fields see [`mod@itm_stim16`] module"]
 pub type ITM_STIM16 = crate::Reg<itm_stim16::ITM_STIM16_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim16;
@@ -2117,8 +2100,7 @@ pub mod itm_stim16;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim17::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim17::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim17`]
-module"]
+For information about available fields see [`mod@itm_stim17`] module"]
 pub type ITM_STIM17 = crate::Reg<itm_stim17::ITM_STIM17_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim17;
@@ -2126,8 +2108,7 @@ pub mod itm_stim17;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim18::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim18::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim18`]
-module"]
+For information about available fields see [`mod@itm_stim18`] module"]
 pub type ITM_STIM18 = crate::Reg<itm_stim18::ITM_STIM18_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim18;
@@ -2135,8 +2116,7 @@ pub mod itm_stim18;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim19::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim19::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim19`]
-module"]
+For information about available fields see [`mod@itm_stim19`] module"]
 pub type ITM_STIM19 = crate::Reg<itm_stim19::ITM_STIM19_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim19;
@@ -2144,8 +2124,7 @@ pub mod itm_stim19;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim20::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim20::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim20`]
-module"]
+For information about available fields see [`mod@itm_stim20`] module"]
 pub type ITM_STIM20 = crate::Reg<itm_stim20::ITM_STIM20_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim20;
@@ -2153,8 +2132,7 @@ pub mod itm_stim20;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim21::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim21::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim21`]
-module"]
+For information about available fields see [`mod@itm_stim21`] module"]
 pub type ITM_STIM21 = crate::Reg<itm_stim21::ITM_STIM21_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim21;
@@ -2162,8 +2140,7 @@ pub mod itm_stim21;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim22::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim22::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim22`]
-module"]
+For information about available fields see [`mod@itm_stim22`] module"]
 pub type ITM_STIM22 = crate::Reg<itm_stim22::ITM_STIM22_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim22;
@@ -2171,8 +2148,7 @@ pub mod itm_stim22;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim23::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim23::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim23`]
-module"]
+For information about available fields see [`mod@itm_stim23`] module"]
 pub type ITM_STIM23 = crate::Reg<itm_stim23::ITM_STIM23_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim23;
@@ -2180,8 +2156,7 @@ pub mod itm_stim23;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim24::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim24::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim24`]
-module"]
+For information about available fields see [`mod@itm_stim24`] module"]
 pub type ITM_STIM24 = crate::Reg<itm_stim24::ITM_STIM24_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim24;
@@ -2189,8 +2164,7 @@ pub mod itm_stim24;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim25::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim25::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim25`]
-module"]
+For information about available fields see [`mod@itm_stim25`] module"]
 pub type ITM_STIM25 = crate::Reg<itm_stim25::ITM_STIM25_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim25;
@@ -2198,8 +2172,7 @@ pub mod itm_stim25;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim26::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim26::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim26`]
-module"]
+For information about available fields see [`mod@itm_stim26`] module"]
 pub type ITM_STIM26 = crate::Reg<itm_stim26::ITM_STIM26_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim26;
@@ -2207,8 +2180,7 @@ pub mod itm_stim26;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim27::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim27::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim27`]
-module"]
+For information about available fields see [`mod@itm_stim27`] module"]
 pub type ITM_STIM27 = crate::Reg<itm_stim27::ITM_STIM27_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim27;
@@ -2216,8 +2188,7 @@ pub mod itm_stim27;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim28::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim28::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim28`]
-module"]
+For information about available fields see [`mod@itm_stim28`] module"]
 pub type ITM_STIM28 = crate::Reg<itm_stim28::ITM_STIM28_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim28;
@@ -2225,8 +2196,7 @@ pub mod itm_stim28;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim29::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim29::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim29`]
-module"]
+For information about available fields see [`mod@itm_stim29`] module"]
 pub type ITM_STIM29 = crate::Reg<itm_stim29::ITM_STIM29_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim29;
@@ -2234,8 +2204,7 @@ pub mod itm_stim29;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim30::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim30::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim30`]
-module"]
+For information about available fields see [`mod@itm_stim30`] module"]
 pub type ITM_STIM30 = crate::Reg<itm_stim30::ITM_STIM30_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim30;
@@ -2243,8 +2212,7 @@ pub mod itm_stim30;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_stim31::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_stim31::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_stim31`]
-module"]
+For information about available fields see [`mod@itm_stim31`] module"]
 pub type ITM_STIM31 = crate::Reg<itm_stim31::ITM_STIM31_SPEC>;
 #[doc = "Provides the interface for generating Instrumentation packets"]
 pub mod itm_stim31;
@@ -2252,8 +2220,7 @@ pub mod itm_stim31;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_ter0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_ter0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_ter0`]
-module"]
+For information about available fields see [`mod@itm_ter0`] module"]
 pub type ITM_TER0 = crate::Reg<itm_ter0::ITM_TER0_SPEC>;
 #[doc = "Provide an individual enable bit for each ITM_STIM register"]
 pub mod itm_ter0;
@@ -2261,8 +2228,7 @@ pub mod itm_ter0;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_tpr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_tpr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_tpr`]
-module"]
+For information about available fields see [`mod@itm_tpr`] module"]
 pub type ITM_TPR = crate::Reg<itm_tpr::ITM_TPR_SPEC>;
 #[doc = "Controls which stimulus ports can be accessed by unprivileged code"]
 pub mod itm_tpr;
@@ -2270,8 +2236,7 @@ pub mod itm_tpr;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_tcr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_tcr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_tcr`]
-module"]
+For information about available fields see [`mod@itm_tcr`] module"]
 pub type ITM_TCR = crate::Reg<itm_tcr::ITM_TCR_SPEC>;
 #[doc = "Configures and controls transfers through the ITM interface"]
 pub mod itm_tcr;
@@ -2279,8 +2244,7 @@ pub mod itm_tcr;
 
 You can [`read`](crate::Reg::read) this register and get [`int_atready::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@int_atready`]
-module"]
+For information about available fields see [`mod@int_atready`] module"]
 pub type INT_ATREADY = crate::Reg<int_atready::INT_ATREADY_SPEC>;
 #[doc = "Integration Mode: Read ATB Ready"]
 pub mod int_atready;
@@ -2288,8 +2252,7 @@ pub mod int_atready;
 
 You can [`read`](crate::Reg::read) this register and get [`int_atvalid::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`int_atvalid::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@int_atvalid`]
-module"]
+For information about available fields see [`mod@int_atvalid`] module"]
 pub type INT_ATVALID = crate::Reg<int_atvalid::INT_ATVALID_SPEC>;
 #[doc = "Integration Mode: Write ATB Valid"]
 pub mod int_atvalid;
@@ -2297,8 +2260,7 @@ pub mod int_atvalid;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_itctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_itctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_itctrl`]
-module"]
+For information about available fields see [`mod@itm_itctrl`] module"]
 pub type ITM_ITCTRL = crate::Reg<itm_itctrl::ITM_ITCTRL_SPEC>;
 #[doc = "Integration Mode Control Register"]
 pub mod itm_itctrl;
@@ -2306,8 +2268,7 @@ pub mod itm_itctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_devarch::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_devarch`]
-module"]
+For information about available fields see [`mod@itm_devarch`] module"]
 pub type ITM_DEVARCH = crate::Reg<itm_devarch::ITM_DEVARCH_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_devarch;
@@ -2315,8 +2276,7 @@ pub mod itm_devarch;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_devtype::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_devtype`]
-module"]
+For information about available fields see [`mod@itm_devtype`] module"]
 pub type ITM_DEVTYPE = crate::Reg<itm_devtype::ITM_DEVTYPE_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_devtype;
@@ -2324,8 +2284,7 @@ pub mod itm_devtype;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_pidr4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_pidr4`]
-module"]
+For information about available fields see [`mod@itm_pidr4`] module"]
 pub type ITM_PIDR4 = crate::Reg<itm_pidr4::ITM_PIDR4_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_pidr4;
@@ -2333,8 +2292,7 @@ pub mod itm_pidr4;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_pidr5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_pidr5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_pidr5`]
-module"]
+For information about available fields see [`mod@itm_pidr5`] module"]
 pub type ITM_PIDR5 = crate::Reg<itm_pidr5::ITM_PIDR5_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_pidr5;
@@ -2342,8 +2300,7 @@ pub mod itm_pidr5;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_pidr6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_pidr6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_pidr6`]
-module"]
+For information about available fields see [`mod@itm_pidr6`] module"]
 pub type ITM_PIDR6 = crate::Reg<itm_pidr6::ITM_PIDR6_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_pidr6;
@@ -2351,8 +2308,7 @@ pub mod itm_pidr6;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_pidr7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itm_pidr7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_pidr7`]
-module"]
+For information about available fields see [`mod@itm_pidr7`] module"]
 pub type ITM_PIDR7 = crate::Reg<itm_pidr7::ITM_PIDR7_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_pidr7;
@@ -2360,8 +2316,7 @@ pub mod itm_pidr7;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_pidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_pidr0`]
-module"]
+For information about available fields see [`mod@itm_pidr0`] module"]
 pub type ITM_PIDR0 = crate::Reg<itm_pidr0::ITM_PIDR0_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_pidr0;
@@ -2369,8 +2324,7 @@ pub mod itm_pidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_pidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_pidr1`]
-module"]
+For information about available fields see [`mod@itm_pidr1`] module"]
 pub type ITM_PIDR1 = crate::Reg<itm_pidr1::ITM_PIDR1_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_pidr1;
@@ -2378,8 +2332,7 @@ pub mod itm_pidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_pidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_pidr2`]
-module"]
+For information about available fields see [`mod@itm_pidr2`] module"]
 pub type ITM_PIDR2 = crate::Reg<itm_pidr2::ITM_PIDR2_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_pidr2;
@@ -2387,8 +2340,7 @@ pub mod itm_pidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_pidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_pidr3`]
-module"]
+For information about available fields see [`mod@itm_pidr3`] module"]
 pub type ITM_PIDR3 = crate::Reg<itm_pidr3::ITM_PIDR3_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_pidr3;
@@ -2396,8 +2348,7 @@ pub mod itm_pidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_cidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_cidr0`]
-module"]
+For information about available fields see [`mod@itm_cidr0`] module"]
 pub type ITM_CIDR0 = crate::Reg<itm_cidr0::ITM_CIDR0_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_cidr0;
@@ -2405,8 +2356,7 @@ pub mod itm_cidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_cidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_cidr1`]
-module"]
+For information about available fields see [`mod@itm_cidr1`] module"]
 pub type ITM_CIDR1 = crate::Reg<itm_cidr1::ITM_CIDR1_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_cidr1;
@@ -2414,8 +2364,7 @@ pub mod itm_cidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_cidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_cidr2`]
-module"]
+For information about available fields see [`mod@itm_cidr2`] module"]
 pub type ITM_CIDR2 = crate::Reg<itm_cidr2::ITM_CIDR2_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_cidr2;
@@ -2423,8 +2372,7 @@ pub mod itm_cidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`itm_cidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itm_cidr3`]
-module"]
+For information about available fields see [`mod@itm_cidr3`] module"]
 pub type ITM_CIDR3 = crate::Reg<itm_cidr3::ITM_CIDR3_SPEC>;
 #[doc = "Provides CoreSight discovery information for the ITM"]
 pub mod itm_cidr3;
@@ -2432,8 +2380,7 @@ pub mod itm_cidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_ctrl`]
-module"]
+For information about available fields see [`mod@dwt_ctrl`] module"]
 pub type DWT_CTRL = crate::Reg<dwt_ctrl::DWT_CTRL_SPEC>;
 #[doc = "Provides configuration and status information for the DWT unit, and used to control features of the unit"]
 pub mod dwt_ctrl;
@@ -2441,8 +2388,7 @@ pub mod dwt_ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_cyccnt::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_cyccnt::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_cyccnt`]
-module"]
+For information about available fields see [`mod@dwt_cyccnt`] module"]
 pub type DWT_CYCCNT = crate::Reg<dwt_cyccnt::DWT_CYCCNT_SPEC>;
 #[doc = "Shows or sets the value of the processor cycle counter, CYCCNT"]
 pub mod dwt_cyccnt;
@@ -2450,8 +2396,7 @@ pub mod dwt_cyccnt;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_exccnt::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_exccnt::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_exccnt`]
-module"]
+For information about available fields see [`mod@dwt_exccnt`] module"]
 pub type DWT_EXCCNT = crate::Reg<dwt_exccnt::DWT_EXCCNT_SPEC>;
 #[doc = "Counts the total cycles spent in exception processing"]
 pub mod dwt_exccnt;
@@ -2459,8 +2404,7 @@ pub mod dwt_exccnt;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_lsucnt::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_lsucnt::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_lsucnt`]
-module"]
+For information about available fields see [`mod@dwt_lsucnt`] module"]
 pub type DWT_LSUCNT = crate::Reg<dwt_lsucnt::DWT_LSUCNT_SPEC>;
 #[doc = "Increments on the additional cycles required to execute all load or store instructions"]
 pub mod dwt_lsucnt;
@@ -2468,8 +2412,7 @@ pub mod dwt_lsucnt;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_foldcnt::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_foldcnt::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_foldcnt`]
-module"]
+For information about available fields see [`mod@dwt_foldcnt`] module"]
 pub type DWT_FOLDCNT = crate::Reg<dwt_foldcnt::DWT_FOLDCNT_SPEC>;
 #[doc = "Increments on the additional cycles required to execute all load or store instructions"]
 pub mod dwt_foldcnt;
@@ -2477,8 +2420,7 @@ pub mod dwt_foldcnt;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_comp0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_comp0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_comp0`]
-module"]
+For information about available fields see [`mod@dwt_comp0`] module"]
 pub type DWT_COMP0 = crate::Reg<dwt_comp0::DWT_COMP0_SPEC>;
 #[doc = "Provides a reference value for use by watchpoint comparator 0"]
 pub mod dwt_comp0;
@@ -2486,8 +2428,7 @@ pub mod dwt_comp0;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_function0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_function0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_function0`]
-module"]
+For information about available fields see [`mod@dwt_function0`] module"]
 pub type DWT_FUNCTION0 = crate::Reg<dwt_function0::DWT_FUNCTION0_SPEC>;
 #[doc = "Controls the operation of watchpoint comparator 0"]
 pub mod dwt_function0;
@@ -2495,8 +2436,7 @@ pub mod dwt_function0;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_comp1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_comp1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_comp1`]
-module"]
+For information about available fields see [`mod@dwt_comp1`] module"]
 pub type DWT_COMP1 = crate::Reg<dwt_comp1::DWT_COMP1_SPEC>;
 #[doc = "Provides a reference value for use by watchpoint comparator 1"]
 pub mod dwt_comp1;
@@ -2504,8 +2444,7 @@ pub mod dwt_comp1;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_function1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_function1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_function1`]
-module"]
+For information about available fields see [`mod@dwt_function1`] module"]
 pub type DWT_FUNCTION1 = crate::Reg<dwt_function1::DWT_FUNCTION1_SPEC>;
 #[doc = "Controls the operation of watchpoint comparator 1"]
 pub mod dwt_function1;
@@ -2513,8 +2452,7 @@ pub mod dwt_function1;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_comp2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_comp2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_comp2`]
-module"]
+For information about available fields see [`mod@dwt_comp2`] module"]
 pub type DWT_COMP2 = crate::Reg<dwt_comp2::DWT_COMP2_SPEC>;
 #[doc = "Provides a reference value for use by watchpoint comparator 2"]
 pub mod dwt_comp2;
@@ -2522,8 +2460,7 @@ pub mod dwt_comp2;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_function2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_function2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_function2`]
-module"]
+For information about available fields see [`mod@dwt_function2`] module"]
 pub type DWT_FUNCTION2 = crate::Reg<dwt_function2::DWT_FUNCTION2_SPEC>;
 #[doc = "Controls the operation of watchpoint comparator 2"]
 pub mod dwt_function2;
@@ -2531,8 +2468,7 @@ pub mod dwt_function2;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_comp3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_comp3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_comp3`]
-module"]
+For information about available fields see [`mod@dwt_comp3`] module"]
 pub type DWT_COMP3 = crate::Reg<dwt_comp3::DWT_COMP3_SPEC>;
 #[doc = "Provides a reference value for use by watchpoint comparator 3"]
 pub mod dwt_comp3;
@@ -2540,8 +2476,7 @@ pub mod dwt_comp3;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_function3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_function3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_function3`]
-module"]
+For information about available fields see [`mod@dwt_function3`] module"]
 pub type DWT_FUNCTION3 = crate::Reg<dwt_function3::DWT_FUNCTION3_SPEC>;
 #[doc = "Controls the operation of watchpoint comparator 3"]
 pub mod dwt_function3;
@@ -2549,8 +2484,7 @@ pub mod dwt_function3;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_devarch::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_devarch`]
-module"]
+For information about available fields see [`mod@dwt_devarch`] module"]
 pub type DWT_DEVARCH = crate::Reg<dwt_devarch::DWT_DEVARCH_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_devarch;
@@ -2558,8 +2492,7 @@ pub mod dwt_devarch;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_devtype::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_devtype`]
-module"]
+For information about available fields see [`mod@dwt_devtype`] module"]
 pub type DWT_DEVTYPE = crate::Reg<dwt_devtype::DWT_DEVTYPE_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_devtype;
@@ -2567,8 +2500,7 @@ pub mod dwt_devtype;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_pidr4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_pidr4`]
-module"]
+For information about available fields see [`mod@dwt_pidr4`] module"]
 pub type DWT_PIDR4 = crate::Reg<dwt_pidr4::DWT_PIDR4_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_pidr4;
@@ -2576,8 +2508,7 @@ pub mod dwt_pidr4;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_pidr5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_pidr5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_pidr5`]
-module"]
+For information about available fields see [`mod@dwt_pidr5`] module"]
 pub type DWT_PIDR5 = crate::Reg<dwt_pidr5::DWT_PIDR5_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_pidr5;
@@ -2585,8 +2516,7 @@ pub mod dwt_pidr5;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_pidr6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_pidr6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_pidr6`]
-module"]
+For information about available fields see [`mod@dwt_pidr6`] module"]
 pub type DWT_PIDR6 = crate::Reg<dwt_pidr6::DWT_PIDR6_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_pidr6;
@@ -2594,8 +2524,7 @@ pub mod dwt_pidr6;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_pidr7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dwt_pidr7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_pidr7`]
-module"]
+For information about available fields see [`mod@dwt_pidr7`] module"]
 pub type DWT_PIDR7 = crate::Reg<dwt_pidr7::DWT_PIDR7_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_pidr7;
@@ -2603,8 +2532,7 @@ pub mod dwt_pidr7;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_pidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_pidr0`]
-module"]
+For information about available fields see [`mod@dwt_pidr0`] module"]
 pub type DWT_PIDR0 = crate::Reg<dwt_pidr0::DWT_PIDR0_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_pidr0;
@@ -2612,8 +2540,7 @@ pub mod dwt_pidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_pidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_pidr1`]
-module"]
+For information about available fields see [`mod@dwt_pidr1`] module"]
 pub type DWT_PIDR1 = crate::Reg<dwt_pidr1::DWT_PIDR1_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_pidr1;
@@ -2621,8 +2548,7 @@ pub mod dwt_pidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_pidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_pidr2`]
-module"]
+For information about available fields see [`mod@dwt_pidr2`] module"]
 pub type DWT_PIDR2 = crate::Reg<dwt_pidr2::DWT_PIDR2_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_pidr2;
@@ -2630,8 +2556,7 @@ pub mod dwt_pidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_pidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_pidr3`]
-module"]
+For information about available fields see [`mod@dwt_pidr3`] module"]
 pub type DWT_PIDR3 = crate::Reg<dwt_pidr3::DWT_PIDR3_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_pidr3;
@@ -2639,8 +2564,7 @@ pub mod dwt_pidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_cidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_cidr0`]
-module"]
+For information about available fields see [`mod@dwt_cidr0`] module"]
 pub type DWT_CIDR0 = crate::Reg<dwt_cidr0::DWT_CIDR0_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_cidr0;
@@ -2648,8 +2572,7 @@ pub mod dwt_cidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_cidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_cidr1`]
-module"]
+For information about available fields see [`mod@dwt_cidr1`] module"]
 pub type DWT_CIDR1 = crate::Reg<dwt_cidr1::DWT_CIDR1_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_cidr1;
@@ -2657,8 +2580,7 @@ pub mod dwt_cidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_cidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_cidr2`]
-module"]
+For information about available fields see [`mod@dwt_cidr2`] module"]
 pub type DWT_CIDR2 = crate::Reg<dwt_cidr2::DWT_CIDR2_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_cidr2;
@@ -2666,8 +2588,7 @@ pub mod dwt_cidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`dwt_cidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dwt_cidr3`]
-module"]
+For information about available fields see [`mod@dwt_cidr3`] module"]
 pub type DWT_CIDR3 = crate::Reg<dwt_cidr3::DWT_CIDR3_SPEC>;
 #[doc = "Provides CoreSight discovery information for the DWT"]
 pub mod dwt_cidr3;
@@ -2675,8 +2596,7 @@ pub mod dwt_cidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_ctrl`]
-module"]
+For information about available fields see [`mod@fp_ctrl`] module"]
 pub type FP_CTRL = crate::Reg<fp_ctrl::FP_CTRL_SPEC>;
 #[doc = "Provides FPB implementation information, and the global enable for the FPB unit"]
 pub mod fp_ctrl;
@@ -2684,8 +2604,7 @@ pub mod fp_ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_remap::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_remap`]
-module"]
+For information about available fields see [`mod@fp_remap`] module"]
 pub type FP_REMAP = crate::Reg<fp_remap::FP_REMAP_SPEC>;
 #[doc = "Indicates whether the implementation supports Flash Patch remap and, if it does, holds the target address for remap"]
 pub mod fp_remap;
@@ -2693,8 +2612,7 @@ pub mod fp_remap;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_comp0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_comp0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_comp0`]
-module"]
+For information about available fields see [`mod@fp_comp0`] module"]
 pub type FP_COMP0 = crate::Reg<fp_comp0::FP_COMP0_SPEC>;
 #[doc = "Holds an address for comparison. The effect of the match depends on the configuration of the FPB and whether the comparator is an instruction address comparator or a literal address comparator"]
 pub mod fp_comp0;
@@ -2702,8 +2620,7 @@ pub mod fp_comp0;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_comp1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_comp1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_comp1`]
-module"]
+For information about available fields see [`mod@fp_comp1`] module"]
 pub type FP_COMP1 = crate::Reg<fp_comp1::FP_COMP1_SPEC>;
 #[doc = "Holds an address for comparison. The effect of the match depends on the configuration of the FPB and whether the comparator is an instruction address comparator or a literal address comparator"]
 pub mod fp_comp1;
@@ -2711,8 +2628,7 @@ pub mod fp_comp1;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_comp2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_comp2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_comp2`]
-module"]
+For information about available fields see [`mod@fp_comp2`] module"]
 pub type FP_COMP2 = crate::Reg<fp_comp2::FP_COMP2_SPEC>;
 #[doc = "Holds an address for comparison. The effect of the match depends on the configuration of the FPB and whether the comparator is an instruction address comparator or a literal address comparator"]
 pub mod fp_comp2;
@@ -2720,8 +2636,7 @@ pub mod fp_comp2;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_comp3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_comp3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_comp3`]
-module"]
+For information about available fields see [`mod@fp_comp3`] module"]
 pub type FP_COMP3 = crate::Reg<fp_comp3::FP_COMP3_SPEC>;
 #[doc = "Holds an address for comparison. The effect of the match depends on the configuration of the FPB and whether the comparator is an instruction address comparator or a literal address comparator"]
 pub mod fp_comp3;
@@ -2729,8 +2644,7 @@ pub mod fp_comp3;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_comp4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_comp4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_comp4`]
-module"]
+For information about available fields see [`mod@fp_comp4`] module"]
 pub type FP_COMP4 = crate::Reg<fp_comp4::FP_COMP4_SPEC>;
 #[doc = "Holds an address for comparison. The effect of the match depends on the configuration of the FPB and whether the comparator is an instruction address comparator or a literal address comparator"]
 pub mod fp_comp4;
@@ -2738,8 +2652,7 @@ pub mod fp_comp4;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_comp5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_comp5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_comp5`]
-module"]
+For information about available fields see [`mod@fp_comp5`] module"]
 pub type FP_COMP5 = crate::Reg<fp_comp5::FP_COMP5_SPEC>;
 #[doc = "Holds an address for comparison. The effect of the match depends on the configuration of the FPB and whether the comparator is an instruction address comparator or a literal address comparator"]
 pub mod fp_comp5;
@@ -2747,8 +2660,7 @@ pub mod fp_comp5;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_comp6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_comp6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_comp6`]
-module"]
+For information about available fields see [`mod@fp_comp6`] module"]
 pub type FP_COMP6 = crate::Reg<fp_comp6::FP_COMP6_SPEC>;
 #[doc = "Holds an address for comparison. The effect of the match depends on the configuration of the FPB and whether the comparator is an instruction address comparator or a literal address comparator"]
 pub mod fp_comp6;
@@ -2756,8 +2668,7 @@ pub mod fp_comp6;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_comp7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_comp7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_comp7`]
-module"]
+For information about available fields see [`mod@fp_comp7`] module"]
 pub type FP_COMP7 = crate::Reg<fp_comp7::FP_COMP7_SPEC>;
 #[doc = "Holds an address for comparison. The effect of the match depends on the configuration of the FPB and whether the comparator is an instruction address comparator or a literal address comparator"]
 pub mod fp_comp7;
@@ -2765,8 +2676,7 @@ pub mod fp_comp7;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_devarch::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_devarch`]
-module"]
+For information about available fields see [`mod@fp_devarch`] module"]
 pub type FP_DEVARCH = crate::Reg<fp_devarch::FP_DEVARCH_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FPB"]
 pub mod fp_devarch;
@@ -2774,8 +2684,7 @@ pub mod fp_devarch;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_devtype::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_devtype`]
-module"]
+For information about available fields see [`mod@fp_devtype`] module"]
 pub type FP_DEVTYPE = crate::Reg<fp_devtype::FP_DEVTYPE_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FPB"]
 pub mod fp_devtype;
@@ -2783,8 +2692,7 @@ pub mod fp_devtype;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_pidr4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_pidr4`]
-module"]
+For information about available fields see [`mod@fp_pidr4`] module"]
 pub type FP_PIDR4 = crate::Reg<fp_pidr4::FP_PIDR4_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_pidr4;
@@ -2792,8 +2700,7 @@ pub mod fp_pidr4;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_pidr5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_pidr5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_pidr5`]
-module"]
+For information about available fields see [`mod@fp_pidr5`] module"]
 pub type FP_PIDR5 = crate::Reg<fp_pidr5::FP_PIDR5_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_pidr5;
@@ -2801,8 +2708,7 @@ pub mod fp_pidr5;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_pidr6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_pidr6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_pidr6`]
-module"]
+For information about available fields see [`mod@fp_pidr6`] module"]
 pub type FP_PIDR6 = crate::Reg<fp_pidr6::FP_PIDR6_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_pidr6;
@@ -2810,8 +2716,7 @@ pub mod fp_pidr6;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_pidr7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fp_pidr7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_pidr7`]
-module"]
+For information about available fields see [`mod@fp_pidr7`] module"]
 pub type FP_PIDR7 = crate::Reg<fp_pidr7::FP_PIDR7_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_pidr7;
@@ -2819,8 +2724,7 @@ pub mod fp_pidr7;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_pidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_pidr0`]
-module"]
+For information about available fields see [`mod@fp_pidr0`] module"]
 pub type FP_PIDR0 = crate::Reg<fp_pidr0::FP_PIDR0_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_pidr0;
@@ -2828,8 +2732,7 @@ pub mod fp_pidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_pidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_pidr1`]
-module"]
+For information about available fields see [`mod@fp_pidr1`] module"]
 pub type FP_PIDR1 = crate::Reg<fp_pidr1::FP_PIDR1_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_pidr1;
@@ -2837,8 +2740,7 @@ pub mod fp_pidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_pidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_pidr2`]
-module"]
+For information about available fields see [`mod@fp_pidr2`] module"]
 pub type FP_PIDR2 = crate::Reg<fp_pidr2::FP_PIDR2_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_pidr2;
@@ -2846,8 +2748,7 @@ pub mod fp_pidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_pidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_pidr3`]
-module"]
+For information about available fields see [`mod@fp_pidr3`] module"]
 pub type FP_PIDR3 = crate::Reg<fp_pidr3::FP_PIDR3_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_pidr3;
@@ -2855,8 +2756,7 @@ pub mod fp_pidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_cidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_cidr0`]
-module"]
+For information about available fields see [`mod@fp_cidr0`] module"]
 pub type FP_CIDR0 = crate::Reg<fp_cidr0::FP_CIDR0_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_cidr0;
@@ -2864,8 +2764,7 @@ pub mod fp_cidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_cidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_cidr1`]
-module"]
+For information about available fields see [`mod@fp_cidr1`] module"]
 pub type FP_CIDR1 = crate::Reg<fp_cidr1::FP_CIDR1_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_cidr1;
@@ -2873,8 +2772,7 @@ pub mod fp_cidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_cidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_cidr2`]
-module"]
+For information about available fields see [`mod@fp_cidr2`] module"]
 pub type FP_CIDR2 = crate::Reg<fp_cidr2::FP_CIDR2_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_cidr2;
@@ -2882,8 +2780,7 @@ pub mod fp_cidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`fp_cidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fp_cidr3`]
-module"]
+For information about available fields see [`mod@fp_cidr3`] module"]
 pub type FP_CIDR3 = crate::Reg<fp_cidr3::FP_CIDR3_SPEC>;
 #[doc = "Provides CoreSight discovery information for the FP"]
 pub mod fp_cidr3;
@@ -2891,8 +2788,7 @@ pub mod fp_cidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`ictr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ictr`]
-module"]
+For information about available fields see [`mod@ictr`] module"]
 pub type ICTR = crate::Reg<ictr::ICTR_SPEC>;
 #[doc = "Provides information about the interrupt controller"]
 pub mod ictr;
@@ -2900,8 +2796,7 @@ pub mod ictr;
 
 You can [`read`](crate::Reg::read) this register and get [`actlr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`actlr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@actlr`]
-module"]
+For information about available fields see [`mod@actlr`] module"]
 pub type ACTLR = crate::Reg<actlr::ACTLR_SPEC>;
 #[doc = "Provides IMPLEMENTATION DEFINED configuration and control options"]
 pub mod actlr;
@@ -2909,8 +2804,7 @@ pub mod actlr;
 
 You can [`read`](crate::Reg::read) this register and get [`syst_csr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`syst_csr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@syst_csr`]
-module"]
+For information about available fields see [`mod@syst_csr`] module"]
 pub type SYST_CSR = crate::Reg<syst_csr::SYST_CSR_SPEC>;
 #[doc = "Use the SysTick Control and Status Register to enable the SysTick features."]
 pub mod syst_csr;
@@ -2919,8 +2813,7 @@ pub mod syst_csr;
 
 You can [`read`](crate::Reg::read) this register and get [`syst_rvr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`syst_rvr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@syst_rvr`]
-module"]
+For information about available fields see [`mod@syst_rvr`] module"]
 pub type SYST_RVR = crate::Reg<syst_rvr::SYST_RVR_SPEC>;
 #[doc = "Use the SysTick Reload Value Register to specify the start value to load into the current value register when the counter reaches 0. It can be any value between 0 and 0x00FFFFFF. A start value of 0 is possible, but has no effect because the SysTick interrupt and COUNTFLAG are activated when counting from 1 to 0. The reset value of this register is UNKNOWN.   
  To generate a multi-shot timer with a period of N processor clock cycles, use a RELOAD value of N-1. For example, if the SysTick interrupt is required every 100 clock pulses, set RELOAD to 99."]
@@ -2929,8 +2822,7 @@ pub mod syst_rvr;
 
 You can [`read`](crate::Reg::read) this register and get [`syst_cvr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`syst_cvr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@syst_cvr`]
-module"]
+For information about available fields see [`mod@syst_cvr`] module"]
 pub type SYST_CVR = crate::Reg<syst_cvr::SYST_CVR_SPEC>;
 #[doc = "Use the SysTick Current Value Register to find the current value in the register. The reset value of this register is UNKNOWN."]
 pub mod syst_cvr;
@@ -2938,8 +2830,7 @@ pub mod syst_cvr;
 
 You can [`read`](crate::Reg::read) this register and get [`syst_calib::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@syst_calib`]
-module"]
+For information about available fields see [`mod@syst_calib`] module"]
 pub type SYST_CALIB = crate::Reg<syst_calib::SYST_CALIB_SPEC>;
 #[doc = "Use the SysTick Calibration Value Register to enable software to scale to any required speed using divide and multiply."]
 pub mod syst_calib;
@@ -2947,8 +2838,7 @@ pub mod syst_calib;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_iser0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_iser0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_iser0`]
-module"]
+For information about available fields see [`mod@nvic_iser0`] module"]
 pub type NVIC_ISER0 = crate::Reg<nvic_iser0::NVIC_ISER0_SPEC>;
 #[doc = "Enables or reads the enabled state of each group of 32 interrupts"]
 pub mod nvic_iser0;
@@ -2956,8 +2846,7 @@ pub mod nvic_iser0;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_iser1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_iser1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_iser1`]
-module"]
+For information about available fields see [`mod@nvic_iser1`] module"]
 pub type NVIC_ISER1 = crate::Reg<nvic_iser1::NVIC_ISER1_SPEC>;
 #[doc = "Enables or reads the enabled state of each group of 32 interrupts"]
 pub mod nvic_iser1;
@@ -2965,8 +2854,7 @@ pub mod nvic_iser1;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_icer0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_icer0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_icer0`]
-module"]
+For information about available fields see [`mod@nvic_icer0`] module"]
 pub type NVIC_ICER0 = crate::Reg<nvic_icer0::NVIC_ICER0_SPEC>;
 #[doc = "Clears or reads the enabled state of each group of 32 interrupts"]
 pub mod nvic_icer0;
@@ -2974,8 +2862,7 @@ pub mod nvic_icer0;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_icer1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_icer1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_icer1`]
-module"]
+For information about available fields see [`mod@nvic_icer1`] module"]
 pub type NVIC_ICER1 = crate::Reg<nvic_icer1::NVIC_ICER1_SPEC>;
 #[doc = "Clears or reads the enabled state of each group of 32 interrupts"]
 pub mod nvic_icer1;
@@ -2983,8 +2870,7 @@ pub mod nvic_icer1;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ispr0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ispr0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ispr0`]
-module"]
+For information about available fields see [`mod@nvic_ispr0`] module"]
 pub type NVIC_ISPR0 = crate::Reg<nvic_ispr0::NVIC_ISPR0_SPEC>;
 #[doc = "Enables or reads the pending state of each group of 32 interrupts"]
 pub mod nvic_ispr0;
@@ -2992,8 +2878,7 @@ pub mod nvic_ispr0;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ispr1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ispr1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ispr1`]
-module"]
+For information about available fields see [`mod@nvic_ispr1`] module"]
 pub type NVIC_ISPR1 = crate::Reg<nvic_ispr1::NVIC_ISPR1_SPEC>;
 #[doc = "Enables or reads the pending state of each group of 32 interrupts"]
 pub mod nvic_ispr1;
@@ -3001,8 +2886,7 @@ pub mod nvic_ispr1;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_icpr0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_icpr0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_icpr0`]
-module"]
+For information about available fields see [`mod@nvic_icpr0`] module"]
 pub type NVIC_ICPR0 = crate::Reg<nvic_icpr0::NVIC_ICPR0_SPEC>;
 #[doc = "Clears or reads the pending state of each group of 32 interrupts"]
 pub mod nvic_icpr0;
@@ -3010,8 +2894,7 @@ pub mod nvic_icpr0;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_icpr1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_icpr1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_icpr1`]
-module"]
+For information about available fields see [`mod@nvic_icpr1`] module"]
 pub type NVIC_ICPR1 = crate::Reg<nvic_icpr1::NVIC_ICPR1_SPEC>;
 #[doc = "Clears or reads the pending state of each group of 32 interrupts"]
 pub mod nvic_icpr1;
@@ -3019,8 +2902,7 @@ pub mod nvic_icpr1;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_iabr0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_iabr0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_iabr0`]
-module"]
+For information about available fields see [`mod@nvic_iabr0`] module"]
 pub type NVIC_IABR0 = crate::Reg<nvic_iabr0::NVIC_IABR0_SPEC>;
 #[doc = "For each group of 32 interrupts, shows the active state of each interrupt"]
 pub mod nvic_iabr0;
@@ -3028,8 +2910,7 @@ pub mod nvic_iabr0;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_iabr1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_iabr1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_iabr1`]
-module"]
+For information about available fields see [`mod@nvic_iabr1`] module"]
 pub type NVIC_IABR1 = crate::Reg<nvic_iabr1::NVIC_IABR1_SPEC>;
 #[doc = "For each group of 32 interrupts, shows the active state of each interrupt"]
 pub mod nvic_iabr1;
@@ -3037,8 +2918,7 @@ pub mod nvic_iabr1;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_itns0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_itns0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_itns0`]
-module"]
+For information about available fields see [`mod@nvic_itns0`] module"]
 pub type NVIC_ITNS0 = crate::Reg<nvic_itns0::NVIC_ITNS0_SPEC>;
 #[doc = "For each group of 32 interrupts, determines whether each interrupt targets Non-secure or Secure state"]
 pub mod nvic_itns0;
@@ -3046,8 +2926,7 @@ pub mod nvic_itns0;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_itns1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_itns1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_itns1`]
-module"]
+For information about available fields see [`mod@nvic_itns1`] module"]
 pub type NVIC_ITNS1 = crate::Reg<nvic_itns1::NVIC_ITNS1_SPEC>;
 #[doc = "For each group of 32 interrupts, determines whether each interrupt targets Non-secure or Secure state"]
 pub mod nvic_itns1;
@@ -3055,8 +2934,7 @@ pub mod nvic_itns1;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr0`]
-module"]
+For information about available fields see [`mod@nvic_ipr0`] module"]
 pub type NVIC_IPR0 = crate::Reg<nvic_ipr0::NVIC_IPR0_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr0;
@@ -3064,8 +2942,7 @@ pub mod nvic_ipr0;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr1`]
-module"]
+For information about available fields see [`mod@nvic_ipr1`] module"]
 pub type NVIC_IPR1 = crate::Reg<nvic_ipr1::NVIC_IPR1_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr1;
@@ -3073,8 +2950,7 @@ pub mod nvic_ipr1;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr2`]
-module"]
+For information about available fields see [`mod@nvic_ipr2`] module"]
 pub type NVIC_IPR2 = crate::Reg<nvic_ipr2::NVIC_IPR2_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr2;
@@ -3082,8 +2958,7 @@ pub mod nvic_ipr2;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr3`]
-module"]
+For information about available fields see [`mod@nvic_ipr3`] module"]
 pub type NVIC_IPR3 = crate::Reg<nvic_ipr3::NVIC_IPR3_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr3;
@@ -3091,8 +2966,7 @@ pub mod nvic_ipr3;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr4`]
-module"]
+For information about available fields see [`mod@nvic_ipr4`] module"]
 pub type NVIC_IPR4 = crate::Reg<nvic_ipr4::NVIC_IPR4_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr4;
@@ -3100,8 +2974,7 @@ pub mod nvic_ipr4;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr5`]
-module"]
+For information about available fields see [`mod@nvic_ipr5`] module"]
 pub type NVIC_IPR5 = crate::Reg<nvic_ipr5::NVIC_IPR5_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr5;
@@ -3109,8 +2982,7 @@ pub mod nvic_ipr5;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr6`]
-module"]
+For information about available fields see [`mod@nvic_ipr6`] module"]
 pub type NVIC_IPR6 = crate::Reg<nvic_ipr6::NVIC_IPR6_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr6;
@@ -3118,8 +2990,7 @@ pub mod nvic_ipr6;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr7`]
-module"]
+For information about available fields see [`mod@nvic_ipr7`] module"]
 pub type NVIC_IPR7 = crate::Reg<nvic_ipr7::NVIC_IPR7_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr7;
@@ -3127,8 +2998,7 @@ pub mod nvic_ipr7;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr8::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr8::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr8`]
-module"]
+For information about available fields see [`mod@nvic_ipr8`] module"]
 pub type NVIC_IPR8 = crate::Reg<nvic_ipr8::NVIC_IPR8_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr8;
@@ -3136,8 +3006,7 @@ pub mod nvic_ipr8;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr9::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr9::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr9`]
-module"]
+For information about available fields see [`mod@nvic_ipr9`] module"]
 pub type NVIC_IPR9 = crate::Reg<nvic_ipr9::NVIC_IPR9_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr9;
@@ -3145,8 +3014,7 @@ pub mod nvic_ipr9;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr10::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr10::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr10`]
-module"]
+For information about available fields see [`mod@nvic_ipr10`] module"]
 pub type NVIC_IPR10 = crate::Reg<nvic_ipr10::NVIC_IPR10_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr10;
@@ -3154,8 +3022,7 @@ pub mod nvic_ipr10;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr11::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr11::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr11`]
-module"]
+For information about available fields see [`mod@nvic_ipr11`] module"]
 pub type NVIC_IPR11 = crate::Reg<nvic_ipr11::NVIC_IPR11_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr11;
@@ -3163,8 +3030,7 @@ pub mod nvic_ipr11;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr12::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr12::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr12`]
-module"]
+For information about available fields see [`mod@nvic_ipr12`] module"]
 pub type NVIC_IPR12 = crate::Reg<nvic_ipr12::NVIC_IPR12_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr12;
@@ -3172,8 +3038,7 @@ pub mod nvic_ipr12;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr13::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr13::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr13`]
-module"]
+For information about available fields see [`mod@nvic_ipr13`] module"]
 pub type NVIC_IPR13 = crate::Reg<nvic_ipr13::NVIC_IPR13_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr13;
@@ -3181,8 +3046,7 @@ pub mod nvic_ipr13;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr14::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr14::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr14`]
-module"]
+For information about available fields see [`mod@nvic_ipr14`] module"]
 pub type NVIC_IPR14 = crate::Reg<nvic_ipr14::NVIC_IPR14_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr14;
@@ -3190,8 +3054,7 @@ pub mod nvic_ipr14;
 
 You can [`read`](crate::Reg::read) this register and get [`nvic_ipr15::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nvic_ipr15::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nvic_ipr15`]
-module"]
+For information about available fields see [`mod@nvic_ipr15`] module"]
 pub type NVIC_IPR15 = crate::Reg<nvic_ipr15::NVIC_IPR15_SPEC>;
 #[doc = "Sets or reads interrupt priorities"]
 pub mod nvic_ipr15;
@@ -3199,8 +3062,7 @@ pub mod nvic_ipr15;
 
 You can [`read`](crate::Reg::read) this register and get [`cpuid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cpuid`]
-module"]
+For information about available fields see [`mod@cpuid`] module"]
 pub type CPUID = crate::Reg<cpuid::CPUID_SPEC>;
 #[doc = "Provides identification information for the PE, including an implementer code for the device and a device ID number"]
 pub mod cpuid;
@@ -3208,8 +3070,7 @@ pub mod cpuid;
 
 You can [`read`](crate::Reg::read) this register and get [`icsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`icsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@icsr`]
-module"]
+For information about available fields see [`mod@icsr`] module"]
 pub type ICSR = crate::Reg<icsr::ICSR_SPEC>;
 #[doc = "Controls and provides status information for NMI, PendSV, SysTick and interrupts"]
 pub mod icsr;
@@ -3217,8 +3078,7 @@ pub mod icsr;
 
 You can [`read`](crate::Reg::read) this register and get [`vtor::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`vtor::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@vtor`]
-module"]
+For information about available fields see [`mod@vtor`] module"]
 pub type VTOR = crate::Reg<vtor::VTOR_SPEC>;
 #[doc = "The VTOR indicates the offset of the vector table base address from memory address 0x00000000."]
 pub mod vtor;
@@ -3226,8 +3086,7 @@ pub mod vtor;
 
 You can [`read`](crate::Reg::read) this register and get [`aircr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`aircr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@aircr`]
-module"]
+For information about available fields see [`mod@aircr`] module"]
 pub type AIRCR = crate::Reg<aircr::AIRCR_SPEC>;
 #[doc = "Use the Application Interrupt and Reset Control Register to: determine data endianness, clear all active state information from debug halt mode, request a system reset."]
 pub mod aircr;
@@ -3235,8 +3094,7 @@ pub mod aircr;
 
 You can [`read`](crate::Reg::read) this register and get [`scr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`scr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@scr`]
-module"]
+For information about available fields see [`mod@scr`] module"]
 pub type SCR = crate::Reg<scr::SCR_SPEC>;
 #[doc = "System Control Register. Use the System Control Register for power-management functions: signal to the system when the processor can enter a low power state, control how the processor enters and exits low power states."]
 pub mod scr;
@@ -3244,8 +3102,7 @@ pub mod scr;
 
 You can [`read`](crate::Reg::read) this register and get [`ccr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ccr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ccr`]
-module"]
+For information about available fields see [`mod@ccr`] module"]
 pub type CCR = crate::Reg<ccr::CCR_SPEC>;
 #[doc = "Sets or returns configuration and control data"]
 pub mod ccr;
@@ -3253,8 +3110,7 @@ pub mod ccr;
 
 You can [`read`](crate::Reg::read) this register and get [`shpr1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`shpr1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@shpr1`]
-module"]
+For information about available fields see [`mod@shpr1`] module"]
 pub type SHPR1 = crate::Reg<shpr1::SHPR1_SPEC>;
 #[doc = "Sets or returns priority for system handlers 4 - 7"]
 pub mod shpr1;
@@ -3262,8 +3118,7 @@ pub mod shpr1;
 
 You can [`read`](crate::Reg::read) this register and get [`shpr2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`shpr2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@shpr2`]
-module"]
+For information about available fields see [`mod@shpr2`] module"]
 pub type SHPR2 = crate::Reg<shpr2::SHPR2_SPEC>;
 #[doc = "Sets or returns priority for system handlers 8 - 11"]
 pub mod shpr2;
@@ -3271,8 +3126,7 @@ pub mod shpr2;
 
 You can [`read`](crate::Reg::read) this register and get [`shpr3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`shpr3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@shpr3`]
-module"]
+For information about available fields see [`mod@shpr3`] module"]
 pub type SHPR3 = crate::Reg<shpr3::SHPR3_SPEC>;
 #[doc = "Sets or returns priority for system handlers 12 - 15"]
 pub mod shpr3;
@@ -3280,8 +3134,7 @@ pub mod shpr3;
 
 You can [`read`](crate::Reg::read) this register and get [`shcsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`shcsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@shcsr`]
-module"]
+For information about available fields see [`mod@shcsr`] module"]
 pub type SHCSR = crate::Reg<shcsr::SHCSR_SPEC>;
 #[doc = "Provides access to the active and pending status of system exceptions"]
 pub mod shcsr;
@@ -3295,8 +3148,7 @@ pub mod shcsr;
 
 You can [`read`](crate::Reg::read) this register and get [`cfsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`cfsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cfsr`]
-module"]
+For information about available fields see [`mod@cfsr`] module"]
 pub type CFSR = crate::Reg<cfsr::CFSR_SPEC>;
 #[doc = "Contains the three Configurable Fault Status Registers.  
 
@@ -3310,8 +3162,7 @@ pub mod cfsr;
 
 You can [`read`](crate::Reg::read) this register and get [`hfsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`hfsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@hfsr`]
-module"]
+For information about available fields see [`mod@hfsr`] module"]
 pub type HFSR = crate::Reg<hfsr::HFSR_SPEC>;
 #[doc = "Shows the cause of any HardFaults"]
 pub mod hfsr;
@@ -3319,8 +3170,7 @@ pub mod hfsr;
 
 You can [`read`](crate::Reg::read) this register and get [`dfsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dfsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dfsr`]
-module"]
+For information about available fields see [`mod@dfsr`] module"]
 pub type DFSR = crate::Reg<dfsr::DFSR_SPEC>;
 #[doc = "Shows which debug event occurred"]
 pub mod dfsr;
@@ -3328,8 +3178,7 @@ pub mod dfsr;
 
 You can [`read`](crate::Reg::read) this register and get [`mmfar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mmfar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mmfar`]
-module"]
+For information about available fields see [`mod@mmfar`] module"]
 pub type MMFAR = crate::Reg<mmfar::MMFAR_SPEC>;
 #[doc = "Shows the address of the memory location that caused an MPU fault"]
 pub mod mmfar;
@@ -3337,8 +3186,7 @@ pub mod mmfar;
 
 You can [`read`](crate::Reg::read) this register and get [`bfar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`bfar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@bfar`]
-module"]
+For information about available fields see [`mod@bfar`] module"]
 pub type BFAR = crate::Reg<bfar::BFAR_SPEC>;
 #[doc = "Shows the address associated with a precise data access BusFault"]
 pub mod bfar;
@@ -3346,8 +3194,7 @@ pub mod bfar;
 
 You can [`read`](crate::Reg::read) this register and get [`id_pfr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_pfr0`]
-module"]
+For information about available fields see [`mod@id_pfr0`] module"]
 pub type ID_PFR0 = crate::Reg<id_pfr0::ID_PFR0_SPEC>;
 #[doc = "Gives top-level information about the instruction set supported by the PE"]
 pub mod id_pfr0;
@@ -3355,8 +3202,7 @@ pub mod id_pfr0;
 
 You can [`read`](crate::Reg::read) this register and get [`id_pfr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_pfr1`]
-module"]
+For information about available fields see [`mod@id_pfr1`] module"]
 pub type ID_PFR1 = crate::Reg<id_pfr1::ID_PFR1_SPEC>;
 #[doc = "Gives information about the programmers' model and Extensions support"]
 pub mod id_pfr1;
@@ -3364,8 +3210,7 @@ pub mod id_pfr1;
 
 You can [`read`](crate::Reg::read) this register and get [`id_dfr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_dfr0`]
-module"]
+For information about available fields see [`mod@id_dfr0`] module"]
 pub type ID_DFR0 = crate::Reg<id_dfr0::ID_DFR0_SPEC>;
 #[doc = "Provides top level information about the debug system"]
 pub mod id_dfr0;
@@ -3373,8 +3218,7 @@ pub mod id_dfr0;
 
 You can [`read`](crate::Reg::read) this register and get [`id_afr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_afr0`]
-module"]
+For information about available fields see [`mod@id_afr0`] module"]
 pub type ID_AFR0 = crate::Reg<id_afr0::ID_AFR0_SPEC>;
 #[doc = "Provides information about the IMPLEMENTATION DEFINED features of the PE"]
 pub mod id_afr0;
@@ -3382,8 +3226,7 @@ pub mod id_afr0;
 
 You can [`read`](crate::Reg::read) this register and get [`id_mmfr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_mmfr0`]
-module"]
+For information about available fields see [`mod@id_mmfr0`] module"]
 pub type ID_MMFR0 = crate::Reg<id_mmfr0::ID_MMFR0_SPEC>;
 #[doc = "Provides information about the implemented memory model and memory management support"]
 pub mod id_mmfr0;
@@ -3391,8 +3234,7 @@ pub mod id_mmfr0;
 
 You can [`read`](crate::Reg::read) this register and get [`id_mmfr1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`id_mmfr1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_mmfr1`]
-module"]
+For information about available fields see [`mod@id_mmfr1`] module"]
 pub type ID_MMFR1 = crate::Reg<id_mmfr1::ID_MMFR1_SPEC>;
 #[doc = "Provides information about the implemented memory model and memory management support"]
 pub mod id_mmfr1;
@@ -3400,8 +3242,7 @@ pub mod id_mmfr1;
 
 You can [`read`](crate::Reg::read) this register and get [`id_mmfr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_mmfr2`]
-module"]
+For information about available fields see [`mod@id_mmfr2`] module"]
 pub type ID_MMFR2 = crate::Reg<id_mmfr2::ID_MMFR2_SPEC>;
 #[doc = "Provides information about the implemented memory model and memory management support"]
 pub mod id_mmfr2;
@@ -3409,8 +3250,7 @@ pub mod id_mmfr2;
 
 You can [`read`](crate::Reg::read) this register and get [`id_mmfr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_mmfr3`]
-module"]
+For information about available fields see [`mod@id_mmfr3`] module"]
 pub type ID_MMFR3 = crate::Reg<id_mmfr3::ID_MMFR3_SPEC>;
 #[doc = "Provides information about the implemented memory model and memory management support"]
 pub mod id_mmfr3;
@@ -3418,8 +3258,7 @@ pub mod id_mmfr3;
 
 You can [`read`](crate::Reg::read) this register and get [`id_isar0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_isar0`]
-module"]
+For information about available fields see [`mod@id_isar0`] module"]
 pub type ID_ISAR0 = crate::Reg<id_isar0::ID_ISAR0_SPEC>;
 #[doc = "Provides information about the instruction set implemented by the PE"]
 pub mod id_isar0;
@@ -3427,8 +3266,7 @@ pub mod id_isar0;
 
 You can [`read`](crate::Reg::read) this register and get [`id_isar1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_isar1`]
-module"]
+For information about available fields see [`mod@id_isar1`] module"]
 pub type ID_ISAR1 = crate::Reg<id_isar1::ID_ISAR1_SPEC>;
 #[doc = "Provides information about the instruction set implemented by the PE"]
 pub mod id_isar1;
@@ -3436,8 +3274,7 @@ pub mod id_isar1;
 
 You can [`read`](crate::Reg::read) this register and get [`id_isar2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_isar2`]
-module"]
+For information about available fields see [`mod@id_isar2`] module"]
 pub type ID_ISAR2 = crate::Reg<id_isar2::ID_ISAR2_SPEC>;
 #[doc = "Provides information about the instruction set implemented by the PE"]
 pub mod id_isar2;
@@ -3445,8 +3282,7 @@ pub mod id_isar2;
 
 You can [`read`](crate::Reg::read) this register and get [`id_isar3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_isar3`]
-module"]
+For information about available fields see [`mod@id_isar3`] module"]
 pub type ID_ISAR3 = crate::Reg<id_isar3::ID_ISAR3_SPEC>;
 #[doc = "Provides information about the instruction set implemented by the PE"]
 pub mod id_isar3;
@@ -3454,8 +3290,7 @@ pub mod id_isar3;
 
 You can [`read`](crate::Reg::read) this register and get [`id_isar4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_isar4`]
-module"]
+For information about available fields see [`mod@id_isar4`] module"]
 pub type ID_ISAR4 = crate::Reg<id_isar4::ID_ISAR4_SPEC>;
 #[doc = "Provides information about the instruction set implemented by the PE"]
 pub mod id_isar4;
@@ -3463,8 +3298,7 @@ pub mod id_isar4;
 
 You can [`read`](crate::Reg::read) this register and get [`id_isar5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`id_isar5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@id_isar5`]
-module"]
+For information about available fields see [`mod@id_isar5`] module"]
 pub type ID_ISAR5 = crate::Reg<id_isar5::ID_ISAR5_SPEC>;
 #[doc = "Provides information about the instruction set implemented by the PE"]
 pub mod id_isar5;
@@ -3472,8 +3306,7 @@ pub mod id_isar5;
 
 You can [`read`](crate::Reg::read) this register and get [`ctr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctr`]
-module"]
+For information about available fields see [`mod@ctr`] module"]
 pub type CTR = crate::Reg<ctr::CTR_SPEC>;
 #[doc = "Provides information about the architecture of the caches. CTR is RES0 if CLIDR is zero."]
 pub mod ctr;
@@ -3481,8 +3314,7 @@ pub mod ctr;
 
 You can [`read`](crate::Reg::read) this register and get [`cpacr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`cpacr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cpacr`]
-module"]
+For information about available fields see [`mod@cpacr`] module"]
 pub type CPACR = crate::Reg<cpacr::CPACR_SPEC>;
 #[doc = "Specifies the access privileges for coprocessors and the FP Extension"]
 pub mod cpacr;
@@ -3490,8 +3322,7 @@ pub mod cpacr;
 
 You can [`read`](crate::Reg::read) this register and get [`nsacr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`nsacr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@nsacr`]
-module"]
+For information about available fields see [`mod@nsacr`] module"]
 pub type NSACR = crate::Reg<nsacr::NSACR_SPEC>;
 #[doc = "Defines the Non-secure access permissions for both the FP Extension and coprocessors CP0 to CP7"]
 pub mod nsacr;
@@ -3499,8 +3330,7 @@ pub mod nsacr;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_type::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_type`]
-module"]
+For information about available fields see [`mod@mpu_type`] module"]
 pub type MPU_TYPE = crate::Reg<mpu_type::MPU_TYPE_SPEC>;
 #[doc = "The MPU Type Register indicates how many regions the MPU `FTSSS supports"]
 pub mod mpu_type;
@@ -3508,8 +3338,7 @@ pub mod mpu_type;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_ctrl`]
-module"]
+For information about available fields see [`mod@mpu_ctrl`] module"]
 pub type MPU_CTRL = crate::Reg<mpu_ctrl::MPU_CTRL_SPEC>;
 #[doc = "Enables the MPU and, when the MPU is enabled, controls whether the default memory map is enabled as a background region for privileged accesses, and whether the MPU is enabled for HardFaults, NMIs, and exception handlers when FAULTMASK is set to 1"]
 pub mod mpu_ctrl;
@@ -3517,8 +3346,7 @@ pub mod mpu_ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_rnr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_rnr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_rnr`]
-module"]
+For information about available fields see [`mod@mpu_rnr`] module"]
 pub type MPU_RNR = crate::Reg<mpu_rnr::MPU_RNR_SPEC>;
 #[doc = "Selects the region currently accessed by MPU_RBAR and MPU_RLAR"]
 pub mod mpu_rnr;
@@ -3526,8 +3354,7 @@ pub mod mpu_rnr;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_rbar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_rbar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_rbar`]
-module"]
+For information about available fields see [`mod@mpu_rbar`] module"]
 pub type MPU_RBAR = crate::Reg<mpu_rbar::MPU_RBAR_SPEC>;
 #[doc = "Provides indirect read and write access to the base address of the currently selected MPU region `FTSSS"]
 pub mod mpu_rbar;
@@ -3535,8 +3362,7 @@ pub mod mpu_rbar;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_rlar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_rlar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_rlar`]
-module"]
+For information about available fields see [`mod@mpu_rlar`] module"]
 pub type MPU_RLAR = crate::Reg<mpu_rlar::MPU_RLAR_SPEC>;
 #[doc = "Provides indirect read and write access to the limit address of the currently selected MPU region `FTSSS"]
 pub mod mpu_rlar;
@@ -3544,8 +3370,7 @@ pub mod mpu_rlar;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_rbar_a1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_rbar_a1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_rbar_a1`]
-module"]
+For information about available fields see [`mod@mpu_rbar_a1`] module"]
 pub type MPU_RBAR_A1 = crate::Reg<mpu_rbar_a1::MPU_RBAR_A1_SPEC>;
 #[doc = "Provides indirect read and write access to the base address of the MPU region selected by MPU_RNR\\[7:2\\]:(1\\[1:0\\]) `FTSSS"]
 pub mod mpu_rbar_a1;
@@ -3553,8 +3378,7 @@ pub mod mpu_rbar_a1;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_rlar_a1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_rlar_a1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_rlar_a1`]
-module"]
+For information about available fields see [`mod@mpu_rlar_a1`] module"]
 pub type MPU_RLAR_A1 = crate::Reg<mpu_rlar_a1::MPU_RLAR_A1_SPEC>;
 #[doc = "Provides indirect read and write access to the limit address of the currently selected MPU region selected by MPU_RNR\\[7:2\\]:(1\\[1:0\\]) `FTSSS"]
 pub mod mpu_rlar_a1;
@@ -3562,8 +3386,7 @@ pub mod mpu_rlar_a1;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_rbar_a2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_rbar_a2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_rbar_a2`]
-module"]
+For information about available fields see [`mod@mpu_rbar_a2`] module"]
 pub type MPU_RBAR_A2 = crate::Reg<mpu_rbar_a2::MPU_RBAR_A2_SPEC>;
 #[doc = "Provides indirect read and write access to the base address of the MPU region selected by MPU_RNR\\[7:2\\]:(2\\[1:0\\]) `FTSSS"]
 pub mod mpu_rbar_a2;
@@ -3571,8 +3394,7 @@ pub mod mpu_rbar_a2;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_rlar_a2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_rlar_a2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_rlar_a2`]
-module"]
+For information about available fields see [`mod@mpu_rlar_a2`] module"]
 pub type MPU_RLAR_A2 = crate::Reg<mpu_rlar_a2::MPU_RLAR_A2_SPEC>;
 #[doc = "Provides indirect read and write access to the limit address of the currently selected MPU region selected by MPU_RNR\\[7:2\\]:(2\\[1:0\\]) `FTSSS"]
 pub mod mpu_rlar_a2;
@@ -3580,8 +3402,7 @@ pub mod mpu_rlar_a2;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_rbar_a3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_rbar_a3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_rbar_a3`]
-module"]
+For information about available fields see [`mod@mpu_rbar_a3`] module"]
 pub type MPU_RBAR_A3 = crate::Reg<mpu_rbar_a3::MPU_RBAR_A3_SPEC>;
 #[doc = "Provides indirect read and write access to the base address of the MPU region selected by MPU_RNR\\[7:2\\]:(3\\[1:0\\]) `FTSSS"]
 pub mod mpu_rbar_a3;
@@ -3589,8 +3410,7 @@ pub mod mpu_rbar_a3;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_rlar_a3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_rlar_a3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_rlar_a3`]
-module"]
+For information about available fields see [`mod@mpu_rlar_a3`] module"]
 pub type MPU_RLAR_A3 = crate::Reg<mpu_rlar_a3::MPU_RLAR_A3_SPEC>;
 #[doc = "Provides indirect read and write access to the limit address of the currently selected MPU region selected by MPU_RNR\\[7:2\\]:(3\\[1:0\\]) `FTSSS"]
 pub mod mpu_rlar_a3;
@@ -3598,8 +3418,7 @@ pub mod mpu_rlar_a3;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_mair0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_mair0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_mair0`]
-module"]
+For information about available fields see [`mod@mpu_mair0`] module"]
 pub type MPU_MAIR0 = crate::Reg<mpu_mair0::MPU_MAIR0_SPEC>;
 #[doc = "Along with MPU_MAIR1, provides the memory attribute encodings corresponding to the AttrIndex values"]
 pub mod mpu_mair0;
@@ -3607,8 +3426,7 @@ pub mod mpu_mair0;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_mair1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_mair1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_mair1`]
-module"]
+For information about available fields see [`mod@mpu_mair1`] module"]
 pub type MPU_MAIR1 = crate::Reg<mpu_mair1::MPU_MAIR1_SPEC>;
 #[doc = "Along with MPU_MAIR0, provides the memory attribute encodings corresponding to the AttrIndex values"]
 pub mod mpu_mair1;
@@ -3616,8 +3434,7 @@ pub mod mpu_mair1;
 
 You can [`read`](crate::Reg::read) this register and get [`sau_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sau_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sau_ctrl`]
-module"]
+For information about available fields see [`mod@sau_ctrl`] module"]
 pub type SAU_CTRL = crate::Reg<sau_ctrl::SAU_CTRL_SPEC>;
 #[doc = "Allows enabling of the Security Attribution Unit"]
 pub mod sau_ctrl;
@@ -3625,8 +3442,7 @@ pub mod sau_ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`sau_type::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sau_type`]
-module"]
+For information about available fields see [`mod@sau_type`] module"]
 pub type SAU_TYPE = crate::Reg<sau_type::SAU_TYPE_SPEC>;
 #[doc = "Indicates the number of regions implemented by the Security Attribution Unit"]
 pub mod sau_type;
@@ -3634,8 +3450,7 @@ pub mod sau_type;
 
 You can [`read`](crate::Reg::read) this register and get [`sau_rnr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sau_rnr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sau_rnr`]
-module"]
+For information about available fields see [`mod@sau_rnr`] module"]
 pub type SAU_RNR = crate::Reg<sau_rnr::SAU_RNR_SPEC>;
 #[doc = "Selects the region currently accessed by SAU_RBAR and SAU_RLAR"]
 pub mod sau_rnr;
@@ -3643,8 +3458,7 @@ pub mod sau_rnr;
 
 You can [`read`](crate::Reg::read) this register and get [`sau_rbar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sau_rbar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sau_rbar`]
-module"]
+For information about available fields see [`mod@sau_rbar`] module"]
 pub type SAU_RBAR = crate::Reg<sau_rbar::SAU_RBAR_SPEC>;
 #[doc = "Provides indirect read and write access to the base address of the currently selected SAU region"]
 pub mod sau_rbar;
@@ -3652,8 +3466,7 @@ pub mod sau_rbar;
 
 You can [`read`](crate::Reg::read) this register and get [`sau_rlar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sau_rlar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sau_rlar`]
-module"]
+For information about available fields see [`mod@sau_rlar`] module"]
 pub type SAU_RLAR = crate::Reg<sau_rlar::SAU_RLAR_SPEC>;
 #[doc = "Provides indirect read and write access to the limit address of the currently selected SAU region"]
 pub mod sau_rlar;
@@ -3661,8 +3474,7 @@ pub mod sau_rlar;
 
 You can [`read`](crate::Reg::read) this register and get [`sfsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sfsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sfsr`]
-module"]
+For information about available fields see [`mod@sfsr`] module"]
 pub type SFSR = crate::Reg<sfsr::SFSR_SPEC>;
 #[doc = "Provides information about any security related faults"]
 pub mod sfsr;
@@ -3670,8 +3482,7 @@ pub mod sfsr;
 
 You can [`read`](crate::Reg::read) this register and get [`sfar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sfar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sfar`]
-module"]
+For information about available fields see [`mod@sfar`] module"]
 pub type SFAR = crate::Reg<sfar::SFAR_SPEC>;
 #[doc = "Shows the address of the memory location that caused a Security violation"]
 pub mod sfar;
@@ -3679,8 +3490,7 @@ pub mod sfar;
 
 You can [`read`](crate::Reg::read) this register and get [`dhcsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dhcsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dhcsr`]
-module"]
+For information about available fields see [`mod@dhcsr`] module"]
 pub type DHCSR = crate::Reg<dhcsr::DHCSR_SPEC>;
 #[doc = "Controls halting debug"]
 pub mod dhcsr;
@@ -3688,8 +3498,7 @@ pub mod dhcsr;
 
 You can [`read`](crate::Reg::read) this register and get [`dcrsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dcrsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dcrsr`]
-module"]
+For information about available fields see [`mod@dcrsr`] module"]
 pub type DCRSR = crate::Reg<dcrsr::DCRSR_SPEC>;
 #[doc = "With the DCRDR, provides debug access to the general-purpose registers, special-purpose registers, and the FP extension registers. A write to the DCRSR specifies the register to transfer, whether the transfer is a read or write, and starts the transfer"]
 pub mod dcrsr;
@@ -3697,8 +3506,7 @@ pub mod dcrsr;
 
 You can [`read`](crate::Reg::read) this register and get [`dcrdr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dcrdr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dcrdr`]
-module"]
+For information about available fields see [`mod@dcrdr`] module"]
 pub type DCRDR = crate::Reg<dcrdr::DCRDR_SPEC>;
 #[doc = "With the DCRSR, provides debug access to the general-purpose registers, special-purpose registers, and the FP Extension registers. If the Main Extension is implemented, it can also be used for message passing between an external debugger and a debug agent running on the PE"]
 pub mod dcrdr;
@@ -3706,8 +3514,7 @@ pub mod dcrdr;
 
 You can [`read`](crate::Reg::read) this register and get [`demcr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`demcr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@demcr`]
-module"]
+For information about available fields see [`mod@demcr`] module"]
 pub type DEMCR = crate::Reg<demcr::DEMCR_SPEC>;
 #[doc = "Manages vector catch behavior and DebugMonitor handling when debugging"]
 pub mod demcr;
@@ -3715,8 +3522,7 @@ pub mod demcr;
 
 You can [`read`](crate::Reg::read) this register and get [`dscsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dscsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dscsr`]
-module"]
+For information about available fields see [`mod@dscsr`] module"]
 pub type DSCSR = crate::Reg<dscsr::DSCSR_SPEC>;
 #[doc = "Provides control and status information for Secure debug"]
 pub mod dscsr;
@@ -3724,8 +3530,7 @@ pub mod dscsr;
 
 You can [`read`](crate::Reg::read) this register and get [`stir::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`stir::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@stir`]
-module"]
+For information about available fields see [`mod@stir`] module"]
 pub type STIR = crate::Reg<stir::STIR_SPEC>;
 #[doc = "Provides a mechanism for software to generate an interrupt"]
 pub mod stir;
@@ -3733,8 +3538,7 @@ pub mod stir;
 
 You can [`read`](crate::Reg::read) this register and get [`fpccr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fpccr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fpccr`]
-module"]
+For information about available fields see [`mod@fpccr`] module"]
 pub type FPCCR = crate::Reg<fpccr::FPCCR_SPEC>;
 #[doc = "Holds control data for the Floating-point extension"]
 pub mod fpccr;
@@ -3742,8 +3546,7 @@ pub mod fpccr;
 
 You can [`read`](crate::Reg::read) this register and get [`fpcar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fpcar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fpcar`]
-module"]
+For information about available fields see [`mod@fpcar`] module"]
 pub type FPCAR = crate::Reg<fpcar::FPCAR_SPEC>;
 #[doc = "Holds the location of the unpopulated floating-point register space allocated on an exception stack frame"]
 pub mod fpcar;
@@ -3751,8 +3554,7 @@ pub mod fpcar;
 
 You can [`read`](crate::Reg::read) this register and get [`fpdscr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`fpdscr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@fpdscr`]
-module"]
+For information about available fields see [`mod@fpdscr`] module"]
 pub type FPDSCR = crate::Reg<fpdscr::FPDSCR_SPEC>;
 #[doc = "Holds the default values for the floating-point status control data that the PE assigns to the FPSCR when it creates a new floating-point context"]
 pub mod fpdscr;
@@ -3760,8 +3562,7 @@ pub mod fpdscr;
 
 You can [`read`](crate::Reg::read) this register and get [`mvfr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mvfr0`]
-module"]
+For information about available fields see [`mod@mvfr0`] module"]
 pub type MVFR0 = crate::Reg<mvfr0::MVFR0_SPEC>;
 #[doc = "Describes the features provided by the Floating-point Extension"]
 pub mod mvfr0;
@@ -3769,8 +3570,7 @@ pub mod mvfr0;
 
 You can [`read`](crate::Reg::read) this register and get [`mvfr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mvfr1`]
-module"]
+For information about available fields see [`mod@mvfr1`] module"]
 pub type MVFR1 = crate::Reg<mvfr1::MVFR1_SPEC>;
 #[doc = "Describes the features provided by the Floating-point Extension"]
 pub mod mvfr1;
@@ -3778,8 +3578,7 @@ pub mod mvfr1;
 
 You can [`read`](crate::Reg::read) this register and get [`mvfr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mvfr2`]
-module"]
+For information about available fields see [`mod@mvfr2`] module"]
 pub type MVFR2 = crate::Reg<mvfr2::MVFR2_SPEC>;
 #[doc = "Describes the features provided by the Floating-point Extension"]
 pub mod mvfr2;
@@ -3787,8 +3586,7 @@ pub mod mvfr2;
 
 You can [`read`](crate::Reg::read) this register and get [`ddevarch::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ddevarch`]
-module"]
+For information about available fields see [`mod@ddevarch`] module"]
 pub type DDEVARCH = crate::Reg<ddevarch::DDEVARCH_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod ddevarch;
@@ -3796,8 +3594,7 @@ pub mod ddevarch;
 
 You can [`read`](crate::Reg::read) this register and get [`ddevtype::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ddevtype`]
-module"]
+For information about available fields see [`mod@ddevtype`] module"]
 pub type DDEVTYPE = crate::Reg<ddevtype::DDEVTYPE_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod ddevtype;
@@ -3805,8 +3602,7 @@ pub mod ddevtype;
 
 You can [`read`](crate::Reg::read) this register and get [`dpidr4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dpidr4`]
-module"]
+For information about available fields see [`mod@dpidr4`] module"]
 pub type DPIDR4 = crate::Reg<dpidr4::DPIDR4_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dpidr4;
@@ -3814,8 +3610,7 @@ pub mod dpidr4;
 
 You can [`read`](crate::Reg::read) this register and get [`dpidr5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dpidr5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dpidr5`]
-module"]
+For information about available fields see [`mod@dpidr5`] module"]
 pub type DPIDR5 = crate::Reg<dpidr5::DPIDR5_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dpidr5;
@@ -3823,8 +3618,7 @@ pub mod dpidr5;
 
 You can [`read`](crate::Reg::read) this register and get [`dpidr6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dpidr6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dpidr6`]
-module"]
+For information about available fields see [`mod@dpidr6`] module"]
 pub type DPIDR6 = crate::Reg<dpidr6::DPIDR6_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dpidr6;
@@ -3832,8 +3626,7 @@ pub mod dpidr6;
 
 You can [`read`](crate::Reg::read) this register and get [`dpidr7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dpidr7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dpidr7`]
-module"]
+For information about available fields see [`mod@dpidr7`] module"]
 pub type DPIDR7 = crate::Reg<dpidr7::DPIDR7_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dpidr7;
@@ -3841,8 +3634,7 @@ pub mod dpidr7;
 
 You can [`read`](crate::Reg::read) this register and get [`dpidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dpidr0`]
-module"]
+For information about available fields see [`mod@dpidr0`] module"]
 pub type DPIDR0 = crate::Reg<dpidr0::DPIDR0_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dpidr0;
@@ -3850,8 +3642,7 @@ pub mod dpidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`dpidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dpidr1`]
-module"]
+For information about available fields see [`mod@dpidr1`] module"]
 pub type DPIDR1 = crate::Reg<dpidr1::DPIDR1_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dpidr1;
@@ -3859,8 +3650,7 @@ pub mod dpidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`dpidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dpidr2`]
-module"]
+For information about available fields see [`mod@dpidr2`] module"]
 pub type DPIDR2 = crate::Reg<dpidr2::DPIDR2_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dpidr2;
@@ -3868,8 +3658,7 @@ pub mod dpidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`dpidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dpidr3`]
-module"]
+For information about available fields see [`mod@dpidr3`] module"]
 pub type DPIDR3 = crate::Reg<dpidr3::DPIDR3_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dpidr3;
@@ -3877,8 +3666,7 @@ pub mod dpidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`dcidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dcidr0`]
-module"]
+For information about available fields see [`mod@dcidr0`] module"]
 pub type DCIDR0 = crate::Reg<dcidr0::DCIDR0_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dcidr0;
@@ -3886,8 +3674,7 @@ pub mod dcidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`dcidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dcidr1`]
-module"]
+For information about available fields see [`mod@dcidr1`] module"]
 pub type DCIDR1 = crate::Reg<dcidr1::DCIDR1_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dcidr1;
@@ -3895,8 +3682,7 @@ pub mod dcidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`dcidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dcidr2`]
-module"]
+For information about available fields see [`mod@dcidr2`] module"]
 pub type DCIDR2 = crate::Reg<dcidr2::DCIDR2_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dcidr2;
@@ -3904,8 +3690,7 @@ pub mod dcidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`dcidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dcidr3`]
-module"]
+For information about available fields see [`mod@dcidr3`] module"]
 pub type DCIDR3 = crate::Reg<dcidr3::DCIDR3_SPEC>;
 #[doc = "Provides CoreSight discovery information for the SCS"]
 pub mod dcidr3;
@@ -3913,8 +3698,7 @@ pub mod dcidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`trcprgctlr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcprgctlr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcprgctlr`]
-module"]
+For information about available fields see [`mod@trcprgctlr`] module"]
 pub type TRCPRGCTLR = crate::Reg<trcprgctlr::TRCPRGCTLR_SPEC>;
 #[doc = "Programming Control Register"]
 pub mod trcprgctlr;
@@ -3922,8 +3706,7 @@ pub mod trcprgctlr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcstatr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcstatr`]
-module"]
+For information about available fields see [`mod@trcstatr`] module"]
 pub type TRCSTATR = crate::Reg<trcstatr::TRCSTATR_SPEC>;
 #[doc = "The TRCSTATR indicates the ETM-Teal status"]
 pub mod trcstatr;
@@ -3931,8 +3714,7 @@ pub mod trcstatr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcconfigr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcconfigr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcconfigr`]
-module"]
+For information about available fields see [`mod@trcconfigr`] module"]
 pub type TRCCONFIGR = crate::Reg<trcconfigr::TRCCONFIGR_SPEC>;
 #[doc = "The TRCCONFIGR sets the basic tracing options for the trace unit"]
 pub mod trcconfigr;
@@ -3940,8 +3722,7 @@ pub mod trcconfigr;
 
 You can [`read`](crate::Reg::read) this register and get [`trceventctl0r::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trceventctl0r::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trceventctl0r`]
-module"]
+For information about available fields see [`mod@trceventctl0r`] module"]
 pub type TRCEVENTCTL0R = crate::Reg<trceventctl0r::TRCEVENTCTL0R_SPEC>;
 #[doc = "The TRCEVENTCTL0R controls the tracing of events in the trace stream. The events also drive the ETM-Teal external outputs."]
 pub mod trceventctl0r;
@@ -3949,8 +3730,7 @@ pub mod trceventctl0r;
 
 You can [`read`](crate::Reg::read) this register and get [`trceventctl1r::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trceventctl1r::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trceventctl1r`]
-module"]
+For information about available fields see [`mod@trceventctl1r`] module"]
 pub type TRCEVENTCTL1R = crate::Reg<trceventctl1r::TRCEVENTCTL1R_SPEC>;
 #[doc = "The TRCEVENTCTL1R controls how the events selected by TRCEVENTCTL0R behave"]
 pub mod trceventctl1r;
@@ -3958,8 +3738,7 @@ pub mod trceventctl1r;
 
 You can [`read`](crate::Reg::read) this register and get [`trcstallctlr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcstallctlr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcstallctlr`]
-module"]
+For information about available fields see [`mod@trcstallctlr`] module"]
 pub type TRCSTALLCTLR = crate::Reg<trcstallctlr::TRCSTALLCTLR_SPEC>;
 #[doc = "The TRCSTALLCTLR enables ETM-Teal to stall the processor if the ETM-Teal FIFO goes over the programmed level to minimize risk of overflow"]
 pub mod trcstallctlr;
@@ -3967,8 +3746,7 @@ pub mod trcstallctlr;
 
 You can [`read`](crate::Reg::read) this register and get [`trctsctlr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trctsctlr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trctsctlr`]
-module"]
+For information about available fields see [`mod@trctsctlr`] module"]
 pub type TRCTSCTLR = crate::Reg<trctsctlr::TRCTSCTLR_SPEC>;
 #[doc = "The TRCTSCTLR controls the insertion of global timestamps into the trace stream. A timestamp is always inserted into the instruction trace stream"]
 pub mod trctsctlr;
@@ -3976,8 +3754,7 @@ pub mod trctsctlr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcsyncpr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcsyncpr`]
-module"]
+For information about available fields see [`mod@trcsyncpr`] module"]
 pub type TRCSYNCPR = crate::Reg<trcsyncpr::TRCSYNCPR_SPEC>;
 #[doc = "The TRCSYNCPR specifies the period of trace synchronization of the trace streams. TRCSYNCPR defines a number of bytes of trace between requests for trace synchronization. This value is always a power of two"]
 pub mod trcsyncpr;
@@ -3985,8 +3762,7 @@ pub mod trcsyncpr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcccctlr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcccctlr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcccctlr`]
-module"]
+For information about available fields see [`mod@trcccctlr`] module"]
 pub type TRCCCCTLR = crate::Reg<trcccctlr::TRCCCCTLR_SPEC>;
 #[doc = "The TRCCCCTLR sets the threshold value for instruction trace cycle counting. The threshold represents the minimum interval between cycle count trace packets"]
 pub mod trcccctlr;
@@ -3994,8 +3770,7 @@ pub mod trcccctlr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcvictlr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcvictlr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcvictlr`]
-module"]
+For information about available fields see [`mod@trcvictlr`] module"]
 pub type TRCVICTLR = crate::Reg<trcvictlr::TRCVICTLR_SPEC>;
 #[doc = "The TRCVICTLR controls instruction trace filtering"]
 pub mod trcvictlr;
@@ -4003,8 +3778,7 @@ pub mod trcvictlr;
 
 You can [`read`](crate::Reg::read) this register and get [`trccntrldvr0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trccntrldvr0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trccntrldvr0`]
-module"]
+For information about available fields see [`mod@trccntrldvr0`] module"]
 pub type TRCCNTRLDVR0 = crate::Reg<trccntrldvr0::TRCCNTRLDVR0_SPEC>;
 #[doc = "The TRCCNTRLDVR defines the reload value for the reduced function counter"]
 pub mod trccntrldvr0;
@@ -4012,8 +3786,7 @@ pub mod trccntrldvr0;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr8::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr8`]
-module"]
+For information about available fields see [`mod@trcidr8`] module"]
 pub type TRCIDR8 = crate::Reg<trcidr8::TRCIDR8_SPEC>;
 #[doc = "TRCIDR8"]
 pub mod trcidr8;
@@ -4021,8 +3794,7 @@ pub mod trcidr8;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr9::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr9`]
-module"]
+For information about available fields see [`mod@trcidr9`] module"]
 pub type TRCIDR9 = crate::Reg<trcidr9::TRCIDR9_SPEC>;
 #[doc = "TRCIDR9"]
 pub mod trcidr9;
@@ -4030,8 +3802,7 @@ pub mod trcidr9;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr10::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr10`]
-module"]
+For information about available fields see [`mod@trcidr10`] module"]
 pub type TRCIDR10 = crate::Reg<trcidr10::TRCIDR10_SPEC>;
 #[doc = "TRCIDR10"]
 pub mod trcidr10;
@@ -4039,8 +3810,7 @@ pub mod trcidr10;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr11::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr11`]
-module"]
+For information about available fields see [`mod@trcidr11`] module"]
 pub type TRCIDR11 = crate::Reg<trcidr11::TRCIDR11_SPEC>;
 #[doc = "TRCIDR11"]
 pub mod trcidr11;
@@ -4048,8 +3818,7 @@ pub mod trcidr11;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr12::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr12`]
-module"]
+For information about available fields see [`mod@trcidr12`] module"]
 pub type TRCIDR12 = crate::Reg<trcidr12::TRCIDR12_SPEC>;
 #[doc = "TRCIDR12"]
 pub mod trcidr12;
@@ -4057,8 +3826,7 @@ pub mod trcidr12;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr13::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr13`]
-module"]
+For information about available fields see [`mod@trcidr13`] module"]
 pub type TRCIDR13 = crate::Reg<trcidr13::TRCIDR13_SPEC>;
 #[doc = "TRCIDR13"]
 pub mod trcidr13;
@@ -4066,8 +3834,7 @@ pub mod trcidr13;
 
 You can [`read`](crate::Reg::read) this register and get [`trcimspec::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcimspec`]
-module"]
+For information about available fields see [`mod@trcimspec`] module"]
 pub type TRCIMSPEC = crate::Reg<trcimspec::TRCIMSPEC_SPEC>;
 #[doc = "The TRCIMSPEC shows the presence of any IMPLEMENTATION SPECIFIC features, and enables any features that are provided"]
 pub mod trcimspec;
@@ -4075,8 +3842,7 @@ pub mod trcimspec;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr0`]
-module"]
+For information about available fields see [`mod@trcidr0`] module"]
 pub type TRCIDR0 = crate::Reg<trcidr0::TRCIDR0_SPEC>;
 #[doc = "TRCIDR0"]
 pub mod trcidr0;
@@ -4084,8 +3850,7 @@ pub mod trcidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr1`]
-module"]
+For information about available fields see [`mod@trcidr1`] module"]
 pub type TRCIDR1 = crate::Reg<trcidr1::TRCIDR1_SPEC>;
 #[doc = "TRCIDR1"]
 pub mod trcidr1;
@@ -4093,8 +3858,7 @@ pub mod trcidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr2`]
-module"]
+For information about available fields see [`mod@trcidr2`] module"]
 pub type TRCIDR2 = crate::Reg<trcidr2::TRCIDR2_SPEC>;
 #[doc = "TRCIDR2"]
 pub mod trcidr2;
@@ -4102,8 +3866,7 @@ pub mod trcidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr3`]
-module"]
+For information about available fields see [`mod@trcidr3`] module"]
 pub type TRCIDR3 = crate::Reg<trcidr3::TRCIDR3_SPEC>;
 #[doc = "TRCIDR3"]
 pub mod trcidr3;
@@ -4111,8 +3874,7 @@ pub mod trcidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr4`]
-module"]
+For information about available fields see [`mod@trcidr4`] module"]
 pub type TRCIDR4 = crate::Reg<trcidr4::TRCIDR4_SPEC>;
 #[doc = "TRCIDR4"]
 pub mod trcidr4;
@@ -4120,8 +3882,7 @@ pub mod trcidr4;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr5::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr5`]
-module"]
+For information about available fields see [`mod@trcidr5`] module"]
 pub type TRCIDR5 = crate::Reg<trcidr5::TRCIDR5_SPEC>;
 #[doc = "TRCIDR5"]
 pub mod trcidr5;
@@ -4129,8 +3890,7 @@ pub mod trcidr5;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcidr6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr6`]
-module"]
+For information about available fields see [`mod@trcidr6`] module"]
 pub type TRCIDR6 = crate::Reg<trcidr6::TRCIDR6_SPEC>;
 #[doc = "TRCIDR6"]
 pub mod trcidr6;
@@ -4138,8 +3898,7 @@ pub mod trcidr6;
 
 You can [`read`](crate::Reg::read) this register and get [`trcidr7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcidr7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcidr7`]
-module"]
+For information about available fields see [`mod@trcidr7`] module"]
 pub type TRCIDR7 = crate::Reg<trcidr7::TRCIDR7_SPEC>;
 #[doc = "TRCIDR7"]
 pub mod trcidr7;
@@ -4147,8 +3906,7 @@ pub mod trcidr7;
 
 You can [`read`](crate::Reg::read) this register and get [`trcrsctlr2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcrsctlr2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcrsctlr2`]
-module"]
+For information about available fields see [`mod@trcrsctlr2`] module"]
 pub type TRCRSCTLR2 = crate::Reg<trcrsctlr2::TRCRSCTLR2_SPEC>;
 #[doc = "The TRCRSCTLR controls the trace resources"]
 pub mod trcrsctlr2;
@@ -4156,8 +3914,7 @@ pub mod trcrsctlr2;
 
 You can [`read`](crate::Reg::read) this register and get [`trcrsctlr3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcrsctlr3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcrsctlr3`]
-module"]
+For information about available fields see [`mod@trcrsctlr3`] module"]
 pub type TRCRSCTLR3 = crate::Reg<trcrsctlr3::TRCRSCTLR3_SPEC>;
 #[doc = "The TRCRSCTLR controls the trace resources"]
 pub mod trcrsctlr3;
@@ -4165,8 +3922,7 @@ pub mod trcrsctlr3;
 
 You can [`read`](crate::Reg::read) this register and get [`trcsscsr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcsscsr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcsscsr`]
-module"]
+For information about available fields see [`mod@trcsscsr`] module"]
 pub type TRCSSCSR = crate::Reg<trcsscsr::TRCSSCSR_SPEC>;
 #[doc = "Controls the corresponding single-shot comparator resource"]
 pub mod trcsscsr;
@@ -4174,8 +3930,7 @@ pub mod trcsscsr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcsspcicr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcsspcicr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcsspcicr`]
-module"]
+For information about available fields see [`mod@trcsspcicr`] module"]
 pub type TRCSSPCICR = crate::Reg<trcsspcicr::TRCSSPCICR_SPEC>;
 #[doc = "Selects the PE comparator inputs for Single-shot control"]
 pub mod trcsspcicr;
@@ -4183,8 +3938,7 @@ pub mod trcsspcicr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpdcr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcpdcr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpdcr`]
-module"]
+For information about available fields see [`mod@trcpdcr`] module"]
 pub type TRCPDCR = crate::Reg<trcpdcr::TRCPDCR_SPEC>;
 #[doc = "Requests the system to provide power to the trace unit"]
 pub mod trcpdcr;
@@ -4192,8 +3946,7 @@ pub mod trcpdcr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpdsr::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpdsr`]
-module"]
+For information about available fields see [`mod@trcpdsr`] module"]
 pub type TRCPDSR = crate::Reg<trcpdsr::TRCPDSR_SPEC>;
 #[doc = "Returns the following information about the trace unit: - OS Lock status. - Core power domain status. - Power interruption status"]
 pub mod trcpdsr;
@@ -4201,8 +3954,7 @@ pub mod trcpdsr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcitatbidr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcitatbidr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcitatbidr`]
-module"]
+For information about available fields see [`mod@trcitatbidr`] module"]
 pub type TRCITATBIDR = crate::Reg<trcitatbidr::TRCITATBIDR_SPEC>;
 #[doc = "Trace Integration ATB Identification Register"]
 pub mod trcitatbidr;
@@ -4210,8 +3962,7 @@ pub mod trcitatbidr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcitiatbinr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcitiatbinr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcitiatbinr`]
-module"]
+For information about available fields see [`mod@trcitiatbinr`] module"]
 pub type TRCITIATBINR = crate::Reg<trcitiatbinr::TRCITIATBINR_SPEC>;
 #[doc = "Trace Integration Instruction ATB In Register"]
 pub mod trcitiatbinr;
@@ -4219,8 +3970,7 @@ pub mod trcitiatbinr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcitiatboutr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcitiatboutr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcitiatboutr`]
-module"]
+For information about available fields see [`mod@trcitiatboutr`] module"]
 pub type TRCITIATBOUTR = crate::Reg<trcitiatboutr::TRCITIATBOUTR_SPEC>;
 #[doc = "Trace Integration Instruction ATB Out Register"]
 pub mod trcitiatboutr;
@@ -4228,8 +3978,7 @@ pub mod trcitiatboutr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcclaimset::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcclaimset::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcclaimset`]
-module"]
+For information about available fields see [`mod@trcclaimset`] module"]
 pub type TRCCLAIMSET = crate::Reg<trcclaimset::TRCCLAIMSET_SPEC>;
 #[doc = "Claim Tag Set Register"]
 pub mod trcclaimset;
@@ -4237,8 +3986,7 @@ pub mod trcclaimset;
 
 You can [`read`](crate::Reg::read) this register and get [`trcclaimclr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcclaimclr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcclaimclr`]
-module"]
+For information about available fields see [`mod@trcclaimclr`] module"]
 pub type TRCCLAIMCLR = crate::Reg<trcclaimclr::TRCCLAIMCLR_SPEC>;
 #[doc = "Claim Tag Clear Register"]
 pub mod trcclaimclr;
@@ -4246,8 +3994,7 @@ pub mod trcclaimclr;
 
 You can [`read`](crate::Reg::read) this register and get [`trcauthstatus::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcauthstatus`]
-module"]
+For information about available fields see [`mod@trcauthstatus`] module"]
 pub type TRCAUTHSTATUS = crate::Reg<trcauthstatus::TRCAUTHSTATUS_SPEC>;
 #[doc = "Returns the level of tracing that the trace unit can support"]
 pub mod trcauthstatus;
@@ -4255,8 +4002,7 @@ pub mod trcauthstatus;
 
 You can [`read`](crate::Reg::read) this register and get [`trcdevarch::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcdevarch`]
-module"]
+For information about available fields see [`mod@trcdevarch`] module"]
 pub type TRCDEVARCH = crate::Reg<trcdevarch::TRCDEVARCH_SPEC>;
 #[doc = "TRCDEVARCH"]
 pub mod trcdevarch;
@@ -4264,8 +4010,7 @@ pub mod trcdevarch;
 
 You can [`read`](crate::Reg::read) this register and get [`trcdevid::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcdevid::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcdevid`]
-module"]
+For information about available fields see [`mod@trcdevid`] module"]
 pub type TRCDEVID = crate::Reg<trcdevid::TRCDEVID_SPEC>;
 #[doc = "TRCDEVID"]
 pub mod trcdevid;
@@ -4273,8 +4018,7 @@ pub mod trcdevid;
 
 You can [`read`](crate::Reg::read) this register and get [`trcdevtype::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcdevtype`]
-module"]
+For information about available fields see [`mod@trcdevtype`] module"]
 pub type TRCDEVTYPE = crate::Reg<trcdevtype::TRCDEVTYPE_SPEC>;
 #[doc = "TRCDEVTYPE"]
 pub mod trcdevtype;
@@ -4282,8 +4026,7 @@ pub mod trcdevtype;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpidr4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpidr4`]
-module"]
+For information about available fields see [`mod@trcpidr4`] module"]
 pub type TRCPIDR4 = crate::Reg<trcpidr4::TRCPIDR4_SPEC>;
 #[doc = "TRCPIDR4"]
 pub mod trcpidr4;
@@ -4291,8 +4034,7 @@ pub mod trcpidr4;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpidr5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcpidr5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpidr5`]
-module"]
+For information about available fields see [`mod@trcpidr5`] module"]
 pub type TRCPIDR5 = crate::Reg<trcpidr5::TRCPIDR5_SPEC>;
 #[doc = "TRCPIDR5"]
 pub mod trcpidr5;
@@ -4300,8 +4042,7 @@ pub mod trcpidr5;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpidr6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcpidr6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpidr6`]
-module"]
+For information about available fields see [`mod@trcpidr6`] module"]
 pub type TRCPIDR6 = crate::Reg<trcpidr6::TRCPIDR6_SPEC>;
 #[doc = "TRCPIDR6"]
 pub mod trcpidr6;
@@ -4309,8 +4050,7 @@ pub mod trcpidr6;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpidr7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trcpidr7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpidr7`]
-module"]
+For information about available fields see [`mod@trcpidr7`] module"]
 pub type TRCPIDR7 = crate::Reg<trcpidr7::TRCPIDR7_SPEC>;
 #[doc = "TRCPIDR7"]
 pub mod trcpidr7;
@@ -4318,8 +4058,7 @@ pub mod trcpidr7;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpidr0`]
-module"]
+For information about available fields see [`mod@trcpidr0`] module"]
 pub type TRCPIDR0 = crate::Reg<trcpidr0::TRCPIDR0_SPEC>;
 #[doc = "TRCPIDR0"]
 pub mod trcpidr0;
@@ -4327,8 +4066,7 @@ pub mod trcpidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpidr1`]
-module"]
+For information about available fields see [`mod@trcpidr1`] module"]
 pub type TRCPIDR1 = crate::Reg<trcpidr1::TRCPIDR1_SPEC>;
 #[doc = "TRCPIDR1"]
 pub mod trcpidr1;
@@ -4336,8 +4074,7 @@ pub mod trcpidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpidr2`]
-module"]
+For information about available fields see [`mod@trcpidr2`] module"]
 pub type TRCPIDR2 = crate::Reg<trcpidr2::TRCPIDR2_SPEC>;
 #[doc = "TRCPIDR2"]
 pub mod trcpidr2;
@@ -4345,8 +4082,7 @@ pub mod trcpidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`trcpidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trcpidr3`]
-module"]
+For information about available fields see [`mod@trcpidr3`] module"]
 pub type TRCPIDR3 = crate::Reg<trcpidr3::TRCPIDR3_SPEC>;
 #[doc = "TRCPIDR3"]
 pub mod trcpidr3;
@@ -4354,8 +4090,7 @@ pub mod trcpidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`trccidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trccidr0`]
-module"]
+For information about available fields see [`mod@trccidr0`] module"]
 pub type TRCCIDR0 = crate::Reg<trccidr0::TRCCIDR0_SPEC>;
 #[doc = "TRCCIDR0"]
 pub mod trccidr0;
@@ -4363,8 +4098,7 @@ pub mod trccidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`trccidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trccidr1`]
-module"]
+For information about available fields see [`mod@trccidr1`] module"]
 pub type TRCCIDR1 = crate::Reg<trccidr1::TRCCIDR1_SPEC>;
 #[doc = "TRCCIDR1"]
 pub mod trccidr1;
@@ -4372,8 +4106,7 @@ pub mod trccidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`trccidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trccidr2`]
-module"]
+For information about available fields see [`mod@trccidr2`] module"]
 pub type TRCCIDR2 = crate::Reg<trccidr2::TRCCIDR2_SPEC>;
 #[doc = "TRCCIDR2"]
 pub mod trccidr2;
@@ -4381,8 +4114,7 @@ pub mod trccidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`trccidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trccidr3`]
-module"]
+For information about available fields see [`mod@trccidr3`] module"]
 pub type TRCCIDR3 = crate::Reg<trccidr3::TRCCIDR3_SPEC>;
 #[doc = "TRCCIDR3"]
 pub mod trccidr3;
@@ -4390,8 +4122,7 @@ pub mod trccidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`cticontrol::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`cticontrol::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cticontrol`]
-module"]
+For information about available fields see [`mod@cticontrol`] module"]
 pub type CTICONTROL = crate::Reg<cticontrol::CTICONTROL_SPEC>;
 #[doc = "CTI Control Register"]
 pub mod cticontrol;
@@ -4399,8 +4130,7 @@ pub mod cticontrol;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiintack::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiintack::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiintack`]
-module"]
+For information about available fields see [`mod@ctiintack`] module"]
 pub type CTIINTACK = crate::Reg<ctiintack::CTIINTACK_SPEC>;
 #[doc = "CTI Interrupt Acknowledge Register"]
 pub mod ctiintack;
@@ -4408,8 +4138,7 @@ pub mod ctiintack;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiappset::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiappset::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiappset`]
-module"]
+For information about available fields see [`mod@ctiappset`] module"]
 pub type CTIAPPSET = crate::Reg<ctiappset::CTIAPPSET_SPEC>;
 #[doc = "CTI Application Trigger Set Register"]
 pub mod ctiappset;
@@ -4417,8 +4146,7 @@ pub mod ctiappset;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiappclear::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiappclear::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiappclear`]
-module"]
+For information about available fields see [`mod@ctiappclear`] module"]
 pub type CTIAPPCLEAR = crate::Reg<ctiappclear::CTIAPPCLEAR_SPEC>;
 #[doc = "CTI Application Trigger Clear Register"]
 pub mod ctiappclear;
@@ -4426,8 +4154,7 @@ pub mod ctiappclear;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiapppulse::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiapppulse::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiapppulse`]
-module"]
+For information about available fields see [`mod@ctiapppulse`] module"]
 pub type CTIAPPPULSE = crate::Reg<ctiapppulse::CTIAPPPULSE_SPEC>;
 #[doc = "CTI Application Pulse Register"]
 pub mod ctiapppulse;
@@ -4435,8 +4162,7 @@ pub mod ctiapppulse;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiinen0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiinen0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiinen0`]
-module"]
+For information about available fields see [`mod@ctiinen0`] module"]
 pub type CTIINEN0 = crate::Reg<ctiinen0::CTIINEN0_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiinen0;
@@ -4444,8 +4170,7 @@ pub mod ctiinen0;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiinen1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiinen1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiinen1`]
-module"]
+For information about available fields see [`mod@ctiinen1`] module"]
 pub type CTIINEN1 = crate::Reg<ctiinen1::CTIINEN1_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiinen1;
@@ -4453,8 +4178,7 @@ pub mod ctiinen1;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiinen2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiinen2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiinen2`]
-module"]
+For information about available fields see [`mod@ctiinen2`] module"]
 pub type CTIINEN2 = crate::Reg<ctiinen2::CTIINEN2_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiinen2;
@@ -4462,8 +4186,7 @@ pub mod ctiinen2;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiinen3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiinen3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiinen3`]
-module"]
+For information about available fields see [`mod@ctiinen3`] module"]
 pub type CTIINEN3 = crate::Reg<ctiinen3::CTIINEN3_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiinen3;
@@ -4471,8 +4194,7 @@ pub mod ctiinen3;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiinen4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiinen4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiinen4`]
-module"]
+For information about available fields see [`mod@ctiinen4`] module"]
 pub type CTIINEN4 = crate::Reg<ctiinen4::CTIINEN4_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiinen4;
@@ -4480,8 +4202,7 @@ pub mod ctiinen4;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiinen5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiinen5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiinen5`]
-module"]
+For information about available fields see [`mod@ctiinen5`] module"]
 pub type CTIINEN5 = crate::Reg<ctiinen5::CTIINEN5_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiinen5;
@@ -4489,8 +4210,7 @@ pub mod ctiinen5;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiinen6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiinen6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiinen6`]
-module"]
+For information about available fields see [`mod@ctiinen6`] module"]
 pub type CTIINEN6 = crate::Reg<ctiinen6::CTIINEN6_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiinen6;
@@ -4498,8 +4218,7 @@ pub mod ctiinen6;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiinen7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiinen7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiinen7`]
-module"]
+For information about available fields see [`mod@ctiinen7`] module"]
 pub type CTIINEN7 = crate::Reg<ctiinen7::CTIINEN7_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiinen7;
@@ -4507,8 +4226,7 @@ pub mod ctiinen7;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiouten0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiouten0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiouten0`]
-module"]
+For information about available fields see [`mod@ctiouten0`] module"]
 pub type CTIOUTEN0 = crate::Reg<ctiouten0::CTIOUTEN0_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiouten0;
@@ -4516,8 +4234,7 @@ pub mod ctiouten0;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiouten1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiouten1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiouten1`]
-module"]
+For information about available fields see [`mod@ctiouten1`] module"]
 pub type CTIOUTEN1 = crate::Reg<ctiouten1::CTIOUTEN1_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiouten1;
@@ -4525,8 +4242,7 @@ pub mod ctiouten1;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiouten2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiouten2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiouten2`]
-module"]
+For information about available fields see [`mod@ctiouten2`] module"]
 pub type CTIOUTEN2 = crate::Reg<ctiouten2::CTIOUTEN2_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiouten2;
@@ -4534,8 +4250,7 @@ pub mod ctiouten2;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiouten3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiouten3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiouten3`]
-module"]
+For information about available fields see [`mod@ctiouten3`] module"]
 pub type CTIOUTEN3 = crate::Reg<ctiouten3::CTIOUTEN3_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiouten3;
@@ -4543,8 +4258,7 @@ pub mod ctiouten3;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiouten4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiouten4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiouten4`]
-module"]
+For information about available fields see [`mod@ctiouten4`] module"]
 pub type CTIOUTEN4 = crate::Reg<ctiouten4::CTIOUTEN4_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiouten4;
@@ -4552,8 +4266,7 @@ pub mod ctiouten4;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiouten5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiouten5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiouten5`]
-module"]
+For information about available fields see [`mod@ctiouten5`] module"]
 pub type CTIOUTEN5 = crate::Reg<ctiouten5::CTIOUTEN5_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiouten5;
@@ -4561,8 +4274,7 @@ pub mod ctiouten5;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiouten6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiouten6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiouten6`]
-module"]
+For information about available fields see [`mod@ctiouten6`] module"]
 pub type CTIOUTEN6 = crate::Reg<ctiouten6::CTIOUTEN6_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiouten6;
@@ -4570,8 +4282,7 @@ pub mod ctiouten6;
 
 You can [`read`](crate::Reg::read) this register and get [`ctiouten7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctiouten7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctiouten7`]
-module"]
+For information about available fields see [`mod@ctiouten7`] module"]
 pub type CTIOUTEN7 = crate::Reg<ctiouten7::CTIOUTEN7_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctiouten7;
@@ -4579,8 +4290,7 @@ pub mod ctiouten7;
 
 You can [`read`](crate::Reg::read) this register and get [`ctitriginstatus::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctitriginstatus`]
-module"]
+For information about available fields see [`mod@ctitriginstatus`] module"]
 pub type CTITRIGINSTATUS = crate::Reg<ctitriginstatus::CTITRIGINSTATUS_SPEC>;
 #[doc = "CTI Trigger to Channel Enable Registers"]
 pub mod ctitriginstatus;
@@ -4588,8 +4298,7 @@ pub mod ctitriginstatus;
 
 You can [`read`](crate::Reg::read) this register and get [`ctitrigoutstatus::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctitrigoutstatus`]
-module"]
+For information about available fields see [`mod@ctitrigoutstatus`] module"]
 pub type CTITRIGOUTSTATUS = crate::Reg<ctitrigoutstatus::CTITRIGOUTSTATUS_SPEC>;
 #[doc = "CTI Trigger In Status Register"]
 pub mod ctitrigoutstatus;
@@ -4597,8 +4306,7 @@ pub mod ctitrigoutstatus;
 
 You can [`read`](crate::Reg::read) this register and get [`ctichinstatus::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctichinstatus`]
-module"]
+For information about available fields see [`mod@ctichinstatus`] module"]
 pub type CTICHINSTATUS = crate::Reg<ctichinstatus::CTICHINSTATUS_SPEC>;
 #[doc = "CTI Channel In Status Register"]
 pub mod ctichinstatus;
@@ -4606,8 +4314,7 @@ pub mod ctichinstatus;
 
 You can [`read`](crate::Reg::read) this register and get [`ctigate::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctigate::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctigate`]
-module"]
+For information about available fields see [`mod@ctigate`] module"]
 pub type CTIGATE = crate::Reg<ctigate::CTIGATE_SPEC>;
 #[doc = "Enable CTI Channel Gate register"]
 pub mod ctigate;
@@ -4615,8 +4322,7 @@ pub mod ctigate;
 
 You can [`read`](crate::Reg::read) this register and get [`asicctl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`asicctl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@asicctl`]
-module"]
+For information about available fields see [`mod@asicctl`] module"]
 pub type ASICCTL = crate::Reg<asicctl::ASICCTL_SPEC>;
 #[doc = "External Multiplexer Control register"]
 pub mod asicctl;
@@ -4624,8 +4330,7 @@ pub mod asicctl;
 
 You can [`read`](crate::Reg::read) this register and get [`itchout::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itchout::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itchout`]
-module"]
+For information about available fields see [`mod@itchout`] module"]
 pub type ITCHOUT = crate::Reg<itchout::ITCHOUT_SPEC>;
 #[doc = "Integration Test Channel Output register"]
 pub mod itchout;
@@ -4633,8 +4338,7 @@ pub mod itchout;
 
 You can [`read`](crate::Reg::read) this register and get [`ittrigout::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ittrigout::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ittrigout`]
-module"]
+For information about available fields see [`mod@ittrigout`] module"]
 pub type ITTRIGOUT = crate::Reg<ittrigout::ITTRIGOUT_SPEC>;
 #[doc = "Integration Test Trigger Output register"]
 pub mod ittrigout;
@@ -4642,8 +4346,7 @@ pub mod ittrigout;
 
 You can [`read`](crate::Reg::read) this register and get [`itchin::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itchin`]
-module"]
+For information about available fields see [`mod@itchin`] module"]
 pub type ITCHIN = crate::Reg<itchin::ITCHIN_SPEC>;
 #[doc = "Integration Test Channel Input register"]
 pub mod itchin;
@@ -4651,8 +4354,7 @@ pub mod itchin;
 
 You can [`read`](crate::Reg::read) this register and get [`itctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`itctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@itctrl`]
-module"]
+For information about available fields see [`mod@itctrl`] module"]
 pub type ITCTRL = crate::Reg<itctrl::ITCTRL_SPEC>;
 #[doc = "Integration Mode Control register"]
 pub mod itctrl;
@@ -4660,8 +4362,7 @@ pub mod itctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`devarch::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@devarch`]
-module"]
+For information about available fields see [`mod@devarch`] module"]
 pub type DEVARCH = crate::Reg<devarch::DEVARCH_SPEC>;
 #[doc = "Device Architecture register"]
 pub mod devarch;
@@ -4669,8 +4370,7 @@ pub mod devarch;
 
 You can [`read`](crate::Reg::read) this register and get [`devid::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@devid`]
-module"]
+For information about available fields see [`mod@devid`] module"]
 pub type DEVID = crate::Reg<devid::DEVID_SPEC>;
 #[doc = "Device Configuration register"]
 pub mod devid;
@@ -4678,8 +4378,7 @@ pub mod devid;
 
 You can [`read`](crate::Reg::read) this register and get [`devtype::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@devtype`]
-module"]
+For information about available fields see [`mod@devtype`] module"]
 pub type DEVTYPE = crate::Reg<devtype::DEVTYPE_SPEC>;
 #[doc = "Device Type Identifier register"]
 pub mod devtype;
@@ -4687,8 +4386,7 @@ pub mod devtype;
 
 You can [`read`](crate::Reg::read) this register and get [`pidr4::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pidr4`]
-module"]
+For information about available fields see [`mod@pidr4`] module"]
 pub type PIDR4 = crate::Reg<pidr4::PIDR4_SPEC>;
 #[doc = "CoreSight Peripheral ID4"]
 pub mod pidr4;
@@ -4696,8 +4394,7 @@ pub mod pidr4;
 
 You can [`read`](crate::Reg::read) this register and get [`pidr5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pidr5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pidr5`]
-module"]
+For information about available fields see [`mod@pidr5`] module"]
 pub type PIDR5 = crate::Reg<pidr5::PIDR5_SPEC>;
 #[doc = "CoreSight Peripheral ID5"]
 pub mod pidr5;
@@ -4705,8 +4402,7 @@ pub mod pidr5;
 
 You can [`read`](crate::Reg::read) this register and get [`pidr6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pidr6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pidr6`]
-module"]
+For information about available fields see [`mod@pidr6`] module"]
 pub type PIDR6 = crate::Reg<pidr6::PIDR6_SPEC>;
 #[doc = "CoreSight Peripheral ID6"]
 pub mod pidr6;
@@ -4714,8 +4410,7 @@ pub mod pidr6;
 
 You can [`read`](crate::Reg::read) this register and get [`pidr7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pidr7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pidr7`]
-module"]
+For information about available fields see [`mod@pidr7`] module"]
 pub type PIDR7 = crate::Reg<pidr7::PIDR7_SPEC>;
 #[doc = "CoreSight Peripheral ID7"]
 pub mod pidr7;
@@ -4723,8 +4418,7 @@ pub mod pidr7;
 
 You can [`read`](crate::Reg::read) this register and get [`pidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pidr0`]
-module"]
+For information about available fields see [`mod@pidr0`] module"]
 pub type PIDR0 = crate::Reg<pidr0::PIDR0_SPEC>;
 #[doc = "CoreSight Peripheral ID0"]
 pub mod pidr0;
@@ -4732,8 +4426,7 @@ pub mod pidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`pidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pidr1`]
-module"]
+For information about available fields see [`mod@pidr1`] module"]
 pub type PIDR1 = crate::Reg<pidr1::PIDR1_SPEC>;
 #[doc = "CoreSight Peripheral ID1"]
 pub mod pidr1;
@@ -4741,8 +4434,7 @@ pub mod pidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`pidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pidr2`]
-module"]
+For information about available fields see [`mod@pidr2`] module"]
 pub type PIDR2 = crate::Reg<pidr2::PIDR2_SPEC>;
 #[doc = "CoreSight Peripheral ID2"]
 pub mod pidr2;
@@ -4750,8 +4442,7 @@ pub mod pidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`pidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pidr3`]
-module"]
+For information about available fields see [`mod@pidr3`] module"]
 pub type PIDR3 = crate::Reg<pidr3::PIDR3_SPEC>;
 #[doc = "CoreSight Peripheral ID3"]
 pub mod pidr3;
@@ -4759,8 +4450,7 @@ pub mod pidr3;
 
 You can [`read`](crate::Reg::read) this register and get [`cidr0::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cidr0`]
-module"]
+For information about available fields see [`mod@cidr0`] module"]
 pub type CIDR0 = crate::Reg<cidr0::CIDR0_SPEC>;
 #[doc = "CoreSight Component ID0"]
 pub mod cidr0;
@@ -4768,8 +4458,7 @@ pub mod cidr0;
 
 You can [`read`](crate::Reg::read) this register and get [`cidr1::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cidr1`]
-module"]
+For information about available fields see [`mod@cidr1`] module"]
 pub type CIDR1 = crate::Reg<cidr1::CIDR1_SPEC>;
 #[doc = "CoreSight Component ID1"]
 pub mod cidr1;
@@ -4777,8 +4466,7 @@ pub mod cidr1;
 
 You can [`read`](crate::Reg::read) this register and get [`cidr2::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cidr2`]
-module"]
+For information about available fields see [`mod@cidr2`] module"]
 pub type CIDR2 = crate::Reg<cidr2::CIDR2_SPEC>;
 #[doc = "CoreSight Component ID2"]
 pub mod cidr2;
@@ -4786,8 +4474,7 @@ pub mod cidr2;
 
 You can [`read`](crate::Reg::read) this register and get [`cidr3::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cidr3`]
-module"]
+For information about available fields see [`mod@cidr3`] module"]
 pub type CIDR3 = crate::Reg<cidr3::CIDR3_SPEC>;
 #[doc = "CoreSight Component ID3"]
 pub mod cidr3;

@@ -87,49 +87,41 @@ impl W {
 
  This bit is writable from a Non-secure, Privileged context, if and only if the NSP bit is set."]
     #[inline(always)]
-    #[must_use]
     pub fn nsu(&mut self) -> NSU_W<SYSINFO_SPEC> {
         NSU_W::new(self, 0)
     }
     #[doc = "Bit 1 - If 1, SYSINFO can be accessed from a Non-secure, Privileged context."]
     #[inline(always)]
-    #[must_use]
     pub fn nsp(&mut self) -> NSP_W<SYSINFO_SPEC> {
         NSP_W::new(self, 1)
     }
     #[doc = "Bit 2 - If 1, and SP is also set, SYSINFO can be accessed from a Secure, Unprivileged context."]
     #[inline(always)]
-    #[must_use]
     pub fn su(&mut self) -> SU_W<SYSINFO_SPEC> {
         SU_W::new(self, 2)
     }
     #[doc = "Bit 3 - If 1, SYSINFO can be accessed from a Secure, Privileged context."]
     #[inline(always)]
-    #[must_use]
     pub fn sp(&mut self) -> SP_W<SYSINFO_SPEC> {
         SP_W::new(self, 3)
     }
     #[doc = "Bit 4 - If 1, SYSINFO can be accessed by core 0, at security/privilege levels permitted by SP/NSP/SU/NSU in this register."]
     #[inline(always)]
-    #[must_use]
     pub fn core0(&mut self) -> CORE0_W<SYSINFO_SPEC> {
         CORE0_W::new(self, 4)
     }
     #[doc = "Bit 5 - If 1, SYSINFO can be accessed by core 1, at security/privilege levels permitted by SP/NSP/SU/NSU in this register."]
     #[inline(always)]
-    #[must_use]
     pub fn core1(&mut self) -> CORE1_W<SYSINFO_SPEC> {
         CORE1_W::new(self, 5)
     }
     #[doc = "Bit 6 - If 1, SYSINFO can be accessed by the DMA, at security/privilege levels permitted by SP/NSP/SU/NSU in this register."]
     #[inline(always)]
-    #[must_use]
     pub fn dma(&mut self) -> DMA_W<SYSINFO_SPEC> {
         DMA_W::new(self, 6)
     }
     #[doc = "Bit 7 - If 1, SYSINFO can be accessed by the debugger, at security/privilege levels permitted by SP/NSP/SU/NSU in this register."]
     #[inline(always)]
-    #[must_use]
     pub fn dbg(&mut self) -> DBG_W<SYSINFO_SPEC> {
         DBG_W::new(self, 7)
     }
@@ -150,8 +142,6 @@ impl crate::Readable for SYSINFO_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sysinfo::W`](W) writer structure"]
 impl crate::Writable for SYSINFO_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SYSINFO to value 0xff"]
 impl crate::Resettable for SYSINFO_SPEC {

@@ -32,7 +32,6 @@ impl W {
 
  * Bit 0: Force POWMAN clock to switch to LPOSC, by asserting its WDRESET input. This must be set before initiating a watchdog reset of the RSM from a stage that includes CLOCKS, if POWMAN is running from clk_ref at the point that the watchdog reset takes place. Otherwise, the short pulse generated on clk_ref by the reset of the CLOCKS block may affect POWMAN register state."]
     #[inline(always)]
-    #[must_use]
     pub fn auxctrl(&mut self) -> AUXCTRL_W<AUXCTRL_SPEC> {
         AUXCTRL_W::new(self, 0)
     }
@@ -49,10 +48,6 @@ impl crate::Readable for AUXCTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`auxctrl::W`](W) writer structure"]
 impl crate::Writable for AUXCTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets AUXCTRL to value 0"]
-impl crate::Resettable for AUXCTRL_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for AUXCTRL_SPEC {}

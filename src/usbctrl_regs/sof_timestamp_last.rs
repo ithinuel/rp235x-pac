@@ -19,6 +19,4 @@ impl crate::RegisterSpec for SOF_TIMESTAMP_LAST_SPEC {
 #[doc = "`read()` method returns [`sof_timestamp_last::R`](R) reader structure"]
 impl crate::Readable for SOF_TIMESTAMP_LAST_SPEC {}
 #[doc = "`reset()` method sets SOF_TIMESTAMP_LAST to value 0"]
-impl crate::Resettable for SOF_TIMESTAMP_LAST_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SOF_TIMESTAMP_LAST_SPEC {}

@@ -20,8 +20,7 @@ impl MPU_REG {
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_lar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_lar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_lar`]
-module"]
+For information about available fields see [`mod@mpu_lar`] module"]
 pub type MPU_LAR = crate::Reg<mpu_lar::MPU_LAR_SPEC>;
 #[doc = "Limit address register for MPU region 0. Writable only from a Secure, Privileged context, with the exception of the P bit."]
 pub mod mpu_lar;
@@ -29,8 +28,7 @@ pub mod mpu_lar;
 
 You can [`read`](crate::Reg::read) this register and get [`mpu_bar::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`mpu_bar::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@mpu_bar`]
-module"]
+For information about available fields see [`mod@mpu_bar`] module"]
 pub type MPU_BAR = crate::Reg<mpu_bar::MPU_BAR_SPEC>;
 #[doc = "Base address register for MPU region 0. Writable only from a Secure, Privileged context."]
 pub mod mpu_bar;

@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bit 4"]
     #[inline(always)]
-    #[must_use]
     pub fn gpiobase(&mut self) -> GPIOBASE_W<GPIOBASE_SPEC> {
         GPIOBASE_W::new(self, 4)
     }
@@ -35,10 +34,6 @@ impl crate::Readable for GPIOBASE_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`gpiobase::W`](W) writer structure"]
 impl crate::Writable for GPIOBASE_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets GPIOBASE to value 0"]
-impl crate::Resettable for GPIOBASE_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for GPIOBASE_SPEC {}

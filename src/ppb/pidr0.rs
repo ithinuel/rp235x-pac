@@ -1,11 +1,9 @@
 #[doc = "Register `PIDR0` reader"]
 pub type R = crate::R<PIDR0_SPEC>;
-#[doc = "Field `PART_0` reader - Bits\\[7:0\\]
-of the 12-bit part number of the component. The designer of the component assigns this part number."]
+#[doc = "Field `PART_0` reader - Bits\\[7:0\\] of the 12-bit part number of the component. The designer of the component assigns this part number."]
 pub type PART_0_R = crate::FieldReader;
 impl R {
-    #[doc = "Bits 0:7 - Bits\\[7:0\\]
-of the 12-bit part number of the component. The designer of the component assigns this part number."]
+    #[doc = "Bits 0:7 - Bits\\[7:0\\] of the 12-bit part number of the component. The designer of the component assigns this part number."]
     #[inline(always)]
     pub fn part_0(&self) -> PART_0_R {
         PART_0_R::new((self.bits & 0xff) as u8)

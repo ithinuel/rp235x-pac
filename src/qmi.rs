@@ -210,8 +210,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`direct_csr::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`direct_csr::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@direct_csr`]
-module"]
+For information about available fields see [`mod@direct_csr`] module"]
 pub type DIRECT_CSR = crate::Reg<direct_csr::DIRECT_CSR_SPEC>;
 #[doc = "Control and status for direct serial mode  
 
@@ -221,8 +220,7 @@ pub mod direct_csr;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`direct_tx::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@direct_tx`]
-module"]
+For information about available fields see [`mod@direct_tx`] module"]
 pub type DIRECT_TX = crate::Reg<direct_tx::DIRECT_TX_SPEC>;
 #[doc = "Transmit FIFO for direct mode"]
 pub mod direct_tx;
@@ -230,8 +228,7 @@ pub mod direct_tx;
 
 You can [`read`](crate::Reg::read) this register and get [`direct_rx::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@direct_rx`]
-module"]
+For information about available fields see [`mod@direct_rx`] module"]
 pub type DIRECT_RX = crate::Reg<direct_rx::DIRECT_RX_SPEC>;
 #[doc = "Receive FIFO for direct mode"]
 pub mod direct_rx;
@@ -239,8 +236,7 @@ pub mod direct_rx;
 
 You can [`read`](crate::Reg::read) this register and get [`m0_timing::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m0_timing::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m0_timing`]
-module"]
+For information about available fields see [`mod@m0_timing`] module"]
 pub type M0_TIMING = crate::Reg<m0_timing::M0_TIMING_SPEC>;
 #[doc = "Timing configuration register for memory address window 0."]
 pub mod m0_timing;
@@ -252,8 +248,7 @@ pub mod m0_timing;
 
 You can [`read`](crate::Reg::read) this register and get [`m0_rfmt::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m0_rfmt::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m0_rfmt`]
-module"]
+For information about available fields see [`mod@m0_rfmt`] module"]
 pub type M0_RFMT = crate::Reg<m0_rfmt::M0_RFMT_SPEC>;
 #[doc = "Read transfer format configuration for memory address window 0.  
 
@@ -267,8 +262,7 @@ pub mod m0_rfmt;
 
 You can [`read`](crate::Reg::read) this register and get [`m0_rcmd::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m0_rcmd::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m0_rcmd`]
-module"]
+For information about available fields see [`mod@m0_rcmd`] module"]
 pub type M0_RCMD = crate::Reg<m0_rcmd::M0_RCMD_SPEC>;
 #[doc = "Command constants used for reads from memory address window 0.  
 
@@ -282,8 +276,7 @@ pub mod m0_rcmd;
 
 You can [`read`](crate::Reg::read) this register and get [`m0_wfmt::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m0_wfmt::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m0_wfmt`]
-module"]
+For information about available fields see [`mod@m0_wfmt`] module"]
 pub type M0_WFMT = crate::Reg<m0_wfmt::M0_WFMT_SPEC>;
 #[doc = "Write transfer format configuration for memory address window 0.  
 
@@ -297,8 +290,7 @@ pub mod m0_wfmt;
 
 You can [`read`](crate::Reg::read) this register and get [`m0_wcmd::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m0_wcmd::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m0_wcmd`]
-module"]
+For information about available fields see [`mod@m0_wcmd`] module"]
 pub type M0_WCMD = crate::Reg<m0_wcmd::M0_WCMD_SPEC>;
 #[doc = "Command constants used for writes to memory address window 0.  
 
@@ -308,8 +300,7 @@ pub mod m0_wcmd;
 
 You can [`read`](crate::Reg::read) this register and get [`m1_timing::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m1_timing::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m1_timing`]
-module"]
+For information about available fields see [`mod@m1_timing`] module"]
 pub type M1_TIMING = crate::Reg<m1_timing::M1_TIMING_SPEC>;
 #[doc = "Timing configuration register for memory address window 1."]
 pub mod m1_timing;
@@ -321,8 +312,7 @@ pub mod m1_timing;
 
 You can [`read`](crate::Reg::read) this register and get [`m1_rfmt::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m1_rfmt::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m1_rfmt`]
-module"]
+For information about available fields see [`mod@m1_rfmt`] module"]
 pub type M1_RFMT = crate::Reg<m1_rfmt::M1_RFMT_SPEC>;
 #[doc = "Read transfer format configuration for memory address window 1.  
 
@@ -336,8 +326,7 @@ pub mod m1_rfmt;
 
 You can [`read`](crate::Reg::read) this register and get [`m1_rcmd::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m1_rcmd::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m1_rcmd`]
-module"]
+For information about available fields see [`mod@m1_rcmd`] module"]
 pub type M1_RCMD = crate::Reg<m1_rcmd::M1_RCMD_SPEC>;
 #[doc = "Command constants used for reads from memory address window 1.  
 
@@ -351,8 +340,7 @@ pub mod m1_rcmd;
 
 You can [`read`](crate::Reg::read) this register and get [`m1_wfmt::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m1_wfmt::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m1_wfmt`]
-module"]
+For information about available fields see [`mod@m1_wfmt`] module"]
 pub type M1_WFMT = crate::Reg<m1_wfmt::M1_WFMT_SPEC>;
 #[doc = "Write transfer format configuration for memory address window 1.  
 
@@ -366,8 +354,7 @@ pub mod m1_wfmt;
 
 You can [`read`](crate::Reg::read) this register and get [`m1_wcmd::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`m1_wcmd::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@m1_wcmd`]
-module"]
+For information about available fields see [`mod@m1_wcmd`] module"]
 pub type M1_WCMD = crate::Reg<m1_wcmd::M1_WCMD_SPEC>;
 #[doc = "Command constants used for writes to memory address window 1.  
 
@@ -383,8 +370,7 @@ pub mod m1_wcmd;
 
 You can [`read`](crate::Reg::read) this register and get [`atrans0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`atrans0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@atrans0`]
-module"]
+For information about available fields see [`mod@atrans0`] module"]
 pub type ATRANS0 = crate::Reg<atrans0::ATRANS0_SPEC>;
 #[doc = "Configure address translation for XIP virtual addresses 0x000000 through 0x3fffff (a 4 MiB window starting at +0 MiB).  
 
@@ -404,8 +390,7 @@ pub mod atrans0;
 
 You can [`read`](crate::Reg::read) this register and get [`atrans1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`atrans1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@atrans1`]
-module"]
+For information about available fields see [`mod@atrans1`] module"]
 pub type ATRANS1 = crate::Reg<atrans1::ATRANS1_SPEC>;
 #[doc = "Configure address translation for XIP virtual addresses 0x400000 through 0x7fffff (a 4 MiB window starting at +4 MiB).  
 
@@ -425,8 +410,7 @@ pub mod atrans1;
 
 You can [`read`](crate::Reg::read) this register and get [`atrans2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`atrans2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@atrans2`]
-module"]
+For information about available fields see [`mod@atrans2`] module"]
 pub type ATRANS2 = crate::Reg<atrans2::ATRANS2_SPEC>;
 #[doc = "Configure address translation for XIP virtual addresses 0x800000 through 0xbfffff (a 4 MiB window starting at +8 MiB).  
 
@@ -446,8 +430,7 @@ pub mod atrans2;
 
 You can [`read`](crate::Reg::read) this register and get [`atrans3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`atrans3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@atrans3`]
-module"]
+For information about available fields see [`mod@atrans3`] module"]
 pub type ATRANS3 = crate::Reg<atrans3::ATRANS3_SPEC>;
 #[doc = "Configure address translation for XIP virtual addresses 0xc00000 through 0xffffff (a 4 MiB window starting at +12 MiB).  
 
@@ -467,8 +450,7 @@ pub mod atrans3;
 
 You can [`read`](crate::Reg::read) this register and get [`atrans4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`atrans4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@atrans4`]
-module"]
+For information about available fields see [`mod@atrans4`] module"]
 pub type ATRANS4 = crate::Reg<atrans4::ATRANS4_SPEC>;
 #[doc = "Configure address translation for XIP virtual addresses 0x1000000 through 0x13fffff (a 4 MiB window starting at +16 MiB).  
 
@@ -488,8 +470,7 @@ pub mod atrans4;
 
 You can [`read`](crate::Reg::read) this register and get [`atrans5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`atrans5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@atrans5`]
-module"]
+For information about available fields see [`mod@atrans5`] module"]
 pub type ATRANS5 = crate::Reg<atrans5::ATRANS5_SPEC>;
 #[doc = "Configure address translation for XIP virtual addresses 0x1400000 through 0x17fffff (a 4 MiB window starting at +20 MiB).  
 
@@ -509,8 +490,7 @@ pub mod atrans5;
 
 You can [`read`](crate::Reg::read) this register and get [`atrans6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`atrans6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@atrans6`]
-module"]
+For information about available fields see [`mod@atrans6`] module"]
 pub type ATRANS6 = crate::Reg<atrans6::ATRANS6_SPEC>;
 #[doc = "Configure address translation for XIP virtual addresses 0x1800000 through 0x1bfffff (a 4 MiB window starting at +24 MiB).  
 
@@ -530,8 +510,7 @@ pub mod atrans6;
 
 You can [`read`](crate::Reg::read) this register and get [`atrans7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`atrans7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@atrans7`]
-module"]
+For information about available fields see [`mod@atrans7`] module"]
 pub type ATRANS7 = crate::Reg<atrans7::ATRANS7_SPEC>;
 #[doc = "Configure address translation for XIP virtual addresses 0x1c00000 through 0x1ffffff (a 4 MiB window starting at +28 MiB).  
 

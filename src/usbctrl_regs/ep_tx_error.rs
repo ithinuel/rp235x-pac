@@ -151,97 +151,81 @@ impl R {
 impl W {
     #[doc = "Bits 0:1"]
     #[inline(always)]
-    #[must_use]
     pub fn ep0(&mut self) -> EP0_W<EP_TX_ERROR_SPEC> {
         EP0_W::new(self, 0)
     }
     #[doc = "Bits 2:3"]
     #[inline(always)]
-    #[must_use]
     pub fn ep1(&mut self) -> EP1_W<EP_TX_ERROR_SPEC> {
         EP1_W::new(self, 2)
     }
     #[doc = "Bits 4:5"]
     #[inline(always)]
-    #[must_use]
     pub fn ep2(&mut self) -> EP2_W<EP_TX_ERROR_SPEC> {
         EP2_W::new(self, 4)
     }
     #[doc = "Bits 6:7"]
     #[inline(always)]
-    #[must_use]
     pub fn ep3(&mut self) -> EP3_W<EP_TX_ERROR_SPEC> {
         EP3_W::new(self, 6)
     }
     #[doc = "Bits 8:9"]
     #[inline(always)]
-    #[must_use]
     pub fn ep4(&mut self) -> EP4_W<EP_TX_ERROR_SPEC> {
         EP4_W::new(self, 8)
     }
     #[doc = "Bits 10:11"]
     #[inline(always)]
-    #[must_use]
     pub fn ep5(&mut self) -> EP5_W<EP_TX_ERROR_SPEC> {
         EP5_W::new(self, 10)
     }
     #[doc = "Bits 12:13"]
     #[inline(always)]
-    #[must_use]
     pub fn ep6(&mut self) -> EP6_W<EP_TX_ERROR_SPEC> {
         EP6_W::new(self, 12)
     }
     #[doc = "Bits 14:15"]
     #[inline(always)]
-    #[must_use]
     pub fn ep7(&mut self) -> EP7_W<EP_TX_ERROR_SPEC> {
         EP7_W::new(self, 14)
     }
     #[doc = "Bits 16:17"]
     #[inline(always)]
-    #[must_use]
     pub fn ep8(&mut self) -> EP8_W<EP_TX_ERROR_SPEC> {
         EP8_W::new(self, 16)
     }
     #[doc = "Bits 18:19"]
     #[inline(always)]
-    #[must_use]
     pub fn ep9(&mut self) -> EP9_W<EP_TX_ERROR_SPEC> {
         EP9_W::new(self, 18)
     }
     #[doc = "Bits 20:21"]
     #[inline(always)]
-    #[must_use]
     pub fn ep10(&mut self) -> EP10_W<EP_TX_ERROR_SPEC> {
         EP10_W::new(self, 20)
     }
     #[doc = "Bits 22:23"]
     #[inline(always)]
-    #[must_use]
     pub fn ep11(&mut self) -> EP11_W<EP_TX_ERROR_SPEC> {
         EP11_W::new(self, 22)
     }
     #[doc = "Bits 24:25"]
     #[inline(always)]
-    #[must_use]
     pub fn ep12(&mut self) -> EP12_W<EP_TX_ERROR_SPEC> {
         EP12_W::new(self, 24)
     }
     #[doc = "Bits 26:27"]
     #[inline(always)]
-    #[must_use]
     pub fn ep13(&mut self) -> EP13_W<EP_TX_ERROR_SPEC> {
         EP13_W::new(self, 26)
     }
     #[doc = "Bits 28:29"]
     #[inline(always)]
-    #[must_use]
     pub fn ep14(&mut self) -> EP14_W<EP_TX_ERROR_SPEC> {
         EP14_W::new(self, 28)
     }
     #[doc = "Bits 30:31"]
     #[inline(always)]
-    #[must_use]
     pub fn ep15(&mut self) -> EP15_W<EP_TX_ERROR_SPEC> {
         EP15_W::new(self, 30)
     }
@@ -258,10 +242,7 @@ impl crate::Readable for EP_TX_ERROR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ep_tx_error::W`](W) writer structure"]
 impl crate::Writable for EP_TX_ERROR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
     const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0xffff_ffff;
 }
 #[doc = "`reset()` method sets EP_TX_ERROR to value 0"]
-impl crate::Resettable for EP_TX_ERROR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for EP_TX_ERROR_SPEC {}

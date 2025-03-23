@@ -26,8 +26,7 @@ impl TICK {
 
 You can [`read`](crate::Reg::read) this register and get [`ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ctrl`]
-module"]
+For information about available fields see [`mod@ctrl`] module"]
 pub type CTRL = crate::Reg<ctrl::CTRL_SPEC>;
 #[doc = "Controls the tick generator"]
 pub mod ctrl;
@@ -35,8 +34,7 @@ pub mod ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`cycles::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`cycles::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cycles`]
-module"]
+For information about available fields see [`mod@cycles`] module"]
 pub type CYCLES = crate::Reg<cycles::CYCLES_SPEC>;
 #[doc = ""]
 pub mod cycles;
@@ -44,8 +42,7 @@ pub mod cycles;
 
 You can [`read`](crate::Reg::read) this register and get [`count::R`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@count`]
-module"]
+For information about available fields see [`mod@count`] module"]
 pub type COUNT = crate::Reg<count::COUNT_SPEC>;
 #[doc = ""]
 pub mod count;

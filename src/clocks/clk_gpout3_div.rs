@@ -25,13 +25,11 @@ impl R {
 impl W {
     #[doc = "Bits 0:15 - Fractional component of the divisor, can be changed on-the-fly"]
     #[inline(always)]
-    #[must_use]
     pub fn frac(&mut self) -> FRAC_W<CLK_GPOUT3_DIV_SPEC> {
         FRAC_W::new(self, 0)
     }
     #[doc = "Bits 16:31 - Integer part of clock divisor, 0 -> max+1, can be changed on-the-fly"]
     #[inline(always)]
-    #[must_use]
     pub fn int(&mut self) -> INT_W<CLK_GPOUT3_DIV_SPEC> {
         INT_W::new(self, 16)
     }
@@ -48,8 +46,6 @@ impl crate::Readable for CLK_GPOUT3_DIV_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`clk_gpout3_div::W`](W) writer structure"]
 impl crate::Writable for CLK_GPOUT3_DIV_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CLK_GPOUT3_DIV to value 0x0001_0000"]
 impl crate::Resettable for CLK_GPOUT3_DIV_SPEC {

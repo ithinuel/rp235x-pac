@@ -20,7 +20,6 @@ impl W {
     #[doc = "Bits 0:3 - Configure DP instance ID for SWD multidrop selection.   
  Recommend that this is NOT changed until you require debug access in multi-chip environment"]
     #[inline(always)]
-    #[must_use]
     pub fn dp_instid(&mut self) -> DP_INSTID_W<DBGCONFIG_SPEC> {
         DP_INSTID_W::new(self, 0)
     }
@@ -37,10 +36,6 @@ impl crate::Readable for DBGCONFIG_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dbgconfig::W`](W) writer structure"]
 impl crate::Writable for DBGCONFIG_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DBGCONFIG to value 0"]
-impl crate::Resettable for DBGCONFIG_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for DBGCONFIG_SPEC {}

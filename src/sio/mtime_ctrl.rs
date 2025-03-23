@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Timer enable bit. When 0, the timer will not increment automatically."]
     #[inline(always)]
-    #[must_use]
     pub fn en(&mut self) -> EN_W<MTIME_CTRL_SPEC> {
         EN_W::new(self, 0)
     }
     #[doc = "Bit 1 - If 1, increment the timer every cycle (i.e. run directly from the system clock), rather than incrementing on the system-level timer tick input."]
     #[inline(always)]
-    #[must_use]
     pub fn fullspeed(&mut self) -> FULLSPEED_W<MTIME_CTRL_SPEC> {
         FULLSPEED_W::new(self, 1)
     }
     #[doc = "Bit 2 - If 1, the timer pauses when core 0 is in the debug halt state."]
     #[inline(always)]
-    #[must_use]
     pub fn dbgpause_core0(&mut self) -> DBGPAUSE_CORE0_W<MTIME_CTRL_SPEC> {
         DBGPAUSE_CORE0_W::new(self, 2)
     }
     #[doc = "Bit 3 - If 1, the timer pauses when core 1 is in the debug halt state."]
     #[inline(always)]
-    #[must_use]
     pub fn dbgpause_core1(&mut self) -> DBGPAUSE_CORE1_W<MTIME_CTRL_SPEC> {
         DBGPAUSE_CORE1_W::new(self, 3)
     }
@@ -80,8 +76,6 @@ impl crate::Readable for MTIME_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`mtime_ctrl::W`](W) writer structure"]
 impl crate::Writable for MTIME_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets MTIME_CTRL to value 0x0d"]
 impl crate::Resettable for MTIME_CTRL_SPEC {

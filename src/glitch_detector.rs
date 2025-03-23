@@ -62,8 +62,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`arm::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`arm::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@arm`]
-module"]
+For information about available fields see [`mod@arm`] module"]
 pub type ARM = crate::Reg<arm::ARM_SPEC>;
 #[doc = "Forcibly arm the glitch detectors, if they are not already armed by OTP. When armed, any individual detector trigger will cause a restart of the switched core power domain's power-on reset state machine.  
 
@@ -75,8 +74,7 @@ pub mod arm;
 
 You can [`read`](crate::Reg::read) this register and get [`disarm::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`disarm::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@disarm`]
-module"]
+For information about available fields see [`mod@disarm`] module"]
 pub type DISARM = crate::Reg<disarm::DISARM_SPEC>;
 #[doc = ""]
 pub mod disarm;
@@ -86,8 +84,7 @@ pub mod disarm;
 
 You can [`read`](crate::Reg::read) this register and get [`sensitivity::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sensitivity::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sensitivity`]
-module"]
+For information about available fields see [`mod@sensitivity`] module"]
 pub type SENSITIVITY = crate::Reg<sensitivity::SENSITIVITY_SPEC>;
 #[doc = "Adjust the sensitivity of glitch detectors to values other than their OTP-provided defaults.  
 
@@ -97,8 +94,7 @@ pub mod sensitivity;
 
 You can [`read`](crate::Reg::read) this register and get [`lock::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`lock::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@lock`]
-module"]
+For information about available fields see [`mod@lock`] module"]
 pub type LOCK = crate::Reg<lock::LOCK_SPEC>;
 #[doc = ""]
 pub mod lock;
@@ -110,8 +106,7 @@ pub mod lock;
 
 You can [`read`](crate::Reg::read) this register and get [`trig_status::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trig_status::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trig_status`]
-module"]
+For information about available fields see [`mod@trig_status`] module"]
 pub type TRIG_STATUS = crate::Reg<trig_status::TRIG_STATUS_SPEC>;
 #[doc = "Set when a detector output triggers. Write-1-clear.  
 
@@ -127,8 +122,7 @@ pub mod trig_status;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trig_force::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trig_force`]
-module"]
+For information about available fields see [`mod@trig_force`] module"]
 pub type TRIG_FORCE = crate::Reg<trig_force::TRIG_FORCE_SPEC>;
 #[doc = "Simulate the firing of one or more detectors. Writing ones to this register will set the matching bits in STATUS_TRIG.  
 

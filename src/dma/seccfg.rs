@@ -26,8 +26,7 @@ impl SECCFG {
 
 You can [`read`](crate::Reg::read) this register and get [`seccfg_ch::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`seccfg_ch::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@seccfg_ch`]
-module"]
+For information about available fields see [`mod@seccfg_ch`] module"]
 pub type SECCFG_CH = crate::Reg<seccfg_ch::SECCFG_CH_SPEC>;
 #[doc = "Security configuration for channel 0. Control whether this channel performs Secure/Non-secure and Privileged/Unprivileged bus accesses.  
 

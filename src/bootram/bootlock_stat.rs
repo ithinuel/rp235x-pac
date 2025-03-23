@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:7"]
     #[inline(always)]
-    #[must_use]
     pub fn bootlock_stat(&mut self) -> BOOTLOCK_STAT_W<BOOTLOCK_STAT_SPEC> {
         BOOTLOCK_STAT_W::new(self, 0)
     }
@@ -33,8 +32,6 @@ impl crate::Readable for BOOTLOCK_STAT_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`bootlock_stat::W`](W) writer structure"]
 impl crate::Writable for BOOTLOCK_STAT_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets BOOTLOCK_STAT to value 0xff"]
 impl crate::Resettable for BOOTLOCK_STAT_SPEC {

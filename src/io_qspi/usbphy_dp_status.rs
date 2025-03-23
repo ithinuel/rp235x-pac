@@ -40,6 +40,4 @@ impl crate::RegisterSpec for USBPHY_DP_STATUS_SPEC {
 #[doc = "`read()` method returns [`usbphy_dp_status::R`](R) reader structure"]
 impl crate::Readable for USBPHY_DP_STATUS_SPEC {}
 #[doc = "`reset()` method sets USBPHY_DP_STATUS to value 0"]
-impl crate::Resettable for USBPHY_DP_STATUS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for USBPHY_DP_STATUS_SPEC {}

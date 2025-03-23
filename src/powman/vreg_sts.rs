@@ -30,6 +30,4 @@ impl crate::RegisterSpec for VREG_STS_SPEC {
 #[doc = "`read()` method returns [`vreg_sts::R`](R) reader structure"]
 impl crate::Readable for VREG_STS_SPEC {}
 #[doc = "`reset()` method sets VREG_STS to value 0"]
-impl crate::Resettable for VREG_STS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for VREG_STS_SPEC {}

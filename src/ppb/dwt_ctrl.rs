@@ -168,85 +168,71 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Enables CYCCNT"]
     #[inline(always)]
-    #[must_use]
     pub fn cyccntena(&mut self) -> CYCCNTENA_W<DWT_CTRL_SPEC> {
         CYCCNTENA_W::new(self, 0)
     }
     #[doc = "Bits 1:4 - Reload value for the POSTCNT counter"]
     #[inline(always)]
-    #[must_use]
     pub fn postpreset(&mut self) -> POSTPRESET_W<DWT_CTRL_SPEC> {
         POSTPRESET_W::new(self, 1)
     }
     #[doc = "Bits 5:8 - Initial value for the POSTCNT counter"]
     #[inline(always)]
-    #[must_use]
     pub fn postinit(&mut self) -> POSTINIT_W<DWT_CTRL_SPEC> {
         POSTINIT_W::new(self, 5)
     }
     #[doc = "Bit 9 - Selects the position of the POSTCNT tap on the CYCCNT counter"]
     #[inline(always)]
-    #[must_use]
     pub fn cyctap(&mut self) -> CYCTAP_W<DWT_CTRL_SPEC> {
         CYCTAP_W::new(self, 9)
     }
     #[doc = "Bits 10:11 - Selects the position of the synchronization packet counter tap on the CYCCNT counter. This determines the Synchronization packet rate"]
     #[inline(always)]
-    #[must_use]
     pub fn synctap(&mut self) -> SYNCTAP_W<DWT_CTRL_SPEC> {
         SYNCTAP_W::new(self, 10)
     }
     #[doc = "Bit 12 - Enables use of POSTCNT counter as a timer for Periodic PC Sample packet generation"]
     #[inline(always)]
-    #[must_use]
     pub fn pcsamplena(&mut self) -> PCSAMPLENA_W<DWT_CTRL_SPEC> {
         PCSAMPLENA_W::new(self, 12)
     }
     #[doc = "Bit 16 - Enables generation of Exception Trace packets"]
     #[inline(always)]
-    #[must_use]
     pub fn exttrcena(&mut self) -> EXTTRCENA_W<DWT_CTRL_SPEC> {
         EXTTRCENA_W::new(self, 16)
     }
     #[doc = "Bit 17 - Enables DWT_CPICNT counter"]
     #[inline(always)]
-    #[must_use]
     pub fn cpievtena(&mut self) -> CPIEVTENA_W<DWT_CTRL_SPEC> {
         CPIEVTENA_W::new(self, 17)
     }
     #[doc = "Bit 18 - Enables DWT_EXCCNT counter"]
     #[inline(always)]
-    #[must_use]
     pub fn excevtena(&mut self) -> EXCEVTENA_W<DWT_CTRL_SPEC> {
         EXCEVTENA_W::new(self, 18)
     }
     #[doc = "Bit 19 - Enable DWT_SLEEPCNT counter"]
     #[inline(always)]
-    #[must_use]
     pub fn sleepevtena(&mut self) -> SLEEPEVTENA_W<DWT_CTRL_SPEC> {
         SLEEPEVTENA_W::new(self, 19)
     }
     #[doc = "Bit 20 - Enables DWT_LSUCNT counter"]
     #[inline(always)]
-    #[must_use]
     pub fn lsuevtena(&mut self) -> LSUEVTENA_W<DWT_CTRL_SPEC> {
         LSUEVTENA_W::new(self, 20)
     }
     #[doc = "Bit 21 - Enables DWT_FOLDCNT counter"]
     #[inline(always)]
-    #[must_use]
     pub fn foldevtena(&mut self) -> FOLDEVTENA_W<DWT_CTRL_SPEC> {
         FOLDEVTENA_W::new(self, 21)
     }
     #[doc = "Bit 22 - Enables Event Counter packet generation on POSTCNT underflow"]
     #[inline(always)]
-    #[must_use]
     pub fn cycevtena(&mut self) -> CYCEVTENA_W<DWT_CTRL_SPEC> {
         CYCEVTENA_W::new(self, 22)
     }
     #[doc = "Bit 23 - Controls whether the cycle counter is disabled in Secure state"]
     #[inline(always)]
-    #[must_use]
     pub fn cycdiss(&mut self) -> CYCDISS_W<DWT_CTRL_SPEC> {
         CYCDISS_W::new(self, 23)
     }
@@ -263,8 +249,6 @@ impl crate::Readable for DWT_CTRL_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`dwt_ctrl::W`](W) writer structure"]
 impl crate::Writable for DWT_CTRL_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets DWT_CTRL to value 0x7374_1824"]
 impl crate::Resettable for DWT_CTRL_SPEC {

@@ -25,13 +25,11 @@ impl R {
 impl W {
     #[doc = "Bit 0 - Integration Mode instruction ATVALID out"]
     #[inline(always)]
-    #[must_use]
     pub fn atvalid(&mut self) -> ATVALID_W<TRCITIATBOUTR_SPEC> {
         ATVALID_W::new(self, 0)
     }
     #[doc = "Bit 1 - Integration Mode instruction AFREADY out"]
     #[inline(always)]
-    #[must_use]
     pub fn afready(&mut self) -> AFREADY_W<TRCITIATBOUTR_SPEC> {
         AFREADY_W::new(self, 1)
     }
@@ -48,10 +46,6 @@ impl crate::Readable for TRCITIATBOUTR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`trcitiatboutr::W`](W) writer structure"]
 impl crate::Writable for TRCITIATBOUTR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets TRCITIATBOUTR to value 0"]
-impl crate::Resettable for TRCITIATBOUTR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for TRCITIATBOUTR_SPEC {}

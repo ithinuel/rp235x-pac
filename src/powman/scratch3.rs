@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31"]
     #[inline(always)]
-    #[must_use]
     pub fn scratch3(&mut self) -> SCRATCH3_W<SCRATCH3_SPEC> {
         SCRATCH3_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for SCRATCH3_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`scratch3::W`](W) writer structure"]
 impl crate::Writable for SCRATCH3_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SCRATCH3 to value 0"]
-impl crate::Resettable for SCRATCH3_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SCRATCH3_SPEC {}

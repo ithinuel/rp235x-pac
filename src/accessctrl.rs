@@ -596,8 +596,7 @@ impl RegisterBlock {
 
 You can [`read`](crate::Reg::read) this register and get [`lock::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`lock::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@lock`]
-module"]
+For information about available fields see [`mod@lock`] module"]
 pub type LOCK = crate::Reg<lock::LOCK_SPEC>;
 #[doc = "Once a LOCK bit is written to 1, ACCESSCTRL silently ignores writes from that master. LOCK is writable only by a Secure, Privileged processor or debugger.  
 
@@ -611,8 +610,7 @@ pub mod lock;
 
 You can [`read`](crate::Reg::read) this register and get [`force_core_ns::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`force_core_ns::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@force_core_ns`]
-module"]
+For information about available fields see [`mod@force_core_ns`] module"]
 pub type FORCE_CORE_NS = crate::Reg<force_core_ns::FORCE_CORE_NS_SPEC>;
 #[doc = "Force core 1's bus accesses to always be Non-secure, no matter the core's internal state.  
 
@@ -626,8 +624,7 @@ pub mod force_core_ns;
 
 You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`cfgreset::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@cfgreset`]
-module"]
+For information about available fields see [`mod@cfgreset`] module"]
 pub type CFGRESET = crate::Reg<cfgreset::CFGRESET_SPEC>;
 #[doc = "Write 1 to reset all ACCESSCTRL configuration, except for the LOCK and FORCE_CORE_NS registers.  
 
@@ -643,8 +640,7 @@ pub mod cfgreset;
 
 You can [`read`](crate::Reg::read) this register and get [`gpio_nsmask0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_nsmask0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_nsmask0`]
-module"]
+For information about available fields see [`mod@gpio_nsmask0`] module"]
 pub type GPIO_NSMASK0 = crate::Reg<gpio_nsmask0::GPIO_NSMASK0_SPEC>;
 #[doc = "Control whether GPIO0...31 are accessible to Non-secure code. Writable only by a Secure, Privileged processor or debugger.  
 
@@ -656,8 +652,7 @@ pub mod gpio_nsmask0;
 
 You can [`read`](crate::Reg::read) this register and get [`gpio_nsmask1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`gpio_nsmask1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@gpio_nsmask1`]
-module"]
+For information about available fields see [`mod@gpio_nsmask1`] module"]
 pub type GPIO_NSMASK1 = crate::Reg<gpio_nsmask1::GPIO_NSMASK1_SPEC>;
 #[doc = "Control whether GPIO32..47 are accessible to Non-secure code, and whether QSPI and USB bitbang are accessible through the Non-secure SIO. Writable only by a Secure, Privileged processor or debugger."]
 pub mod gpio_nsmask1;
@@ -669,8 +664,7 @@ pub mod gpio_nsmask1;
 
 You can [`read`](crate::Reg::read) this register and get [`rom::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`rom::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rom`]
-module"]
+For information about available fields see [`mod@rom`] module"]
 pub type ROM = crate::Reg<rom::ROM_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access ROM, and at what security/privilege levels they can do so.  
 
@@ -686,8 +680,7 @@ pub mod rom;
 
 You can [`read`](crate::Reg::read) this register and get [`xip_main::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`xip_main::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@xip_main`]
-module"]
+For information about available fields see [`mod@xip_main`] module"]
 pub type XIP_MAIN = crate::Reg<xip_main::XIP_MAIN_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access XIP_MAIN, and at what security/privilege levels they can do so.  
 
@@ -703,8 +696,7 @@ pub mod xip_main;
 
 You can [`read`](crate::Reg::read) this register and get [`sram0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram0`]
-module"]
+For information about available fields see [`mod@sram0`] module"]
 pub type SRAM0 = crate::Reg<sram0::SRAM0_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM0, and at what security/privilege levels they can do so.  
 
@@ -720,8 +712,7 @@ pub mod sram0;
 
 You can [`read`](crate::Reg::read) this register and get [`sram1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram1`]
-module"]
+For information about available fields see [`mod@sram1`] module"]
 pub type SRAM1 = crate::Reg<sram1::SRAM1_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM1, and at what security/privilege levels they can do so.  
 
@@ -737,8 +728,7 @@ pub mod sram1;
 
 You can [`read`](crate::Reg::read) this register and get [`sram2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram2`]
-module"]
+For information about available fields see [`mod@sram2`] module"]
 pub type SRAM2 = crate::Reg<sram2::SRAM2_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM2, and at what security/privilege levels they can do so.  
 
@@ -754,8 +744,7 @@ pub mod sram2;
 
 You can [`read`](crate::Reg::read) this register and get [`sram3::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram3::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram3`]
-module"]
+For information about available fields see [`mod@sram3`] module"]
 pub type SRAM3 = crate::Reg<sram3::SRAM3_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM3, and at what security/privilege levels they can do so.  
 
@@ -771,8 +760,7 @@ pub mod sram3;
 
 You can [`read`](crate::Reg::read) this register and get [`sram4::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram4::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram4`]
-module"]
+For information about available fields see [`mod@sram4`] module"]
 pub type SRAM4 = crate::Reg<sram4::SRAM4_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM4, and at what security/privilege levels they can do so.  
 
@@ -788,8 +776,7 @@ pub mod sram4;
 
 You can [`read`](crate::Reg::read) this register and get [`sram5::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram5::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram5`]
-module"]
+For information about available fields see [`mod@sram5`] module"]
 pub type SRAM5 = crate::Reg<sram5::SRAM5_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM5, and at what security/privilege levels they can do so.  
 
@@ -805,8 +792,7 @@ pub mod sram5;
 
 You can [`read`](crate::Reg::read) this register and get [`sram6::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram6::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram6`]
-module"]
+For information about available fields see [`mod@sram6`] module"]
 pub type SRAM6 = crate::Reg<sram6::SRAM6_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM6, and at what security/privilege levels they can do so.  
 
@@ -822,8 +808,7 @@ pub mod sram6;
 
 You can [`read`](crate::Reg::read) this register and get [`sram7::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram7::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram7`]
-module"]
+For information about available fields see [`mod@sram7`] module"]
 pub type SRAM7 = crate::Reg<sram7::SRAM7_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM7, and at what security/privilege levels they can do so.  
 
@@ -839,8 +824,7 @@ pub mod sram7;
 
 You can [`read`](crate::Reg::read) this register and get [`sram8::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram8::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram8`]
-module"]
+For information about available fields see [`mod@sram8`] module"]
 pub type SRAM8 = crate::Reg<sram8::SRAM8_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM8, and at what security/privilege levels they can do so.  
 
@@ -856,8 +840,7 @@ pub mod sram8;
 
 You can [`read`](crate::Reg::read) this register and get [`sram9::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sram9::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sram9`]
-module"]
+For information about available fields see [`mod@sram9`] module"]
 pub type SRAM9 = crate::Reg<sram9::SRAM9_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SRAM9, and at what security/privilege levels they can do so.  
 
@@ -873,8 +856,7 @@ pub mod sram9;
 
 You can [`read`](crate::Reg::read) this register and get [`dma::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`dma::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@dma`]
-module"]
+For information about available fields see [`mod@dma`] module"]
 pub type DMA = crate::Reg<dma::DMA_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access DMA, and at what security/privilege levels they can do so.  
 
@@ -890,8 +872,7 @@ pub mod dma;
 
 You can [`read`](crate::Reg::read) this register and get [`usbctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`usbctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@usbctrl`]
-module"]
+For information about available fields see [`mod@usbctrl`] module"]
 pub type USBCTRL = crate::Reg<usbctrl::USBCTRL_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access USBCTRL, and at what security/privilege levels they can do so.  
 
@@ -907,8 +888,7 @@ pub mod usbctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`pio0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pio0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pio0`]
-module"]
+For information about available fields see [`mod@pio0`] module"]
 pub type PIO0 = crate::Reg<pio0::PIO0_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access PIO0, and at what security/privilege levels they can do so.  
 
@@ -924,8 +904,7 @@ pub mod pio0;
 
 You can [`read`](crate::Reg::read) this register and get [`pio1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pio1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pio1`]
-module"]
+For information about available fields see [`mod@pio1`] module"]
 pub type PIO1 = crate::Reg<pio1::PIO1_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access PIO1, and at what security/privilege levels they can do so.  
 
@@ -941,8 +920,7 @@ pub mod pio1;
 
 You can [`read`](crate::Reg::read) this register and get [`pio2::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pio2::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pio2`]
-module"]
+For information about available fields see [`mod@pio2`] module"]
 pub type PIO2 = crate::Reg<pio2::PIO2_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access PIO2, and at what security/privilege levels they can do so.  
 
@@ -958,8 +936,7 @@ pub mod pio2;
 
 You can [`read`](crate::Reg::read) this register and get [`coresight_trace::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`coresight_trace::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@coresight_trace`]
-module"]
+For information about available fields see [`mod@coresight_trace`] module"]
 pub type CORESIGHT_TRACE = crate::Reg<coresight_trace::CORESIGHT_TRACE_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access CORESIGHT_TRACE, and at what security/privilege levels they can do so.  
 
@@ -975,8 +952,7 @@ pub mod coresight_trace;
 
 You can [`read`](crate::Reg::read) this register and get [`coresight_periph::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`coresight_periph::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@coresight_periph`]
-module"]
+For information about available fields see [`mod@coresight_periph`] module"]
 pub type CORESIGHT_PERIPH = crate::Reg<coresight_periph::CORESIGHT_PERIPH_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access CORESIGHT_PERIPH, and at what security/privilege levels they can do so.  
 
@@ -992,8 +968,7 @@ pub mod coresight_periph;
 
 You can [`read`](crate::Reg::read) this register and get [`sysinfo::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sysinfo::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sysinfo`]
-module"]
+For information about available fields see [`mod@sysinfo`] module"]
 pub type SYSINFO = crate::Reg<sysinfo::SYSINFO_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SYSINFO, and at what security/privilege levels they can do so.  
 
@@ -1009,8 +984,7 @@ pub mod sysinfo;
 
 You can [`read`](crate::Reg::read) this register and get [`resets::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`resets::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@resets`]
-module"]
+For information about available fields see [`mod@resets`] module"]
 pub type RESETS = crate::Reg<resets::RESETS_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access RESETS, and at what security/privilege levels they can do so.  
 
@@ -1026,8 +1000,7 @@ pub mod resets;
 
 You can [`read`](crate::Reg::read) this register and get [`io_bank0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`io_bank0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@io_bank0`]
-module"]
+For information about available fields see [`mod@io_bank0`] module"]
 pub type IO_BANK0 = crate::Reg<io_bank0::IO_BANK0_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access IO_BANK0, and at what security/privilege levels they can do so.  
 
@@ -1043,8 +1016,7 @@ pub mod io_bank0;
 
 You can [`read`](crate::Reg::read) this register and get [`io_bank1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`io_bank1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@io_bank1`]
-module"]
+For information about available fields see [`mod@io_bank1`] module"]
 pub type IO_BANK1 = crate::Reg<io_bank1::IO_BANK1_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access IO_BANK1, and at what security/privilege levels they can do so.  
 
@@ -1060,8 +1032,7 @@ pub mod io_bank1;
 
 You can [`read`](crate::Reg::read) this register and get [`pads_bank0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pads_bank0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pads_bank0`]
-module"]
+For information about available fields see [`mod@pads_bank0`] module"]
 pub type PADS_BANK0 = crate::Reg<pads_bank0::PADS_BANK0_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access PADS_BANK0, and at what security/privilege levels they can do so.  
 
@@ -1077,8 +1048,7 @@ pub mod pads_bank0;
 
 You can [`read`](crate::Reg::read) this register and get [`pads_qspi::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pads_qspi::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pads_qspi`]
-module"]
+For information about available fields see [`mod@pads_qspi`] module"]
 pub type PADS_QSPI = crate::Reg<pads_qspi::PADS_QSPI_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access PADS_QSPI, and at what security/privilege levels they can do so.  
 
@@ -1094,8 +1064,7 @@ pub mod pads_qspi;
 
 You can [`read`](crate::Reg::read) this register and get [`busctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`busctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@busctrl`]
-module"]
+For information about available fields see [`mod@busctrl`] module"]
 pub type BUSCTRL = crate::Reg<busctrl::BUSCTRL_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access BUSCTRL, and at what security/privilege levels they can do so.  
 
@@ -1111,8 +1080,7 @@ pub mod busctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`adc0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`adc0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@adc0`]
-module"]
+For information about available fields see [`mod@adc0`] module"]
 pub type ADC0 = crate::Reg<adc0::ADC0_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access ADC0, and at what security/privilege levels they can do so.  
 
@@ -1128,8 +1096,7 @@ pub mod adc0;
 
 You can [`read`](crate::Reg::read) this register and get [`hstx::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`hstx::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@hstx`]
-module"]
+For information about available fields see [`mod@hstx`] module"]
 pub type HSTX = crate::Reg<hstx::HSTX_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access HSTX, and at what security/privilege levels they can do so.  
 
@@ -1145,8 +1112,7 @@ pub mod hstx;
 
 You can [`read`](crate::Reg::read) this register and get [`i2c0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`i2c0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@i2c0`]
-module"]
+For information about available fields see [`mod@i2c0`] module"]
 pub type I2C0 = crate::Reg<i2c0::I2C0_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access I2C0, and at what security/privilege levels they can do so.  
 
@@ -1162,8 +1128,7 @@ pub mod i2c0;
 
 You can [`read`](crate::Reg::read) this register and get [`i2c1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`i2c1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@i2c1`]
-module"]
+For information about available fields see [`mod@i2c1`] module"]
 pub type I2C1 = crate::Reg<i2c1::I2C1_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access I2C1, and at what security/privilege levels they can do so.  
 
@@ -1179,8 +1144,7 @@ pub mod i2c1;
 
 You can [`read`](crate::Reg::read) this register and get [`pwm::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pwm::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pwm`]
-module"]
+For information about available fields see [`mod@pwm`] module"]
 pub type PWM = crate::Reg<pwm::PWM_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access PWM, and at what security/privilege levels they can do so.  
 
@@ -1196,8 +1160,7 @@ pub mod pwm;
 
 You can [`read`](crate::Reg::read) this register and get [`spi0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`spi0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@spi0`]
-module"]
+For information about available fields see [`mod@spi0`] module"]
 pub type SPI0 = crate::Reg<spi0::SPI0_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SPI0, and at what security/privilege levels they can do so.  
 
@@ -1213,8 +1176,7 @@ pub mod spi0;
 
 You can [`read`](crate::Reg::read) this register and get [`spi1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`spi1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@spi1`]
-module"]
+For information about available fields see [`mod@spi1`] module"]
 pub type SPI1 = crate::Reg<spi1::SPI1_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SPI1, and at what security/privilege levels they can do so.  
 
@@ -1230,8 +1192,7 @@ pub mod spi1;
 
 You can [`read`](crate::Reg::read) this register and get [`timer0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`timer0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@timer0`]
-module"]
+For information about available fields see [`mod@timer0`] module"]
 pub type TIMER0 = crate::Reg<timer0::TIMER0_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access TIMER0, and at what security/privilege levels they can do so.  
 
@@ -1247,8 +1208,7 @@ pub mod timer0;
 
 You can [`read`](crate::Reg::read) this register and get [`timer1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`timer1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@timer1`]
-module"]
+For information about available fields see [`mod@timer1`] module"]
 pub type TIMER1 = crate::Reg<timer1::TIMER1_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access TIMER1, and at what security/privilege levels they can do so.  
 
@@ -1264,8 +1224,7 @@ pub mod timer1;
 
 You can [`read`](crate::Reg::read) this register and get [`uart0::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`uart0::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@uart0`]
-module"]
+For information about available fields see [`mod@uart0`] module"]
 pub type UART0 = crate::Reg<uart0::UART0_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access UART0, and at what security/privilege levels they can do so.  
 
@@ -1281,8 +1240,7 @@ pub mod uart0;
 
 You can [`read`](crate::Reg::read) this register and get [`uart1::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`uart1::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@uart1`]
-module"]
+For information about available fields see [`mod@uart1`] module"]
 pub type UART1 = crate::Reg<uart1::UART1_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access UART1, and at what security/privilege levels they can do so.  
 
@@ -1298,8 +1256,7 @@ pub mod uart1;
 
 You can [`read`](crate::Reg::read) this register and get [`otp::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`otp::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@otp`]
-module"]
+For information about available fields see [`mod@otp`] module"]
 pub type OTP = crate::Reg<otp::OTP_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access OTP, and at what security/privilege levels they can do so.  
 
@@ -1315,8 +1272,7 @@ pub mod otp;
 
 You can [`read`](crate::Reg::read) this register and get [`tbman::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`tbman::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@tbman`]
-module"]
+For information about available fields see [`mod@tbman`] module"]
 pub type TBMAN = crate::Reg<tbman::TBMAN_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access TBMAN, and at what security/privilege levels they can do so.  
 
@@ -1332,8 +1288,7 @@ pub mod tbman;
 
 You can [`read`](crate::Reg::read) this register and get [`powman::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`powman::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@powman`]
-module"]
+For information about available fields see [`mod@powman`] module"]
 pub type POWMAN = crate::Reg<powman::POWMAN_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access POWMAN, and at what security/privilege levels they can do so.  
 
@@ -1349,8 +1304,7 @@ pub mod powman;
 
 You can [`read`](crate::Reg::read) this register and get [`trng::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`trng::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@trng`]
-module"]
+For information about available fields see [`mod@trng`] module"]
 pub type TRNG = crate::Reg<trng::TRNG_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access TRNG, and at what security/privilege levels they can do so.  
 
@@ -1366,8 +1320,7 @@ pub mod trng;
 
 You can [`read`](crate::Reg::read) this register and get [`sha256::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`sha256::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@sha256`]
-module"]
+For information about available fields see [`mod@sha256`] module"]
 pub type SHA256 = crate::Reg<sha256::SHA256_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SHA256, and at what security/privilege levels they can do so.  
 
@@ -1383,8 +1336,7 @@ pub mod sha256;
 
 You can [`read`](crate::Reg::read) this register and get [`syscfg::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`syscfg::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@syscfg`]
-module"]
+For information about available fields see [`mod@syscfg`] module"]
 pub type SYSCFG = crate::Reg<syscfg::SYSCFG_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access SYSCFG, and at what security/privilege levels they can do so.  
 
@@ -1400,8 +1352,7 @@ pub mod syscfg;
 
 You can [`read`](crate::Reg::read) this register and get [`clocks::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`clocks::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@clocks`]
-module"]
+For information about available fields see [`mod@clocks`] module"]
 pub type CLOCKS = crate::Reg<clocks::CLOCKS_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access CLOCKS, and at what security/privilege levels they can do so.  
 
@@ -1417,8 +1368,7 @@ pub mod clocks;
 
 You can [`read`](crate::Reg::read) this register and get [`xosc::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`xosc::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@xosc`]
-module"]
+For information about available fields see [`mod@xosc`] module"]
 pub type XOSC = crate::Reg<xosc::XOSC_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access XOSC, and at what security/privilege levels they can do so.  
 
@@ -1434,8 +1384,7 @@ pub mod xosc;
 
 You can [`read`](crate::Reg::read) this register and get [`rosc::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`rosc::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rosc`]
-module"]
+For information about available fields see [`mod@rosc`] module"]
 pub type ROSC = crate::Reg<rosc::ROSC_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access ROSC, and at what security/privilege levels they can do so.  
 
@@ -1451,8 +1400,7 @@ pub mod rosc;
 
 You can [`read`](crate::Reg::read) this register and get [`pll_sys::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pll_sys::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pll_sys`]
-module"]
+For information about available fields see [`mod@pll_sys`] module"]
 pub type PLL_SYS = crate::Reg<pll_sys::PLL_SYS_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access PLL_SYS, and at what security/privilege levels they can do so.  
 
@@ -1468,8 +1416,7 @@ pub mod pll_sys;
 
 You can [`read`](crate::Reg::read) this register and get [`pll_usb::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`pll_usb::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@pll_usb`]
-module"]
+For information about available fields see [`mod@pll_usb`] module"]
 pub type PLL_USB = crate::Reg<pll_usb::PLL_USB_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access PLL_USB, and at what security/privilege levels they can do so.  
 
@@ -1485,8 +1432,7 @@ pub mod pll_usb;
 
 You can [`read`](crate::Reg::read) this register and get [`ticks::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`ticks::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@ticks`]
-module"]
+For information about available fields see [`mod@ticks`] module"]
 pub type TICKS = crate::Reg<ticks::TICKS_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access TICKS, and at what security/privilege levels they can do so.  
 
@@ -1502,8 +1448,7 @@ pub mod ticks;
 
 You can [`read`](crate::Reg::read) this register and get [`watchdog::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`watchdog::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@watchdog`]
-module"]
+For information about available fields see [`mod@watchdog`] module"]
 pub type WATCHDOG = crate::Reg<watchdog::WATCHDOG_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access WATCHDOG, and at what security/privilege levels they can do so.  
 
@@ -1519,8 +1464,7 @@ pub mod watchdog;
 
 You can [`read`](crate::Reg::read) this register and get [`rsm::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`rsm::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@rsm`]
-module"]
+For information about available fields see [`mod@rsm`] module"]
 pub type RSM = crate::Reg<rsm::RSM_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access RSM, and at what security/privilege levels they can do so.  
 
@@ -1536,8 +1480,7 @@ pub mod rsm;
 
 You can [`read`](crate::Reg::read) this register and get [`xip_ctrl::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`xip_ctrl::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@xip_ctrl`]
-module"]
+For information about available fields see [`mod@xip_ctrl`] module"]
 pub type XIP_CTRL = crate::Reg<xip_ctrl::XIP_CTRL_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access XIP_CTRL, and at what security/privilege levels they can do so.  
 
@@ -1553,8 +1496,7 @@ pub mod xip_ctrl;
 
 You can [`read`](crate::Reg::read) this register and get [`xip_qmi::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`xip_qmi::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@xip_qmi`]
-module"]
+For information about available fields see [`mod@xip_qmi`] module"]
 pub type XIP_QMI = crate::Reg<xip_qmi::XIP_QMI_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access XIP_QMI, and at what security/privilege levels they can do so.  
 
@@ -1570,8 +1512,7 @@ pub mod xip_qmi;
 
 You can [`read`](crate::Reg::read) this register and get [`xip_aux::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`xip_aux::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
-For information about available fields see [`mod@xip_aux`]
-module"]
+For information about available fields see [`mod@xip_aux`] module"]
 pub type XIP_AUX = crate::Reg<xip_aux::XIP_AUX_SPEC>;
 #[doc = "Control whether debugger, DMA, core 0 and core 1 can access XIP_AUX, and at what security/privilege levels they can do so.  
 

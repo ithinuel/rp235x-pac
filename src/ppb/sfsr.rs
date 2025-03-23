@@ -79,49 +79,41 @@ impl R {
 impl W {
     #[doc = "Bit 0 - This bit is set if a function call from the Non-secure state or exception targets a non-SG instruction in the Secure state. This bit is also set if the target address is a SG instruction, but there is no matching SAU/IDAU region with the NSC flag set"]
     #[inline(always)]
-    #[must_use]
     pub fn invep(&mut self) -> INVEP_W<SFSR_SPEC> {
         INVEP_W::new(self, 0)
     }
     #[doc = "Bit 1 - This bit is set if the integrity signature in an exception stack frame is found to be invalid during the unstacking operation"]
     #[inline(always)]
-    #[must_use]
     pub fn invis(&mut self) -> INVIS_W<SFSR_SPEC> {
         INVIS_W::new(self, 1)
     }
     #[doc = "Bit 2 - This can be caused by EXC_RETURN.DCRS being set to 0 when returning from an exception in the Non-secure state, or by EXC_RETURN.ES being set to 1 when returning from an exception in the Non-secure state"]
     #[inline(always)]
-    #[must_use]
     pub fn inver(&mut self) -> INVER_W<SFSR_SPEC> {
         INVER_W::new(self, 2)
     }
     #[doc = "Bit 3 - Sticky flag indicating that an attempt was made to access parts of the address space that are marked as Secure with NS-Req for the transaction set to Non-secure. This bit is not set if the violation occurred during lazy state preservation. See LSPERR"]
     #[inline(always)]
-    #[must_use]
     pub fn auviol(&mut self) -> AUVIOL_W<SFSR_SPEC> {
         AUVIOL_W::new(self, 3)
     }
     #[doc = "Bit 4 - Sticky flag indicating that an exception was raised due to a branch that was not flagged as being domain crossing causing a transition from Secure to Non-secure memory"]
     #[inline(always)]
-    #[must_use]
     pub fn invtran(&mut self) -> INVTRAN_W<SFSR_SPEC> {
         INVTRAN_W::new(self, 4)
     }
     #[doc = "Bit 5 - Stick flag indicating that an SAU or IDAU violation occurred during the lazy preservation of floating-point state"]
     #[inline(always)]
-    #[must_use]
     pub fn lsperr(&mut self) -> LSPERR_W<SFSR_SPEC> {
         LSPERR_W::new(self, 5)
     }
     #[doc = "Bit 6 - This bit is set when the SFAR register contains a valid value. As with similar fields, such as BFSR.BFARVALID and MMFSR.MMARVALID, this bit can be cleared by other exceptions, such as BusFault"]
     #[inline(always)]
-    #[must_use]
     pub fn sfarvalid(&mut self) -> SFARVALID_W<SFSR_SPEC> {
         SFARVALID_W::new(self, 6)
     }
     #[doc = "Bit 7 - Sticky flag indicating that an error occurred during lazy state activation or deactivation"]
     #[inline(always)]
-    #[must_use]
     pub fn lserr(&mut self) -> LSERR_W<SFSR_SPEC> {
         LSERR_W::new(self, 7)
     }
@@ -138,10 +130,6 @@ impl crate::Readable for SFSR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sfsr::W`](W) writer structure"]
 impl crate::Writable for SFSR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SFSR to value 0"]
-impl crate::Resettable for SFSR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SFSR_SPEC {}

@@ -68,6 +68,4 @@ impl crate::RegisterSpec for RNG_VERSION_SPEC {
 #[doc = "`read()` method returns [`rng_version::R`](R) reader structure"]
 impl crate::Readable for RNG_VERSION_SPEC {}
 #[doc = "`reset()` method sets RNG_VERSION to value 0"]
-impl crate::Resettable for RNG_VERSION_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for RNG_VERSION_SPEC {}

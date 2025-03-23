@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:3 - Enables a cross trigger event to the corresponding channel when a ctitrigin input is activated. There is one bit of the field for each of the four channels"]
     #[inline(always)]
-    #[must_use]
     pub fn triginen(&mut self) -> TRIGINEN_W<CTIINEN0_SPEC> {
         TRIGINEN_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for CTIINEN0_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`ctiinen0::W`](W) writer structure"]
 impl crate::Writable for CTIINEN0_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets CTIINEN0 to value 0"]
-impl crate::Resettable for CTIINEN0_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CTIINEN0_SPEC {}

@@ -26,6 +26,4 @@ impl crate::RegisterSpec for FP_DEVTYPE_SPEC {
 #[doc = "`read()` method returns [`fp_devtype::R`](R) reader structure"]
 impl crate::Readable for FP_DEVTYPE_SPEC {}
 #[doc = "`reset()` method sets FP_DEVTYPE to value 0"]
-impl crate::Resettable for FP_DEVTYPE_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for FP_DEVTYPE_SPEC {}

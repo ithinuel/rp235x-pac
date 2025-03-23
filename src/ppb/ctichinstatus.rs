@@ -19,6 +19,4 @@ impl crate::RegisterSpec for CTICHINSTATUS_SPEC {
 #[doc = "`read()` method returns [`ctichinstatus::R`](R) reader structure"]
 impl crate::Readable for CTICHINSTATUS_SPEC {}
 #[doc = "`reset()` method sets CTICHINSTATUS to value 0"]
-impl crate::Resettable for CTICHINSTATUS_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for CTICHINSTATUS_SPEC {}

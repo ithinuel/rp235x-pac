@@ -16,7 +16,6 @@ impl R {
 impl W {
     #[doc = "Bits 0:31 - The address of an access that caused a attribution unit violation. This field is only valid when SFSR.SFARVALID is set. This allows the actual flip flops associated with this register to be shared with other fault address registers. If an implementation chooses to share the storage in this way, care must be taken to not leak Secure address information to the Non-secure state. One way of achieving this is to share the SFAR register with the MMFAR_S register, which is not accessible to the Non-secure state"]
     #[inline(always)]
-    #[must_use]
     pub fn address(&mut self) -> ADDRESS_W<SFAR_SPEC> {
         ADDRESS_W::new(self, 0)
     }
@@ -33,10 +32,6 @@ impl crate::Readable for SFAR_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`sfar::W`](W) writer structure"]
 impl crate::Writable for SFAR_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets SFAR to value 0"]
-impl crate::Resettable for SFAR_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for SFAR_SPEC {}

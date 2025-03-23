@@ -83,7 +83,6 @@ impl W {
     #[doc = "Bit 0 - enable brown-out detection   
  0=not enabled, 1=enabled"]
     #[inline(always)]
-    #[must_use]
     pub fn en(&mut self) -> EN_W<BOD_LP_ENTRY_SPEC> {
         EN_W::new(self, 0)
     }
@@ -107,7 +106,6 @@ impl W {
  10000 - 1.161   
  10001 - 1.204V"]
     #[inline(always)]
-    #[must_use]
     pub fn vsel(&mut self) -> VSEL_W<BOD_LP_ENTRY_SPEC> {
         VSEL_W::new(self, 4)
     }
@@ -124,8 +122,6 @@ impl crate::Readable for BOD_LP_ENTRY_SPEC {}
 #[doc = "`write(|w| ..)` method takes [`bod_lp_entry::W`](W) writer structure"]
 impl crate::Writable for BOD_LP_ENTRY_SPEC {
     type Safety = crate::Unsafe;
-    const ZERO_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
-    const ONE_TO_MODIFY_FIELDS_BITMAP: u32 = 0;
 }
 #[doc = "`reset()` method sets BOD_LP_ENTRY to value 0xb0"]
 impl crate::Resettable for BOD_LP_ENTRY_SPEC {

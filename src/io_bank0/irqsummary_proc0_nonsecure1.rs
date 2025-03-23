@@ -124,6 +124,4 @@ impl crate::RegisterSpec for IRQSUMMARY_PROC0_NONSECURE1_SPEC {
 #[doc = "`read()` method returns [`irqsummary_proc0_nonsecure1::R`](R) reader structure"]
 impl crate::Readable for IRQSUMMARY_PROC0_NONSECURE1_SPEC {}
 #[doc = "`reset()` method sets IRQSUMMARY_PROC0_NONSECURE1 to value 0"]
-impl crate::Resettable for IRQSUMMARY_PROC0_NONSECURE1_SPEC {
-    const RESET_VALUE: u32 = 0;
-}
+impl crate::Resettable for IRQSUMMARY_PROC0_NONSECURE1_SPEC {}
