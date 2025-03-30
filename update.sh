@@ -34,14 +34,14 @@ generate() {
     local svd=$1
     local target=$2
     svd2rust -i $svd -c ${SCRIPT_DIR}/svd2rust.toml --target $target
-    form -i mod.rs -o src
+    form -i $3.rs -o src
 }
 
 # Most of the code is from Cortex-M mode
 tmp_dir=$(mktemp -d -t svd2rust-XXXX)
 pushd ${tmp_dir}
-generate ${SCRIPT_DIR}/svd/RP2350.svd.patched cortex-m
-mv src/lib.rs src/mod_cortex_m.rs
+generate ${SCRIPT_DIR}/svd/RP2350.svd.patched cortex-m mod
+mv src/mod.rs src/mod_cortex_m.rs
 
 # Back up the original lib.rs, then move generated code back to the crate.
 mv ${SCRIPT_DIR}/src/lib.rs src/
@@ -54,9 +54,9 @@ rm -rf ${tmp_dir}
 # But RISC-V mode needs a custom mod.rs
 tmp_dir=$(mktemp -d -t svd2rust-XXXX)
 pushd ${tmp_dir}
-generate ${SCRIPT_DIR}/svd/RP2350.svd.patched riscv
+generate ${SCRIPT_DIR}/svd/RP2350.svd.patched riscv mod
 
-mv src/lib.rs ${SCRIPT_DIR}/src/mod_risc_v.rs
+mv src/mod.rs ${SCRIPT_DIR}/src/mod_risc_v.rs
 # This module isn't in the Cortex-M version - everything else is
 mv src/interrupt* ${SCRIPT_DIR}/src/
 
