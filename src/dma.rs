@@ -652,9 +652,9 @@ For information about available fields see [`mod@fifo_levels`] module"]
 pub type FIFO_LEVELS = crate::Reg<fifo_levels::FIFO_LEVELS_SPEC>;
 #[doc = "Debug RAF, WAF, TDF levels"]
 pub mod fifo_levels;
-#[doc = "CHAN_ABORT (w) register accessor: Abort an in-progress transfer sequence on one or more channels  
+#[doc = "CHAN_ABORT (rw) register accessor: Abort an in-progress transfer sequence on one or more channels  
 
-You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`chan_abort::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
+You can [`read`](crate::Reg::read) this register and get [`chan_abort::R`]. You can [`reset`](crate::Reg::reset), [`write`](crate::Reg::write), [`write_with_zero`](crate::Reg::write_with_zero) this register using [`chan_abort::W`]. You can also [`modify`](crate::Reg::modify) this register. See [API](https://docs.rs/svd2rust/#read--modify--write-api).  
 
 For information about available fields see [`mod@chan_abort`] module"]
 pub type CHAN_ABORT = crate::Reg<chan_abort::CHAN_ABORT_SPEC>;

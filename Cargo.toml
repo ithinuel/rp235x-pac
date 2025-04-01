@@ -19,6 +19,7 @@ vcell = "0.1.3"
 
 # Optional dependencies. Keep these sorted by name.
 critical-section = { optional = true, version = "1.0.0" }
+defmt = { optional = true, version = "0.3.0" }
 
 # These dependencies only apply in Arm mode.
 [target.'thumbv8m.main-none-eabihf'.dependencies]

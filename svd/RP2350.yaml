@@ -96,6 +96,11 @@ DMA:
         TIMER3: [62, "Select Timer 3 as TREQ (Optional)"]
         PERMANENT: [63, "Permanent request, for unpaced transfers."]
 
+  CHAN_ABORT:
+    _modify:
+      CHAN_ABORT:
+        access: "read-write"
+
   _delete:
     - "CH*_AL1_CTRL"
     - "CH*_AL2_CTRL"

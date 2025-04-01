@@ -8,6 +8,8 @@
 #![allow(clippy::should_implement_trait)]
 #![allow(clippy::wrong_self_convention)]
 #![allow(clippy::needless_lifetimes)]
+#![allow(non_camel_case_types)]
+#![allow(non_snake_case)]
 
 // Use the Cortex-M version by default
 

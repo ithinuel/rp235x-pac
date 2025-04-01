@@ -30266,7 +30266,7 @@
               <description>Each bit corresponds to a channel. Writing a 1 aborts whatever transfer sequence is in progress on that channel. The bit will remain high until any in-flight transfers have been flushed through the address and data FIFOs.\n\n
                             After writing, this register must be polled until it returns all-zero. Until this point, it is unsafe to restart the channel.</description>
               <bitRange>[15:0]</bitRange>
-              <access>write-only</access>
+              <access>read-write</access>
             </field>
           </fields>
         </register>
